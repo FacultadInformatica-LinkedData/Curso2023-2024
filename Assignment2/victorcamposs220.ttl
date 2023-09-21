@@ -1,0 +1,26 @@
+@base	<http://example.org/>.
+@prefix ontology:<http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>.
+@prefix description:<https://w3id.org/arco/ontology/denotative-description/>.
+@prefix rsctx:<http://softeng.polito.it/rsctx#>.
+@prefix prov:<http://purl.org/net/step#>.
+@prefix contex:<https://w3id.org/arco/ontology/context-description/>.
+@prefix w3id:<https://w3id.org/dco#>.
+
+
+:ClassRomm/ClassRom03 ontology:contains :Sensor/Sensor347,
+							:Table/Table322.
+:Sensor/Sensor347 description:hasMeaserement :Measurement/Measurement8432.
+:Measurement/Measurement8432 rsctx:hasTemperature 29;
+				  prov:atTime "2022-09-12T12:01:12"^^xsd:dateTime.
+:Table/Table322 contex:hasOwner :ETSIInformaticos.
+:University/ETSIInformaticos w3id:hasName "ETSI Informaticos"^^xsd:string.
+
+
+# las URIs de las distintas entidades como las puedo sacar dado que no estan en los bocabularios ?
+#	tendria que definirlos yo mismo ?
+
+# se puede hacer como yo he hecho de poner los prefijos y completarlo de forma que no pones un ultimo campo si no varios ?
+
+# he visto en algunos sitios que ponen <#ClassRomm/ClassRom03> --> <#ClassRom03> ¿Por que?
+
+# he visto que en algunas uris ponen ...# y en otras .../ ¿cual es la diferencia?

@@ -1,0 +1,34 @@
+
+
+{
+
+	"@context":{
+		"v1":"http://purl.org/goodrelations/v1#",
+		"description":"https://w3id.org/arco/ontology/denotative-description/",
+		"rsctx":"http://softeng.polito.it/rsctx#",
+		"prov":"http://purl.org/net/step#",
+		"contex":"https://w3id.org/arco/ontology/context-description/"
+		"w3id":"https://w3id.org/dco#"
+	},
+	"@id":"http://example.org/resource/class/class01", 
+	"@type":"http://example.org/category/class",
+	"v1:includes":{
+		"@id":"http://example.org/resource/sensor/Sensor029", 
+		"@type":"http://example.org/category/sensor",
+		"description:hasMeasurement":{
+			"@id":"http://example.org/resource/measurement/Measurement8401", 
+			"@type":"http://example.org/category/measurement",
+			"rsctx:hasTemperature":29,
+			"prov:atTime":"2010-06-12T12:00:12"^^xsd:dateTime			##No se si se hace asi con json-ld	
+		}
+	},
+	"v1:includes":{
+		"@id":"http://example.org/resource/", 
+		"@type":"http://example.org/category/class",
+		"context:hasOwner":{
+			"@id":"http://example.org/resource/user/User10A", 
+			"@type":"http://example.org/category/user",
+			"w3id:hasName":"Pedro"					
+		}
+	}
+}

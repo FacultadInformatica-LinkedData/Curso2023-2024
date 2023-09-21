@@ -1,0 +1,47 @@
+
+
+{
+
+	"@context":{
+		"ontology":"http://dbpedia.org/ontology/",
+		"ontologies":"http://www.semanticdesktop.org/ontologies/2007/03/22/nco#",
+		"vocab":"http://vocab.datex.org/terms#",
+		"purl":"http://purl.org/dc/terms/"
+	},
+	"@id":"http://example.org/resource/person/VictorCampos", 
+	"@type":"http://example.org/category/person",
+	"ontologies:fullname":"Victor Campos Sanchez",			##Tambien se podria poner una entidad que desglose en nombre, primer apellido y segundo apellido
+	"ontology:homeTown":{
+			"@id":"http://example.org/resource/cities/Madrid", 
+			"@type":"http://example.org/category/town",
+	},
+	"ontology:age": 21,
+	"ontology:father":{
+		"@id":"http://example.org/resource/person/SergioCampos",
+		"@type":""http://example.org/category/person",
+		"ontology:name":"Sergio"
+	},
+	"ontology:mother":{
+		"@id":"http://example.org/resource/person/MariPazSanchez",
+		"@type":""http://example.org/category/person",
+		"ontology:name":"MariPaz"
+	},
+	"vocab:Subjects":[{
+		"@id":"http://example.org/resource/subject/SemanticWeb,LinkedDataAndKnowledgeGraphs",
+		"@type":""http://example.org/category/subject",
+		"ontology:name":"Semantic Web, Linked Data and KnowledgeGraphs",
+		"ontology:mentor":{
+			"@id":"http://example.org/resource/person/OscarCorchoGarcia",
+			"@type":""http://example.org/category/person",			
+			"ontology:name":"Oscar"		
+		},
+		"ontology:mentor":{
+			"@id":"http://example.org/resource/person/OscarGarciaCatro",
+			"@type":""http://example.org/category/person",			
+			"ontology:name":"Raul"		
+		},
+		"purl:description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y
+							tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así
+							como en forma de grafos de conocimientos. En concreto, se presentarán:..."	
+	}]
+}
