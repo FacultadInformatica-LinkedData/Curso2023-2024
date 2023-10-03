@@ -127,18 +127,20 @@ for r in g.query(q4):
 # RDFlib
 ns = Namespace("http://somewhere#")
 from rdflib import FOAF
-# List the entities who know at least two other entities in the graph
+entities = set()
 for s,p,o in g.triples((None, FOAF.knows, None)):
   for s1,p1,o1 in g.triples((o, FOAF.knows, None)):
-    print(s)
+        if s1 not in entities:
+            print(s1)
+            entities.add(s1)
     
-# How to avoid entity repetition? 
+# Added set() to avoid repetition of entities
 
 # %%
 # SPARQL
 q5 = """
  PREFIX ns: <http://somewhere#>
- SELECT ?s
+ SELECT distinct ?s
  WHERE {
    ?s foaf:knows ?o.
    ?o foaf:knows ?s.
