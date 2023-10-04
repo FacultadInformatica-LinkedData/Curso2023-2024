@@ -57,10 +57,12 @@ for s, p, o in g:
 
 # %%
 
-g.add((ns.JaneSmith, ns.email, Literal("jane.smith@mail.com")))
-g.add((ns.JaneSmith, ns.fullName, Literal("Jane Smith")))
-g.add((ns.JaneSmith, ns.givenName, Literal("Jane")))
-g.add((ns.JaneSmith, ns.familyName, Literal("Smith")))
+vcard= Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+g.add((ns.JaneSmith, vcard.email, Literal("jane.smith@mail.com")))
+g.add((ns.JaneSmith, vcard.fullName, Literal("Jane Smith")))
+g.add((ns.JaneSmith, vcard.givenName, Literal("Jane")))
+g.add((ns.JaneSmith, vcard.familyName, Literal("Smith")))
+
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
