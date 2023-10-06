@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group 2 Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        div {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data characteristics and schema</h1>
+    <div>
+      <table>
+        <tr>
+          <td><b>Column</b></td>
+          <td><b>Type</b></td>
+          <td><b>Comments / Range</b></td>
+          <td><b>Problems</b></td>
+        </tr>
+        <tr>
+            <td><b>Year</b></td>
+            <td><b>Integer</b></td>
+            <td><b>Not unique</b></td>
+            <td><b>Decimals when representing years?</b></td>
+        </tr>
+        <tr>
+            <td><b>Month</b></td>
+            <td><b>Integer</b></td>
+            <td><b>Not unique</b></td>
+            <td><b>Month 13?</b></td>
+        </tr>
+        <tr>
+            <td><b>Building type</b></td>
+            <td><b>String</b></td>
+            <td><b>Not unique, building type</b></td>
+            <td><b></b></td>
+        </tr>
+        <tr>
+            <td><b>Building</b></td>
+            <td><b>String</b></td>
+            <td><b>Not unique, name of the building</b></td>
+            <td><b></b></td>
+        </tr>
+        <tr>
+            <td><b>Address</b></td>
+            <td><b>String</b></td>
+            <td><b>Not unique, adress of the building</b></td>
+            <td><b></b></td>
+        </tr>
+      </table>
+    </div>
+</body>
+</html>
