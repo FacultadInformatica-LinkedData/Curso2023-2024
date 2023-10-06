@@ -8,7 +8,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 # %% [markdown]
 # Read the RDF file as shown in class
 
-# %%
+# %% 
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 g = Graph()
