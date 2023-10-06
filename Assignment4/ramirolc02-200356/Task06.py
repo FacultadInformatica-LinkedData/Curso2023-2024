@@ -11,7 +11,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 # %% 
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
-g = Graph()
+g = Graph()  
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/rdf/example5.rdf", format="xml")
