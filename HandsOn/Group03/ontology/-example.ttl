@@ -24,5 +24,8 @@ direction:CalleDeAlcala_2 ns:street "Calle de Alcala";
 
 
 hood:01-06Sol ns:belongsDistrict district:01Centro.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9ec5c2ea7ee605cd4fe0f1a3d0c07c479de274f1
