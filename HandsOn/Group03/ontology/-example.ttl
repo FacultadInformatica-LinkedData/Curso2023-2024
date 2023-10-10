@@ -8,7 +8,7 @@
 
 
 bs:Station01 ns:id "001 a"^^xsd:string;
-            ns:registrationDate "43803"^^xsd:integer;
+            ns:registrationDate "2021-09-21"^^xsd:date;
             ns:places "30"^^xsd:integer;
             ns:latitude "40.4171107"^^xsd:decimal;
             ns:longitude "-3.701998"^^xsd:decimal;
