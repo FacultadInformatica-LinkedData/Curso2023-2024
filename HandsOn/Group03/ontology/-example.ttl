@@ -1,0 +1,31 @@
+@base :<http://smartcity.linkeddata.es/lcc/resource/> .
+@prefix ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+@prefix company: <:Company/> .
+@prefix bs: <:BicycleStation/> .
+@prefix district: <:District/> .
+@prefix hood: <:Hood/> .
+@prefix direction: <:Direction/> .
+
+
+bs:Station01 ns:id "001 a"^^xsd:string;
+            ns:registrationDate "2021-09-21"^^xsd:date;
+            ns:places "30"^^xsd:integer;
+            ns:latitude "40.4171107"^^xsd:decimal;
+            ns:longitude "-3.701998"^^xsd:decimal;
+            ns:isManageBy company:BiciMAD;
+            ns:hasDirection direction:CalleDeAlcala_2;
+            ns:belongsDistrict district:01Centro;
+            ns:belongsHood hood:01-06Sol.
+
+
+direction:CalleDeAlcala_2 ns:street "Calle de Alcala";
+                        ns:number "2"^^xsd:integer;
+                        ns:belongsHood hood:01-06Sol.
+
+
+hood:01-06Sol ns:belongsDistrict district:01Centro.
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 9ec5c2ea7ee605cd4fe0f1a3d0c07c479de274f1

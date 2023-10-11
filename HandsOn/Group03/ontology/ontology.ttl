@@ -1,0 +1,76 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+ns:belongsDistrict a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "belongs district" ;
+    rdfs:domain ns:Hood ;
+    rdfs:range ns:District .
+
+ns:belongsHood a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "belongs hood" ;
+    rdfs:domain ns:BicycleStation,
+        ns:Direction ;
+    rdfs:range ns:Hood .
+
+ns:hasDirection a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "has direction" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:Direction .
+
+ns:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain ns:BicycleStation .
+
+ns:isManageBy a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "is manage by" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:Company .
+
+ns:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain ns:BicycleStation .
+
+ns:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain ns:BicycleStation .
+
+ns:number a owl:DatatypeProperty ;
+    rdfs:label "number" ;
+    rdfs:domain ns:Direction .
+
+ns:places a owl:DatatypeProperty ;
+    rdfs:label "places" ;
+    rdfs:domain ns:BicycleStation .
+
+ns:registrationDate a owl:DatatypeProperty ;
+    rdfs:label "registration date" ;
+    rdfs:domain ns:BicycleStation .
+
+ns:street a owl:DatatypeProperty ;
+    rdfs:label "street" ;
+    rdfs:domain ns:Direction .
+
+ns:Company a owl:Class ;
+    rdfs:label "Company" .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:Hood a owl:Class ;
+    rdfs:label "Hood" .
+
+ns:Direction a owl:Class ;
+    rdfs:label "Direction" .
+
+ns:BicycleStation a owl:Class ;
+    rdfs:label "Bicycle Station" .
+
