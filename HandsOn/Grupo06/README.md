@@ -1,5 +1,10 @@
-Alfredo Casero Aparicio Alfredo-Cloud
-Diego Cipres Martinez dcipres
-Fernando Luna Marcuello fer7una
-Pablo Hernandez Pardo pablohp30
-WeiGuoWang Weison24
+Hands-on directory
+==================
+
+# Members
+
+* **Name**: Alfredo Casero Aparicio **Github User**: Alfredo-Cloud
+* **Name**: Diego Cipres Martinez **Github User**: dcipres
+* **Name**: Fernando Luna Marcuello **Github User**: fer7una
+* **Name**: Pablo Hernandez Pardo **Github User**: pablohp30
+* **Name**: WeiGuoWang **Github User**: Weison24
