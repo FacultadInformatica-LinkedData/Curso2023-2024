@@ -20,10 +20,10 @@ bs:Station01 ns:id "001 a"^^xsd:string;
 
 direction:CalleDeAlcala_2 ns:street "Calle de Alcala";
                         ns:number "2"^^xsd:integer;
-                        ns:belongsHood hood:01-06Sol.
+                        ns:directionBelongsHood hood:01-06Sol.
 
 
-hood:01-06Sol ns:belongsDistrict district:01Centro.
+hood:01-06Sol ns:hoodBelongsDistrict district:01Centro.
 <<<<<<< HEAD
 
 
