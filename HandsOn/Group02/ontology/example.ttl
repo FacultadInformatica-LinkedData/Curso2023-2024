@@ -1,113 +1,41 @@
 @prefix base: <http://smartcity.linkeddata.es/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-base: a owl:Ontology ;
-    dc:creator "Group02" ;
-    dc:description "Ontology code created by Chowlk" ;
-    dc:title "Energy Consumption Ontology" ;
-    owl:versionInfo "0.0.1" .
+# District
+base:CarabanchelDistrict rdf:type ns:District ;
+    ns:name "Carabanchel" ;
+    ns:code 11 .
 
-ns:address a owl:DatatypeProperty ;
-    rdfs:label "address" ;
-    rdfs:range xsd:String .
+# Neighbourhood
+base:SanIsidroNeighbourhood rdf:type ns:Neighbourhood ;
+    ns:name "San Isidro" ;
+    ns:locatedInDistrict base:CarabanchelDistrict .
 
-ns:buildingType a owl:DatatypeProperty ;
-    rdfs:label "building type" ;
-    rdfs:range xsd:String .
+# Building
+base:BibliotecaAnaMariaMatuteBuilding rdf:type ns:Building ;
+    ns:id 2258 ;
+    ns:name "Biblioteca Ana María Matute" ;
+    ns:buildingType "Centros culturales y bibliotecas" ;
+    ns:address "CALLE ISAAC ALBENIZ, 1 28019 MADRID" ;
+    ns:locatedInNeighbourhood base:SanIsidroNeighbourhood ;
+    ns:x-coordinate "438873.92" ;
+    ns:y-coordinate "4472154.36" ;
+    ns:longitude "-3.7202936410904" ;
+    ns:latitude "40.3977521494866" .
 
-ns:class a owl:DatatypeProperty ;
-    rdfs:label "class" ;
-    rdfs:range xsd:String .
+# Sensor
+base:Sensor1 rdf:type ns:Sensor ;
+    ns:id 226 ;
+    ns:type "Externo" ;
+    ns:hasSensor base:BibliotecaAnaMariaMatuteBuilding .
 
-ns:code a owl:DatatypeProperty ;
-    rdfs:label "code" ;
-    rdfs:range xsd:Integer .
-
-ns:consumption a owl:DatatypeProperty ;
-    rdfs:label "consumption" ;
-    rdfs:range xsd:Float .
-
-ns:detectsMeasure a owl:ObjectProperty ;
-    rdfs:label "detects measure" ;
-    rdfs:domain ns:Sensor ;
-    rdfs:range ns:Measure .
-
-ns:group a owl:DatatypeProperty ;
-    rdfs:label "group" ;
-    rdfs:range xsd:String .
-
-ns:hasMeasure a owl:ObjectProperty ;
-    rdfs:label "has measure" ;
-    rdfs:domain ns:Building ;
-    rdfs:range ns:Measure .
-
-ns:hasSensor a owl:ObjectProperty ;
-    rdfs:label "has sensor" ;
-    rdfs:domain ns:Building ;
-    rdfs:range ns:Sensor .
-
-ns:id a owl:DatatypeProperty ;
-    rdfs:label "id" ;
-    rdfs:range xsd:Integer .
-
-ns:latitude a owl:DatatypeProperty ;
-    rdfs:label "latitude" ;
-    rdfs:range xsd:String .
-
-ns:locatedInDistrict a owl:ObjectProperty ;
-    rdfs:label "located in district" ;
-    rdfs:domain ns:Neighbourhood ;
-    rdfs:range ns:District .
-
-ns:locatedInNeighbourhood a owl:ObjectProperty ;
-    rdfs:label "located in neighbourhood" ;
-    rdfs:domain ns:Building ;
-    rdfs:range ns:Neighbourhood .
-
-ns:longitude a owl:DatatypeProperty ;
-    rdfs:label "longitude" ;
-    rdfs:range xsd:String .
-
-ns:month a owl:DatatypeProperty ;
-    rdfs:label "month" ;
-    rdfs:range xsd:Integer .
-
-ns:name a owl:DatatypeProperty ;
-    rdfs:label "name" ;
-    rdfs:range xsd:String .
-
-ns:type a owl:DatatypeProperty ;
-    rdfs:label "type" ;
-    rdfs:range xsd:String .
-
-ns:x-coordinate a owl:DatatypeProperty ;
-    rdfs:label "x-coordinate" ;
-    rdfs:range xsd:String .
-
-ns:y-coordinate a owl:DatatypeProperty ;
-    rdfs:label "y-coordinate" ;
-    rdfs:range xsd:String .
-
-ns:year a owl:DatatypeProperty ;
-    rdfs:label "year" ;
-    rdfs:range xsd:Integer .
-
-ns:District a owl:Class ;
-    rdfs:label "District" .
-
-ns:Measure a owl:Class ;
-    rdfs:label "Measure" .
-
-ns:Neighbourhood a owl:Class ;
-    rdfs:label "Neighbourhood" .
-
-ns:Sensor a owl:Class ;
-    rdfs:label "Sensor" .
-
-ns:Building a owl:Class ;
-    rdfs:label "Building" .
-
+# Measure
+base:Measure1 rdf:type ns:Measure ;
+    ns:id 301 ;
+    ns:year 2020 ;
+    ns:month 3 ;
+    ns:consumption "13099.0"^^xsd:float ;
+    ns:detectsMeasure base:Sensor1 .
