@@ -4,26 +4,23 @@
 
 # Exampe of an individual of de class Station
 ex:station1 a ns:Station ;
-    ns:hasId 123 ;
+    ns:hasCode 123 ;
     ns:hasName "Estación 1" ;
     ns:hasLatitude 40.7128 ;
     ns:hasLongitude -74.0060 ;
     ns:locatedIn "Nueva York" ;
-    ns:hasCapacity 200 ;
-    ns:hasCode 456789 ;
-    ns:installationDate "2023-10-20"^^xsd:date .
+    ns:hasCapacity 200 .
 
 # Exampe of an individual of de class TimeBicycleCounter
 ex:timeBicycleCounter1 a ns:TimeBicycleCounter ;
-    ns:channelId 1 ;
     ns:date "2023-10-20T12:00:00Z"^^xsd:dateTime ;
-    ns:bicyclesPassed 50 .
+    ns:passed 50 .
 
 # Exampe of an individual of de class Counter
 ex:counter1 a ns:Counter ;
     ns:hasId 789 ;
-    ns:hasCapacity 100 ;
     ns:hasName "Contador 1" ;
     ns:installationDate "2023-10-15"^^xsd:date ;
-    ns:locatedIn ex:station1 ;  # Asociación de contador a estación
-    ns:bicyclesPassed ex:measurement1 .  # Asociación de contador a medición
+    ns:locatedIn "Nueva York" ;  
+    ns:hasLatitude 40.7128 ;
+    ns:hasLongitude -74.0060 .
