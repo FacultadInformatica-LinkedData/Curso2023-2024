@@ -1,0 +1,89 @@
+ @prefix base: <http://smartcity.group04.es/ontology/EnergyConsumption#> .
+@prefix cv: <https://schema.org/CivicStructure#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix en: <http://smartcity.linkeddata.es/lcc/ontology/EnergyConsumption#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+base:consumes a owl:ObjectProperty ;
+    rdfs:label "consumes" ;
+    rdfs:domain ns:MunicipalBuilding ;
+    rdfs:range base:EnergyValue .
+
+base:hasNeighborhood a owl:ObjectProperty ;
+    rdfs:label "has neighborhood" ;
+    rdfs:domain ns:MunicipalBuilding ;
+    rdfs:range ns:Neighborhood .
+
+base:hasUnitType a owl:ObjectProperty ;
+    rdfs:label "has unit type" ;
+    rdfs:domain base:EnergyValue ;
+    rdfs:range en:UnitOfMeasure .
+
+base:inside a owl:ObjectProperty ;
+    rdfs:label "inside" ;
+    rdfs:domain ns:Neighborhood ;
+    rdfs:range ns:District .
+
+en:hasQuantityValue a owl:ObjectProperty ;
+    rdfs:label "has quantity value" ;
+    rdfs:domain base:EnergyValue ;
+    rdfs:range xsd:decimal .
+
+ns:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain ns:MunicipalBuilding ;
+    rdfs:range ns:District .
+
+cv:latitude a owl:ObjectProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain ns:MunicipalBuilding ;
+    rdfs:range xsd:string .
+
+cv:longitude a owl:ObjectProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain ns:MunicipalBuilding ;
+    rdfs:range xsd:string .
+
+cv:name a owl:ObjectProperty ;
+    rdfs:label "name" ;
+    rdfs:domain ns:District,
+        ns:MunicipalBuilding,
+        ns:Neighborhood ;
+    rdfs:range xsd:string .
+
+cv:unitName a owl:ObjectProperty ;
+    rdfs:label "unit name" ;
+    rdfs:domain en:UnitOfMeasure ;
+    rdfs:range xsd:string .
+
+xsd:decimal a owl:Class ;
+    rdfs:label "decimal" .
+
+cv:CivicStructure a owl:Class ;
+    rdfs:label "Civic Structure" .
+
+en:UnitOfMeasure a owl:Class ;
+    rdfs:label "Unit Of Measure" .
+
+base:EnergyValue a owl:Class ;
+    rdfs:label "Energy Value" .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:Neighborhood a owl:Class ;
+    rdfs:label "Neighborhood" .
+
+xsd:string a owl:Class ;
+    rdfs:label "string" .
+
+ns:MunicipalBuilding a owl:Class ;
+    rdfs:label "Municipal Building" ;
+    rdfs:subClassOf cv:CivicStructure .
+
