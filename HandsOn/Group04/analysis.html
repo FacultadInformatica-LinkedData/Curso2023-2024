@@ -1,0 +1,255 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Assignment 2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid rgba(55, 53, 47, 0.09);
+        border-collapse: collapse;
+      }
+
+      table {
+        border-left: none;
+        border-right: none;
+      }
+
+      th,
+      td {
+        font-weight: normal;
+        padding: 0.25em 0.5em;
+        line-height: 1.5;
+        min-height: 1.5em;
+        text-align: left;
+      }
+
+      th {
+        color: rgba(55, 53, 47, 0.6);
+      }
+
+      .simple-table {
+        margin-top: 1em;
+        font-size: 0.875rem;
+        empty-cells: show;
+      }
+
+      .simple-table td {
+        height: 29px;
+        min-width: 120px;
+      }
+
+      .simple-table th {
+        height: 29px;
+        min-width: 120px;
+      }
+
+      .simple-table-header-color {
+        background: rgb(247, 246, 243);
+        color: black;
+      }
+
+      .simple-table-header {
+        font-weight: 500;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class="page sans">
+      <header>
+        <h1 class="page-title">Assignment 2</h1>
+      </header>
+      <div class="page-body">
+        <h2 class="">Data source license analysis</h2>
+        <ul class="bulleted-list">
+          <li style="list-style-type: disc">
+            Righstholder: Ayuntamiento de Madrid
+          </li>
+        </ul>
+        <ul class="bulleted-list">
+          <li style="list-style-type: disc">
+            Authorized distributor: Ayuntamiento de Madrid
+          </li>  
+        </ul>
+        <ul class="bulleted-list">
+          <li style="list-style-type: disc">License: 
+            <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">https://datos.madrid.es/egob/catalogo/aviso-legal</a>
+         </li>
+        </ul>
+        <h2 class="">Dataset analysis</h2>
+        <table class="simple-table">
+          <thead class="simple-table-header">
+            <tr id="ca3c520e-88e8-4219-b6ac-7f25c34d5ee5">
+              <th
+                class="simple-table-header-color simple-table-header"
+                style="width: 174.5px"
+              >
+                Variable
+              </th>
+              <th
+                class="simple-table-header-color simple-table-header"
+                style="width: 90.5px"
+              >
+                Type
+              </th>
+              <th
+                class="simple-table-header-color simple-table-header"
+                style="width: 100px"
+              >
+                Range
+              </th>
+              <th
+                class="simple-table-header-color simple-table-header"
+                style="width: 392.5px"
+              >
+                Description
+              </th>
+              <th
+              class="simple-table-header-color simple-table-header"
+              style="width: 392.5px"
+            >
+              Problemas
+            </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 174.5px">Año</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>[2020/2023]</td>
+              <td style="width: 392.5px">Valor que identifica el año al que pertenece la medición</td>
+              <td style="width: 392.5px"> </td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Mes</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>[1/12]</td>
+              <td style="width: 392.5px">Valor que identifica el mes al que pertenece la medición</td>
+              <td style="width: 392.5px">Altamente dependiente del año y vinculado a ella, juntar las dos columnas del dataset puede que sea mejor idea que tratarlas independientemente.</td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">TipoEdificio</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique
+              </td>
+              <td style="width: 392.5px">Indica la actividad para la que estaba intencionada el edificio. </td>
+              <td style="width: 392.5px">Está dividido en 5 tipos de edificio</td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Edificio</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique
+              </td>
+              <td style="width: 392.5px">Indica el nombre del edificio.</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Dirección</td>
+			  <td style="width: 90.5px">String</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Alberga los atributos calle, número, código postal y ciudad.</td>
+              <td style="width: 392.5px">Puede incluir información extra o en algunos casos incompleta.</td>
+              </tr>
+            <tr>
+              <td style="width: 174.5px">Distrito</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique
+              </td>
+              <td style="width: 392.5px">Indica el distrito de Madrid al que pertenece el distrito </td>
+              <td style="width: 392.5px"></td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Código Distrito</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>[1/21]
+              </td>
+              <td style="width: 392.5px">Número identificador del distrito</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Barrio</td>
+              <td style="width: 90.5px">String</td>
+              <td>[11/215]</td>
+              <td style="width: 392.5px">Indica el barrio de Madrid al que pertenece el edificio</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Código Barrio</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Número identificador del Barrio</td>
+              <td style="width: 392.5px">Las decenas son el número del distrito, la unidad el identificador del barrio.</td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Coordenada-X</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>[433337,1/451675]</td>
+              <td style="width: 392.5px">Indica la Coordenada X en la que se localiza el edificio</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Coordenada-Y</td>
+              <td style="width: 90.5px">Integer</td>
+              <td>[4465173,9/4484220,7]</td>
+              <td style="width: 392.5px">Indica la Coordenada Y en la que se localiza el edificio</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+			<tr>
+              <td style="width: 174.5px">Longitud</td>
+              <td style="width: 90.5px">Double</td>
+              <td>[-3.76468/-3.73835]</td>
+              <td style="width: 392.5px">Longitud de su ubicación</td>
+              <td style="width: 392.5px">Los valores depende de la herramienta que se utilice pueden estar corruptos.</td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Latitud </td>
+              <td style="width: 90.5px">Double</td>
+              <td>[40.426646/40.479004]</td>
+              <td style="width: 392.5px">Latitud de su ubicación</td>
+              <td style="width: 392.5px">Los valores depende de la herramienta que se utilice pueden estar corruptos.</td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Sensor</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Sensor empleado para leer la medición de energía.</td>
+              <td style="width: 392.5px">Es un dato que para nuestra base de datos resulta irrelevante.</td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Tipo</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not unique</td>
+              <td style="width: 392.5px">Indica si el tipo es Externo, Procesado o telemedido</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Clase</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Indica el tipo de energía que se utiliza, la mayoría de edificios utilizan más de una.</td>
+              <td style="width: 392.5px"></td>
+            </tr>
+            <tr>
+              <td style="width: 174.5px">Unidades</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Define el tipo de unidad que se utiliza.</td>
+              <td style="width: 392.5px">Parece ser consistente con la clase de energía.</td>
+              </tr>
+			  <tr>
+              <td style="width: 174.5px">Consumo</td>
+              <td style="width: 90.5px">String</td>
+              <td>Not Unique</td>
+              <td style="width: 392.5px">Define la cantidad de energia gastada por cada edificio.</td>
+              <td style="width: 392.5px">Hay edificios que no tienen datos o con información incompleta, también hay edificios con energía negativa.</td>
+              </tr>
+          </tbody>
+        </table>
+
+        <h2 class="">Resource naming strategy</h2>
+  
+      </div>
+    </article>
+  </body>
+</html>
