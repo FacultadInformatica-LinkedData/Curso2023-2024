@@ -8,7 +8,7 @@ mappings:
   triplesmap1:
     sources:
       - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: http://smartcity.linkeddata.org/building/$(ID)
+    s: http://smartcity.linkeddata.es/building/$(ID)
     po:
       - [a, ns:Building]
       # Datatype Properties
@@ -35,7 +35,7 @@ mappings:
   triplesmap2:
     sources:
       - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.org/district/$(CÓDIGO_DISTRITO)"
+    s: "http://smartcity.linkeddata.es/district/$(CÓDIGO_DISTRITO)"
     po:
       - [a, ns:District]
       # Datatype Properties
@@ -46,7 +46,7 @@ mappings:
   triplesmap3:
     sources:
       - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.org/neighbourhood/$(CÓDIGO_BARRIO)"
+    s: "http://smartcity.linkeddata.es/neighbourhood/$(CÓDIGO_BARRIO)"
     po:
       - [a, ns:Neighbourhood]
       # Datatype Properties
@@ -63,7 +63,7 @@ mappings:
       - [../csv/consumo_energia_edificios-updated.csv~csv]
     # Add a column ID_MEDIDA to the CSV that represents every row
     # in the file (OpenRefine).
-    s: "http://smartcity.linkeddata.org/measure/$(ID_MEDIDA)"
+    s: "http://smartcity.linkeddata.es/measure/$(ID_MEDIDA)"
     po:
       - [a, ns:Measure]
       # Datatype Properties
@@ -76,7 +76,7 @@ mappings:
   triplesmap5:
     sources:
       - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.org/district/$(SENSOR)"
+    s: "http://smartcity.linkeddata.es/district/$(SENSOR)"
     po:
       - [a, ns:Sensor]
       # Datatype Properties
