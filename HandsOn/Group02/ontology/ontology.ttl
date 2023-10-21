@@ -43,7 +43,7 @@ ns:address a owl:DatatypeProperty ;
     rdfs:range xsd:String .
 
 ns:buildingType a owl:DatatypeProperty ;
-    rdfs:label "building type" ;
+    rdfs:label "buildingType" ;
     rdfs:domain ns:Building ;
     rdfs:range xsd:String .
 
@@ -103,6 +103,11 @@ ns:neighbourhoodCode a owl:DatatypeProperty ;
 
 # --------------------------- Measure ----------------------
 
+ns:measureId a owl:DatatypeProperty ;
+    rdfs:label "measureId" ;
+    rdfs:domain ns:Measure ;
+    rdfs:range xsd:Integer .
+
 ns:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain ns:Measure ;
@@ -148,26 +153,26 @@ ns:type a owl:DatatypeProperty ;
 # ---------------------- ObjectProperty --------------------
 
 ns:locatedInNeighbourhood a owl:ObjectProperty ;
-    rdfs:label "located in neighbourhood" ;
+    rdfs:label "locatedInNeighbourhood" ;
     rdfs:domain ns:Building ;
     rdfs:range ns:Neighbourhood .
 
 ns:hasMeasure a owl:ObjectProperty ;
-    rdfs:label "has measure" ;
+    rdfs:label "hasMeasure" ;
     rdfs:domain ns:Building ;
     rdfs:range ns:Measure .
 
 ns:hasSensor a owl:ObjectProperty ;
-    rdfs:label "has sensor" ;
+    rdfs:label "hasSensor" ;
     rdfs:domain ns:Building ;
     rdfs:range ns:Sensor .
 
 ns:locatedInDistrict a owl:ObjectProperty ;
-    rdfs:label "located in district" ;
+    rdfs:label "locatedInDistrict" ;
     rdfs:domain ns:Neighbourhood ;
     rdfs:range ns:District .
 
 ns:detectsMeasure a owl:ObjectProperty ;
-    rdfs:label "detects measure" ;
+    rdfs:label "detectsMeasure" ;
     rdfs:domain ns:Sensor ;
     rdfs:range ns:Measure .

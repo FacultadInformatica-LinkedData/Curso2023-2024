@@ -1,90 +1,68 @@
+---
 prefixes:
   rr: http://www.w3.org/ns/r2rml#
   xsd: http://www.w3.org/2001/XMLSchema#
   ns: http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#
-  
+
 mappings:
-  # BUILDING
-  triplesmap1:
+  building:
     sources:
-      - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: http://smartcity.linkeddata.es/building/$(ID)
+      - [../csv/consumo_energia_edificios_updated.csv~csv]
+    s: ns:building/$(ID)
     po:
       - [a, ns:Building]
-      # Datatype Properties
-      - [ns:address,$(DIRECCION),xsd:string]
-      - [ns:buildingType,$(TIPOEDIFICIO),xsd:string]
-      - [ns:buildingName,$(EDIFICIO),xsd:string]
-      - [ns:id,$(ID),xsd:integer]
-      - [ns:x_coordinate,$(COORDENADA_X),xsd:integer]
-      - [ns:y_coordinate,$(COORDENADA_Y),xsd:integer]
-      - [ns:latitude,$(LATITUD),xsd:integer]
-      - [ns:longitude,$(LONGITUD),xsd:integer]
-      # Object Properties
-      - p: ns:locatedInNeighbourhood
-        o:
-          mapping: triplesmap3
-      - p: ns:hasMeasure
-        o:
-          mapping: triplesmap4
-      - p: ns:hasSensor
-        o:
-          mapping: triplesmap5
+      - [ns:address, $(DIRECCION), xsd:string]
+      - [ns:buildingType, $(TIPOEDIFICIO), xsd:string]
+      - [ns:buildingName, $(EDIFICIO), xsd:string]
+      - [ns:id, $(ID), xsd:integer]
+      - [ns:x_coordinate, $(COORDENADA_X), xsd:float]
+      - [ns:y_coordinate, $(COORDENADA_Y), xsd:float]
+      - [ns:latitude, $(LATITUD), xsd:float]
+      - [ns:longitude, $(LONGITUD), xsd:float]
+      - [ns:locatedInNeighbourhood, ns:neighbourhood/$(CODIGO_BARRIO)~iri]
+      - [ns:hasMeasure, ns:measure/$(ID_MEDIDA)~iri]
+      - [ns:hasSensor, ns:sensor/$(SENSOR)~iri]
 
-  # DISTRICT
-  triplesmap2:
+  district:
     sources:
-      - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.es/district/$(CÓDIGO_DISTRITO)"
+      - [../csv/consumo_energia_edificios_updated.csv~csv]
+    s: ns:district/$(CODIGO_DISTRITO)
     po:
       - [a, ns:District]
-      # Datatype Properties
-      - [ns:districtCode,$(CÓDIGO_DISTRITO),xsd:integer]
-      - [ns:districtName,$(DISTRITO),xsd:string]
-  
-  # NEIGHBOURHOOD
-  triplesmap3:
+      - [ns:districtCode, $(CODIGO_DISTRITO), xsd:integer]
+      - [ns:districtName, $(DISTRITO), xsd:string]
+
+  neighbourhood:
     sources:
-      - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.es/neighbourhood/$(CÓDIGO_BARRIO)"
+      - [../csv/consumo_energia_edificios_updated.csv~csv]
+    s: ns:neighbourhood/$(CODIGO_BARRIO)
     po:
       - [a, ns:Neighbourhood]
-      # Datatype Properties
-      - [ns:neighbourhoodCode,$(CÓDIGO_BARRIO),xsd:integer]
-      - [ns:neighbourhoodName,$(BARRIO),xsd:string]
-      # Object Properties
-      - p: ns:locatedInDistrict
-        o:
-          mapping: triplesmap2
+      - [ns:neighbourhoodCode, $(CODIGO_BARRIO), xsd:integer]
+      - [ns:neighbourhoodName, $(BARRIO), xsd:string]
+      - [ns:locatedInDistrict, ns:district/$(CODIGO_DISTRITO)~iri]
 
-  # MEASURE
-  triplesmap4:
+  measure:
     sources:
-      - [../csv/consumo_energia_edificios-updated.csv~csv]
-    # Add a column ID_MEDIDA to the CSV that represents every row
-    # in the file (OpenRefine).
-    s: "http://smartcity.linkeddata.es/measure/$(ID_MEDIDA)"
+      - [../csv/consumo_energia_edificios_updated.csv~csv]
+    s: ns:measure/$(ID_MEDIDA)
     po:
       - [a, ns:Measure]
-      # Datatype Properties
-      - [ns:year,$(AÑO),xsd:integer]
-      - [ns:month,$(MES),xsd:integer]
-      - [ns:unit,$(UNIDADES),xsd:string]
-      - [ns:consumption,$(CONSUMO),xsd:float]
+      - [ns:measureId, $(ID_MEDIDA), xsd:integer]
+      - [ns:year, $(ANO), xsd:integer]
+      - [ns:month, $(MES), xsd:integer]
+      - [ns:unit, $(UNIDADES), xsd:string]
+      - [ns:consumption, $(CONSUMO), xsd:float]
 
   # SENSOR
-  triplesmap5:
+  sensor:
     sources:
-      - [../csv/consumo_energia_edificios-updated.csv~csv]
-    s: "http://smartcity.linkeddata.es/district/$(SENSOR)"
+      - [../csv/consumo_energia_edificios_updated.csv~csv]
+    s: ns:sensor/$(SENSOR)
     po:
       - [a, ns:Sensor]
-      # Datatype Properties
-      - [ns:class,$(CLASE),xsd:string]
-      - [ns:group,$(GRUPO),xsd:string]
-      - [ns:sensorName,$(SENSOR),xsd:string]
-      - [ns:type,$(TIPO),xsd:string]
-      # Object Properties
-      - p: ns:detectsMeasure
-        o:
-          mapping: triplesmap4
+      - [ns:class, $(CLASE), xsd:string]
+      - [ns:group, $(GRUPO), xsd:string]
+      - [ns:sensorName, $(SENSOR), xsd:string]
+      - [ns:type, $(TIPO), xsd:string]
+      - [ns:detectsMeasure, ns:measure/$(ID_MEDIDA)~iri]
