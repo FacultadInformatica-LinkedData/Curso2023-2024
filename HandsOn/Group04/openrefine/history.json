@@ -14946,5 +14946,258 @@
     "newColumnName": "ID_MEASURE",
     "columnInsertIndex": 1,
     "description": "Create column ID_MEASURE at index 1 based on column ﻿AÑO using expression jython:return row.index+1"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CONSUMO",
+    "expression": "jython:return 1",
+    "onError": "set-to-blank",
+    "newColumnName": "MEASURE_TYPE_ID",
+    "columnInsertIndex": 16,
+    "description": "Create column MEASURE_TYPE_ID at index 16 based on column CONSUMO using expression jython:return 1"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kVArh",
+                "l": "kVArh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1.2"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kWh",
+                "l": "kWh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1.1"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kvarh",
+                "l": "kvarh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2.1"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kWh",
+                "l": "kWh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kVArh",
+                "l": "kVArh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kvarh",
+                "l": "kvarh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2.1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
   }
 ]
