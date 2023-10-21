@@ -1,0 +1,47 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Carretara o vial",
+    "description": "Remove column Carretara o vial"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PK",
+    "description": "Remove column PK"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Sentido",
+    "description": "Remove column Sentido"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordenadas",
+    "description": "Remove column Coordenadas"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "X (WGS84)",
+    "description": "Remove column X (WGS84)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Y (WGS84)",
+    "description": "Remove column Y (WGS84)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UBICACIÓN\nCalle 30",
+    "description": "Remove column UBICACIÓN\nCalle 30"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo",
+    "description": "Remove column Tipo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Ubicacion",
+    "description": "Remove column Ubicacion"
+  }
+]
