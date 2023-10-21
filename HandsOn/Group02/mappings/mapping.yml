@@ -1,1 +1,90 @@
-# Placeholder
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  ns: http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#
+  
+mappings:
+  # BUILDING
+  triplesmap1:
+    sources:
+      - [../csv/consumo_energia_edificios-updated.csv~csv]
+    s: http://smartcity.linkeddata.org/building/$(ID)
+    po:
+      - [a, ns:Building]
+      # Datatype Properties
+      - [ns:address,$(DIRECCION),xsd:string]
+      - [ns:buildingType,$(TIPOEDIFICIO),xsd:string]
+      - [ns:buildingName,$(EDIFICIO),xsd:string]
+      - [ns:id,$(ID),xsd:integer]
+      - [ns:x_coordinate,$(COORDENADA_X),xsd:integer]
+      - [ns:y_coordinate,$(COORDENADA_Y),xsd:integer]
+      - [ns:latitude,$(LATITUD),xsd:integer]
+      - [ns:longitude,$(LONGITUD),xsd:integer]
+      # Object Properties
+      - p: ns:locatedInNeighbourhood
+        o:
+          mapping: triplesmap3
+      - p: ns:hasMeasure
+        o:
+          mapping: triplesmap4
+      - p: ns:hasSensor
+        o:
+          mapping: triplesmap5
+
+  # DISTRICT
+  triplesmap2:
+    sources:
+      - [../csv/consumo_energia_edificios-updated.csv~csv]
+    s: "http://smartcity.linkeddata.org/district/$(CÓDIGO_DISTRITO)"
+    po:
+      - [a, ns:District]
+      # Datatype Properties
+      - [ns:districtCode,$(CÓDIGO_DISTRITO),xsd:integer]
+      - [ns:districtName,$(DISTRITO),xsd:string]
+  
+  # NEIGHBOURHOOD
+  triplesmap3:
+    sources:
+      - [../csv/consumo_energia_edificios-updated.csv~csv]
+    s: "http://smartcity.linkeddata.org/neighbourhood/$(CÓDIGO_BARRIO)"
+    po:
+      - [a, ns:Neighbourhood]
+      # Datatype Properties
+      - [ns:neighbourhoodCode,$(CÓDIGO_BARRIO),xsd:integer]
+      - [ns:neighbourhoodName,$(BARRIO),xsd:string]
+      # Object Properties
+      - p: ns:locatedInDistrict
+        o:
+          mapping: triplesmap2
+
+  # MEASURE
+  triplesmap4:
+    sources:
+      - [../csv/consumo_energia_edificios-updated.csv~csv]
+    # Add a column ID_MEDIDA to the CSV that represents every row
+    # in the file (OpenRefine).
+    s: "http://smartcity.linkeddata.org/measure/$(ID_MEDIDA)"
+    po:
+      - [a, ns:Measure]
+      # Datatype Properties
+      - [ns:year,$(AÑO),xsd:integer]
+      - [ns:month,$(MES),xsd:integer]
+      - [ns:unit,$(UNIDADES),xsd:string]
+      - [ns:consumption,$(CONSUMO),xsd:float]
+
+  # SENSOR
+  triplesmap5:
+    sources:
+      - [../csv/consumo_energia_edificios-updated.csv~csv]
+    s: "http://smartcity.linkeddata.org/district/$(SENSOR)"
+    po:
+      - [a, ns:Sensor]
+      # Datatype Properties
+      - [ns:class,$(CLASE),xsd:string]
+      - [ns:group,$(GRUPO),xsd:string]
+      - [ns:sensorName,$(SENSOR),xsd:string]
+      - [ns:type,$(TIPO),xsd:string]
+      # Object Properties
+      - p: ns:detectsMeasure
+        o:
+          mapping: triplesmap4
