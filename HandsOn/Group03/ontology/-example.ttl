@@ -7,7 +7,7 @@
 @prefix direction: <:Direction/> .
 
 
-bs:Station01 a ns:Company; 
+bs:Station01 a ns:BicycleStation; 
             ns:id "001 a"^^xsd:string;
             ns:registrationDate "2021-09-21"^^xsd:date;
             ns:places "30"^^xsd:integer;
@@ -27,6 +27,10 @@ direction:CalleDeAlcala_2 a ns:Direction;
 
 hood:01-06Sol a ns:Hood; 
             ns:hoodBelongsDistrict district:01Centro.
+
+district:01Centro a ns:District.
+
+company:BiciMAD a ns:Company.
 <<<<<<< HEAD
 
 

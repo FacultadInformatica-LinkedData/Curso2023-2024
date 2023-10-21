@@ -1,0 +1,154 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@base <http://smartcity.linkeddata.es/lcc/resource/> .
+@prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+
+<#TriplesMapBicycleStation> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/lcc/resource/BicycleStation/{ID}";
+    rr:class ns:BicycleStation
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:id;
+    rr:objectMap [
+      rml:reference "ID";
+      rr:datatype xsd:string
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:registrationDate;
+    rr:objectMap [
+      rml:reference "RegistrationDate";
+      rr:datatype xsd:date
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:belongsDistrict;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapDistrict>
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:belongsHood;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapHood>
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:hasDirection;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapDirection>
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:isManageBy;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapCompany>
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:places;
+    rr:objectMap [
+      rml:reference "Places";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:longitude;
+    rr:objectMap [
+      rml:reference "Longitude";
+      rr:datatype xsd:decimal
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:latitude;
+    rr:objectMap [
+      rml:reference "Latitude";
+      rr:datatype xsd:decimal
+    ]
+  ] .
+
+<#TriplesMapDirection> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/-updated.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/lcc/resource/Direction/{DirectionCanonized}";
+    rr:class ns:Direction
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:street;
+    rr:objectMap [
+      rml:reference "StreetCanonized";
+      rr:datatype xsd:string
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:number;
+    rr:objectMap [
+      rml:reference "Number";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:directionBelongsHood;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapHood>
+    ]
+  ].
+
+<#TriplesMapHood> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/-updated.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/lcc/resource/Hood/{HoodCanonized}";
+    rr:class ns:Hood
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ns:hoodBelongsDistrict;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMapDistrict>
+    ]
+  ].
+
+<#TriplesMapDistrict> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/-updated.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/lcc/resource/District/{District}";
+    rr:class ns:District
+  ].
+
+<#TriplesMapCompany> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/-updated.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://smartcity.linkeddata.es/lcc/resource/Company/{Company}";
+    rr:class ns:Company
+  ].
