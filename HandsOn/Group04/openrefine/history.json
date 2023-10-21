@@ -14933,5 +14933,18 @@
       }
     ],
     "description": "Mass edit cells in column ID"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "﻿AÑO",
+    "expression": "jython:return row.index+1",
+    "onError": "set-to-blank",
+    "newColumnName": "ID_MEASURE",
+    "columnInsertIndex": 1,
+    "description": "Create column ID_MEASURE at index 1 based on column ﻿AÑO using expression jython:return row.index+1"
   }
 ]
