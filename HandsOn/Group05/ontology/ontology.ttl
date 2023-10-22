@@ -26,7 +26,7 @@ ns:channelId a owl:DatatypeProperty ;
 ns:date a owl:DatatypeProperty ;
     rdfs:label "date" ;
     rdfs:domain ns:TimeBicycleCounter ;
-    rdfs:range xsd:Date .
+    rdfs:range xsd:String .
 
 ns:hasCapacity a owl:DatatypeProperty ;
     rdfs:label "has capacity" ;
@@ -71,6 +71,11 @@ ns:passed a owl:DatatypeProperty ;
     rdfs:label "passed" ;
     rdfs:domain ns:TimeBicycleCounter ;
     rdfs:range xsd:Integer .
+
+ns:hasIdent a owl:DatatypeProperty ;
+    rdfs:label "has ident" ;
+    rdfs:domain ns:TimeBicycleCounter ;
+    rdfs:range xsd:String .
 
 ns:Station a owl:Class ;
     rdfs:label "Station" ;
