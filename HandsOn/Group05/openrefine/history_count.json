@@ -1,0 +1,50 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "name",
+    "description": "Remove column name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_compteur",
+    "description": "Remove column nom_compteur"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "installation_date",
+    "description": "Remove column installation_date"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "latitude",
+    "description": "Remove column latitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "longitude",
+    "description": "Remove column longitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "counter",
+    "description": "Remove column counter"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "street",
+    "description": "Remove column street"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sum_counts",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sum_counts using expression value.toNumber()"
+  }
+]
