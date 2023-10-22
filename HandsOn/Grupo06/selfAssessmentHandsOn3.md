@@ -1,22 +1,32 @@
 # Hands-on assignment 3 – Self assessment
 
-## Accidentalidad
-
 **Operaciones de Limpieza**
 
-- [ ] 
-- [ ] 
+- [ ] En cuanto a operaciones de limpieza no hemos tenido que realizar ninguna debido a que los datos nos venían bastante legibles.
+
+## Accidentalidad
 
 **Transformaciones**
 
-- [ ] 
-- [ ] 
+- [ ] Eliminar columna num_expediente
+- [ ] Eliminar columna fecha
+- [ ] Eliminar columna hora
+- [ ] Eliminar columna localización
+- [ ] Eliminar columna número
+- [ ] Eliminar columna cod_distrito
+- [ ] Eliminar columna distrito
+- [ ] Eliminar columna tipo_accidente
+- [ ] Eliminar columna estado_meteorológico
+- [ ] Eliminar columna tipo_vehiculo
+- [ ] Eliminar columna tipo_persona
+- [ ] Eliminar columna rango_edad
+- [ ] Eliminar columna sexo
+- [ ] Eliminar columna cod_lesividad
+- [ ] Eliminar columna lesividad
+- [ ] Eliminar columna positiva_alcohol
+- [ ] Eliminar columna positiva_droga
 
 ## Radares Fijos
-
-**Operaciones de Limpieza**
-
-- [ ] 
 
 **Transformaciones**
 
@@ -32,10 +42,6 @@
 
 ## Radares Madrid
 
-**Operaciones de Limpieza**
-
-- [ ] 
-
 **Transformaciones**
 
 - [ ] Eliminar columna Ubicacion
@@ -49,10 +55,6 @@
 - [ ] Eliminar columna Coordenadas 
 
 ## Semaforos de Control
-
-**Operaciones de Limpieza**
-
-- [ ] 
 
 **Transformaciones**
 
