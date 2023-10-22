@@ -1,13 +1,13 @@
 [
   {
     "op": "core/column-removal",
-    "columnName": "name",
-    "description": "Remove column name"
+    "columnName": "nom_compteur",
+    "description": "Remove column nom_compteur"
   },
   {
     "op": "core/column-removal",
-    "columnName": "nom_compteur",
-    "description": "Remove column nom_compteur"
+    "columnName": "name",
+    "description": "Remove column name"
   },
   {
     "op": "core/column-removal",
@@ -35,16 +35,21 @@
     "description": "Remove column street"
   },
   {
-    "op": "core/text-transform",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "sum_counts",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column sum_counts using expression value.toNumber()"
+    "baseColumnName": "id_computeur",
+    "expression": "grel:cells[\"id_computeur\"].value + \"_\" + cells[\"date\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID",
+    "columnInsertIndex": 1,
+    "description": "Create column ID at index 1 based on column id_computeur using expression grel:cells[\"id_computeur\"].value + \"_\" + cells[\"date\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_computeur",
+    "description": "Remove column id_computeur"
   }
 ]
