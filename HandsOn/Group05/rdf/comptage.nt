@@ -1,0 +1,826 @@
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355277"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355292"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353356112"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056334"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353360366"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056040"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056225"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056226"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056332"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047536"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056039"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353242239"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056330"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104047547"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101049408"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "105056336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353293580"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353266460"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104047545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361125"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104036719"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353245971"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056331"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047535"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355237"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353277235"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047539"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056047"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101050132"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056226"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361763"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355230"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056335"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353360668"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353293614"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361113"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103047546"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103047547"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355137"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104050876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056038"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101044494"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355932"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101044495"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056045"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353354988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101003098"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353245972"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353356061"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361420"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056330"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101044493"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355291"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355278"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353266462"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104036718"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056332"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104047548"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "102060178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056042"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047540"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103047545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "102007049"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047538"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104057445"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056032"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355786"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056223"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355787"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "106056336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353354957"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353360367"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361114"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056041"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101007049"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353326452"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101060174"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103036718"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101006300"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353360275"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056335"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047549"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056334"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056034"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104047542"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101041488"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103047548"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353277233"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361764"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101063173"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353360976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056331"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103057329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047537"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104057329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101044506"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "109042374"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353255859"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353354985"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101060175"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104057380"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361762"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353355931"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103050876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103057445"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353361487"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101063174"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104065336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103057380"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047544"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103056327"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104047546"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047533"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "104056327"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056044"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101060178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103047542"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101056046"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101003097"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "110042374"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "102047551"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "101047534"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353242251"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "353255860"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#channelId> "103036719"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100044493"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100060175"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100044495"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030160"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047547"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056225"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300014702"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056047"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030908"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030173"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100036719"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047548"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100007049"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056045"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047536"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030116"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056036"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030172"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056334"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047551"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100006300"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030139"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047544"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056042"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056327"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056335"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300021320"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100057329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100060174"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056329"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056032"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047540"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100042374"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047545"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100057380"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056034"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030926"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056226"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056223"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030250"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047537"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030922"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030121"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100041488"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030120"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030838"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100063173"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100049407"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030826"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100036718"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100044494"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100063174"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056041"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100049408"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030921"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047535"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030271"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100003099"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100050876"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047539"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100060178"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047546"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300021312"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056044"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047549"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056330"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100003098"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047542"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056046"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056332"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030279"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047538"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056038"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030871"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100050132"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100003096"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100065336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030967"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047533"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100044506"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100047534"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100057445"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100003097"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030163"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056331"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056035"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056040"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "300030219"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100056039"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasId> "100063175"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86495"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.85735"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.843435"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83848"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84223"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.851131"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.88168"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.87756"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83504"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.8635"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.81964"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.8629"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84837"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82561"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82009"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.89696"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86999"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86451"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84613"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.88529"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86922"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.860528"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.840211"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83074"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.846099"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86462"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86179"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.851032"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86382"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86999"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82624"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83082"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.88156"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86077"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.898728"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83428"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.851131"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86281"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82682"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.824237"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.898707"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86155"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86502"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84935"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84222"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82029"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86377"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84017"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86485"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.85372"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83985"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.837055"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.896825"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84201"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.851525"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.834624"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.88462"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.889046"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83436"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.88926"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82048"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83992"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86149"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.8748"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82639"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.821204"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84641"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.829523"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.89683"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.85174"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.87769"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.898612"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.85976"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86057"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.87773"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.8244"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.87813"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.830331"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.820988"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.89172"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.860852"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.837006"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82108"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86373"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.86279"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.87474"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.84209"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.89141"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83505"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.85013"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.82282"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83537"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.890457"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.83994"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLatitude> "48.898946"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.383378"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.36811"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35373"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37559"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.375456"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.31444"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.408714"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.28122"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30115"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37728"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.368852"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37587"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.31524"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35211"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.400551"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37602"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35475"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30722"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.345648"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.377"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35873"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37305"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37258"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30202"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.33936"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.349385"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.33314"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.34521"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30743"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.372279"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.2924"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.3506"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.3497"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38491"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35423"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.411119"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.40966"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.32006"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.343298"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38884"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.368576"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.350291"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.314274"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.26708"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.31055"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.3588"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38531"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37376"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.26526"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38448"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.36729"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.405283"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.274824"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.39683"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.380721"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37407"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.28148"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.29219"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38482"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35096"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35702"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.274019"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.345678"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.32666"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.31037"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.357417"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.33333"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35317"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.321219"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.31973"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.34538"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.32014"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.27596"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.28113"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.409219"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.37472"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.28593"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30102"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.32537"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.3118"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.32239"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.26692"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38699"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.374872"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.30281"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.34173"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.4112"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35535"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.41143"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.40932"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.35387"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.345678"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.33438"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.388364"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasLongitude> "2.38886"^^<http://www.w3.org/2001/XMLSchema#Float> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "106 avenue Denfert Rochereau NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "72 boulevard Voltaire NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "38 rue Turbigo SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "51 boulevard Masséna SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "10 avenue de la Grande Armée SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "77 boulevard Masséna SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "5 boulevard Victor SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "81 boulevard Mortier S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "21 boulevard Auguste Blanqui SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "44 avenue des Champs Elysées SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "98 boulevard Poniatowski NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face 104 rue d\'Aubervilliers S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "8 boulevard d\'Indochine N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "39 quai François Mauriac SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "30 rue Saint Jacques (temporaire) N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "69 Boulevard Ornano (temporaire) N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "67 boulevard Voltaire SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Quai d\'Orsay E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Quai des Tuileries NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Quai d\'Orsay O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 64 Rue de Rivoli O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "102 boulevard de Magenta SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "16 avenue de la Porte des Ternes E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "132 rue Lecourbe NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 85 quai d\'Austerlitz SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "152 boulevard du Montparnasse E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem Cours la Reine E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "39 quai François Mauriac NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "90 Rue De Sèvres NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "90 Rue De Sèvres SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "51 boulevard du Général Martial Valin SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "173 boulevard MacDonald O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Voie Georges Pompidou NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "100 rue La Fayette O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "27 boulevard Davout N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "42 boulevard Soult N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "3 avenue de la Porte D\'Orléans (gare routière) S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "10 boulevard Auguste Blanqui NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "6 rue Julia Bartet NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "20 Avenue de Clichy NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont National NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont National SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont de Bercy NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "62 boulevard Ney E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "28 boulevard Diderot O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 25 quai de l\'Oise SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 21 boulevard de Ménilmontant SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "21 boulevard Saint Michel S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "18 quai de l\'Hôtel de Ville NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "69 Boulevard Ornano N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont du Garigliano SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont Charles De Gaulle SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "27 boulevard Diderot E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont de la Concorde S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "42 boulevard Soult S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "124 boulevard MacDonald E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "27 quai de la Tournelle SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 73 boulevard de Sébastopol S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "180 avenue d\'Italie N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "27 quai de la Tournelle NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem Cours la Reine O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "18 quai de l\'Hôtel de Ville SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "98 boulevard Poniatowski SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "38 rue Turbigo NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "24 boulevard Jourdan E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "87 avenue de Flandre NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "36 quai de Grenelle NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "89 boulevard de Magenta NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "72 boulevard Brune NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 49 boulevard du Général Martial Valin NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 40 quai D\'Issy NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "56 boulevard Kellermann E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "2 avenue de la Porte de Bagnolet O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "20 Avenue de Clichy SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "152 boulevard du Montparnasse O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 84 boulevard Ney O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont Charles De Gaulle NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 16 avenue de la  Porte des Ternes O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 48 quai de la marne NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "147 avenue d\'Italie S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "243 boulevard Saint Germain NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "46 boulevard Davout S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "77 boulevard Richard Lenoir N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 40 quai D\'Issy SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "9 boulevard Jourdan O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "33 avenue des Champs Elysées NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Quai des Tuileries SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Voie Georges Pompidou SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "72 boulevard Richard Lenoir S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "86 boulevard du Général Jean Simon NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "72 avenue de Flandre SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "135 avenue Daumesnil SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont des Invalides N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "105 rue La Fayette E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "6 rue Julia Bartet SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont de la Concorde N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 70 quai de Bercy S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 4 avenue de la porte de Bagnolet E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "254 rue de Vaugirard NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont des Invalides S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face 104 rue d\'Aubervilliers N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "97 avenue Denfert Rochereau SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "36 quai de Grenelle SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont de Bercy SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 85 quai d\'Austerlitz NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 25 quai de l\'Oise NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 64 Rue de Rivoli E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "26 boulevard de Ménilmontant SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "7 avenue de la Grande Armée NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "163 boulevard Brune SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "129 rue Lecourbe SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "28 boulevard Diderot E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 4 avenue de la porte de Bagnolet O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "35 boulevard de Ménilmontant NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "74 Boulevard Ornano S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "30 rue Saint Jacques N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 70 quai de Bercy N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "16 avenue de la Porte de Bagnolet O-E" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Pont du Garigliano NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "77 boulevard Masséna NE-SO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 8 avenue de la porte de Charenton NO-SE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 48 quai de la marne SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "254 rue de Vaugirard SO-NE" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "8 boulevard d\'Indochine S-N" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "81 boulevard Mortier N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Totem 73 boulevard de Sébastopol N-S" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "Face au 8 avenue de la porte de Charenton SE-NO" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#locatedIn> "16 avenue de la Porte de Bagnolet E-O" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/Counter> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-12-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2017-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2012-02-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2017-07-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2021-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-05-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-12-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-02-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-07-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-02-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-09-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-07-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-07-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de Flandre" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047534> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Porte des Ternes" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Ney" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Lecourbe" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de la marne" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Saint Michel" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003099> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue La Fayette" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue Daumesnil" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057380> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Cours la Reine" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont National" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Rue De Sèvres" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056035> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Quai des Tuileries" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Auguste Blanqui" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont du Garigliano" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056331> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai D\'Issy" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050132> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Saint Germain" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de Flandre" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030121> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Brune" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de la Tournelle" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Boulevard Ornano" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056041> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue d\'Italie" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Diderot" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue d\'Italie" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047537> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Ménilmontant" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont de Bercy" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056047> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont de la Concorde" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Lecourbe" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047551> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont du Garigliano" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056038> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue des Champs Elysées" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Richard Lenoir" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Saint Jacques" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030219> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Mortier" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030120> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Jourdan" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard MacDonald" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai François Mauriac" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Boulevard Ornano" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue La Fayette" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Avenue de Clichy" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Porte de Bagnolet" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Magenta" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030871> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Davout" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056334> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Turbigo" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100065336> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Ménilmontant" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la porte de Charenton" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Ney" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Victor" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont des Invalides" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Sébastopol" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Boulevard Ornano" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard du Général Jean Simon" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue des Champs Elysées" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056042> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-07-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021320> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2021-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2013-01-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047542> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100006300> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2013-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047535> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2012-02-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-12-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056036> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056039> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-12-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030922> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060178> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-07-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047549> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100063174> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-07-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047540> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-02-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056044> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047539> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056332> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-12-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056034> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047533> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2021-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056226> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-01-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030926> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056032> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030826> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100060175> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-05-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2012-02-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036718> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2017-07-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057445> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2020-02-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056040> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-10-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056046> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2019-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030967> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2018-12-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100041488> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2013-01-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003097> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2012-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-02-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030960> <http://smart.city.linkeddata.es/lcc/ontology/G5O#installationDate> "2023-03-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100057329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai d\'Austerlitz" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047547> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Julia Bartet" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049407> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard du Montparnasse" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003096> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue Denfert Rochereau" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030908> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard MacDonald" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047536> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Magenta" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100049408> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Auguste Blanqui" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044495> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Grande Armée" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056329> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont Charles De Gaulle" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047544> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Richard Lenoir" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100007049> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Diderot" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030116> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Jourdan" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047546> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de Bercy" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100003098> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue Denfert Rochereau" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030172> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Soult" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030163> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Davout" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044506> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Voltaire" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100042374> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Voie Georges Pompidou" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056225> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Porte D\'Orléans" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056327> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la porte de Bagnolet" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030921> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Masséna" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044493> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Voltaire" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047538> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la  Porte des Ternes" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047541> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont National" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030250> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Poniatowski" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100044494> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Grande Armée" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030838> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "avenue de la Porte de Bagnolet" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047545> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue d\'Aubervilliers" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030996> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard de Ménilmontant" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030139> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Kellermann" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030279> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard du Général Martial Valin" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300021312> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue Saint Jacques" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030160> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Brune" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030271> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard du Général Martial Valin" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030997> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard d\'Indochine" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300030173> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "boulevard Masséna" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056335> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Quai d\'Orsay" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100036719> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de l\'Hôtel de Ville" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/300014702> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "rue de Vaugirard" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056223> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont des Invalides" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056045> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Pont de la Concorde" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100050876> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "Rue de Rivoli" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100056330> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de Grenelle" .
+<http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/100047548> <http://smart.city.linkeddata.es/lcc/ontology/G5O#hasName> "quai de l\'Oise" .
