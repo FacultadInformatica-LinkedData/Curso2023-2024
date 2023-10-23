@@ -1,7 +1,7 @@
-@prefix st: http://smart.city.linkeddata.es/lcc/resource/station/ .
-@prefix cn: http://smart.city.linkeddata.es/lcc/resource/counter/ .
-@prefix tm: http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/ .
-@prefix ns: http://smart.city.linkeddata.es/lcc/ontology/G5O# .
+@prefix st: <http://smart.city.linkeddata.es/lcc/resource/station/> .
+@prefix cn: <http://smart.city.linkeddata.es/lcc/resource/counter/> .
+@prefix tm: <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/> .
+@prefix ns: <http://smart.city.linkeddata.es/lcc/ontology/G5O#> .
 
 # Exampe of an individual of de class Station
 st:station1 a ns:Station ;
