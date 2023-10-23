@@ -570,5 +570,26 @@
     "oldColumnName": "CÓDIGO_BARRIO",
     "newColumnName": "CODIGO_BARRIO",
     "description": "Rename column CÓDIGO_BARRIO to CODIGO_BARRIO"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "CONSUMO",
+          "expression": "value",
+          "columnName": "CONSUMO",
+          "from": -800000,
+          "to": 6000000,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
   }
 ]
