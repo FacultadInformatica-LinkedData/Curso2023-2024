@@ -58,7 +58,7 @@ ns:id a owl:DatatypeProperty ;
     rdfs:range xsd:Integer .
 
 ns:x_coordinate a owl:DatatypeProperty ;
-    rdfs:label "x-coordinate" ;
+    rdfs:label "x_coordinate" ;
     rdfs:domain ns:Building ;
     rdfs:range xsd:String .
 
