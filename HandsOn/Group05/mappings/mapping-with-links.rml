@@ -12,9 +12,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns: <http://smart.city.linkeddata.es/lcc/ontology/G5O#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix st: <http://smart.city.linkeddata.es/lcc/resource/station/> .
-@prefix cn: <http://smart.city.linkeddata.es/lcc/resource/counter/> .
-@prefix tm: <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/> .
+@prefix rs: <http://smart.city.linkeddata.es/lcc/resource/>.
 
 <#TriplesMap1>
   rml:logicalSource [
@@ -24,7 +22,7 @@
 
   rr:subjectMap [
     rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/station/{stationcode}" ;
-    rr:termType rr:IRI; rr:class tm:station
+    rr:termType rr:IRI; rr:class rs:Station
   ];
 
   rr:predicateObjectMap [
@@ -80,7 +78,7 @@
 
   rr:subjectMap [
     rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/timeBicicleCounter/{ID}" ;
-    rr:termType rr:IRI; rr:class tm:timeBicicleCounter
+    rr:termType rr:IRI; rr:class rs:TimeBicicleCounter
   ];
 
   rr:predicateObjectMap [
@@ -118,7 +116,7 @@
   ];
   rr:subjectMap [
     rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/{id}" ;
-    rr:termType rr:IRI; rr:class tm:Counter
+    rr:termType rr:IRI; rr:class rs:Counter
   ];
   rr:predicateObjectMap [
     rr:predicate ns:hasId;
