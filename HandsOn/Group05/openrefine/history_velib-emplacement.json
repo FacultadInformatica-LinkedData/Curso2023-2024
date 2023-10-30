@@ -1,0 +1,29 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordonnees_geo",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column coordonnees_geo by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordonnees_geo 1",
+    "newColumnName": "latitud",
+    "description": "Rename column coordonnees_geo 1 to latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordonnees_geo 2",
+    "newColumnName": "longitud",
+    "description": "Rename column coordonnees_geo 2 to longitud"
+  }
+]
