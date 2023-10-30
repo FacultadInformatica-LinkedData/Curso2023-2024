@@ -1,0 +1,81 @@
+@prefix base: <http://smartcity.group04.es/ontology/EnergyConsumption#> .
+@prefix cv: <https://schema.org/CivicStructure#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <https://www.w3.org/TR/owl-time#> .
+
+base: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+base:consumes a owl:ObjectProperty ;
+    rdfs:label "consumes" ;
+    rdfs:domain base:MunicipalBuilding ;
+    rdfs:range base:EnergyValue .
+
+base:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain base:MunicipalBuilding ;
+    rdfs:range base:District .
+
+base:hasNeighborhood a owl:ObjectProperty ;
+    rdfs:label "has neighborhood" ;
+    rdfs:domain base:MunicipalBuilding ;
+    rdfs:range base:Neighborhood .
+
+base:hasQuantityValue a owl:DatatypeProperty ;
+    rdfs:label "has quantity value" .
+
+base:hasUnitType a owl:ObjectProperty ;
+    rdfs:label "has unit type" ;
+    rdfs:domain base:EnergyValue ;
+    rdfs:range base:UnitOfMeasure .
+
+base:inside a owl:ObjectProperty ;
+    rdfs:label "inside" ;
+    rdfs:domain base:Neighborhood ;
+    rdfs:range base:District .
+
+base:name a owl:DatatypeProperty ;
+    rdfs:label "name" .
+
+base:symbol a owl:DatatypeProperty ;
+    rdfs:label "symbol" .
+
+cv:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" .
+
+cv:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" .
+
+cv:name a owl:DatatypeProperty ;
+    rdfs:label "name" .
+
+cv:address a owl:DatatypeProperty ;
+    rdfs:label "address" .
+
+time:month a owl:DatatypeProperty ;
+    rdfs:label "month" .
+
+time:year a owl:DatatypeProperty ;
+    rdfs:label "year" .
+
+base:UnitOfMeasure a owl:Class ;
+    rdfs:label "Unit Of Measure" .
+
+cv:CivicStructure a owl:Class ;
+    rdfs:label "Civic Structure" .
+
+base:District a owl:Class ;
+    rdfs:label "District" .
+
+base:EnergyValue a owl:Class ;
+    rdfs:label "Energy Value" .
+
+base:Neighborhood a owl:Class ;
+    rdfs:label "Neighborhood" .
+
+base:MunicipalBuilding a owl:Class ;
+    rdfs:label "Municipal Building" ;
+    rdfs:subClassOf cv:CivicStructure .
+

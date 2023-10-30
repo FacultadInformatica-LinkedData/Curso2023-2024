@@ -1,0 +1,27 @@
+@prefix st: <http://smart.city.linkeddata.es/lcc/resource/station/> .
+@prefix cn: <http://smart.city.linkeddata.es/lcc/resource/counter/> .
+@prefix tm: <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/> .
+@prefix ns: <http://smart.city.linkeddata.es/lcc/ontology/G5O#> .
+
+# Exampe of an individual of de class Station
+st:station1 a ns:Station ;
+    ns:hasCode 123 ;
+    ns:hasName "Estación 1" ;
+    ns:hasLatitude 40.7128 ;
+    ns:hasLongitude -74.0060 ;
+    ns:locatedIn "Nueva York" ;
+    ns:hasCapacity 200 .
+
+# Exampe of an individual of de class TimeBicycleCounter
+tm:timeBicycleCounter1 a ns:TimeBicycleCounter ;
+    ns:date "2023-10-20T12:00:00Z"^^xsd:dateTime ;
+    ns:passed 50 .
+
+# Exampe of an individual of de class Counter
+cn:counter1 a ns:Counter ;
+    ns:hasId 789 ;
+    ns:hasName "Contador 1" ;
+    ns:installationDate "2023-10-15"^^xsd:date ;
+    ns:locatedIn "Nueva York" ;  
+    ns:hasLatitude 40.7128 ;
+    ns:hasLongitude -74.0060 .

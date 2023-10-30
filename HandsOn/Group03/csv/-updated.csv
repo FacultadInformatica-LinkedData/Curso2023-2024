@@ -1,0 +1,243 @@
+ID,RegistrationDate,District,Hood,HoodCanonized,Street,StreetCanonized,Direction,DirectionCanonized,Number,Company,Places,Longitude,Latitude
+001a,2019-07-12T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle De Alcala,CalleDeAlcala, Calle De Alcala 2,CalleDeAlcala2,2,BiciMAD,30,-3.701998,40.4171107
+001b,2020-09-02T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle De Alcala,CalleDeAlcala, Calle De Alcala 6,CalleDeAlcala6,6,BiciMAD,30,-3.7015636,40.4172132
+2,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De Miguel Moya,CalleDeMiguelMoya, Calle De Miguel Moya 1,CalleDeMiguelMoya1,1,BiciMAD,24,-3.7056739,40.42058
+3,2014-06-26T00:00:00Z,07Chamberi,07-02Arapiles,07-02Arapiles, Plaza Del Conde Del Valle De Suchil,PlazaDelCondeDelValleDeSuchil, Plaza Del Conde Del Valle De Suchil 2,PlazaDelCondeDelValleDeSuchil2,2,BiciMAD,18,-3.7072122,40.4303224
+4,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De Manuela Malasaña,CalleDeManuelaMalasanna, Calle De Manuela Malasaña 3,CalleDeManuelaMalasanna3,3,BiciMAD,24,-3.7026739,40.4285905
+5,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Fuencarral,CalleDeFuencarral, Calle De Fuencarral 106,CalleDeFuencarral106,106,BiciMAD,27,-3.7020743,40.428362
+6,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Hortaleza,CalleDeHortaleza, Calle De Hortaleza 63,CalleDeHortaleza63,63,BiciMAD,24,-3.6984093,40.4241633
+7,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Hortaleza,CalleDeHortaleza, Calle De Hortaleza 75,CalleDeHortaleza75,75,BiciMAD,21,-3.6977399,40.4252161
+8,2014-06-26T00:00:00Z,07Chamberi,07-04Almagro,07-04Almagro, Plaza De Alonso Martinez,PlazaDeAlonsoMartinez, Plaza De Alonso Martinez 6,PlazaDeAlonsoMartinez6,6,BiciMAD,24,-3.6953067,40.4277143
+9,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Plaza De San Miguel,PlazaDeSanMiguel, Plaza De San Miguel 9,PlazaDeSanMiguel9,9,BiciMAD,24,-3.7094093,40.4156134
+10,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle Del Marques De La Ensenada,CalleDelMarquesDeLaEnsenada, Calle Del Marques De La Ensenada 16,CalleDelMarquesDeLaEnsenada16,16,BiciMAD,24,-3.6920816,40.4254027
+11,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De San Andres,CalleDeSanAndres, Calle De San Andres 20,CalleDeSanAndres20,20,BiciMAD,24,-3.7036192,40.4270517
+12,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De San Bernardo,CalleDeSanBernardo, Calle De San Bernardo 87,CalleDeSanBernardo87,87,BiciMAD,24,-3.7062202,40.4285271
+13,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle Del Conde Duque,CalleDelCondeDuque, Calle Del Conde Duque 22,CalleDelCondeDuque22,22,BiciMAD,24,-3.7104727,40.4273652
+14,2020-05-08T00:00:00Z,09MoncloaAravaca,09-02Argüelles,09-02Arguelles, Calle De Ventura Rodriguez,CalleDeVenturaRodriguez, Calle De Ventura Rodriguez 1,CalleDeVenturaRodriguez1,1,BiciMAD,24,-3.7133768,40.4259913
+15,2020-02-23T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle Del Norte,CalleDelNorte, Calle Del Norte 10,CalleDelNorte10,10,BiciMAD,21,-3.7073611,40.4262937
+16,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De San Bernardo,CalleDeSanBernardo, Calle De San Bernardo 22,CalleDeSanBernardo22,22,BiciMAD,21,-3.7074955,40.4229421
+17,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Plaza De Carlos Cambronero,PlazaDeCarlosCambronero, Plaza De Carlos Cambronero 2,PlazaDeCarlosCambronero2,2,BiciMAD,24,-3.7041859,40.4231675
+18,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Plaza De Pedro Zerolo,PlazaDePedroZerolo, Plaza De Pedro Zerolo 1,PlazaDePedroZerolo1,1,BiciMAD,24,-3.6995679,40.4209206
+19,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Prim,CalleDePrim, Calle De Prim 4,CalleDePrim4,4,BiciMAD,24,-3.6953951,40.4218997
+20,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Alcala,CalleDeAlcala, Calle De Alcala 49,CalleDeAlcala49,49,BiciMAD,24,-3.6952095,40.4191989
+020ampliacion,2018-07-13T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Alcala,CalleDeAlcala, Calle De Alcala 49,CalleDeAlcala49,49,BiciMAD,6,-3.6952901,40.4191858
+22,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle De Jacometrezo,CalleDeJacometrezo, Calle De Jacometrezo 1,CalleDeJacometrezo1,1,BiciMAD,24,-3.7064995,40.4201452
+24,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Calle De Carlos Iii,CalleDeCarlosIii, Calle De Carlos Iii 1,CalleDeCarlosIii1,1,BiciMAD,24,-3.7105866,40.417906
+025a,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Plaza Del Celenque,PlazaDelCelenque, Plaza Del Celenque 1,PlazaDelCelenque1,1,BiciMAD,24,-3.7059978,40.4173416
+025b,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Plaza Del Celenque,PlazaDelCelenque, Plaza Del Celenque 1,PlazaDelCelenque1,1,BiciMAD,24,-3.7060243,40.4172593
+26,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Plaza De Las Salesas,PlazaDeLasSalesas, Plaza De Las Salesas 8,PlazaDeLasSalesas8,8,BiciMAD,24,-3.6945421,40.4238308
+27,2014-06-26T00:00:00Z,01Centro,01-03Cortes,01-03Cortes, Calle De Jesus,CalleDeJesus, Calle De Jesus 6,CalleDeJesus6,6,BiciMAD,27,-3.6955803,40.4132831
+28,2020-07-05T00:00:00Z,01Centro,01-03Cortes,01-03Cortes, Calle De Alcala,CalleDeAlcala, Calle De Alcala 26,CalleDeAlcala26,26,BiciMAD,24,-3.6983662,40.4180695
+29,2014-06-26T00:00:00Z,01Centro,01-03Cortes,01-03Cortes, Calle Del Marques De Cubas,CalleDelMarquesDeCubas, Calle Del Marques De Cubas 25,CalleDelMarquesDeCubas25,25,BiciMAD,24,-3.6958008,40.416244
+30,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Calle De Pavia,CalleDePavia, Calle De Pavia 6,CalleDePavia6,6,BiciMAD,27,-3.7115428,40.4193355
+31,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle Mayor,CalleMayor, Calle Mayor 18,CalleMayor18,18,BiciMAD,27,-3.706625,40.4163446
+32,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Plaza De La Provincia,PlazaDeLaProvincia, Plaza De La Provincia 1,PlazaDeLaProvincia1,1,BiciMAD,18,-3.7061355,40.4148511
+33,2019-02-22T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle De Las Carretas,CalleDeLasCarretas, Calle De Las Carretas 3,CalleDeLasCarretas3,3,BiciMAD,21,-3.7032096,40.4164757
+35,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Plaza Del Cordon,PlazaDelCordon, Plaza Del Cordon 1,PlazaDelCordon1,1,BiciMAD,24,-3.7103676,40.4141792
+36,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Plaza De Ramales,PlazaDeRamales, Plaza De Ramales 5,PlazaDeRamales5,5,BiciMAD,24,-3.711764,40.4168229
+37,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Plaza De San Francisco,PlazaDeSanFrancisco, Plaza De San Francisco 5,PlazaDeSanFrancisco5,5,BiciMAD,24,-3.7141234,40.4108606
+38,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Carrera De San Francisco,CarreraDeSanFrancisco, Carrera De San Francisco 1,CarreraDeSanFrancisco1,1,BiciMAD,24,-3.7114443,40.4112961
+39,2014-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Plaza De La Cebada,PlazaDeLaCebada, Plaza De La Cebada 16,PlazaDeLaCebada16,16,BiciMAD,27,-3.7090043,40.4112662
+40,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle Del Conde De Romanones,CalleDelCondeDeRomanones, Calle Del Conde De Romanones 2,CalleDelCondeDeRomanones2,2,BiciMAD,24,-3.7047463,40.4137865
+41,2019-01-18T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle De Atocha,CalleDeAtocha, Calle De Atocha 56,CalleDeAtocha56,56,BiciMAD,18,-3.6989898,40.412228
+42,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle De Santa Isabel,CalleDeSantaIsabel, Calle De Santa Isabel 32,CalleDeSantaIsabel32,32,BiciMAD,24,-3.6982294,40.4107714
+43,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle De Lavapies,CalleDeLavapies, Calle De Lavapies 36,CalleDeLavapies36,36,BiciMAD,24,-3.7025446,40.4100889
+44,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle Del Meson De Paredes,CalleDelMesonDeParedes, Calle Del Meson De Paredes 35,CalleDelMesonDeParedes35,35,BiciMAD,21,-3.7039138,40.4098162
+45,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Glorieta De La Puerta De Toledo,GlorietaDeLaPuertaDeToledo, Glorieta De La Puerta De Toledo 1,GlorietaDeLaPuertaDeToledo1,1,BiciMAD,21,-3.7111381,40.4069486
+46,2014-06-26T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Calle De La Ribera De Curtidores,CalleDeLaRiberaDeCurtidores, Calle De La Ribera De Curtidores 28,CalleDeLaRiberaDeCurtidores28,28,BiciMAD,24,-3.7071178,40.4054496
+47,2014-06-26T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Glorieta De Embajadores,GlorietaDeEmbajadores, Glorieta De Embajadores 7,GlorietaDeEmbajadores7,7,BiciMAD,24,-3.702755,40.4046233
+48,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Glorieta De Embajadores,GlorietaDeEmbajadores, Glorieta De Embajadores 2,GlorietaDeEmbajadores2,2,BiciMAD,24,-3.7020997,40.4054473
+49,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Ronda De Atocha,RondaDeAtocha, Ronda De Atocha 36,RondaDeAtocha36,36,BiciMAD,24,-3.6992427,40.4060497
+50,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle De Santa Isabel,CalleDeSantaIsabel, Calle De Santa Isabel 57,CalleDeSantaIsabel57,57,BiciMAD,24,-3.69322,40.4083102
+51,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Plaza Del Emperador Carlos V,PlazaDelEmperadorCarlosV, Plaza Del Emperador Carlos V 7,PlazaDelEmperadorCarlosV7,7,BiciMAD,27,-3.6935934,40.4077234
+52,2014-06-26T00:00:00Z,01Centro,01-03Cortes,01-03Cortes, Plaza De Santa Ana,PlazaDeSantaAna, Plaza De Santa Ana 9,PlazaDeSantaAna9,9,BiciMAD,24,-3.7007838,40.4145181
+53,2014-06-26T00:00:00Z,01Centro,01-02Embajadores,01-02Embajadores, Calle De Valencia,CalleDeValencia, Calle De Valencia 2,CalleDeValencia2,2,BiciMAD,24,-3.7007295,40.4082802
+54,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Barcelo,CalleDeBarcelo, Calle De Barcelo 7,CalleDeBarcelo7,7,BiciMAD,21,-3.7003435,40.4266233
+55,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Plaza De San Ildefonso,PlazaDeSanIldefonso, Plaza De San Ildefonso 8,PlazaDeSanIldefonso8,8,BiciMAD,24,-3.7019295,40.4240716
+56,2014-06-26T00:00:00Z,01Centro,01-06Sol,01-06Sol, Plaza Del Carmen,PlazaDelCarmen, Plaza Del Carmen 1,PlazaDelCarmen1,1,BiciMAD,24,-3.7032875,40.418484
+57,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle De Santa Cruz De Marcenado,CalleDeSantaCruzDeMarcenado, Calle De Santa Cruz De Marcenado 24,CalleDeSantaCruzDeMarcenado24,24,BiciMAD,24,-3.7128181,40.4296363
+58,2014-06-26T00:00:00Z,01Centro,01-04Justicia,01-04Justicia, Calle De Augusto Figueroa,CalleDeAugustoFigueroa, Calle De Augusto Figueroa 33,CalleDeAugustoFigueroa33,33,BiciMAD,24,-3.6979458,40.4222601
+59,2014-06-26T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle Del Espiritu Santo,CalleDelEspirituSanto, Calle Del Espiritu Santo 30,CalleDelEspirituSanto30,30,BiciMAD,21,-3.7041167,40.4254802
+60,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Plaza De La Independencia,PlazaDeLaIndependencia, Plaza De La Independencia 7,PlazaDeLaIndependencia7,7,BiciMAD,24,-3.6881994,40.4194508
+61,2014-06-26T00:00:00Z,03Retiro,03-04Ibiza,03-04Ibiza, Calle De O'donnell,CalleDeOdonnell, Calle De O'donnell 30,CalleDeOdonnell30,30,BiciMAD,24,-3.675206,40.4214379
+62,2014-06-26T00:00:00Z,03Retiro,03-04Ibiza,03-04Ibiza, Calle De O'donnell,CalleDeOdonnell, Calle De O'donnell 48,CalleDeOdonnell48,48,BiciMAD,24,-3.6724223,40.4212986
+63,2014-06-26T00:00:00Z,03Retiro,03-04Ibiza,03-04Ibiza, Calle De Ibiza,CalleDeIbiza, Calle De Ibiza 64,CalleDeIbiza64,64,BiciMAD,24,-3.6706508,40.4178926
+65,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Calle De Antonio Maura,CalleDeAntonioMaura, Calle De Antonio Maura 15,CalleDeAntonioMaura15,15,BiciMAD,24,-3.6893825,40.4166859
+67,2014-06-26T00:00:00Z,01Centro,01-03Cortes,01-03Cortes, Calle De Almaden,CalleDeAlmaden, Calle De Almaden 28,CalleDeAlmaden28,28,BiciMAD,24,-3.6931349,40.410829
+68,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Calle De Espalter,CalleDeEspalter, Calle De Espalter 1,CalleDeEspalter1,1,BiciMAD,21,-3.6911649,40.412781
+69,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Calle De Alfonso Xii,CalleDeAlfonsoXii, Calle De Alfonso Xii 54,CalleDeAlfonsoXii54,54,BiciMAD,27,-3.6888669,40.4100609
+70,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Avenida De Menendez Pelayo,AvenidaDeMenendezPelayo, Avenida De Menendez Pelayo 63,AvenidaDeMenendezPelayo63,63,BiciMAD,24,-3.6777994,40.4152203
+71,2014-06-26T00:00:00Z,03Retiro,03-06NiñoJesus,03-06NinnoJesus, Calle Del Doce De Octubre,CalleDelDoceDeOctubre, Calle Del Doce De Octubre 28,CalleDelDoceDeOctubre28,28,BiciMAD,24,-3.674021,40.4160054
+72,2014-06-26T00:00:00Z,03Retiro,03-06NiñoJesus,03-06NinnoJesus, Calle Del Doctor Esquerdo,CalleDelDoctorEsquerdo, Calle Del Doctor Esquerdo 62,CalleDelDoctorEsquerdo62,62,BiciMAD,24,-3.669623,40.415721
+76,2014-06-26T00:00:00Z,03Retiro,03-06NiñoJesus,03-06NinnoJesus, Avenida Del Mediterraneo,AvenidaDelMediterraneo, Avenida Del Mediterraneo 19,AvenidaDelMediterraneo19,19,BiciMAD,24,-3.6751544,40.4072851
+77,2014-06-26T00:00:00Z,03Retiro,03-01Pacifico,03-01Pacifico, Plaza Del Conde De Casal,PlazaDelCondeDeCasal, Plaza Del Conde De Casal 8,PlazaDelCondeDeCasal8,8,BiciMAD,22,-3.6707742,40.4063347
+78,2014-06-26T00:00:00Z,03Retiro,03-02Adelfas,03-02Adelfas, Calle Del Cerro De La Plata,CalleDelCerroDeLaPlata, Calle Del Cerro De La Plata 2,CalleDelCerroDeLaPlata2,2,BiciMAD,24,-3.6745783,40.4005704
+79,2014-06-26T00:00:00Z,03Retiro,03-01Pacifico,03-01Pacifico, Avenida De Menendez Pelayo,AvenidaDeMenendezPelayo, Avenida De Menendez Pelayo 38,AvenidaDeMenendezPelayo38,38,BiciMAD,24,-3.6805524,40.4050482
+82,2014-06-26T00:00:00Z,03Retiro,03-03Estrella,03-03Estrella, Calle De La Lira,CalleDeLaLira, Calle De La Lira 2,CalleDeLaLira2,2,BiciMAD,24,-3.669683,40.4084793
+83,2014-06-26T00:00:00Z,03Retiro,03-06NiñoJesus,03-06NinnoJesus, Calle De Pio Baroja,CalleDePioBaroja, Calle De Pio Baroja 8,CalleDePioBaroja8,8,BiciMAD,24,-3.6745339,40.4132589
+84,2014-06-26T00:00:00Z,03Retiro,03-02Adelfas,03-02Adelfas, Calle Del Doctor Esquerdo,CalleDelDoctorEsquerdo, Calle Del Doctor Esquerdo 191,CalleDelDoctorEsquerdo191,191,BiciMAD,24,-3.6726923,40.4033695
+85,2014-06-26T00:00:00Z,03Retiro,03-05Jeronimos,03-05Jeronimos, Avenida De Menendez Pelayo,AvenidaDeMenendezPelayo, Avenida De Menendez Pelayo 9,AvenidaDeMenendezPelayo9,9,BiciMAD,27,-3.6799299,40.4211415
+87,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Ayala,CalleDeAyala, Calle De Ayala 44,CalleDeAyala44,44,BiciMAD,24,-3.6835631,40.4276717
+88,2014-06-26T00:00:00Z,04Salamanca,04-06Castellana,04-06Castellana, Calle De Velazquez,CalleDeVelazquez, Calle De Velazquez 73,CalleDeVelazquez73,73,BiciMAD,24,-3.6837471,40.4312077
+89,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Ayala,CalleDeAyala, Calle De Ayala 102,CalleDeAyala102,102,BiciMAD,24,-3.6751716,40.4272628
+90,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Goya,CalleDeGoya, Calle De Goya 18,CalleDeGoya18,18,BiciMAD,24,-3.6837297,40.4250878
+090ampliacion,2018-01-18T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Goya,CalleDeGoya, Calle De Goya 20,CalleDeGoya20,20,BiciMAD,6,-3.6835613,40.4250791
+91,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Hermosilla,CalleDeHermosilla, Calle De Hermosilla 73,CalleDeHermosilla73,73,BiciMAD,24,-3.6788203,40.4261113
+92,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Claudio Coello,CalleDeClaudioCoello, Calle De Claudio Coello 45,CalleDeClaudioCoello45,45,BiciMAD,24,-3.6864821,40.4262237
+93,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Goya,CalleDeGoya, Calle De Goya 3,CalleDeGoya3,3,BiciMAD,24,-3.6894124,40.4256984
+94,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Paseo De Recoletos,PaseoDeRecoletos, Paseo De Recoletos 22,PaseoDeRecoletos22,22,BiciMAD,21,-3.6907044,40.4233686
+95,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Claudio Coello,CalleDeClaudioCoello, Calle De Claudio Coello 19,CalleDeClaudioCoello19,19,BiciMAD,24,-3.6869914,40.4226634
+96,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Alcala,CalleDeAlcala, Calle De Alcala 111,CalleDeAlcala111,111,BiciMAD,27,-3.6820471,40.4220516
+97,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Avenida De Menendez Pelayo,AvenidaDeMenendezPelayo, Avenida De Menendez Pelayo 1,AvenidaDeMenendezPelayo1,1,BiciMAD,27,-3.6801515,40.4224846
+98,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Avenida De Felipe Ii,AvenidaDeFelipeIi, Avenida De Felipe Ii 5,AvenidaDeFelipeIi5,5,BiciMAD,24,-3.6754079,40.4241911
+99,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Alcantara,CalleDeAlcantara, Calle De Alcantara 2,CalleDeAlcantara2,2,BiciMAD,24,-3.6739638,40.4261048
+100,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Goya,CalleDeGoya, Calle De Goya 99,CalleDeGoya99,99,BiciMAD,24,-3.6738777,40.4247843
+101,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Jorge Juan,CalleDeJorgeJuan, Calle De Jorge Juan 131,CalleDeJorgeJuan131,131,BiciMAD,24,-3.6694246,40.4231223
+102,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Alcala,CalleDeAlcala, Calle De Alcala 95,CalleDeAlcala95,95,BiciMAD,24,-3.6840806,40.4211552
+103,2014-06-26T00:00:00Z,04Salamanca,04-06Castellana,04-06Castellana, Calle De Jose Ortega Y Gasset,CalleDeJoseOrtegaYGasset, Calle De Jose Ortega Y Gasset 4,CalleDeJoseOrtegaYGasset4,4,BiciMAD,24,-3.6865351,40.4303733
+104,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Paseo De La Castellana,PaseoDeLaCastellana, Paseo De La Castellana 4,PaseoDeLaCastellana4,4,BiciMAD,21,-3.6895792,40.4267658
+105,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Serrano,CalleDeSerrano, Calle De Serrano 46,CalleDeSerrano46,46,BiciMAD,24,-3.6874745,40.4270684
+106a,2014-05-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Serrano,CalleDeSerrano, Calle De Serrano 32,CalleDeSerrano32,32,BiciMAD,18,-3.6878868,40.4248642
+106b,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Serrano,CalleDeSerrano, Calle De Serrano 34,CalleDeSerrano34,34,BiciMAD,18,-3.6878604,40.4250085
+107,2014-06-26T00:00:00Z,04Salamanca,04-01Recoletos,04-01Recoletos, Calle De Serrano,CalleDeSerrano, Calle De Serrano 8,CalleDeSerrano8,8,BiciMAD,24,-3.6884243,40.4215952
+108,2014-06-26T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Las Martires Concepcionistas,CalleDeLasMartiresConcepcionistas, Calle De Las Martires Concepcionistas 2,CalleDeLasMartiresConcepcionistas2,2,BiciMAD,27,-3.670653,40.4274425
+109,2014-06-26T00:00:00Z,04Salamanca,04-06Castellana,04-06Castellana, Calle De Jose Ortega Y Gasset,CalleDeJoseOrtegaYGasset, Calle De Jose Ortega Y Gasset 32,CalleDeJoseOrtegaYGasset32,32,BiciMAD,24,-3.6815253,40.4301281
+111a,2014-06-26T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle Del Arcipreste De Hita,CalleDelArcipresteDeHita, Calle Del Arcipreste De Hita 8,CalleDelArcipresteDeHita8,8,BiciMAD,24,-3.7174896,40.4335742
+111b,2014-06-26T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle Del Arcipreste De Hita,CalleDelArcipresteDeHita, Calle Del Arcipreste De Hita 12,CalleDelArcipresteDeHita12,12,BiciMAD,24,-3.7177783,40.433982
+112,2014-06-26T00:00:00Z,09MoncloaAravaca,09-02Argüelles,09-02Arguelles, Paseo De Moret,PaseoDeMoret, Paseo De Moret 11,PaseoDeMoret11,11,BiciMAD,24,-3.7248727,40.4326267
+113,2014-06-26T00:00:00Z,09MoncloaAravaca,09-01CasaDeCampo,09-01CasaDeCampo, Paseo Del Pintor Rosales,PaseoDelPintorRosales, Paseo Del Pintor Rosales 38,PaseoDelPintorRosales38,38,BiciMAD,24,-3.7207145,40.4277472
+114,2014-06-26T00:00:00Z,09MoncloaAravaca,09-02Argüelles,09-02Arguelles, Calle De Quintana,CalleDeQuintana, Calle De Quintana 13,CalleDeQuintana13,13,BiciMAD,24,-3.7174151,40.4278211
+117,2014-06-29T00:00:00Z,09MoncloaAravaca,09-02Argüelles,09-02Arguelles, Calle De Altamirano,CalleDeAltamirano, Calle De Altamirano 24,CalleDeAltamirano24,24,BiciMAD,24,-3.7189152,40.4309046
+118,2014-06-26T00:00:00Z,02Arganzuela,02-06PalosDeMoguer,02-06PalosDeMoguer, Calle De Juan Martin El Empecinado,CalleDeJuanMartinElEmpecinado, Calle De Juan Martin El Empecinado 16,CalleDeJuanMartinElEmpecinado16,16,BiciMAD,24,-3.688135,40.4007959
+119,2014-06-26T00:00:00Z,02Arganzuela,02-07Atocha,02-07Atocha, Calle De Mendez Alvaro,CalleDeMendezAlvaro, Calle De Mendez Alvaro 7,CalleDeMendezAlvaro7,7,BiciMAD,24,-3.6865777,40.4014567
+120,2014-06-26T00:00:00Z,02Arganzuela,02-06PalosDeMoguer,02-06PalosDeMoguer, Calle De Palos De La Frontera,CalleDePalosDeLaFrontera, Calle De Palos De La Frontera 27,CalleDePalosDeLaFrontera27,27,BiciMAD,24,-3.6947791,40.4030362
+121,2014-06-26T00:00:00Z,02Arganzuela,02-06PalosDeMoguer,02-06PalosDeMoguer, Paseo De Santa Maria De La Cabeza,PaseoDeSantaMariaDeLaCabeza, Paseo De Santa Maria De La Cabeza 58,PaseoDeSantaMariaDeLaCabeza58,58,BiciMAD,24,-3.6986046,40.4018356
+122,2014-06-26T00:00:00Z,07Chamberi,07-04Almagro,07-04Almagro, Calle De Santa Engracia,CalleDeSantaEngracia, Calle De Santa Engracia 16,CalleDeSantaEngracia16,16,BiciMAD,24,-3.6962626,40.429524
+123,2014-06-26T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle De Guzman El Bueno,CalleDeGuzmanElBueno, Calle De Guzman El Bueno 2,CalleDeGuzmanElBueno2,2,BiciMAD,24,-3.7134685,40.4306386
+124,2015-04-07T00:00:00Z,07Chamberi,07-03Trafalgar,07-03Trafalgar, Calle De Manuel Silvela,CalleDeManuelSilvela, Calle De Manuel Silvela 18,CalleDeManuelSilvela18,18,BiciMAD,24,-3.6993182,40.4308173
+125,2015-04-07T00:00:00Z,07Chamberi,07-04Almagro,07-04Almagro, Calle De Fernandez De La Hoz,CalleDeFernandezDeLaHoz, Calle De Fernandez De La Hoz 29,CalleDeFernandezDeLaHoz29,29,BiciMAD,24,-3.6948316,40.4353128
+126,2015-04-07T00:00:00Z,07Chamberi,07-03Trafalgar,07-03Trafalgar, Calle Del General Alvarez De Castro,CalleDelGeneralAlvarezDeCastro, Calle Del General Alvarez De Castro 4,CalleDelGeneralAlvarezDeCastro4,4,BiciMAD,24,-3.7017424,40.4345672
+127,2015-04-07T00:00:00Z,07Chamberi,07-02Arapiles,07-02Arapiles, Calle De Fernando El Catolico,CalleDeFernandoElCatolico, Calle De Fernando El Catolico 19,CalleDeFernandoElCatolico19,19,BiciMAD,24,-3.7083987,40.4339055
+128,2015-04-07T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle De Cea Bermudez,CalleDeCeaBermudez, Calle De Cea Bermudez 59,CalleDeCeaBermudez59,59,BiciMAD,24,-3.7155506,40.4390329
+128ampliacion,2019-03-18T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle De Cea Bermudez,CalleDeCeaBermudez, Calle De Cea Bermudez 59,CalleDeCeaBermudez59,59,BiciMAD,3,-3.7156915,40.4390391
+129,2015-04-07T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Jose Abascal,CalleDeJoseAbascal, Calle De Jose Abascal 33,CalleDeJoseAbascal33,33,BiciMAD,24,-3.6982818,40.4384684
+130,2017-06-24T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Santa Engracia,CalleDeSantaEngracia, Calle De Santa Engracia 129,CalleDeSantaEngracia129,129,BiciMAD,20,-3.7017071,40.4417195
+131,2015-04-07T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Bravo Murillo,CalleDeBravoMurillo, Calle De Bravo Murillo 44,CalleDeBravoMurillo44,44,BiciMAD,24,-3.704022,40.4417543
+132,2015-04-07T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Santa Engracia,CalleDeSantaEngracia, Calle De Santa Engracia 168,CalleDeSantaEngracia168,168,BiciMAD,24,-3.7035911,40.4463889
+133,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Calle De Dulcinea,CalleDeDulcinea, Calle De Dulcinea 3,CalleDeDulcinea3,3,BiciMAD,24,-3.7000292,40.4471673
+134,2015-04-07T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Maria De Guzman,CalleDeMariaDeGuzman, Calle De Maria De Guzman 58,CalleDeMariaDeGuzman58,58,BiciMAD,24,-3.6955114,40.444027
+136,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Paseo De La Castellana,PaseoDeLaCastellana, Paseo De La Castellana 106,PaseoDeLaCastellana106,106,BiciMAD,24,-3.6908127,40.4452833
+137,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Plaza De La Republica Argentina,PlazaDeLaRepublicaArgentina, Plaza De La Republica Argentina 6,PlazaDeLaRepublicaArgentina6,6,BiciMAD,24,-3.6852925,40.4454958
+138,2015-04-07T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Paseo De La Castellana,PaseoDeLaCastellana, Paseo De La Castellana 108,PaseoDeLaCastellana108,108,BiciMAD,24,-3.6915818,40.4456884
+140,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Calle De Velazquez,CalleDeVelazquez, Calle De Velazquez 134,CalleDeVelazquez134,134,BiciMAD,24,-3.6829045,40.438628
+140ampliacion,2020-06-28T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Calle De Velazquez,CalleDeVelazquez, Calle De Velazquez 134,CalleDeVelazquez134,134,BiciMAD,3,-3.6829127,40.4385198
+141,2015-04-07T00:00:00Z,07Chamberi,07-04Almagro,07-04Almagro, Paseo De La Castellana,PaseoDeLaCastellana, Paseo De La Castellana 43,PaseoDeLaCastellana43,43,BiciMAD,12,-3.6892902,40.4354253
+143,2015-04-07T00:00:00Z,04Salamanca,04-05Lista,04-05Lista, Calle De Diego De Leon,CalleDeDiegoDeLeon, Calle De Diego De Leon 54,CalleDeDiegoDeLeon54,54,BiciMAD,24,-3.6782355,40.434616
+144,2015-06-23T00:00:00Z,04Salamanca,04-05Lista,04-05Lista, Calle De Juan Bravo,CalleDeJuanBravo, Calle De Juan Bravo 50,CalleDeJuanBravo50,50,BiciMAD,24,-3.6754628,40.4323192
+145,2015-04-07T00:00:00Z,04Salamanca,04-05Lista,04-05Lista, Calle De Jose Ortega Y Gasset,CalleDeJoseOrtegaYGasset, Calle De Jose Ortega Y Gasset 87,CalleDeJoseOrtegaYGasset87,87,BiciMAD,24,-3.671401,40.4297717
+146,2015-06-23T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Calle De Maria Francisca,CalleDeMariaFrancisca, Calle De Maria Francisca 1,CalleDeMariaFrancisca1,1,BiciMAD,18,-3.67879,40.4442406
+147,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Avenida Del Doctor Arce,AvenidaDelDoctorArce, Avenida Del Doctor Arce 45,AvenidaDelDoctorArce45,45,BiciMAD,24,-3.6795811,40.4483353
+148,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Calle De Serrano,CalleDeSerrano, Calle De Serrano 210,CalleDeSerrano210,210,BiciMAD,24,-3.6816993,40.4510203
+149,2015-04-07T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Paseo De La Habana,PaseoDeLaHabana, Paseo De La Habana 42,PaseoDeLaHabana42,42,BiciMAD,24,-3.6878512,40.4498448
+151,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Calle De Orense,CalleDeOrense, Calle De Orense 10,CalleDeOrense10,10,BiciMAD,24,-3.6952023,40.4488617
+152,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Avenida Del General Peron,AvenidaDelGeneralPeron, Avenida Del General Peron 4,AvenidaDelGeneralPeron4,4,BiciMAD,24,-3.6989497,40.4527163
+153,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Avenida Del General Peron,AvenidaDelGeneralPeron, Avenida Del General Peron 36,AvenidaDelGeneralPeron36,36,BiciMAD,24,-3.6930894,40.45235
+154,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Calle De Orense,CalleDeOrense, Calle De Orense 36,CalleDeOrense36,36,BiciMAD,24,-3.6946736,40.4547769
+155,2015-04-07T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Calle De San Germán,CalleDeSanGerman, Calle De San Germán 55,CalleDeSanGerman55,55,BiciMAD,24,-3.700864,40.4572863
+156,2015-04-07T00:00:00Z,06Tetuan,06-03Castillejos,06-03Castillejos, Calle De Sor Angela De La Cruz,CalleDeSorAngelaDeLaCruz, Calle De Sor Angela De La Cruz 2,CalleDeSorAngelaDeLaCruz2,2,BiciMAD,24,-3.6913229,40.4592406
+158,2015-04-07T00:00:00Z,05Chamartin,05-04Hispanoamerica,05-04Hispanoamerica, Avenida De Alberto Alcocer,AvenidaDeAlbertoAlcocer, Avenida De Alberto Alcocer 22,AvenidaDeAlbertoAlcocer22,22,BiciMAD,24,-3.6847049,40.45862
+159,2015-04-07T00:00:00Z,05Chamartin,05-04Hispanoamerica,05-04Hispanoamerica, Paseo De La Habana,PaseoDeLaHabana, Paseo De La Habana 63,PaseoDeLaHabana63,63,BiciMAD,24,-3.6837348,40.4542549
+160,2015-04-07T00:00:00Z,05Chamartin,05-04Hispanoamerica,05-04Hispanoamerica, Calle De Colombia,CalleDeColombia, Calle De Colombia 7,CalleDeColombia7,7,BiciMAD,24,-3.6766176,40.4571995
+161,2015-04-07T00:00:00Z,09MoncloaAravaca,09-01CasaDeCampo,09-01CasaDeCampo, Paseo De La Florida,PaseoDeLaFlorida, Paseo De La Florida 8,PaseoDeLaFlorida8,8,BiciMAD,24,-3.7220624,40.4221372
+161ampliacion,2018-09-15T00:00:00Z,09MoncloaAravaca,09-01CasaDeCampo,09-01CasaDeCampo, Paseo De La Florida,PaseoDeLaFlorida, Paseo De La Florida 6,PaseoDeLaFlorida6,6,BiciMAD,3,-3.7219659,40.4220566
+162,2015-04-07T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Paseo De Los Olmos,PaseoDeLosOlmos, Paseo De Los Olmos 28,PaseoDeLosOlmos28,28,BiciMAD,24,-3.7107559,40.4035176
+164,2015-04-07T00:00:00Z,02Arganzuela,02-05Delicias,02-05Delicias, Paseo De Las Delicias,PaseoDeLasDelicias, Paseo De Las Delicias 94,PaseoDeLasDelicias94,94,BiciMAD,24,-3.6944851,40.3971366
+165,2019-09-13T00:00:00Z,02Arganzuela,02-03Chopera,02-03Chopera, Paseo De La Chopera,PaseoDeLaChopera, Paseo De La Chopera 49,PaseoDeLaChopera49,49,BiciMAD,27,-3.6976134,40.3928841
+166,2016-06-26T00:00:00Z,01Centro,01-01Palacio,01-01Palacio, Calle De Segovia,CalleDeSegovia, Calle De Segovia 21,CalleDeSegovia21,21,BiciMAD,24,-3.7133382,40.4139396
+167,2017-05-25T00:00:00Z,02Arganzuela,02-01Imperial,02-01Imperial, Calle De Segovia,CalleDeSegovia, Calle De Segovia 47,CalleDeSegovia47,47,BiciMAD,24,-3.7176456,40.4137331
+168,2019-10-17T00:00:00Z,02Arganzuela,02-06PalosDeMoguer,02-06PalosDeMoguer, Paseo De Santa Maria De La Cabeza,PaseoDeSantaMariaDeLaCabeza, Paseo De Santa Maria De La Cabeza 32,PaseoDeSantaMariaDeLaCabeza32,32,BiciMAD,24,-3.6959159,40.4045828
+169,2019-08-25T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Calle De Toledo,CalleDeToledo, Calle De Toledo 181,CalleDeToledo181,181,BiciMAD,24,-3.713846,40.401578
+170,2019-06-07T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Paseo De La Esperanza,PaseoDeLaEsperanza, Paseo De La Esperanza 21,PaseoDeLaEsperanza21,21,BiciMAD,24,-3.704403,40.4011039
+171,2019-06-07T00:00:00Z,02Arganzuela,02-05Delicias,02-05Delicias, Calle De Embajadores,CalleDeEmbajadores, Calle De Embajadores 97,CalleDeEmbajadores97,97,BiciMAD,24,-3.6984459,40.3997626
+172,2019-05-10T00:00:00Z,02Arganzuela,02-06PalosDeMoguer,02-06PalosDeMoguer, Calle De Bustamante,CalleDeBustamante, Calle De Bustamante 1,CalleDeBustamante1,1,BiciMAD,24,-3.6935448,40.4008683
+173,2019-08-25T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Paseo De La Esperanza,PaseoDeLaEsperanza, Paseo De La Esperanza 59,PaseoDeLaEsperanza59,59,BiciMAD,24,-3.7023615,40.3981757
+174,2019-09-13T00:00:00Z,02Arganzuela,02-02Acacias,02-02Acacias, Paseo De Las Yeserias,PaseoDeLasYeserias, Paseo De Las Yeserias 8,PaseoDeLasYeserias8,8,BiciMAD,27,-3.7063771,40.397417
+175,2019-06-28T00:00:00Z,02Arganzuela,02-03Chopera,02-03Chopera, Calle De Jaime El Conquistador,CalleDeJaimeElConquistador, Calle De Jaime El Conquistador 30,CalleDeJaimeElConquistador30,30,BiciMAD,21,-3.6983033,40.3962687
+176,2019-06-21T00:00:00Z,02Arganzuela,02-05Delicias,02-05Delicias, Calle De Alicante,CalleDeAlicante, Calle De Alicante 3,CalleDeAlicante3,3,BiciMAD,24,-3.6936302,40.3942411
+177,2019-06-21T00:00:00Z,02Arganzuela,02-05Delicias,02-05Delicias, Calle De Bolivar,CalleDeBolivar, Calle De Bolivar 3,CalleDeBolivar3,3,BiciMAD,24,-3.694087,40.3915019
+178,2020-02-23T00:00:00Z,03Retiro,03-01Pacifico,03-01Pacifico, Calle De Leon Gil De Palacio,CalleDeLeonGilDePalacio, Calle De Leon Gil De Palacio 1,CalleDeLeonGilDePalacio1,1,BiciMAD,24,-3.6788939,40.4030242
+180,2019-09-14T00:00:00Z,02Arganzuela,02-07Atocha,02-07Atocha, Calle De La Retama,CalleDeLaRetama, Calle De La Retama 5,CalleDeLaRetama5,5,BiciMAD,24,-3.6759244,40.3941252
+181,2019-06-21T00:00:00Z,03Retiro,03-04Ibiza,03-04Ibiza, Calle De Ibiza,CalleDeIbiza, Calle De Ibiza 18,CalleDeIbiza18,18,BiciMAD,27,-3.67664,40.4181748
+182,2019-05-30T00:00:00Z,03Retiro,03-03Estrella,03-03Estrella, Calle Del Alcalde Sainz De Baranda,CalleDelAlcaldeSainzDeBaranda, Calle Del Alcalde Sainz De Baranda 90,CalleDelAlcaldeSainzDeBaranda90,90,BiciMAD,24,-3.6655023,40.4187145
+183,2019-04-08T00:00:00Z,04Salamanca,04-02Goya,04-02Goya, Calle De Hermosilla,CalleDeHermosilla, Calle De Hermosilla 135,CalleDeHermosilla135,135,BiciMAD,24,-3.6694506,40.4256358
+184,2019-04-08T00:00:00Z,04Salamanca,04-03FuenteDelBerro,04-03FuenteDelBerro, Paseo Del Marques De Zafra,PaseoDelMarquesDeZafra, Paseo Del Marques De Zafra 24,PaseoDelMarquesDeZafra24,24,BiciMAD,24,-3.6653095,40.4260023
+185,2019-04-08T00:00:00Z,04Salamanca,04-03FuenteDelBerro,04-03FuenteDelBerro, Glorieta Del Marques De Zafra,GlorietaDelMarquesDeZafra, Glorieta Del Marques De Zafra 4,GlorietaDelMarquesDeZafra4,4,BiciMAD,24,-3.661533,40.4250682
+186,2019-03-10T00:00:00Z,04Salamanca,04-05Lista,04-05Lista, Calle Del General Pardiñas,CalleDelGeneralPardinnas, Calle Del General Pardiñas 56,CalleDelGeneralPardinnas56,56,BiciMAD,24,-3.6782783,40.429069
+187,2019-12-07T00:00:00Z,04Salamanca,04-03FuenteDelBerro,04-03FuenteDelBerro, Calle De Alejandro Gonzalez,CalleDeAlejandroGonzalez, Calle De Alejandro Gonzalez 1,CalleDeAlejandroGonzalez1,1,BiciMAD,24,-3.6638407,40.4301353
+188,2019-09-15T00:00:00Z,15CiudadLineal,15-01Ventas,15-01Ventas, Avenida De Daroca,AvenidaDeDaroca, Avenida De Daroca 2,AvenidaDeDaroca2,2,BiciMAD,27,-3.6589062,40.4311658
+189,2019-10-24T00:00:00Z,15CiudadLineal,15-04Concepcion,15-04Concepcion, Calle De La Virgen De La Alegria,CalleDeLaVirgenDeLaAlegria, Calle De La Virgen De La Alegria 18,CalleDeLaVirgenDeLaAlegria18,18,BiciMAD,24,-3.6555431,40.4350206
+190,2019-04-08T00:00:00Z,04Salamanca,04-06Castellana,04-06Castellana, Calle De Velazquez,CalleDeVelazquez, Calle De Velazquez 91,CalleDeVelazquez91,91,BiciMAD,24,-3.6834711,40.4343761
+191,2019-08-26T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Calle De Alonso Heredia,CalleDeAlonsoHeredia, Calle De Alonso Heredia 1,CalleDeAlonsoHeredia1,1,BiciMAD,18,-3.6740365,40.4346168
+192,2019-06-21T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Avenida De Los Toreros,AvenidaDeLosToreros, Avenida De Los Toreros 3,AvenidaDeLosToreros3,3,BiciMAD,27,-3.6714315,40.431855
+193,2019-06-21T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Avenida De Los Toreros,AvenidaDeLosToreros, Avenida De Los Toreros 47,AvenidaDeLosToreros47,47,BiciMAD,24,-3.665644,40.4325204
+194,2019-03-10T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Calle De Francisco Silvela,CalleDeFranciscoSilvela, Calle De Francisco Silvela 86,CalleDeFranciscoSilvela86,86,BiciMAD,24,-3.6771947,40.4371986
+195,2019-03-10T00:00:00Z,05Chamartin,05-02Prosperidad,05-02Prosperidad, Calle Del Padre Indalecio Hernandez,CalleDelPadreIndalecioHernandez, Calle Del Padre Indalecio Hernandez 1,CalleDelPadreIndalecioHernandez1,1,BiciMAD,24,-3.6754913,40.4392483
+196,2019-10-24T00:00:00Z,05Chamartin,05-03CiudadJardin,05-03CiudadJardin, Calle De Suero De Quiñones,CalleDeSueroDeQuinnones, Calle De Suero De Quiñones 2,CalleDeSueroDeQuinnones2,2,BiciMAD,24,-3.6750918,40.4440957
+198,2019-10-17T00:00:00Z,07Chamberi,07-04Almagro,07-04Almagro, Glorieta De Ruben Dario,GlorietaDeRubenDario, Glorieta De Ruben Dario 2,GlorietaDeRubenDario2,2,BiciMAD,24,-3.6915713,40.4331172
+199,2019-06-28T00:00:00Z,07Chamberi,07-01Gaztambide,07-01Gaztambide, Calle De Fernando El Catolico,CalleDeFernandoElCatolico, Calle De Fernando El Catolico 61,CalleDeFernandoElCatolico61,61,BiciMAD,27,-3.7148406,40.4343244
+200,2019-09-09T00:00:00Z,07Chamberi,07-02Arapiles,07-02Arapiles, Glorieta De Quevedo,GlorietaDeQuevedo, Glorieta De Quevedo 4,GlorietaDeQuevedo4,4,BiciMAD,24,-3.704671,40.4336617
+201,2019-10-24T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Jose Abascal,CalleDeJoseAbascal, Calle De Jose Abascal 2,CalleDeJoseAbascal2,2,BiciMAD,24,-3.7038161,40.4387323
+203,2019-05-30T00:00:00Z,07Chamberi,07-06Vallehermoso,07-06Vallehermoso, Calle Del General Ampudia,CalleDelGeneralAmpudia, Calle Del General Ampudia 2,CalleDelGeneralAmpudia2,2,BiciMAD,24,-3.7144239,40.4417547
+204,2019-04-08T00:00:00Z,06Tetuan,06-01BellasVistas,06-01BellasVistas, Calle Del Doctor Santero,CalleDelDoctorSantero, Calle Del Doctor Santero 1,CalleDelDoctorSantero1,1,BiciMAD,24,-3.7041702,40.4476606
+205,2019-06-21T00:00:00Z,06Tetuan,06-01BellasVistas,06-01BellasVistas, Calle De Navarra,CalleDeNavarra, Calle De Navarra 1,CalleDeNavarra1,1,BiciMAD,24,-3.7033408,40.4535024
+206,2019-09-15T00:00:00Z,06Tetuan,06-06Berruguete,06-06Berruguete, Calle Del Marques De Viana,CalleDelMarquesDeViana, Calle Del Marques De Viana 5,CalleDelMarquesDeViana5,5,BiciMAD,24,-3.6990499,40.4607994
+207,2019-07-26T00:00:00Z,06Tetuan,06-05Valdeacederas,06-05Valdeacederas, Calle De Las Azucenas,CalleDeLasAzucenas, Calle De Las Azucenas 1,CalleDeLasAzucenas1,1,BiciMAD,18,-3.6973991,40.4630291
+209,2019-03-10T00:00:00Z,05Chamartin,05-05NuevaEspaña,05-05NuevaEspanna, Plaza De Castilla,PlazaDeCastilla, Plaza De Castilla 9,PlazaDeCastilla9,9,BiciMAD,24,-3.6887875,40.4656872
+210,2019-07-19T00:00:00Z,01Centro,01-06Sol,01-06Sol, Calle De Las Tres Cruces,CalleDeLasTresCruces, Calle De Las Tres Cruces 9,CalleDeLasTresCruces9,9,BiciMAD,27,-3.702631,40.4197538
+211,2019-08-23T00:00:00Z,01Centro,01-05Universidad,01-05Universidad, Calle Del Desengaño,CalleDelDesenganno, Calle Del Desengaño 3,CalleDelDesenganno3,3,BiciMAD,24,-3.7025369,40.4206168
+212,2020-06-29T00:00:00Z,11Carabanchel,11-03SanIsidro,11-03SanIsidro, Glorieta Del Marques De Vadillo,GlorietaDelMarquesDeVadillo, Glorieta Del Marques De Vadillo 9,GlorietaDelMarquesDeVadillo9,9,BiciMAD,24,-3.7165313,40.3981605
+213,2020-09-18T00:00:00Z,12Usera,12-05Moscardo,12-05Moscardo, Calle De Antonio Lopez,CalleDeAntonioLopez, Calle De Antonio Lopez 129,CalleDeAntonioLopez129,129,BiciMAD,24,-3.7001575,40.3889363
+214,2020-10-25T00:00:00Z,15CiudadLineal,15-05SanPascual,15-05SanPascual, Calle De La Condesa De Venadito,CalleDeLaCondesaDeVenadito, Calle De La Condesa De Venadito 2,CalleDeLaCondesaDeVenadito2,2,BiciMAD,24,-3.6569597,40.4434012
+215,2020-10-25T00:00:00Z,15CiudadLineal,15-02PuebloNuevo,15-02PuebloNuevo, Calle De Gutierre De Cetina,CalleDeGutierreDeCetina, Calle De Gutierre De Cetina 77,CalleDeGutierreDeCetina77,77,BiciMAD,24,-3.6409697,40.4296903
+216,2020-10-26T00:00:00Z,10Latina,10-02PuertaDelAngel,10-02PuertaDelAngel, Plaza De La Puerta Del Angel,PlazaDeLaPuertaDelAngel, Plaza De La Puerta Del Angel 3,PlazaDeLaPuertaDelAngel3,3,BiciMAD,24,-3.7288948,40.4140528
+217,2020-10-31T00:00:00Z,08FuencarralElPardo,08-05LaPaz,08-05LaPaz, Calle De Pedro Rico,CalleDePedroRico, Calle De Pedro Rico 4,CalleDePedroRico4,4,BiciMAD,24,-3.6891094,40.4810028
+218,2020-11-21T00:00:00Z,14Moratalaz,14-04MediaLegua,14-04MediaLegua, Calle Del Camino De Los Vinateros,CalleDelCaminoDeLosVinateros, Calle Del Camino De Los Vinateros 28,CalleDelCaminoDeLosVinateros28,28,BiciMAD,24,-3.6573999,40.4105519
+219,2020-11-21T00:00:00Z,14Moratalaz,14-03Marroquina,14-03Marroquina, Calle Del Camino De Los Vinateros,CalleDelCaminoDeLosVinateros, Calle Del Camino De Los Vinateros 108,CalleDelCaminoDeLosVinateros108,108,BiciMAD,24,-3.6467783,40.4083961
+220,2020-11-21T00:00:00Z,14Moratalaz,14-04MediaLegua,14-04MediaLegua, Calle Del Arroyo De Las Pilillas,CalleDelArroyoDeLasPilillas, Calle Del Arroyo De Las Pilillas 4,CalleDelArroyoDeLasPilillas4,4,BiciMAD,24,-3.6514264,40.4061548
+221,2020-11-21T00:00:00Z,14Moratalaz,14-01Pavones,14-01Pavones, Calle De La Hacienda De Pavones,CalleDeLaHaciendaDePavones, Calle De La Hacienda De Pavones 346,CalleDeLaHaciendaDePavones346,346,BiciMAD,24,-3.6346859,40.4004579
+222,2020-07-12T00:00:00Z,12Usera,12-05Moscardo,12-05Moscardo, Calle De Eugenio Caxes,CalleDeEugenioCaxes, Calle De Eugenio Caxes 5,CalleDeEugenioCaxes5,5,BiciMAD,24,-3.7026887,40.3917816
+223,2020-07-12T00:00:00Z,10Latina,10-01Carmenes,10-01Carmenes, Paseo De La Ermita Del Santo,PaseoDeLaErmitaDelSanto, Paseo De La Ermita Del Santo 48,PaseoDeLaErmitaDelSanto48,48,BiciMAD,24,-3.7245226,40.4064341
+224,2020-07-12T00:00:00Z,10Latina,10-02PuertaDelAngel,10-02PuertaDelAngel, Calle De Caramuel,CalleDeCaramuel, Calle De Caramuel 52,CalleDeCaramuel52,52,BiciMAD,24,-3.7288262,40.408882
+225,2020-12-19T00:00:00Z,13PuenteDeVallecas,13-06Numancia,13-06Numancia, Calle De La Sierra Toledana,CalleDeLaSierraToledana, Calle De La Sierra Toledana 33,CalleDeLaSierraToledana33,33,BiciMAD,24,-3.6601933,40.4026388
+226,2020-12-19T00:00:00Z,13PuenteDeVallecas,13-06Numancia,13-06Numancia, Camino De Valderribas,CaminoDeValderribas, Camino De Valderribas 94,CaminoDeValderribas94,94,BiciMAD,24,-3.6606789,40.3991986
+227,2020-12-19T00:00:00Z,13PuenteDeVallecas,13-02SanDiego,13-02SanDiego, Calle Del Arroyo Del Olivar,CalleDelArroyoDelOlivar, Calle Del Arroyo Del Olivar 4,CalleDelArroyoDelOlivar4,4,BiciMAD,24,-3.6661421,40.3940355
+228,2020-12-19T00:00:00Z,11Carabanchel,11-01Comilla,11-01Comilla, Calle De San Delfin,CalleDeSanDelfin, Calle De San Delfin 9,CalleDeSanDelfin9,9,BiciMAD,24,-3.7080437,40.3943842
+229,2020-12-19T00:00:00Z,15CiudadLineal,15-04Concepcion,15-04Concepcion, Calle De Jose Del Hierro,CalleDeJoseDelHierro, Calle De Jose Del Hierro 5,CalleDeJoseDelHierro5,5,BiciMAD,24,-3.6486507,40.4370782
+230,2020-12-19T00:00:00Z,15CiudadLineal,15-05SanPascual,15-05SanPascual, Calle De Carlota O'neill,CalleDeCarlotaOneill, Calle De Carlota O'neill 32,CalleDeCarlotaOneill32,32,BiciMAD,24,-3.6491034,40.4436986
+231,2020-12-19T00:00:00Z,15CiudadLineal,15-05SanPascual,15-05SanPascual, Calle De Los Derechos Humanos,CalleDeLosDerechosHumanos, Calle De Los Derechos Humanos 14,CalleDeLosDerechosHumanos14,14,BiciMAD,24,-3.6558172,40.439748
+232,2020-12-19T00:00:00Z,15CiudadLineal,15-01Ventas,15-01Ventas, Calle De Jose Maria Pereda,CalleDeJoseMariaPereda, Calle De Jose Maria Pereda 1,CalleDeJoseMariaPereda1,1,BiciMAD,24,-3.6485701,40.4328362
+233,2020-12-19T00:00:00Z,15CiudadLineal,15-01Ventas,15-01Ventas, Avenida Del Marques De Corbera,AvenidaDelMarquesDeCorbera, Avenida Del Marques De Corbera 12,AvenidaDelMarquesDeCorbera12,12,BiciMAD,24,-3.655633,40.4229144
+234,2020-12-19T00:00:00Z,15CiudadLineal,15-01Ventas,15-01Ventas, Avenida Del Marques De Corbera,AvenidaDelMarquesDeCorbera, Avenida Del Marques De Corbera 52,AvenidaDelMarquesDeCorbera52,52,BiciMAD,24,-3.651125,40.426163
+235,2020-12-19T00:00:00Z,02Arganzuela,02-04Legazpi,02-04Legazpi, Calle Del Sodio,CalleDelSodio, Calle Del Sodio 1,CalleDelSodio1,1,BiciMAD,24,-3.6911834,40.3889853
+236,2020-12-19T00:00:00Z,02Arganzuela,02-01Imperial,02-01Imperial, Paseo Imperial,PaseoImperial, Paseo Imperial 20,PaseoImperial20,20,BiciMAD,24,-3.7171449,40.4074236
+238,2020-12-19T00:00:00Z,06Tetuan,06-02CuatroCaminos,06-02CuatroCaminos, Calle De San Germán,CalleDeSanGerman, Calle De San Germán 5,CalleDeSanGerman5,5,BiciMAD,24,-3.6932474,40.4562183
+239,2020-12-19T00:00:00Z,06Tetuan,06-06Berruguete,06-06Berruguete, Calle De Francos Rodriguez,CalleDeFrancosRodriguez, Calle De Francos Rodriguez 62,CalleDeFrancosRodriguez62,62,BiciMAD,24,-3.7079276,40.4567345
+240,2021-01-01T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Avenida De Brasilia,AvenidaDeBrasilia, Avenida De Brasilia 9,AvenidaDeBrasilia9,9,BiciMAD,24,-3.6609886,40.4367138
+241,2021-01-01T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Avenida De Camilo Jose Cela,AvenidaDeCamiloJoseCela, Avenida De Camilo Jose Cela 23,AvenidaDeCamiloJoseCela23,23,BiciMAD,24,-3.6677796,40.4377568
+242,2021-01-01T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Avenida De Bruselas,AvenidaDeBruselas, Avenida De Bruselas 56,AvenidaDeBruselas56,56,BiciMAD,24,-3.6629058,40.4394662
+243,2021-01-01T00:00:00Z,04Salamanca,04-04Guindalera,04-04Guindalera, Calle De Cartagena,CalleDeCartagena, Calle De Cartagena 38,CalleDeCartagena38,38,BiciMAD,24,-3.6700894,40.4351648
+244,2021-01-01T00:00:00Z,07Chamberi,07-06Vallehermoso,07-06Vallehermoso, Calle De Isaac Peral,CalleDeIsaacPeral, Calle De Isaac Peral 44,CalleDeIsaacPeral44,44,BiciMAD,24,-3.7175468,40.4398513
+245,2021-01-01T00:00:00Z,07Chamberi,07-02Arapiles,07-02Arapiles, Calle De Galileo,CalleDeGalileo, Calle De Galileo 63,CalleDeGalileo63,63,BiciMAD,24,-3.7101726,40.4364656
+246,2021-01-01T00:00:00Z,07Chamberi,07-03Trafalgar,07-03Trafalgar, Calle De Santa Engracia,CalleDeSantaEngracia, Calle De Santa Engracia 87,CalleDeSantaEngracia87,87,BiciMAD,24,-3.699252,40.436026
+247,2021-01-01T00:00:00Z,07Chamberi,07-05RiosRosas,07-05RiosRosas, Calle De Zurbano,CalleDeZurbano, Calle De Zurbano 90,CalleDeZurbano90,90,BiciMAD,24,-3.692843,40.4383672
+248,2021-01-01T00:00:00Z,08FuencarralElPardo,08-05LaPaz,08-05LaPaz, Calle De Sinesio Delgado,CalleDeSinesioDelgado, Calle De Sinesio Delgado 2,CalleDeSinesioDelgado2,2,BiciMAD,24,-3.6878414,40.4743243
+249,2021-01-01T00:00:00Z,05Chamartin,05-06Castilla,05-06Castilla, Paseo De La Castellana,PaseoDeLaCastellana, Paseo De La Castellana 298,PaseoDeLaCastellana298,298,BiciMAD,24,-3.6852959,40.4794159
+250,2021-01-01T00:00:00Z,05Chamartin,05-01ElViso,05-01ElViso, Calle De Serrano,CalleDeSerrano, Calle De Serrano 113,CalleDeSerrano113,113,BiciMAD,24,-3.6861,40.4408151
+251,2021-01-01T00:00:00Z,05Chamartin,05-02Prosperidad,05-02Prosperidad, Calle De Santa Hortensia,CalleDeSantaHortensia, Calle De Santa Hortensia 31,CalleDeSantaHortensia31,31,BiciMAD,24,-3.6668532,40.444183
+253,2021-01-01T00:00:00Z,05Chamartin,05-04Hispanoamerica,05-04Hispanoamerica, Calle Del Doctor Fleming,CalleDelDoctorFleming, Calle Del Doctor Fleming 7,CalleDelDoctorFleming7,7,BiciMAD,24,-3.688443,40.455606
+254,2021-01-01T00:00:00Z,05Chamartin,05-05NuevaEspaña,05-05NuevaEspanna, Avenida De Pio Xii,AvenidaDePioXii, Avenida De Pio Xii 3,AvenidaDePioXii3,3,BiciMAD,24,-3.6765549,40.4610436
+255,2021-01-01T00:00:00Z,05Chamartin,05-05NuevaEspaña,05-05NuevaEspanna, Calle Del General Lopez Pozas,CalleDelGeneralLopezPozas, Calle Del General Lopez Pozas 2,CalleDelGeneralLopezPozas2,2,BiciMAD,24,-3.6851815,40.4637286
+256,2021-01-01T00:00:00Z,09MoncloaAravaca,09-03CiudadUniversitaria,09-03CiudadUniversitaria, Calle De Beatriz De Bobadilla,CalleDeBeatrizDeBobadilla, Calle De Beatriz De Bobadilla 2,CalleDeBeatrizDeBobadilla2,2,BiciMAD,24,-3.7138353,40.4463599
+257,2021-01-01T00:00:00Z,09MoncloaAravaca,09-03CiudadUniversitaria,09-03CiudadUniversitaria, Avenida De Juan De Herrera,AvenidaDeJuanDeHerrera, Avenida De Juan De Herrera 1,AvenidaDeJuanDeHerrera1,1,BiciMAD,24,-3.73029,40.438804
+258,2021-01-01T00:00:00Z,09MoncloaAravaca,09-03CiudadUniversitaria,09-03CiudadUniversitaria, Avenida Complutense,AvenidaComplutense, Avenida Complutense 14,AvenidaComplutense14,14,BiciMAD,24,-3.7273004,40.449019
+261,2021-01-01T00:00:00Z,09MoncloaAravaca,09-03CiudadUniversitaria,09-03CiudadUniversitaria, Avenida Complutense,AvenidaComplutense, Avenida Complutense 7,AvenidaComplutense7,7,BiciMAD,24,-3.7292576,40.4505032
