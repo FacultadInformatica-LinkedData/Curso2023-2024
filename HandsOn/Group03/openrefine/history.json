@@ -1,0 +1,1744 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Alta",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Alta using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Alta",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Alta using expression value.toString()"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Calle",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Calle by separator"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Calle 2",
+    "expression": "join ([coalesce(cells['Calle 2'].value,''),coalesce(cells['Calle 3'].value,''),coalesce(cells['Calle 1'].value,'')],',')",
+    "onError": "keep-original",
+    "newColumnName": "Street",
+    "columnInsertIndex": 8,
+    "description": "Create column Street at index 8 based on column Calle 2 using expression join ([coalesce(cells['Calle 2'].value,''),coalesce(cells['Calle 3'].value,''),coalesce(cells['Calle 1'].value,'')],',')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "﻿Número",
+      "Gis_X",
+      "Gis_Y",
+      "Fecha de Alta",
+      "Distrito",
+      "Barrio",
+      "Street",
+      "Nº Finca",
+      "Tipo de Reserva",
+      "Número de Plazas",
+      "Longitud",
+      "Latitud",
+      "Direccion"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street",
+    "expression": "join ([cells['Street'].value,cells['Nº Finca'].value],' ')",
+    "onError": "keep-original",
+    "newColumnName": "Direction",
+    "columnInsertIndex": 7,
+    "description": "Create column Direction at index 7 based on column Street using expression join ([cells['Street'].value,cells['Nº Finca'].value],' ')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio",
+    "newColumnName": "Hood",
+    "description": "Rename column Barrio to Hood"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito",
+    "newColumnName": "District",
+    "description": "Rename column Distrito to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tipo de Reserva",
+    "newColumnName": "Company",
+    "description": "Rename column Tipo de Reserva to Company"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_X",
+    "description": "Remove column Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_Y",
+    "description": "Remove column Gis_Y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Longitud",
+    "newColumnName": "Longitude",
+    "description": "Rename column Longitud to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Latitud",
+    "newColumnName": "Latitude",
+    "description": "Rename column Latitud to Latitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direccion",
+    "description": "Remove column Direccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de Plazas",
+    "newColumnName": "Places",
+    "description": "Rename column Número de Plazas to Places"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº Finca",
+    "newColumnName": "Number",
+    "description": "Rename column Nº Finca to Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿Número",
+    "newColumnName": "ID",
+    "description": "Rename column ﻿Número to ID"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Places",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Places using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 9"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 52"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "52"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 298"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "298"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente al 14"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "14"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 9"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 63"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "49"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 38"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "38"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 36"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "36"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 32"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "32"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 27"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "27"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "frente 108"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "108"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8 B"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "7 B"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "47 A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "47"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "113 b"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "113"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "22 A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "22"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0,083333333"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S/N"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1 B"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column Number"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direction",
+    "description": "Remove column Direction"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street",
+    "expression": "join ([cells['Street'].value,cells['Number'].value],' ')",
+    "onError": "keep-original",
+    "newColumnName": "Direction",
+    "columnInsertIndex": 5,
+    "description": "Create column Direction at index 5 based on column Street using expression join ([cells['Street'].value,cells['Number'].value],' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " AUTOVIA,,M-30 S/N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " AUTOVIA,M-30 S/N"
+      }
+    ],
+    "description": "Mass edit cells in column Direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " AUTOVIA,M-30 S/N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " AUTOVIA, M-30 S/N"
+      }
+    ],
+    "description": "Mass edit cells in column Direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " AVENIDA,,COMPLUTENSE 14"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " AVENIDA, COMPLUTENSE 14"
+      }
+    ],
+    "description": "Mass edit cells in column Direction"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " PASEO,,IMPERIAL 20"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " PASEO,IMPERIAL 20"
+      }
+    ],
+    "description": "Mass edit cells in column Direction"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Street by separator"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " DE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE,"
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " DE LAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LAS,"
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " DEL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DEL,"
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " DE LOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LOS,"
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " DE LA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LA,"
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ", DE LA,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LA, "
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ", DE LAS,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LAS, "
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ", DE LOS,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE LOS, "
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ", DE,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DE, "
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ", DEL,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ", DEL, "
+      }
+    ],
+    "description": "Mass edit cells in column Street 2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street 1",
+    "expression": "join ([coalesce(cells['Street 1'].value,''),coalesce(cells['Street 2'].value,''),coalesce(cells['Street 3'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "Street",
+    "columnInsertIndex": 5,
+    "description": "Create column Street at index 5 based on column Street 1 using expression join ([coalesce(cells['Street 1'].value,''),coalesce(cells['Street 2'].value,''),coalesce(cells['Street 3'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Street 1",
+    "description": "Remove column Street 1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Street 2",
+    "description": "Remove column Street 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Street 3",
+    "description": "Remove column Street 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direction",
+    "description": "Remove column Direction"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street",
+    "expression": "join ([cells['Street'].value,cells['Number'].value],' ')",
+    "onError": "keep-original",
+    "newColumnName": "Direction",
+    "columnInsertIndex": 5,
+    "description": "Create column Direction at index 5 based on column Street using expression join ([cells['Street'].value,cells['Number'].value],' ')"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Number",
+          "expression": "value",
+          "columnName": "Number",
+          "from": 0,
+          "to": 350,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Alta",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Alta using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Fecha de Alta",
+    "expression": "grel:\"01-01-1900\".toDate(\"dd-MM-yyyy\").inc((value+1) * 24, \"hour\").toDate(\"yyyy-MM-dd\").toString(\"dd-MM-yyyy\")",
+    "onError": "set-to-blank",
+    "newColumnName": "RegistrationDate",
+    "columnInsertIndex": 2,
+    "description": "Create column RegistrationDate at index 2 based on column Fecha de Alta using expression grel:\"01-01-1900\".toDate(\"dd-MM-yyyy\").inc((value+1) * 24, \"hour\").toDate(\"yyyy-MM-dd\").toString(\"dd-MM-yyyy\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha de Alta",
+    "description": "Remove column Fecha de Alta"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "grel:value.replace(/\\h+/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression grel:value.replace(/\\h+/, \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü', 'u').replace('ñ','nn')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü', 'u').replace('ñ','nn')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hood",
+    "expression": "grel:value.replace(/\\s+/, \"/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hood using expression grel:value.replace(/\\s+/, \"/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street using expression grel:value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "grel:value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direction using expression grel:value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street",
+    "expression": "grel:value.replace(/,/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street using expression grel:value.replace(/,/,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direction",
+    "expression": "grel:value.replace(/,/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direction using expression grel:value.replace(/,/,\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street",
+    "expression": "grel:value.replace(/\\s+/,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "StreetCanonozed",
+    "columnInsertIndex": 5,
+    "description": "Create column StreetCanonozed at index 5 based on column Street using expression grel:value.replace(/\\s+/,\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "StreetCanonozed",
+    "expression": "grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü','u').replace('ñ','nn').replace(\"´\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column StreetCanonozed using expression grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü','u').replace('ñ','nn').replace(\"´\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Direction",
+    "expression": "grel:value.replace(/\\s+/,\"\").replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü','u').replace('ñ',\"nn\").replace(\"´\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "DirectionCanonized",
+    "columnInsertIndex": 7,
+    "description": "Create column DirectionCanonized at index 7 based on column Direction using expression grel:value.replace(/\\s+/,\"\").replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ü','u').replace('ñ',\"nn\").replace(\"´\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "grel:value.replace(/\\s+/,\"\").replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression grel:value.replace(/\\s+/,\"\").replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RegistrationDate",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RegistrationDate using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Places",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Places using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hood",
+    "expression": "grel:value.replace(\"/\",\" \").toTitlecase().replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hood using expression grel:value.replace(\"/\",\" \").toTitlecase().replace(\" \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hood",
+    "expression": "grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hood using expression grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "grel:value.replace(\"-\",\" \").toTitlecase().replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression grel:value.replace(\"-\",\" \").toTitlecase().replace(\" \",\"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "StreetCanonozed",
+    "newColumnName": "StreetCanonized",
+    "description": "Rename column StreetCanonozed to StreetCanonized"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Hood",
+    "expression": "grel:value.replace('ñ','nn').replace('ü','u')",
+    "onError": "set-to-blank",
+    "newColumnName": "HoodCanonized",
+    "columnInsertIndex": 4,
+    "description": "Create column HoodCanonized at index 4 based on column Hood using expression grel:value.replace('ñ','nn').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DirectionCanonized",
+    "expression": "grel:value.replace(\"'\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DirectionCanonized using expression grel:value.replace(\"'\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "StreetCanonized",
+    "expression": "grel:value.replace(\"'\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column StreetCanonized using expression grel:value.replace(\"'\",\"\")"
+  }
+]
