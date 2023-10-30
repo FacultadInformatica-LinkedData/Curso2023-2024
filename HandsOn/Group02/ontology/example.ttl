@@ -1,0 +1,46 @@
+@prefix base: <http://smartcity.linkeddata.es/> .
+@prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# District
+base:district/11 rdf:type ns:District ;
+    ns:districtName "Carabanchel" ;
+    ns:districtCode 11 .
+
+# Neighbourhood
+base:neighbourhood/27 rdf:type ns:Neighbourhood ;
+    ns:neighbourhoodName "San Isidro" ;
+    ns:neighbourhoodCode 27 ;
+    ns:locatedInDistrict base:district/11 .
+
+# Building
+base:building/2258 rdf:type ns:Building ;
+    ns:address "CALLE ISAAC ALBENIZ, 1 28019 MADRID" ;
+    ns:buildingType "Centros culturales y bibliotecas" ;
+    ns:buildingName "Biblioteca Ana María Matute" ;
+    ns:id 2258 ;
+    ns:x_coordinate "438873.92"^^xsd:float ;
+    ns:y_coordinate "4472154.36"^^xsd:float ;
+    ns:latitude "40.3977521494866"^^xsd:float ;
+    ns:longitude "-3.7202936410904"^^xsd:float ;
+    ns:locatedInNeighbourhood base:neighbourhood/27 ;
+    ns:hasMeasure base:measure/1245288 ;
+    ns:hasSensor base:sensor/MySensor123477u ;
+
+# Sensor
+base:sensor/MySensor123477u rdf:type ns:Sensor ;
+    ns:class "OutsideSensor124Ksf" ;
+    ns:group "OutsideSensors" ;
+    ns:sensorName "MySensor123477u" ;
+    ns:type "Outside" ;
+    ns:detectsMeasure base:measure/1245288 .
+
+# Measure
+base:measure/1245288 rdf:type ns:Measure ;
+    ns:measureId 1245288;
+    ns:year 2020 ;
+    ns:month 3 ;
+    ns:unit 3 ;
+    ns:consumption "13099.0"^^xsd:float .
