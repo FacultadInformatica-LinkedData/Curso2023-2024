@@ -25,6 +25,11 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 from rdflib.plugins.sparql import prepareQuery
 # TO DO
+#RDFLIB
+for s,p,o in g.triples((None, RDFS.subClassOf, NS.Person)):
+  print(s)
+  
+  #SPARQL
 ns=Namespace("http://somewhere#")
 q1 = prepareQuery('''
   SELECT ?Subclases
@@ -47,6 +52,16 @@ for r in g.query(q1):
 """
 
 # TO DO
+#RDFLib
+
+
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for s1,p1,o1 in g.triples((None, RDF.type, s)):
+    print(s1)
+      
+    #SPARQL
 q2 = prepareQuery('''
 SELECT ?personas
 WHERE
@@ -66,6 +81,18 @@ for r in g.query(q2):
 """
 
 # TO DO
+#RDFLIB
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+for s1,p1,o1 in g.triples((s, None, None)):
+    print(f"property:{p1}  value:{o1}")
+for s, p, o in g.triples((None, RDF.type, ns.Animal)):
+    print(s)
+for s1, p1, o1 in g.triples((s, None, None)):
+        print(f"property:{p1}  value:{o1}")
+
+
+#SPARQL
 q3=prepareQuery('''
 SELECT ?individual ?propertie
 WHERE
@@ -112,11 +139,12 @@ for r in g.query(q4):
 
 # TO DO
 q5 = prepareQuery("""
-SELECT DISTINCT ?enti (COUNT(?person) > 1 as ?knowsMoreThanOn)
+SELECT DISTINCT ?enti
 WHERE
 {
     ?enti foaf:knows ?person.
 }GROUP BY ?enti
+HAVING (COUNT(?enti) > 1)
 """,
 initNs= {"ns":  ns, 'foaf':FOAF,}
 )
