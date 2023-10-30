@@ -24,9 +24,10 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
 from rdflib.plugins.sparql import prepareQuery
+ns=Namespace("http://somewhere#")
 # TO DO
 #RDFLIB
-for s,p,o in g.triples((None, RDFS.subClassOf, NS.Person)):
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
   print(s)
   
   #SPARQL
