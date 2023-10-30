@@ -1,0 +1,2969 @@
+@prefix ns1: <http://HO-G1.linkeddata.es/ontology/resident-parking#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <http://schema.mobivoc.org/#> .
+@prefix ns4: <http://www.w3id.org/urban-iot/uiote#> .
+@prefix ex: <http://example.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/resource/resident-parking/CS_11544480> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_11544480> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_11544480> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_11544480> ;
+    ex:address "Calle de Alcántara, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28070781> ;
+	xsd:latitude "40.428193768950756" ;
+    xsd:longitude "-3.673778093084516" .
+	
+<http://example.org/resource/resident-parking/CS_13470> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13470> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13470> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13470> ;
+    ex:address "Calle de Barceló, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27051120> ;
+    xsd:latitude "40.426273740022" ;
+    xsd:longitude "-3.70037418702346" .
+
+<http://example.org/resource/resident-parking/CS_59060> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_59060> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_59060> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_59060> ;
+    ex:address "Avenida de Américaca, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q5686040> ;
+    xsd:latitude "40.4381779662151" ;
+    xsd:longitude "-3.67683406459837" .
+
+<http://example.org/resource/resident-parking/CS_5898885> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5898885> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5898885> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5898885> ;
+    ex:address "Avenida de Portugal, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26736141> ;
+    xsd:latitude "40.4112391063366" ;
+    xsd:longitude "-3.73808787568741" ;
+    ex:telephone "917 877 292 (grúa municipal)" ;
+    ex:email "aparcamientos@emtmadrid.es" .
+
+<http://example.org/resource/resident-parking/CS_13475> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13475> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13475> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13475> ;
+    ex:address "Calle de San Germán, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26750807> ;
+    xsd:latitude "40.4560925110791" ;
+    xsd:longitude "-3.69349688854822" .
+
+<http://example.org/resource/resident-parking/CS_183747> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183747> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183747> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183747> ;
+    ex:address "Calle del Casino, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26248358> ;
+    xsd:latitude "40.40709468568204" ;
+    xsd:longitude "-3.7038875277131464" .
+
+<http://example.org/resource/resident-parking/CS_13477> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13477> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13477> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13477> ;
+    owl:sameAs <https://wikidata.org/entity/Q27051120> ;
+    xsd:latitude "40.44905426535144" ;
+    xsd:longitude "-3.7020861495783635" .
+
+<http://example.org/resource/resident-parking/CS_81736> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81736> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81736> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81736> ;
+    ex:address "PLAZA CONDESA DE GAVIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q28070781> .
+
+<http://example.org/resource/resident-parking/CS_183748> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183748> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183748> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183748> ;
+    ex:address "Avenida de la Ciudad de Barcelona, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q5714227> ;
+    xsd:latitude "40.40255344121901" ;
+    xsd:longitude "-3.67763144165245" ;
+
+<http://example.org/resource/resident-parking/CS_44724> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_44724> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_44724> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_44724> ;
+    ex:address "Calle de Diego de León, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.434510199279615" ;
+    xsd:longitude "-3.6754840133107027" ;
+    ex:telephone "91 401 73 74" .
+
+<http://example.org/resource/resident-parking/CS_36269> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_36269> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_36269> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_36269> ;
+    ex:address "PLAZA ENCUENTRO" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.4058768185719" ;
+    xsd:longitude "-3.65138632197171" ;
+    ex:telephone "91 328 36 80" .
+
+<http://example.org/resource/resident-parking/CS_13464> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13464> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13464> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13464> ;
+    ex:address "CALLE CARLOS Y GUILLERMO FERNANDEZ SHAW" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.40489977502076" ;
+    xsd:longitude "-3.668850975462272" .
+
+<http://example.org/resource/resident-parking/CS_13462> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13462> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13462> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13462> ;
+    ex:address "Calle Fuencarral, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.4106081" ;
+    xsd:longitude "-3.7028905" ;
+	
+<http://example.org/resource/resident-parking/CS_24809> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24809> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24809> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24809> ;
+    ex:address "CALLE CARLOS Y GUILLERMO FERNANDEZ SHAW" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.4116994" ;
+    xsd:longitude "-3.6978862" .
+
+<http://example.org/resource/resident-parking/CS_36270> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_36270> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_36270> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_36270> ;
+    ex:address "Calle Hernani, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.4139132" ;
+    xsd:longitude "-3.6713057" ;
+
+<http://example.org/resource/resident-parking/CS_13459> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13459> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13459> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13459> ;
+    ex:address "Plaza de Jacinto Benavente, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q6080004> ;
+    xsd:latitude "40.4144481124785" ;
+    xsd:longitude "-3.70332121750772" ;
+
+<http://example.org/resource/resident-parking/CS_13479> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13479> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13479> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13479> ;
+    ex:address "Calle del Poeta Joan Maragall, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26810980> ;
+    xsd:latitude "40.4645483266289" ;
+    xsd:longitude "-3.69157198480319" ;
+
+<http://example.org/resource/resident-parking/CS_6143690> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_6143690> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_6143690> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_6143690> ;
+    ex:address "Calle Miguel Yuste, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.43429571608524" ;
+    xsd:longitude "-3.622514147448957" ;
+
+<http://example.org/resource/resident-parking/CS_13465> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13465> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13465> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13465> ;
+    ex:address "Calle de Montalbán, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q29903983> ;
+    xsd:latitude "40.4181859174944" ;
+    xsd:longitude "-3.69095813503217" ;
+
+<http://example.org/resource/resident-parking/CS_5517342> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5517342> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5517342> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5517342> ;
+    ex:address "Avenida de Brasil, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27212874> ;
+    xsd:latitude "40.4530722916738" ;
+    xsd:longitude "-3.6941384720253" ;
+	
+<http://example.org/resource/resident-parking/CS_52114> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_52114> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_52114> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_52114> ;
+    ex:address "Plaza de Pedro Zerolo, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q6080146> ;
+    xsd:latitude "40.4208058791525" ;
+    xsd:longitude "-3.69930167470253" ;
+
+<http://example.org/resource/resident-parking/CS_33440> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_33440> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_33440> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_33440> ;
+    ex:address "Oriente square, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2193218> ;
+    xsd:latitude "40.41840695632423" ;
+    xsd:longitude "-3.7119903936183274" ;
+	
+<http://example.org/resource/resident-parking/CS_11544439> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_11544439> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_11544439> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_11544439> ;
+    ex:address "Plaza de Santo Domingo, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q6080106> ;
+    xsd:latitude "40.42013315230386" ;
+    xsd:longitude "-3.7082597874437004" ;
+
+<http://example.org/resource/resident-parking/CS_13466> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13466> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13466> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13466> ;
+    ex:address "Main Square, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q1123493> ;
+    xsd:latitude "40.4158677606471" ;
+    xsd:longitude "-3.70689561392158" ;
+	
+<http://example.org/resource/resident-parking/CS_36271> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_36271> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_36271> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_36271> ;
+    ex:address "Avenida del General Perón, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26761632> ;
+    xsd:latitude "40.45251614668263" ;
+    xsd:longitude "-3.6956837947248724" ;
+
+<http://example.org/resource/resident-parking/CS_13476> a ex:resident-parking ;
+    ex:hasConnector ex:connector/CN_13476 ;
+    ex:hasGeocoordinates ex:geocoordinates/GL_13476 ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates ex:geocoordinates/GL_13476 ;
+    ex:address "Paseo de Recoletos, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2550870> ;
+    xsd:latitude "40.421397488495096" ;
+    xsd:longitude "-3.691841269615146" ;
+
+<http://example.org/resource/resident-parking/CS_24193> a ex:resident-parking ;
+    ex:hasConnector ex:connector/CN_24193 ;
+    ex:hasGeocoordinates ex:geocoordinates/GL_24193 ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates ex:geocoordinates/GL_24193 ;
+    ex:address "Plaza República Dominicana, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4588693818589" ;
+    xsd:longitude "-3.67651579058803" ;
+
+<http://example.org/resource/resident-parking/CS_81828> a ex:resident-parking ;
+    ex:hasConnector ex:connector/CN_81828 ;
+    ex:hasGeocoordinates ex:geocoordinates/GL_81828 ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates ex:geocoordinates/GL_81828 ;
+    ex:address "Plaza Reyes Magos, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.408797321706984" ;
+    xsd:longitude "-3.6763215894089827" ;
+
+<http://example.org/resource/resident-parking/CS_167692> a ex:resident-parking ;
+    ex:hasConnector ex:connector/CN_167692 ;
+    ex:hasGeocoordinates ex:geocoordinates/GL_167692 ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates ex:geocoordinates/GL_167692 ;
+    ex:address "Plaza San Cayetano, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4344244682971" ;
+    xsd:longitude "-3.67012877493573" ;
+
+<http://example.org/resource/resident-parking/CS_13515> a ex:resident-parking ;
+    ex:hasConnector ex:connector/CN_13515 ;
+    ex:hasGeocoordinates ex:geocoordinates/GL_13515 ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates ex:geocoordinates/GL_13515 ;
+    ex:address "Calle de Orense, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26761687> ;
+    xsd:latitude "40.4564090502234" ;
+    xsd:longitude "-3.69333344796644" ;
+
+<http://example.org/resource/resident-parking/CS_19053> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_19053> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_19053> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_19053> ;
+    ex:address "CALLE SÁNCHEZ BUSTILLO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.40885884341386" ;
+    xsd:longitude "-3.693821482712085" .
+
+<http://example.org/resource/resident-parking/CS_7416748> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7416748> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7416748> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7416748> ;
+    ex:address "CALLE DE SERRANO" ;
+    owl:sameAs <https://wikidata.org/entity/Q5740879> ;
+    xsd:latitude "40.4329452991722" ;
+    xsd:longitude "-3.68611338542774" .
+
+<http://example.org/resource/resident-parking/CS_7417028> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7417028> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7417028> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7417028> ;
+    ex:address "CALLE DE SERRANO" ;
+    owl:sameAs <https://wikidata.org/entity/Q5740879> ;
+    xsd:latitude "40.4303442290635" ;
+    xsd:longitude "-3.68850808858792" .
+
+<http://example.org/resource/resident-parking/CS_7417052> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7417052> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7417052> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7417052> ;
+    ex:address "CALLE DE SERRANO" ;
+    owl:sameAs <https://wikidata.org/entity/Q5740879> ;
+    xsd:latitude "40.4244268291578" ;
+    xsd:longitude "-3.68965177313431" .
+
+<http://example.org/resource/resident-parking/CS_13460> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13460> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13460> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13460> ;
+    ex:address "CALLE DE ALCALÁ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2424746> ;
+    xsd:latitude "40.41780383567921" ;
+    xsd:longitude "-3.6998082261071747" .
+
+<http://example.org/resource/resident-parking/CS_13458> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13458> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13458> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13458> ;
+    ex:address "CALLE VELÁZQUEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q20031523> ;
+    xsd:latitude "40.4272702030791" ;
+    xsd:longitude "-3.68408892366904" .
+
+<http://example.org/resource/resident-parking/CS_13457> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13457> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13457> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13457> ;
+    ex:address "CALLE VELÁZQUEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q20031523> ;
+    xsd:latitude "40.4242991698907" ;
+    xsd:longitude "-3.68435762446743" .
+
+<http://example.org/resource/resident-parking/CS_183607> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183607> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183607> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183607> ;
+    ex:address "CALLE VERDAGUER Y GARCÍA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4397163141475" ;
+    xsd:longitude "-3.6566922711780356" .
+
+<http://example.org/resource/resident-parking/CS_8087180> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_8087180> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_8087180> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_8087180> ;
+    ex:address "CALLE DE BARCELÓ" ;
+    owl:sameAs <https://wikidata.org/entity/Q27051120> ;
+    xsd:latitude "40.4270579430205" ;
+    xsd:longitude "-3.69920590014237" .
+
+<http://example.org/resource/resident-parking/CS_4829668> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_4829668> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_4829668> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_4829668> ;
+    ex:address "CALLE VALENCIA DE DON JUAN" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.484726228522256" ;
+    xsd:longitude "-3.707095467956364" .
+	
+<http://example.org/resource/resident-parking/CS_24139> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24139> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24139> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24139> ;
+    ex:address "CALLE VALDERROMÁN" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.470610708220725" ;
+    xsd:longitude "-3.7215173170272573" .
+
+<http://example.org/resource/resident-parking/CS_67711> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_67711> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_67711> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_67711> ;
+    ex:address "CALLE DE ANTONIO MACHADO, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28793893> ;
+    xsd:latitude "40.4647124801429" ;
+    xsd:longitude "-3.71937440247255" .
+
+<http://example.org/resource/resident-parking/CS_13560> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13560> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13560> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13560> ;
+    ex:address "PASEO DE LA CHOPERA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q27044458> ;
+    xsd:latitude "40.3953242147226" ;
+    xsd:longitude "-3.70066269999703" .
+
+<http://example.org/resource/resident-parking/CS_81690> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81690> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81690> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81690> ;
+    ex:address "CALLE DE MESÓN DE PAREDES" ;
+    owl:sameAs <https://wikidata.org/entity/Q5686332> ;
+    xsd:latitude "40.4077362146594" ;
+    xsd:longitude "-3.70421674570288" .
+
+<http://example.org/resource/resident-parking/CS_7439839> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7439839> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7439839> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7439839> ;
+    ex:address "CALLE VÍCTOR LAMAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q5740784> ;
+    xsd:latitude "40.411641708999" ;
+    xsd:longitude "-3.693836597352357" .
+	
+<http://example.org/resource/resident-parking/CS_24136> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24136> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24136> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24136> ;
+    ex:address "CALLE DEL ALCALDE SÁINZ DE BARANDA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28070977> ;
+    xsd:latitude "40.4169949224885" ;
+    xsd:longitude "-3.66844857705472" .
+
+<http://example.org/resource/resident-parking/CS_17790> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_17790> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_17790> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_17790> ;
+    ex:address "SINESIO DELGADO STREET" ;
+    owl:sameAs <https://wikidata.org/entity/Q52245452> ;
+    xsd:latitude "40.4731383570492" ;
+    xsd:longitude "-3.70315583932366" .
+
+<http://example.org/resource/resident-parking/CS_81696> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81696> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81696> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81696> ;
+    ex:address "CALLE DE JOSÉ ABASCAL, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q27310549> ;
+    xsd:latitude "40.4382832884019" ;
+    xsd:longitude "-3.69758433593285" .
+
+<http://example.org/resource/resident-parking/CS_13561> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13561> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13561> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13561> ;
+    ex:address "CALLE ALTOS DE LILLO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3751161947067" ;
+    xsd:longitude "-3.6187764984665742" .
+
+<http://example.org/resource/resident-parking/CS_19060> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_19060> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_19060> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_19060> ;
+    ex:address "CALLE ILLESCAS, ESQUINA CALLE VALMOJADO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.39260709014263" ;
+    xsd:longitude "-3.7586798849896357" .
+	
+<http://example.org/resource/resident-parking/CS_13494> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13494> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13494> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13494> ;
+    ex:address "PLAZA AMERICA ESPAÑOLA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.42950678341485" ;
+    xsd:longitude "-3.662070781525576" .
+
+<http://example.org/resource/resident-parking/CS_5753573> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5753573> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5753573> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5753573> ;
+    ex:address "CALLE DE SILVANO" ;
+    owl:sameAs <https://wikidata.org/entity/Q29917316> ;
+    xsd:latitude "40.4592933474543" ;
+    xsd:longitude "-3.64307327470994" .
+
+<http://example.org/resource/resident-parking/CS_13552> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13552> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13552> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13552> ;
+    ex:address "CALLE ANDEVALO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3744327501903" ;
+    xsd:longitude "-3.66826781064601" .
+
+<http://example.org/resource/resident-parking/CS_13548> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13548> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13548> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13548> ;
+    ex:address "PASAJE MONTSERRAT" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.39694438782468" ;
+    xsd:longitude "-3.7135672715867516" .
+
+<http://example.org/resource/resident-parking/CS_13562> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13562> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13562> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13562> ;
+    ex:address "CALLE DE ANTONIO MACHADO, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28793893> ;
+    xsd:latitude "40.4688249684818" ;
+    xsd:longitude "-3.71940862849532" .
+	
+<http://example.org/resource/resident-parking/CS_13554> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13554> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13554> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13554> ;
+    ex:address "CALLE DE ANTONIO MAURA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q29566726> ;
+    xsd:latitude "40.4163744217811" ;
+    xsd:longitude "-3.6903956132852" .
+
+<http://example.org/resource/resident-parking/CS_24093> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24093> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24093> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24093> ;
+    ex:address "AVENIDA DEL DOCTOR GARCÍA TAPIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q28935864> ;
+    xsd:latitude "40.4106715339171" ;
+    xsd:longitude "-3.6419244141850147" .
+
+<http://example.org/resource/resident-parking/CS_24088> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24088> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24088> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24088> ;
+    ex:address "CALLE ANTONIO PIRALA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4299188865507" ;
+    xsd:longitude "-3.65965475850968" .
+
+<http://example.org/resource/resident-parking/CS_24095> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24095> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24095> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24095> ;
+    ex:address "CALLE ARGANDA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4002719862502" ;
+    xsd:longitude "-3.70743118334844" .
+
+<http://example.org/resource/resident-parking/CS_24096> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24096> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24096> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24096> ;
+    ex:address "CALLE DEL ARROYO DEL OLIVAR, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q29561517> ;
+    xsd:latitude "40.390072718009264" ;
+    xsd:longitude "-3.65720992196733" .
+	
+<http://example.org/resource/resident-parking/CS_13537> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13537> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13537> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13537> ;
+    ex:address "CALLE ARROYO FONTARRÓN" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.404553194023" ;
+    xsd:longitude "-3.65048494147953" .
+
+<http://example.org/resource/resident-parking/CS_13536> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13536> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13536> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13536> ;
+    ex:address "CALLE ARROYO DE LA MEDIA LEGUA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28935853> ;
+    xsd:latitude "40.40999547047031" ;
+    xsd:longitude "-3.655986242152849" .
+
+<http://example.org/resource/resident-parking/CS_13626> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13626> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13626> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13626> ;
+    ex:address "AVENIDA DE MORATALAZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q104778384> ;
+    xsd:latitude "40.4089104705604" ;
+    xsd:longitude "-3.64386362951559" .
+
+<http://example.org/resource/resident-parking/CS_17449> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_17449> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_17449> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_17449> ;
+    ex:address "AVENIDA DE LAS ÁGUILAS, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q29405114> ;
+    xsd:latitude "40.3804832805408" ;
+    xsd:longitude "-3.78300236990473" .
+
+<http://example.org/resource/resident-parking/CS_170742> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_170742> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_170742> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_170742> ;
+    ex:address "CALLE DE SAN RESTITUTO, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28938015> ;
+    xsd:latitude "40.464795265151" ;
+    xsd:longitude "-3.71176345766358" .
+	
+<http://example.org/resource/resident-parking/CS_13633> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13633> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13633> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13633> ;
+    ex:address "AVENIDA DE AMÉRICA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q5686040> ;
+    xsd:latitude "40.4433686262101" ;
+    xsd:longitude "-3.66308052190316" .
+
+<http://example.org/resource/resident-parking/CS_13501> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13501> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13501> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13501> ;
+    ex:address "CALLE LA BAÑEZA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4764987691693" ;
+    xsd:longitude "-3.71325706372804" .
+
+<http://example.org/resource/resident-parking/CS_81700> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81700> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81700> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81700> ;
+    ex:address "CALLE AGUSTIN DE ITURBIDE" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4698229718518" ;
+    xsd:longitude "-3.64476364718934" .
+
+<http://example.org/resource/resident-parking/CS_21182> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_21182> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_21182> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_21182> ;
+    ex:address "CALLE DE MELÉNDEZ VALDÉS" ;
+    owl:sameAs <https://wikidata.org/entity/Q27031533> ;
+    xsd:latitude "40.4333313523738" ;
+    xsd:longitude "-3.71170388375829" .
+
+<http://example.org/resource/resident-parking/CS_13532> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13532> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13532> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13532> ;
+    ex:address "CALLE BOHEMIOS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3570573825234" ;
+    xsd:longitude "-3.69428642448259" .
+	
+<http://example.org/resource/resident-parking/CS_13495> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13495> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13495> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13495> ;
+    ex:address "CALLE BOSTON" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43732544918828" ;
+    xsd:longitude "-3.6656301287112916" .
+
+<http://example.org/resource/resident-parking/CS_13530> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13530> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13530> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13530> ;
+    ex:address "Calle de Bravo Murillo" ;
+    owl:sameAs <https://wikidata.org/entity/Q5740815> ;
+    xsd:latitude "40.4394326885612" ;
+    xsd:longitude "-3.70431921200787" .
+
+<http://example.org/resource/resident-parking/CS_13563> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13563> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13563> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13563> ;
+    ex:address "PLAZA BASILEA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4377295409351" ;
+    xsd:longitude "-3.66250177071974" .
+
+<http://example.org/resource/resident-parking/CS_13564> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13564> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13564> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13564> ;
+    ex:address "CALLE BRISTOL" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.438926762097445" ;
+    xsd:longitude "-3.6621985089251137" .
+
+<http://example.org/resource/resident-parking/CS_13565> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13565> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13565> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13565> ;
+    ex:address "AVENIDA DE BRUSELAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q118710890> ;
+    xsd:latitude "40.4425620205734" ;
+    xsd:longitude "-3.66360229625587" .
+	
+<http://example.org/resource/resident-parking/CS_81706> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81706> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81706> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81706> ;
+    ex:address "CALLE BURGO DE OSMA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4693776045414" ;
+    xsd:longitude "-3.66238559705991" .
+
+<http://example.org/resource/resident-parking/CS_183737> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183737> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183737> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183737> ;
+    ex:address "CALLE MESON DE PAREDES" ;
+    owl:sameAs <https://wikidata.org/entity/Q5686332> ;
+    xsd:latitude "40.4098262170267" ;
+    xsd:longitude "-3.70341928254916" .
+
+<http://example.org/resource/resident-parking/CS_13566> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13566> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13566> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13566> ;
+    ex:address "CALLE CALANDA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4625086228176" ;
+    xsd:longitude "-3.64139838482317" .
+
+<http://example.org/resource/resident-parking/CS_13499> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13499> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13499> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13499> ;
+    ex:address "CALLE CAMARENA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.39409662327533" ;
+    xsd:longitude "-3.755650361571214" .
+
+<http://example.org/resource/resident-parking/CS_13539> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13539> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13539> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13539> ;
+    ex:address "CALLE CAMINO DE LOS VINATEROS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4063803140088" ;
+    xsd:longitude "-3.642216978933147" .
+	
+<http://example.org/resource/resident-parking/CS_13538> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13538> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13538> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13538> ;
+    ex:address "CALLE CAMINO DE LOS VINATEROS" ;
+    owl:sameAs <https://wikidata.org/entity/Q28935892> ;
+    xsd:latitude "40.4070586556589" ;
+    xsd:longitude "-3.64609602112553" .
+
+<http://example.org/resource/resident-parking/CS_13632> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13632> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13632> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13632> ;
+    ex:address "CALLE CAMINO VIEJO DE LEGANES" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.38058220013319" ;
+    xsd:longitude "-3.7315453065945747" .
+
+<http://example.org/resource/resident-parking/CS_13518> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13518> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13518> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13518> ;
+    ex:address "PLAZA CAMPILLO DEL MUNDO NUEVO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4064404010153" ;
+    xsd:longitude "-3.70818511731584" .
+
+<http://example.org/resource/resident-parking/CS_81710> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81710> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81710> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81710> ;
+    ex:address "CALLE CEA BERMUDEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q26791743> ;
+    xsd:latitude "40.4386229816115" ;
+    xsd:longitude "-3.70560050313099" .
+
+<http://example.org/resource/resident-parking/CS_13624> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13624> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13624> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13624> ;
+    ex:address "CALLE BERGANTIN" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4594904098294" ;
+    xsd:longitude "-3.5833143755023" .
+	
+<http://example.org/resource/resident-parking/CS_81733> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81733> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81733> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81733> ;
+    ex:address "CALLE DE DIEGO DE LEON, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.434908578522" ;
+    xsd:longitude "-3.68143698282303" .
+
+<http://example.org/resource/resident-parking/CS_13567> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13567> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13567> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13567> ;
+    ex:address "AVENIDA SANTA EUGENIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3862854427749" ;
+    xsd:longitude "-3.60768383167671" .
+
+<http://example.org/resource/resident-parking/CS_13533> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13533> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13533> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13533> ;
+    ex:address "CALLE CAÑADA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4050195561753" ;
+    xsd:longitude "-3.64462726953091" .
+
+<http://example.org/resource/resident-parking/CS_13636> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13636> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13636> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13636> ;
+    ex:address "CALLE DE SANTA ENGRACIA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q26728109> ;
+    xsd:latitude "40.4321041641281" ;
+    xsd:longitude "-3.69736547125222" .
+
+<http://example.org/resource/resident-parking/CS_81734> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81734> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81734> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81734> ;
+    ex:address "CALLE CHAPARRAL" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4704680711316" ;
+    xsd:longitude "-3.63209844013838" .
+	
+<http://example.org/resource/resident-parking/CS_13568> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13568> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13568> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13568> ;
+    ex:address "CALLE ABALOS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4502275088023" ;
+    xsd:longitude "-3.65601940414286" .
+
+<http://example.org/resource/resident-parking/CS_13503> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13503> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13503> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13503> ;
+    ex:address "CLARA DEL REY STREET" ;
+    owl:sameAs <https://wikidata.org/entity/Q28055037> ;
+    xsd:latitude "40.4439002303705" ;
+    xsd:longitude "-3.66873934705878" .
+
+<http://example.org/resource/resident-parking/CS_24099> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24099> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24099> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24099> ;
+    ex:address "CALLE MONSEÑOR OSCAR ROMERO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3822490532466" ;
+    xsd:longitude "-3.75106420146634" .
+
+<http://example.org/resource/resident-parking/CS_13569> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13569> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13569> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13569> ;
+    ex:address "CALLE COMANDANTE BENITEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3975109762013" ;
+    xsd:longitude "-3.69826675336291" .
+
+<http://example.org/resource/resident-parking/CS_13571> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13571> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13571> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13571> ;
+    ex:address "CALLE CONDADO DE TREVIO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4800505171255" ;
+    xsd:longitude "-3.66955150726522" .
+	
+<http://example.org/resource/resident-parking/CS_24101> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24101> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24101> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24101> ;
+    ex:address "avenida del Mediterráneo" ;
+    owl:sameAs <https://wikidata.org/entity/Q57739480> ;
+    xsd:latitude "40.4069414961023" ;
+    xsd:longitude "-3.67346590971438" .
+
+<http://example.org/resource/resident-parking/CS_13504> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13504> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13504> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13504> ;
+    ex:address "Calle del Corazón de María, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28940875> ;
+    xsd:latitude "40.440466332376" ;
+    xsd:longitude "-3.67094880753214" .
+
+<http://example.org/resource/resident-parking/CS_24103> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24103> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24103> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24103> ;
+    ex:address "Address not provided" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> .
+
+<http://example.org/resource/resident-parking/CS_13500> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13500> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13500> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13500> ;
+    ex:address "CALLE MOJACAR" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.47941994494686" ;
+    xsd:longitude "-3.6578569564924415" .
+
+<http://example.org/resource/resident-parking/CS_81737> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81737> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81737> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81737> ;
+    ex:address "CALLE NEVADO DEL RUIZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4696757985277" ;
+    xsd:longitude "-3.63504463154674" .
+	
+<http://example.org/resource/resident-parking/CS_183580> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183580> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183580> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183580> ;
+    ex:address "CALLE VALLE DE MENA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.47078717988781" ;
+    xsd:longitude "-3.7193258238376576" .
+
+<http://example.org/resource/resident-parking/CS_13535> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13535> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13535> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13535> ;
+    ex:address "Avenida de Moratalaz" ;
+    owl:sameAs <https://wikidata.org/entity/Q104778384> ;
+    xsd:latitude "40.405638665853" ;
+    xsd:longitude "-3.65375539091826" .
+
+<http://example.org/resource/resident-parking/CS_183760> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183760> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183760> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183760> ;
+    ex:address "Calle del Alcalde Sáinz de Baranda, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28070977> ;
+    xsd:latitude "40.4178437921393" ;
+    xsd:longitude "-3.67619550529124" .
+
+<http://example.org/resource/resident-parking/CS_13630> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13630> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13630> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13630> ;
+    ex:address "CALLE DOCTOR CIRAJAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4355062053263" ;
+    xsd:longitude "-3.63749208941804" .
+
+<http://example.org/resource/resident-parking/CS_13551> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13551> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13551> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13551> ;
+    ex:address "calle del Doce de Octubre" ;
+    owl:sameAs <https://wikidata.org/entity/Q118724987> ;
+    xsd:latitude "40.416038617548956" ;
+    xsd:longitude "-3.673543967928384" .
+	
+<http://example.org/resource/resident-parking/CS_39871> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_39871> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_39871> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_39871> ;
+    ex:address "CALLE DOMENICO SCARLATTI" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4412401903695" ;
+    xsd:longitude "-3.71633149805864" .
+
+<http://example.org/resource/resident-parking/CS_7410134> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7410134> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7410134> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7410134> ;
+    ex:address "CALLE EL GRECO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4073286671443" ;
+    xsd:longitude "-3.74731337285804" .
+
+<http://example.org/resource/resident-parking/CS_4831001> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_4831001> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_4831001> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:management "Empresa Municipal de Transportes (EMT)" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_4831001> ;
+    ex:address "CALLE ELVIRA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4210921187441" ;
+    xsd:longitude "-3.66573849295254" .
+
+<http://example.org/resource/resident-parking/CS_24106> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24106> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24106> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24106> ;
+    ex:address "CALLE MINAYA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.467641830775" ;
+    xsd:longitude "-3.63619153620736" .
+
+<http://example.org/resource/resident-parking/CS_13524> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13524> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13524> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13524> ;
+    ex:address "CALLE ENCOMIENDA DE PALACIOS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3992442473467" ;
+    xsd:longitude "-3.64337827121037" .
+	
+<http://example.org/resource/resident-parking/CS_13550> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13550> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13550> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13550> ;
+    ex:address "CALLE ESFINGE" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4433597743845" ;
+    xsd:longitude "-3.61009170061829" .
+
+<http://example.org/resource/resident-parking/CS_170634> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_170634> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_170634> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_170634> ;
+    ex:address "CALLE ESPALTER" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4126788946921" ;
+    xsd:longitude "-3.68991968676579" .
+
+<http://example.org/resource/resident-parking/CS_13558> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13558> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13558> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13558> ;
+    ex:address "CALLE GARGANTILLA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3989760938926" ;
+    xsd:longitude "-3.7038907804774" .
+
+<http://example.org/resource/resident-parking/CS_81743> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81743> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81743> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81743> ;
+    ex:address "CALLE CIUDADANIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3567269645095" ;
+    xsd:longitude "-3.69174396514792" .
+
+<http://example.org/resource/resident-parking/CS_24108> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24108> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24108> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24108> ;
+    ex:address "CALLE DEL POETA ESTEBAN DE VILLEGAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.40840893273142" ;
+    xsd:longitude "-3.683916231954491" .
+	
+<http://example.org/resource/resident-parking/CS_13572> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13572> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13572> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13572> ;
+    ex:address "CALLE ESTRELLA POLAR" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4106446983225" ;
+    xsd:longitude "-3.66696068383245" .
+
+<http://example.org/resource/resident-parking/CS_24111> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24111> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24111> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24111> ;
+    ex:address "CALLE PARQUE EUGENIA DE MONTIJO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.37973285498474" ;
+    xsd:longitude "-3.7520789047195695" .
+
+<http://example.org/resource/resident-parking/CS_13573> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13573> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13573> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13573> ;
+    ex:address "AVENIDA EL FERROL" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.47516452791494" ;
+    xsd:longitude "-3.707898978806774" .
+
+<http://example.org/resource/resident-parking/CS_13498> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13498> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13498> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13498> ;
+    ex:address "CALLE FINISTERRE" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4787115545523" ;
+    xsd:longitude "-3.70264427058508" .
+
+<http://example.org/resource/resident-parking/CS_81745> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81745> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81745> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81745> ;
+    ex:address "PLAZA ARTEIJO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.477694803073895" ;
+    xsd:longitude "-3.7071228764557786" .
+	
+<http://example.org/resource/resident-parking/CS_4831271> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_4831271> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_4831271> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_4831271> ;
+    ex:address "calle de Francisco Altimiras, SEMIESQUINA CON LA AV. DE LOS TOREROS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4336887886822" ;
+    xsd:longitude "-3.663538450106072" .
+
+<http://example.org/resource/resident-parking/CS_13635> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13635> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13635> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13635> ;
+    ex:address "CALLE LUIS RUIZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.430778722730366" ;
+    xsd:longitude "-3.6381242830303946" .
+
+<http://example.org/resource/resident-parking/CS_13634> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13634> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13634> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13634> ;
+    ex:address "CALLE NUMANCIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.456831249177" ;
+    xsd:longitude "-3.71005050591214" .
+
+<http://example.org/resource/resident-parking/CS_24119> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24119> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24119> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24119> ;
+    ex:address "calle de Blasco de Garay" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4336318167522" ;
+    xsd:longitude "-3.71140097593995" .
+
+<http://example.org/resource/resident-parking/CS_13525> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13525> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13525> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13525> ;
+    ex:address "calle de Anselmo Lorenzo" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3820357799705" ;
+    xsd:longitude "-3.7694517822779" .
+	
+<http://example.org/resource/resident-parking/CS_13534> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13534> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13534> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13534> ;
+    ex:address "Avenida del Doctor Garc\u00EDa Tapia" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4118131755341" ;
+    xsd:longitude "-3.64541031210654" .
+
+<http://example.org/resource/resident-parking/CS_13527> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13527> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13527> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13527> ;
+    ex:address "CALLE GARROVILLAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.38003632100852" ;
+    xsd:longitude "-3.7785510082435763" .
+
+<http://example.org/resource/resident-parking/CS_81746> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81746> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81746> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81746> ;
+    ex:address "Calle del Padre Dami\u00E1n, ENTRE C/ \u00C1NCORA Y C/ M\u00C9NDEZ \u00C1LVARO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.46128190009474" ;
+    xsd:longitude "-3.685586569654305" .
+
+<http://example.org/resource/resident-parking/CS_24120> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24120> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24120> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24120> ;
+    ex:address "Calle del General Lacy, ENTRE C/ \u00C1NCORA Y C/ M\u00C9NDEZ \u00C1LVARO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4030667634025" ;
+    xsd:longitude "-3.69065809480978" .
+
+<http://example.org/resource/resident-parking/CS_13520> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13520> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13520> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13520> ;
+    ex:address "CALLE GERARDO CORDON" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.42662400325405" ;
+    xsd:longitude "-3.652542375709883" .
+	
+<http://example.org/resource/resident-parking/CS_13574> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13574> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13574> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13574> ;
+    ex:address "CALLE VIRGEN DEL SAGRARIO, ESQUINA C/ GERMÁN PÉREZ CARRASCO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4343990447923" ;
+    xsd:longitude "-3.6477943374274" .
+
+<http://example.org/resource/resident-parking/CS_13522> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13522> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13522> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13522> ;
+    ex:address "Calle de Goya" ;
+    owl:sameAs <https://wikidata.org/entity/Q28015873> ;
+    xsd:latitude "40.424572633502564" ;
+    xsd:longitude "-3.6717032128063" .
+
+<http://example.org/resource/resident-parking/CS_24121> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24121> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24121> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24121> ;
+    ex:address "calle Guadalete" ;
+    owl:sameAs <https://wikidata.org/entity/Q119720955> ;
+    xsd:latitude "40.3892153292086" ;
+    xsd:longitude "-3.71482104742718" .
+
+<http://example.org/resource/resident-parking/CS_13615> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13615> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13615> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13615> ;
+    ex:address "Calle del Doctor Gómez Ulla, LATERAL PARQUE EVA DUARTE DE PERÓN" ;
+    owl:sameAs <https://wikidata.org/entity/Q29053346> ;
+    xsd:latitude "40.43003872255172" ;
+    xsd:longitude "-3.667817175542646" .
+
+<http://example.org/resource/resident-parking/CS_13627> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13627> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13627> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13627> ;
+    ex:address "CALLE ILLESCAS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3976368775692" ;
+    xsd:longitude "-3.76617797063072" .
+	
+<http://example.org/resource/resident-parking/CS_183559> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183559> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183559> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183559> ;
+    ex:address "CALLE ISLAS CIES, 25" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.480165772347696" ;
+    xsd:longitude "-3.7183829353444833" .
+
+<http://example.org/resource/resident-parking/CS_5421792> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5421792> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5421792> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5421792> ;
+    ex:address "CALLE LA ILIADA, 1" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4355831247766" ;
+    xsd:longitude "-3.60860102706914" .
+
+<http://example.org/resource/resident-parking/CS_13502> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13502> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13502> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13502> ;
+    ex:address "CALLE ISLA DE AROSA, 2" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.480274384539456" ;
+    xsd:longitude "-3.715403636163851" .
+
+<http://example.org/resource/resident-parking/CS_13575> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13575> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13575> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13575> ;
+    ex:address "CALLE ISLA DE ONS, 5" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4799733680742" ;
+    xsd:longitude "-3.72179162558578" .
+
+<http://example.org/resource/resident-parking/CS_13576> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13576> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13576> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13576> ;
+    ex:address "CALLE ISLA DE TAVIRA, 3" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.481195113179496" ;
+    xsd:longitude "-3.718279041839923" .
+	
+<http://example.org/resource/resident-parking/CS_81748> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81748> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81748> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81748> ;
+    ex:address "CALLE DE CEA BERMÚDEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.438987934763" ;
+    xsd:longitude "-3.71467601723796" .
+
+<http://example.org/resource/resident-parking/CS_13577> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13577> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13577> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13577> ;
+    ex:address "TRAVESIA IVAN DE VARGAS, 4" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4031629103554" ;
+    xsd:longitude "-3.72446327913775" .
+
+<http://example.org/resource/resident-parking/CS_13546> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13546> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13546> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13546> ;
+    ex:address "CALLE JACINTO VERDAGUER, 25" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3951283273511" ;
+    xsd:longitude "-3.71878014908902" .
+
+<http://example.org/resource/resident-parking/CS_13529> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13529> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13529> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13529> ;
+    ex:address "CALLE DE JOAQUIN MARIA LOPEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4374098846186" ;
+    xsd:longitude "-3.71434270556613" .
+
+<http://example.org/resource/resident-parking/CS_63334> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_63334> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_63334> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_63334> ;
+    ex:address "CALLE DE LÓPEZ DE HOYOS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4421417450308" ;
+    xsd:longitude "-3.67742780223251" .
+	
+<http://example.org/resource/resident-parking/CS_7471768> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7471768> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7471768> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7471768> ;
+    ex:address "CALLE DE JOSÉ ABASCAL" ;
+    owl:sameAs <https://wikidata.org/entity/Q27310549> ;
+    xsd:latitude "40.4380386607844" ;
+    xsd:longitude "-3.69314664084057" .
+
+<http://example.org/resource/resident-parking/CS_13526> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13526> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13526> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13526> ;
+    ex:address "CALLE DE SOLEDAD CAZORLA" ;
+    owl:sameAs <https://wikidata.org/entity/Q29405102> ;
+    xsd:latitude "40.37614333918351" ;
+    xsd:longitude "-3.7683293552234054" .
+
+<http://example.org/resource/resident-parking/CS_13556> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13556> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13556> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13556> ;
+    ex:address "CALLE HERMANOS DE PABLO, 44" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4384225390412" ;
+    xsd:longitude "-3.6467466652905" .
+
+<http://example.org/resource/resident-parking/CS_13578> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13578> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13578> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13578> ;
+    ex:address "CALLE POETA BLAS DE OTERO, 22" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.42053957508049" ;
+    xsd:longitude "-3.6543546216513394" .
+
+<http://example.org/resource/resident-parking/CS_13579> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13579> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13579> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13579> ;
+    ex:address "CALLE DE JUAN DE VERA" ;
+    owl:sameAs <https://wikidata.org/entity/Q118652458> ;
+    xsd:latitude "40.39615507486834" ;
+    xsd:longitude "-3.692104179001404" .
+	
+<http://example.org/resource/resident-parking/CS_7432674> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7432674> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7432674> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7432674> ;
+    ex:address "CALLE DE JUAN ESPLANDIU" ;
+    owl:sameAs <https://wikidata.org/entity/Q57719867> ;
+    xsd:latitude "40.4157528095955" ;
+    xsd:longitude "-3.66602854953252" .
+
+<http://example.org/resource/resident-parking/CS_13541> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13541> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13541> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13541> ;
+    ex:address "CALLE CORREGIDOR JUAN FRANCISCO DE LUJAN" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4035636327947" ;
+    xsd:longitude "-3.65044331843857" .
+
+<http://example.org/resource/resident-parking/CS_17452> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_17452> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_17452> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_17452> ;
+    ex:address "CALLE CORREGIDOR JUAN FRANCISCO DE LUJAN, 60" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.40214747309015" ;
+    xsd:longitude "-3.647893433929952" .
+
+<http://example.org/resource/resident-parking/CS_13505> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13505> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13505> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13505> ;
+    ex:address "CALLE DE JUAN HURTADO DE MENDOZA" ;
+    owl:sameAs <https://wikidata.org/entity/Q54486212> ;
+    xsd:latitude "40.46016040184583" ;
+    xsd:longitude "-3.6867407236690504" .
+
+<http://example.org/resource/resident-parking/CS_5556588> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5556588> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5556588> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5556588> ;
+    ex:address "CALLE DE JUAN RAMÓN JIMÉNEZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q29018444> ;
+    xsd:latitude "40.4631368719306" ;
+    xsd:longitude "-3.68710046083546" .
+	
+<http://example.org/resource/resident-parking/CS_81768> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81768> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81768> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81768> ;
+    ex:address "CALLE DE DIEGO DE LEÓN" ;
+    owl:sameAs <https://wikidata.org/entity/Q28059485> ;
+    xsd:latitude "40.43506964165062" ;
+    xsd:longitude "-3.68384686761382" .
+
+<http://example.org/resource/resident-parking/CS_13580> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13580> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13580> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13580> ;
+    ex:address "CALLE LARDERO, 3-B" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4101369517756" ;
+    xsd:longitude "-3.610828352314449" .
+
+<http://example.org/resource/resident-parking/CS_13581> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13581> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13581> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13581> ;
+    ex:address "CALLE DE MALDONADO" ;
+    owl:sameAs <https://wikidata.org/entity/Q28056166> ;
+    xsd:latitude "40.43366755605813" ;
+    xsd:longitude "-3.679035794267012" .
+
+<http://example.org/resource/resident-parking/CS_13582> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13582> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13582> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13582> ;
+    ex:address "CALLE MANIZALES, 1" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4737064681745" ;
+    xsd:longitude "-3.6370593589937" .
+
+<http://example.org/resource/resident-parking/CS_24122> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24122> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24122> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24122> ;
+    ex:address "CALLE MANUEL NOYA, 2, (JARDINES)" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3892836806595" ;
+    xsd:longitude "-3.71185039642932" .
+	
+<http://example.org/resource/resident-parking/CS_13583> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13583> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13583> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13583> ;
+    ex:address "CALLE ANGEL MUGICA, 9" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.48476485902592" ;
+    xsd:longitude "-3.6860667411043053" .
+
+<http://example.org/resource/resident-parking/CS_13585> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13585> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13585> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13585> ;
+    ex:address "AVENIDA DEL MARQUÉS DE CORBERA" ;
+    owl:sameAs <https://wikidata.org/entity/Q29168364> ;
+    xsd:latitude "40.4219886928314" ;
+    xsd:longitude "-3.65661292002709" .
+
+<http://example.org/resource/resident-parking/CS_13584> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13584> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13584> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13584> ;
+    ex:address "AVENIDA DEL MARQUÉS DE CORBERA" ;
+    owl:sameAs <https://wikidata.org/entity/Q29168364> ;
+    xsd:latitude "40.4274616090481" ;
+    xsd:longitude "-3.64930765911692" .
+
+<http://example.org/resource/resident-parking/CS_4831164> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_4831164> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_4831164> ;
+    ex:owner "Empresa Municipal de Transportes (EMT)" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_4831164> ;
+    ex:address "PASEO IMPERIAL" ;
+    owl:sameAs <https://wikidata.org/entity/Q118634190> ;
+    xsd:latitude "40.40784029469167" ;
+    xsd:longitude "-3.7180809623916047" .
+
+<http://example.org/resource/resident-parking/CS_36275> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_36275> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_36275> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_36275> ;
+    ex:address "PLAZA ENSIDESA, 6" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4439638447844" ;
+    xsd:longitude "-3.62339733040465" .
+	
+<http://example.org/resource/resident-parking/CS_13490> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13490> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13490> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13490> ;
+    ex:address "PASEO MARQUES DE ZAFRA, 63" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4252185590821" ;
+    xsd:longitude "-3.66136241027925" .
+
+<http://example.org/resource/resident-parking/CS_13521> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13521> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13521> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13521> ;
+    ex:address "CALLE CAMINO DE LOS VINATEROS" ;
+    owl:sameAs <https://wikidata.org/entity/Q28935892> ;
+    xsd:latitude "40.4088102763508" ;
+    xsd:longitude "-3.64698673546286" .
+
+<http://example.org/resource/resident-parking/CS_24125> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24125> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24125> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24125> ;
+    ex:address "CALLE DEL ALCALDE MARTÍN DE ALZAGA, MADRID" ;
+    owl:sameAs <https://wikidata.org/entity/Q56086935> ;
+    xsd:latitude "40.4630233258538" ;
+    xsd:longitude "-3.71613987805222" .
+
+<http://example.org/resource/resident-parking/CS_24127> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24127> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24127> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24127> ;
+    ex:address "CALLE MATILDE GAYO, 4" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3899749531456" ;
+    xsd:longitude "-3.70292626458164" .
+
+<http://example.org/resource/resident-parking/CS_46136> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_46136> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_46136> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_46136> ;
+    ex:address "CALLE DE GINZO DE LIMIA" ;
+    owl:sameAs <https://wikidata.org/entity/Q105624986> ;
+    xsd:latitude "40.47551560842131" ;
+    xsd:longitude "-3.704101281543605" .
+	
+<http://example.org/resource/resident-parking/CS_13531> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13531> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13531> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13531> ;
+    ex:address "PLAZA AHORRO, 6" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3617243137127" ;
+    xsd:longitude "-3.69587809977934" .
+
+<http://example.org/resource/resident-parking/CS_183550> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183550> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183550> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183550> ;
+    ex:address "Calle de Narváez, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28936837> ;
+    xsd:latitude "40.41995872846091" ;
+    xsd:longitude "-3.676118113622223" .
+
+<http://example.org/resource/resident-parking/CS_13586> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13586> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13586> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13586> ;
+    ex:address "CALLE MERCEDES ARTEAGA, 20" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3931911407945" ;
+    xsd:longitude "-3.72201571162959" .
+
+<http://example.org/resource/resident-parking/CS_81792> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81792> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81792> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81792> ;
+    ex:address "Calle de Miguel Ángel, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27991265> ;
+    xsd:latitude "40.436675854674" ;
+    xsd:longitude "-3.69110236627779" .
+
+<http://example.org/resource/resident-parking/CS_13508> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13508> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13508> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13508> ;
+    ex:address "PLAZA CUACOS DE YUSTE, 1" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.37899232610295" ;
+    xsd:longitude "-3.780680788867553" .
+	
+<http://example.org/resource/resident-parking/CS_13587> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13587> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13587> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13587> ;
+    ex:address "CALLE MISTERIOS, 1" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4376599536045" ;
+    xsd:longitude "-3.63915404284741" .
+
+<http://example.org/resource/resident-parking/CS_13588> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13588> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13588> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13588> ;
+    ex:address "PLAZA MONDARIZ, 14" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4782411590293" ;
+    xsd:longitude "-3.70601872207153" .
+
+<http://example.org/resource/resident-parking/CS_13589> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13589> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13589> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13589> ;
+    ex:address "Reina Mercedes Street" ;
+    owl:sameAs <https://wikidata.org/entity/Q56783792> ;
+    xsd:latitude "40.450927803493" ;
+    xsd:longitude "-3.69592480077532" .
+
+<http://example.org/resource/resident-parking/CS_81770> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81770> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81770> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81770> ;
+    ex:address "CALLE MORALZARZAL, 84" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4939979884242" ;
+    xsd:longitude "-3.71243936891058" .
+
+<http://example.org/resource/resident-parking/CS_13540> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13540> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13540> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13540> ;
+    ex:address "Avenida de Moratalaz, 194" ;
+    owl:sameAs <https://wikidata.org/entity/Q104778384> ;
+    xsd:latitude "40.4094083553622" ;
+    xsd:longitude "-3.6419048476584" .
+	
+<http://example.org/resource/resident-parking/CS_13516> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13516> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13516> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13516> ;
+    ex:address "PASAJE REMONTA, 6" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4376599536045" ;
+    xsd:longitude "-3.69655685033995" .
+
+<http://example.org/resource/resident-parking/CS_13497> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13497> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13497> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13497> ;
+    ex:address "Calle de Narváez, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28936837> ;
+    xsd:latitude "40.4220424811695" ;
+    xsd:longitude "-3.67605484022947" .
+
+<http://example.org/resource/resident-parking/CS_81793> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81793> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81793> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81793> ;
+    ex:address "CALLE NAVALMORAL DE LA MATA, 64" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3774442827269" ;
+    xsd:longitude "-3.77736653445012" .
+
+<http://example.org/resource/resident-parking/CS_13590> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13590> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13590> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13590> ;
+    ex:address "PLAZA NIÑO JESÚS, 4" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.410884376002" ;
+    xsd:longitude "-3.67526812561094" .
+
+<http://example.org/resource/resident-parking/CS_13519> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13519> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13519> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13519> ;
+    ex:address "Calle de la Hacienda de Pavones, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28936083> ;
+    xsd:latitude "40.40223570989829" ;
+    xsd:longitude "-3.6402079527736393" .
+	
+<http://example.org/resource/resident-parking/CS_13640> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13640> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13640> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13640> ;
+    ex:address "Calle de Ofelia Nieto, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q26832655> ;
+    xsd:latitude "40.4613441119536" ;
+    xsd:longitude "-3.70941469102288" .
+
+<http://example.org/resource/resident-parking/CS_24129> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24129> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24129> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24129> ;
+    ex:address "CALLE ARGÜESO, 25" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3839265550184" ;
+    xsd:longitude "-3.72644830573223" .
+
+<http://example.org/resource/resident-parking/CS_13543> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13543> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13543> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13543> ;
+    ex:address "Calle de José Ortega y Gasset, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q16540548> ;
+    xsd:latitude "40.4296039935558" ;
+    xsd:longitude "-3.67259136281143" .
+
+<http://example.org/resource/resident-parking/CS_13544> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13544> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13544> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13544> ;
+    ex:address "Calle de José Ortega y Gasset, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q16540548> ;
+    xsd:latitude "40.4299649140342" ;
+    xsd:longitude "-3.6780293892857" .
+
+<http://example.org/resource/resident-parking/CS_13549> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13549> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13549> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13549> ;
+    ex:address "Calle de José Ortega y Gasset, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q16540548> ;
+    xsd:latitude "40.4302318954595" ;
+    xsd:longitude "-3.68062850571466" .
+	
+<http://example.org/resource/resident-parking/CS_13553> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13553> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13553> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13553> ;
+    ex:address "Calle de José Ortega y Gasset, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q16540548> ;
+    xsd:latitude "40.430415377787" ;
+    xsd:longitude "-3.68430325770319" .
+
+<http://example.org/resource/resident-parking/CS_167691> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_167691> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_167691> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_167691> ;
+    ex:address "CALLE ORTIZ CAMPOS, 12" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3852544887188" ;
+    xsd:longitude "-3.70731894817544" .
+
+<http://example.org/resource/resident-parking/CS_13510> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13510> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13510> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13510> ;
+    ex:address "CALLE OSA DE LA VEGA, 66" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3751060611669" ;
+    xsd:longitude "-3.77380306182166" .
+
+<http://example.org/resource/resident-parking/CS_13628> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13628> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13628> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13628> ;
+    ex:address "CALLE PABLO CASALS, 1" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.41231117984961" ;
+    xsd:longitude "-3.7243956795334063" .
+
+<http://example.org/resource/resident-parking/CS_13591> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13591> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13591> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13591> ;
+    ex:address "avenida de Pablo Iglesias" ;
+    owl:sameAs <https://wikidata.org/entity/Q28045035> ;
+    xsd:latitude "40.445348641721" ;
+    xsd:longitude "-3.70640585626876" .
+	
+<http://example.org/resource/resident-parking/CS_13517> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13517> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13517> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13517> ;
+    ex:address "avenida de Pablo Iglesias" ;
+    owl:sameAs <https://wikidata.org/entity/Q28045035> ;
+    xsd:latitude "40.4488950198199" ;
+    xsd:longitude "-3.70927628438264" .
+
+<http://example.org/resource/resident-parking/CS_13557> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13557> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13557> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13557> ;
+    ex:address "CALLE PAN Y TOROS, 6" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3604277740801" ;
+    xsd:longitude "-3.69483019856893" .
+
+<http://example.org/resource/resident-parking/CS_81799> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81799> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81799> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81799> ;
+    ex:address "CALLE PANAMA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.45684474123101" ;
+    xsd:longitude "-3.688183135413921" .
+
+<http://example.org/resource/resident-parking/CS_63333> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_63333> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_63333> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_63333> ;
+    ex:address "CALLE SANTA VIRGILIA, 22" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.47724557129" ;
+    xsd:longitude "-3.64067269346952" .
+
+<http://example.org/resource/resident-parking/CS_13619> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13619> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13619> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13619> ;
+    ex:address "Paseo del Pintor Rosales" ;
+    owl:sameAs <https://wikidata.org/entity/Q6065691> ;
+    xsd:latitude "40.42849414397224" ;
+    xsd:longitude "-3.721452095219881" .
+	
+<http://example.org/resource/resident-parking/CS_13620> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13620> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13620> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13620> ;
+    ex:address "Paseo del Pintor Rosales" ;
+    owl:sameAs <https://wikidata.org/entity/Q6065691> ;
+    xsd:latitude "40.430198647546" ;
+    xsd:longitude "-3.72312731774697" .
+
+<http://example.org/resource/resident-parking/CS_13637> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13637> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13637> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13637> ;
+    ex:address "Paseo del Pintor Rosales, c/v Rey Francisco" ;
+    owl:sameAs <https://wikidata.org/entity/Q6065691> ;
+    xsd:latitude "40.42501546634872" ;
+    xsd:longitude "-3.7166405848374517" .
+
+<http://example.org/resource/resident-parking/CS_13592> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13592> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13592> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13592> ;
+    ex:address "PASEO PEDRO YAGUE" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.392283380781684" ;
+    xsd:longitude "-3.7076871303242624" .
+
+<http://example.org/resource/resident-parking/CS_13545> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13545> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13545> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13545> ;
+    ex:address "CALLE PEZ VOLADOR" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4143027370628" ;
+    xsd:longitude "-3.66555883072949" .
+
+<http://example.org/resource/resident-parking/CS_24131> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24131> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24131> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24131> ;
+    ex:address "Paseo de la Esperanza, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q55947011> ;
+    xsd:latitude "40.4023740747468" ;
+    xsd:longitude "-3.70557685986881" .
+	
+<http://example.org/resource/resident-parking/CS_13542> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13542> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13542> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13542> ;
+    ex:address "CALLE PICO DE LOS ARTILLEROS" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4071755730296" ;
+    xsd:longitude "-3.63952942755862" .
+
+<http://example.org/resource/resident-parking/CS_81802> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81802> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81802> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81802> ;
+    ex:address "calle del Pilar de Zaragoza" ;
+    owl:sameAs <https://wikidata.org/entity/Q118608816> ;
+    xsd:latitude "40.435724728216" ;
+    xsd:longitude "-3.67111448995106" .
+
+<http://example.org/resource/resident-parking/CS_13593> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13593> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13593> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13593> ;
+    ex:address "calle de Pío Baroja" ;
+    owl:sameAs <https://wikidata.org/entity/Q118724995> ;
+    xsd:latitude "40.413417443948205" ;
+    xsd:longitude "-3.6745551353834545" .
+
+<http://example.org/resource/resident-parking/CS_13595> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13595> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13595> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13595> ;
+    ex:address "PLAZA PLATON" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4424002090821" ;
+    xsd:longitude "-3.65223700476275" .
+
+<http://example.org/resource/resident-parking/CS_5298038> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_5298038> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_5298038> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_5298038> ;
+    ex:address "CALLE NAVARRA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.45325490763682" ;
+    xsd:longitude "-3.7041514805872615" .
+	
+<http://example.org/resource/resident-parking/CS_13488> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13488> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13488> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13488> ;
+    ex:address "Calle de Mantuano" ;
+    owl:sameAs <https://wikidata.org/entity/Q27048291> ;
+    xsd:latitude "40.4484340334876" ;
+    xsd:longitude "-3.67551341725092" .
+
+<http://example.org/resource/resident-parking/CS_7401268> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7401268> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7401268> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7401268> ;
+    ex:address "calle de Pradillo" ;
+    owl:sameAs <https://wikidata.org/entity/Q55868790> ;
+    xsd:latitude "40.44916077138956" ;
+    xsd:longitude "-3.6711129463989627" .
+
+<http://example.org/resource/resident-parking/CS_13596> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13596> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13596> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13596> ;
+    ex:address "CALLE PUERTO DEL MONASTERIO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.394466830465" ;
+    xsd:longitude "-3.66386420792577" .
+
+<http://example.org/resource/resident-parking/CS_13617> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13617> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13617> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13617> ;
+    ex:address "PLAZA TENIENTE DE ALCALDE PEREZ PILLADO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4399354220316" ;
+    xsd:longitude "-3.70691964167697" .
+
+<http://example.org/resource/resident-parking/CS_13594> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13594> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13594> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13594> ;
+    ex:address "CALLE LUIS DE HOYOS SAINZ" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.403298468742435" ;
+    xsd:longitude "-3.638310907554055" .
+	
+<http://example.org/resource/resident-parking/CS_13509> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13509> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13509> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13509> ;
+    ex:address "Calle de Rafael Finat, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q29648073> ;
+    xsd:latitude "40.37919695063071" ;
+    xsd:longitude "-3.770494446474416" .
+
+<http://example.org/resource/resident-parking/CS_13506> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13506> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13506> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13506> ;
+    ex:address "CALLE RAFAEL SALGADO" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.454300823675" ;
+    xsd:longitude "-3.68784469841434" .
+
+<http://example.org/resource/resident-parking/CS_24132> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24132> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24132> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24132> ;
+    ex:address "avenida de Rafaela Ybarra" ;
+    owl:sameAs <https://wikidata.org/entity/Q110749248> ;
+    xsd:latitude "40.3805393289858" ;
+    xsd:longitude "-3.71120392518426" .
+
+<http://example.org/resource/resident-parking/CS_183557> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_183557> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183557> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183557> ;
+    ex:address "CALLE REQUENA" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4172109195211" ;
+    xsd:longitude "-3.71296223991581" .
+
+<http://example.org/resource/resident-parking/CS_13599> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13599> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13599> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13599> ;
+    ex:address "Clara del Rey Street" ;
+    owl:sameAs <https://wikidata.org/entity/Q28055037> ;
+    xsd:latitude "40.44610227199064" ;
+    xsd:longitude "-3.6682823210085007" .
+
+<http://example.org/resource/resident-parking/CS_13509> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13509> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13509> ;
+    ex:address "Calle de Rafael Finat, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q29648073> ;
+    xsd:latitude "40.37919695063071" ;
+    xsd:longitude "-3.770494446474416" .
+
+<http://example.org/resource/resident-parking/CS_13506> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13506> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13506> ;
+    ex:address "CALLE RAFAEL SALGADO" ;
+    owl:sameAs <https://wikidata.org/entity/Q27048291> ;
+    xsd:latitude "40.454300823675" ;
+    xsd:longitude "-3.68784469841434" .
+
+<http://example.org/resource/resident-parking/CS_24132> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24132> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24132> ;
+    ex:address "avenida de Rafaela Ybarra, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q110749248> ;
+    xsd:latitude "40.3805393289858" ;
+    xsd:longitude "-3.71120392518426" .
+
+<http://example.org/resource/resident-parking/CS_183557> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_183557> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_183557> ;
+    ex:address "CALLE REQUENA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27048291> ;
+    xsd:latitude "40.4172109195211" ;
+    xsd:longitude "-3.71296223991581" .
+
+<http://example.org/resource/resident-parking/CS_13599> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13599> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13599> ;
+    ex:address "Clara del Rey Street, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28055037> ;
+    xsd:latitude "40.44610227199064" ;
+    xsd:longitude "-3.6682823210085007" .
+	
+<http://example.org/resource/resident-parking/CS_13484> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13484> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13484> ;
+    ex:address "PLAZA RUTILIO GACI, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.394024751267" ;
+    xsd:longitude "-3.6955579385658" .
+
+<http://example.org/resource/resident-parking/CS_81829> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81829> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81829> ;
+    ex:address "Calle de RÃ­os Rosas, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27267331> ;
+    xsd:latitude "40.4419186898844" ;
+    xsd:longitude "-3.70199797143224" .
+
+<http://example.org/resource/resident-parking/CS_13600> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13600> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13600> ;
+    ex:address "Avenida del Presidente Carmona, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q28966694> ;
+    xsd:latitude "40.4535000774919" ;
+    xsd:longitude "-3.69699044337177" .
+
+<http://example.org/resource/resident-parking/CS_13638> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13638> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13638> ;
+    ex:address "GLORIETA SAN ANTONIO DE LA FLORIDA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4253575115937" ;
+    xsd:longitude "-3.72649206888015" .
+
+<http://example.org/resource/resident-parking/CS_13601> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13601> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13601> ;
+    ex:address "CALLE SAN AURELIANO, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3424412349648" ;
+    xsd:longitude "-3.71675119626757" .
+
+<http://example.org/resource/resident-parking/CS_81830> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81830> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81830> ;
+    ex:address "calle de San Cipriano, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q34463888> ;
+    xsd:latitude "40.4039447408273" ;
+    xsd:longitude "-3.6018363181584" .
+
+<http://example.org/resource/resident-parking/CS_13602> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13602> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13602> ;
+    ex:address "Paseo de San Francisco de Sales, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27267304> ;
+    xsd:latitude "40.44134611193622" ;
+    xsd:longitude "-3.7139524382519977" .
+
+<http://example.org/resource/resident-parking/CS_81831> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81831> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81831> ;
+    ex:address "Paseo de San Francisco de Sales, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27267304> ;
+    xsd:latitude "40.4408936787857" ;
+    xsd:longitude "-3.71495013522023" .
+
+<http://example.org/resource/resident-parking/CS_13603> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13603> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13603> ;
+    ex:address "CALLE LAZAGA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4576703124766" ;
+    xsd:longitude "-3.69773067712296" .
+
+<http://example.org/resource/resident-parking/CS_13621> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13621> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13621> ;
+    ex:address "PLAZA SAN JUAN DE LA CRUZ, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4411960257283" ;
+    xsd:longitude "-3.69416369753864" .
+	
+<http://example.org/resource/resident-parking/CS_81833> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81833> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81833> ;
+    ex:address "CALLE SAN JUAN DE LA SALLE, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4508410811898" ;
+    xsd:longitude "-3.68928953839738" .
+
+<http://example.org/resource/resident-parking/CS_13604> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13604> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13604> ;
+    ex:address "CALLE SANTA GENOVEVA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4222384804952" ;
+    xsd:longitude "-3.65059543081358" .
+
+<http://example.org/resource/resident-parking/CS_13622> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13622> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13622> ;
+    ex:address "PLAZA CORREGIDOR SANCHO DE CORDOBA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.407580520608" ;
+    xsd:longitude "-3.65306631591667" .
+
+<http://example.org/resource/resident-parking/CS_81836> a ex:resident-parking ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81836> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81836> ;
+    ex:address "Plaza de Santa Cruz, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q6080086> ;
+    xsd:latitude "40.41465988668191" ;
+    xsd:longitude "-3.7049974834741546" .
+
+<http://example.org/resource/resident-parking/CS_13470> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13470> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13470> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13470> ;
+    ex:address "Calle de Barceló, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27051120> ;
+    xsd:latitude "40.426273740022" ;
+    xsd:longitude "-3.70037418702346" .
+
+<http://example.org/resource/resident-parking/CS_13597> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13597> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13597> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13597> ;
+    ex:address "Calle Ramón Gómez de la Serna, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4834555793757" ;
+    xsd:longitude "-3.72441525544936" .
+
+<http://example.org/resource/resident-parking/CS_13598> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13598> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13598> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13598> ;
+    ex:address "Plaza Redondela, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.477788844923" ;
+    xsd:longitude "-3.70893467217271" .
+
+<http://example.org/resource/resident-parking/CS_81827> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81827> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81827> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81827> ;
+    ex:address "Avenida de la Reina Victoria, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q5714243> ;
+    xsd:latitude "40.446975215559675" ;
+    xsd:longitude "-3.7099147475442695" .
+
+<http://example.org/resource/resident-parking/CS_13618> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13618> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13618> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13618> ;
+    ex:address "Calle Ribadavia, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4728431267083" ;
+    xsd:longitude "-3.7051923830735447" .
+
+<http://example.org/resource/resident-parking/CS_81841> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81841> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81841> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81841> ;
+    ex:address "CALLE SOMONTIN, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4771584121652" ;
+    xsd:longitude "-3.65901066340453" .
+
+<http://example.org/resource/resident-parking/CS_13492> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13492> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13492> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13492> ;
+    ex:address "Calle de Sor Ángela de la Cruz, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q21011321> ;
+    xsd:latitude "40.4598568460617" ;
+    xsd:longitude "-3.69649048133011" .
+
+<http://example.org/resource/resident-parking/CS_13511> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13511> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13511> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13511> ;
+    ex:address "CALLE TEMBLEQUE, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3917164795896" ;
+    xsd:longitude "-3.76379557097787" .
+
+<http://example.org/resource/resident-parking/CS_13547> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13547> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13547> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13547> ;
+    ex:address "CALLE TOMELLOSO, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.38241200852226" ;
+    xsd:longitude "-3.6980492843158093" .
+
+<http://example.org/resource/resident-parking/CS_13489> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13489> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13489> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13489> ;
+    ex:address "CALLE URUGUAY, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.45491579186842" ;
+    xsd:longitude "-3.6729545093535205" .
+	
+<http://example.org/resource/resident-parking/CS_13559> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13559> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13559> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13559> ;
+    ex:address "Avenida de Valladolid, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q29903461> ;
+    xsd:latitude "40.430403855192" ;
+    xsd:longitude "-3.73101574319727" .
+
+<http://example.org/resource/resident-parking/CS_24141> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_24141> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_24141> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_24141> ;
+    ex:address "calle de Arapiles, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q27243804> ;
+    xsd:latitude "40.4327140924793" ;
+    xsd:longitude "-3.70783765600394" .
+
+<http://example.org/resource/resident-parking/CS_13523> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13523> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13523> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13523> ;
+    ex:address "CALLE HERREROS DE TEJADA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.455004277244925" ;
+    xsd:longitude "-3.680344106308375" .
+
+<http://example.org/resource/resident-parking/CS_13623> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13623> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13623> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13623> ;
+    ex:address "CALLE JOSE VASCONCELOS, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4710989453583" ;
+    xsd:longitude "-3.68668849288348" .
+
+<http://example.org/resource/resident-parking/CS_13513> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13513> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13513> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13513> ;
+    ex:address "CALLE VICENTE GACEO, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4732429497997" ;
+    xsd:longitude "-3.68824841198335" .
+	
+<http://example.org/resource/resident-parking/CS_13606> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13606> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13606> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13606> ;
+    ex:address "CALLE LAS PEDROÑERAS, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4671801613405" ;
+    xsd:longitude "-3.63060029600734" .
+
+<http://example.org/resource/resident-parking/CS_13607> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13607> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13607> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13607> ;
+    ex:address "VILLACARLOS, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4060711909959" ;
+    xsd:longitude "-3.60788043711702" .
+
+<http://example.org/resource/resident-parking/CS_13608> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13608> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13608> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13608> ;
+    ex:address "CALLE MATAMOROSA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.41943124968532" ;
+    xsd:longitude "-3.6294595362862476" .
+
+<http://example.org/resource/resident-parking/CS_13609> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13609> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13609> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13609> ;
+    ex:address "CALLE VILLAMANIN, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4061952854288" ;
+    xsd:longitude "-3.75337659955903" .
+
+<http://example.org/resource/resident-parking/CS_13528> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13528> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13528> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13528> ;
+    ex:address "CALLE VILLAMANIN, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4059045304646" ;
+    xsd:longitude "-3.75418319828382" .
+	
+<http://example.org/resource/resident-parking/CS_81866> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_81866> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_81866> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_81866> ;
+    ex:address "CALLE VIRGEN DE ARANZAZU, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.486552891873416" ;
+    xsd:longitude "-3.689816678148437" .
+
+<http://example.org/resource/resident-parking/CS_13610> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13610> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13610> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13610> ;
+    ex:address "CALLE VIRGEN DE LA ALEGRIA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43406048233506" ;
+    xsd:longitude "-3.656701823170881" .
+
+<http://example.org/resource/resident-parking/CS_13612> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13612> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13612> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13612> ;
+    ex:address "CALLE VIRGEN DE LA ROCA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43419545405507" ;
+    xsd:longitude "-3.658200551748118" .
+
+<http://example.org/resource/resident-parking/CS_13613> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13613> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13613> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13613> ;
+    ex:address "CALLE VIRGEN DE LA ROCA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43529607700225" ;
+    xsd:longitude "-3.6574250978353193" .
+
+<http://example.org/resource/resident-parking/CS_13639> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13639> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13639> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13639> ;
+    ex:address "CALLE VIRGEN DE LOURDES, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43597661134019" ;
+    xsd:longitude "-3.657195189643075" .
+	
+<http://example.org/resource/resident-parking/CS_13611> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13611> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13611> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13611> ;
+    ex:address "Paseo de la Virgen del Puerto, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q6065659> ;
+    xsd:latitude "40.4134630479791" ;
+    xsd:longitude "-3.72094736367542" .
+
+<http://example.org/resource/resident-parking/CS_7397971> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_7397971> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_7397971> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_7397971> ;
+    ex:address "PLAZA VIRGEN DEL ROMERO, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43836519890891" ;
+    xsd:longitude "-3.6510870622808604" .
+
+<http://example.org/resource/resident-parking/CS_13614> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13614> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13614> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13614> ;
+    ex:address "AVENIDA PLAZA DE TOROS, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.385867288174" ;
+    xsd:longitude "-3.73973577923161" .
+
+<http://example.org/resource/resident-parking/CS_13493> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13493> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13493> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13493> ;
+    ex:address "CALLE VITAL AZA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.43074926440721" ;
+    xsd:longitude "-3.6443505402381953" .
+
+<http://example.org/resource/resident-parking/CS_61831> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_61831> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_61831> ;
+    ex:owner "Ayuntamietno de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_61831> ;
+    ex:address "CALLE VIA CARPETANA, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.3883114090483" ;
+    xsd:longitude "-3.74448284806632" .
+	
+<http://example.org/resource/resident-parking/CS_13514> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13514> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13514> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13514> ;
+    ex:address "PLAZA ANGEL CARBAJO, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4622702219855" ;
+    xsd:longitude "-3.69439752488649" .
+
+<http://example.org/resource/public-parking/CS_13463> a ex:resident-parking ;
+    ex:hasConnector <http://example.org/resource/Connector/CN_13463> ;
+    ex:hasGeocoordinates <http://example.org/resource/Geocoordinates/GL_13463> ;
+    ex:owner "Ayuntamiento de Madrid" ;
+    ex:management "Empresa Municipal de Transportes (EMT) (más información)" ;
+    ex:City "Madrid" ;
+    ex:GeoCoordinates <http://example.org/resource/Geocoordinates/GL_13463> ;
+    ex:address "plaza de España, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q2807> ;
+    xsd:latitude "40.4237811996075" ;
+    xsd:longitude "-3.71152321262521" .
