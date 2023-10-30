@@ -19,9 +19,9 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 # **TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**
 
 # %%
-
+ns = Namespace("http://somewhere#")
 # RDFlib
-for s,p,o in g.triples((None, RDFS.subClassOf, None)):
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
   print(s)
 
 # SPARQL
@@ -41,22 +41,19 @@ for r in g.query(q1):
 
 # %%
 #RDFlib
-ns = Namespace("http://somewhere#")
-for s, p, o in g.triples((None, RDF.type, ns.Person)):
-    print(s)
-
-# Find subclasses
-for s1, p1, o1 in g.triples((None, RDF.type/RDFS.subClassOf, ns.Person)):
-    print(s1)
+for s, _, o in g.triples((None, RDFS.subClassOf, ns.Person)):
+     for s1, _, _ in g.triples((None, RDF.type, s)):
+         print(s1)
 
 
 # %%
 # SPARQL
 q2 = """
  PREFIX ns: <http://somewhere#>
- SELECT ?s
+ SELECT DISTINCT ?s1
  WHERE {
-   ?s rdf:type/rdfs:subClassOf* ns:Person .
+   ?s rdfs:subClassOf ns:Person .
+   ?s1 a ?s .
  }
  """
 for r in g.query(q2):
@@ -69,10 +66,9 @@ for r in g.query(q2):
 # %%
 # RDFlib
 ns = Namespace("http://somewhere#")
-for s,p,o in g.triples((None, None, ns.Person)):
-  print(s,p,o)
-for s,p,o in g.triples((None, None, ns.Animal)):
-  print(s,p,o)
+for s,p,o in g.triples((None, RDF.type, None)):
+  if o == ns.Person or o == ns.Animal:
+    print(s,p)
 
 
 # %%
@@ -92,6 +88,7 @@ q3 = """
    }
  }
  """
+# Can´t solve this one 
 for r in g.query(q3):
   print(r[0],r[1],r[2])
 
@@ -111,14 +108,18 @@ for s,p,o in g.triples((None, FOAF.knows,ns.RockySmith)):
 # %%
 # SPARQL
 q4 = """
- PREFIX ns: <http://somewhere#>
- SELECT ?s
+  PREFIX ns: <http://somewhere#>
+  PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+  PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0/>
+  PREFIX ns: <http://somewhere#>
+ SELECT ?s ?name
  WHERE {
    ?s foaf:knows ns:RockySmith.
+    ?s vcard:Given ?name .
  }
- """
+  """
 for r in g.query(q4):
-  print(r[0])
+  print(r[1]) # Printing only name 
 
 # %% [markdown]
 # **Task 7.5: List the entities who know at least two other entities in the graph**
