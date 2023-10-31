@@ -25,15 +25,22 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 from rdflib.plugins.sparql import prepareQuery
 
+# RDFLib
+ns = Namespace("http://somewhere#")
+print(" - RDFLib: ")
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
+  print(s)
+
+# SPARQL
 q1 = prepareQuery('''
   SELECT ?Class WHERE {
     ?Class rdfs:subClassOf ns:LivingThing
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#") }
+  initNs = { "ns": ns }
 )
 
-# Visualize the results
+print("\n - SPARQL: ")
 for r in g.query(q1):
   print(r.Class)
 
@@ -41,6 +48,17 @@ for r in g.query(q1):
 
 """
 
+# RDFLib
+print(" - RDFLib: ")
+# Person
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  print(s)
+# SubClassOf Person
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for s,p,o in g.triples((None, RDF.type, s)):
+    print(s)
+
+# SPARQL
 q2 = prepareQuery('''
   SELECT DISTINCT ?Person WHERE {
     {
@@ -53,10 +71,10 @@ q2 = prepareQuery('''
     }
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#") }
+  initNs = { "ns": ns }
 )
 
-# Visualize the results
+print("\n - SPARQL: ")
 for r in g.query(q2):
   print(r.Person)
 
@@ -64,6 +82,24 @@ for r in g.query(q2):
 
 """
 
+# RDFLib
+print(" - RDFLib: ")
+# Person
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  print("\nPerson:")
+  print(s)
+  print("Properties:")
+  for s,p,o in g.triples((s, None, None)):
+    print(p,o)
+# Animal
+for s,p,o in g.triples((None, RDF.type, ns.Animal)):
+  print("\nAnimal:")
+  print(s)
+  print("Properties:")
+  for s,p,o in g.triples((s, None, None)):
+    print(p,o)
+
+# SPARQL
 q3 = prepareQuery('''
   SELECT ?Person ?Animal ?Property WHERE {
     {
@@ -73,14 +109,14 @@ q3 = prepareQuery('''
     UNION
     {
       ?Animal rdf:type ns:Animal.
-      ?Animal ?Property ?value
+      ?Animal ?Property ?Value
     }
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#") }
+  initNs = { "ns": ns }
 )
 
-# Visualize the results
+print("\n - SPARQL: ")
 for r in g.query(q3):
   print(r.Person, r.Animal, r.Property)
 
@@ -93,7 +129,7 @@ q4 = prepareQuery('''
     ?Person foaf:knows ns:RockySmith
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#"), "foaf": FOAF }
+  initNs = { "ns": ns, "foaf": FOAF }
 )
 
 # Visualize the results
