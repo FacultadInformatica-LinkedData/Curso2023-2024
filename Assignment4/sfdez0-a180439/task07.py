@@ -147,7 +147,8 @@ from rdflib import FOAF
 q5 = prepareQuery('''
   SELECT DISTINCT ?Entity WHERE {
     ?Entity foaf:knows ?Entity2;
-            foaf:knows ?Entity3
+            foaf:knows ?Entity3.
+    FILTER (?Entity2 != ?Entity3)
   }
   ''',
   initNs = { "foaf": FOAF }
