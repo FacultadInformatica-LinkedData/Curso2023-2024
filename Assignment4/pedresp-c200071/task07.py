@@ -25,7 +25,14 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 from rdflib.plugins.sparql import prepareQuery
 ns=Namespace("http://somewhere#")
-# TO DO
+
+#RDFLIB
+for a,b,c in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
+  print(a)
+
+print("------------------------")
+
+# SPARQL
 q1 = prepareQuery('''
   select ?subclasses where {
     ?subclasses rdfs:subClassOf ?obj.
@@ -41,7 +48,16 @@ for r in g.query(q1):
 
 """
 
-# TO DO
+#RDFLIB
+for a,b,c in g.triples((None, RDF.type, ns.Person)):
+  print(a)
+subclasses = g.triples((None, RDFS.subClassOf, ns.Person))
+for i in subclasses:
+  for a,b,c in g.triples((None, RDF.type, i[0])):
+    print(a)
+
+print("----------")
+#SPARQL
 q2 = prepareQuery('''
   select ?ind where {
     {
@@ -61,8 +77,21 @@ for r in g.query(q2):
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
 """
+#RDFLIB
+personas = g.triples((None, RDF.type, ns.Person))
+animales = g.triples((None, RDF.type, ns.Animal))
 
-# TO DO
+for i in personas:
+  for a,b,c in g.triples((i[0], None, None)):
+    print(a,b)
+
+for i in animales:
+  for a,b,c in g.triples((i[0], None, None)):
+    print(a,b)
+
+print("------------")
+
+#SPARQL
 q3 = prepareQuery('''
   select ?indv ?prop where {
     {
