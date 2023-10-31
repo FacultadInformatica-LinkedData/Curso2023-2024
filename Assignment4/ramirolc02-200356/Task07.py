@@ -130,12 +130,11 @@ ns = Namespace("http://somewhere#")
 from rdflib import FOAF
 entities = set()
 for s,p,o in g.triples((None, FOAF.knows, None)):
-  for s1,p1,o1 in g.triples((o, FOAF.knows, None)):
-        if s1 not in entities:
+  for s1,p1,o1 in g.triples((s, FOAF.knows, None)):
+        if o1 != 0 and s not in entities:
             print(s1)
-            entities.add(s1)
-    
-# How to avoid entity repetition? 
+            #s knows other 2 entities 
+            entities.add(s)
 
 # %%
 # SPARQL
@@ -143,8 +142,9 @@ q5 = """
  PREFIX ns: <http://somewhere#>
  SELECT  distinct ?s
  WHERE {
-   ?s foaf:knows ?o.
-   ?o foaf:knows ?s.
+   ?s foaf:knows ?o .
+   ?o foaf:knows ?o1 .
+   FILTER(?o != ?o1)
  }
  """
 for r in g.query(q5):
