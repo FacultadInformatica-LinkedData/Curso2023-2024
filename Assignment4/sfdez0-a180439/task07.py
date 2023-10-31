@@ -124,17 +124,21 @@ for r in g.query(q3):
 
 from rdflib import FOAF
 
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
+
 q4 = prepareQuery('''
-  SELECT ?Person WHERE {
-    ?Person foaf:knows ns:RockySmith
+  SELECT ?PersonName WHERE {
+    ?Person rdf:type ns:Person.
+    ?Person foaf:knows ns:RockySmith.
+    ?Person vcard:Given ?PersonName
   }
   ''',
-  initNs = { "ns": ns, "foaf": FOAF }
+  initNs = { "ns": ns, "foaf": FOAF, "vcard": vcard }
 )
 
 # Visualize the results
 for r in g.query(q4):
-  print(r.Person)
+  print(r.PersonName)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
