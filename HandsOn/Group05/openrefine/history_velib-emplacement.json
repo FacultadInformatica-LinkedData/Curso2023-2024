@@ -17,13 +17,13 @@
   {
     "op": "core/column-rename",
     "oldColumnName": "coordonnees_geo 1",
-    "newColumnName": "latitud",
-    "description": "Rename column coordonnees_geo 1 to latitud"
+    "newColumnName": "latitude",
+    "description": "Rename column coordonnees_geo 1 to latitude"
   },
   {
     "op": "core/column-rename",
     "oldColumnName": "coordonnees_geo 2",
-    "newColumnName": "longitud",
-    "description": "Rename column coordonnees_geo 2 to longitud"
+    "newColumnName": "longitude",
+    "description": "Rename column coordonnees_geo 2 to longitude"
   }
 ]
