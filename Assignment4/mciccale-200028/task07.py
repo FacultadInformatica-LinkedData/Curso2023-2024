@@ -64,6 +64,8 @@ for r in g.query(q1):
 
 # RDFLib
 print("RDFLib Query:")
+for s, _, _ in g.triples((None, RDF.type, ns.Person)):
+    print(s)
 for subclass, _, _ in g.triples((None, RDFS.subClassOf, ns.Person)):
     for s, _, _ in g.triples((None, RDF.type, subclass)):
         print(s)
