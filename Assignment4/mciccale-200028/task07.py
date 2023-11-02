@@ -73,8 +73,14 @@ q2 = prepareQuery(
     """
     SELECT DISTINCT ?Individual
     WHERE {
-        ?Subclass RDFS:subClassOf ns:Person .
-        ?Individual a ?Subclass .
+        {
+            ?Individual a ns:Person .
+        }
+        UNION
+        {
+            ?Subclass RDFS:subClassOf ns:Person .
+            ?Individual a ?Subclass .
+        }
     }
     """,
     initNs={"RDFS": RDFS, "RDF": RDF, "ns": ns},
