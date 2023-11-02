@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/ontology#> .
+
+# Define the ParkingSpot class
+ex:ParkingSpot rdf:type owl:Class ;
+    rdfs:label "Parking Spot" ;
+    rdfs:comment "A parking spot in the city of Madrid." .
+
+# Define class for Location (where the parking spot is located)
+ex:Location rdf:type owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:comment "Information about the location of the parking spot." .
+
+# Define object property to link ParkingSpot to Location
+ex:isLocatedIn rdf:type owl:ObjectProperty ;
+    rdfs:label "is Located In" ;
+    rdfs:comment "Relates a parking spot to its location." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range ex:Location .
+
+# Define datatype property for name
+ex:hasName rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Name" ;
+    rdfs:comment "The name of the parking spot." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:string .
+
+# Define datatype property for id
+ex:hasID rdf:type owl:DatatypeProperty ;
+    rdfs:label "has ID" ;
+    rdfs:comment "The ID of the parking spot." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:integer .
+
+# Define datatype property for description
+ex:hasDescription rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Description" ;
+    rdfs:comment "A description of the parking spot." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:string .
+
+# Define datatype property for accessibility
+ex:hasAccessibility rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Accessibility" ;
+    rdfs:comment "Information about accessibility (e.g., accessibility features)." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:integer .
+
+# Define datatype property for content URL
+ex:hasContentURL rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Content URL" ;
+    rdfs:comment "The URL to access additional content about the parking spot." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:anyURI .
+
+# Define datatype property for telephone
+ex:hasTelephone rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Telephone" ;
+    rdfs:comment "The telephone number for the parking spot." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range xsd:string .
+
+# Define class for Address
+ex:Address rdf:type owl:Class ;
+    rdfs:label "Address" ;
+    rdfs:comment "Information about the address of the parking spot." .
+
+# Define object property to link Location to Address
+ex:hasAddress rdf:type owl:ObjectProperty ;
+    rdfs:label "has Address" ;
+    rdfs:comment "Relates a location to its address." ;
+    rdfs:domain ex:Location ;
+    rdfs:range ex:Address .
+
+# Define datatype properties for address components
+ex:hasStreetName rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Street Name" ;
+    rdfs:comment "The name of the street where the parking spot is located." ;
+    rdfs:domain ex:Address ;
+    rdfs:range xsd:string .
+
+ex:hasPostalCode rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Postal Code" ;
+    rdfs:comment "The postal code of the area." ;
+    rdfs:domain ex:Address ;
+    rdfs:range xsd:integer .
+
+# Define class for Contact
+ex:Contact rdf:type owl:Class ;
+    rdfs:label "Contact" ;
+    rdfs:comment "Contact information for the parking spot." .
+
+# Define object property to link ParkingSpot to Contact
+ex:hasContact rdf:type owl:ObjectProperty ;
+    rdfs:label "has Contact" ;
+    rdfs:comment "Relates a parking spot to its contact information." ;
+    rdfs:domain ex:ParkingSpot ;
+    rdfs:range ex:Contact .
+
+# Define datatype properties for contact details
+ex:hasEmail rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Email" ;
+    rdfs:comment "The email address for contacting the parking spot." ;
+    rdfs:domain ex:Contact ;
+    rdfs:range xsd:string .

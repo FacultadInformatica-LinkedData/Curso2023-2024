@@ -1,0 +1,55 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_compteur",
+    "description": "Remove column nom_compteur"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "name",
+    "description": "Remove column name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "installation_date",
+    "description": "Remove column installation_date"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "counter",
+    "description": "Remove column counter"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "latitude",
+    "description": "Remove column latitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "longitude",
+    "description": "Remove column longitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "id_computeur",
+    "expression": "grel:value + \"_\" + cells[\"date\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "identif",
+    "columnInsertIndex": 1,
+    "description": "Create column identif at index 1 based on column id_computeur using expression grel:value + \"_\" + cells[\"date\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "street",
+    "description": "Remove column street"
+  }
+]

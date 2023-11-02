@@ -1,0 +1,41 @@
+@prefix ns1:	<http://smartcity.group04.es/resource/MunicipalBuilding/> .
+@prefix ns0:	<https://schema.org/CivicStructure#> .
+@prefix ns1:	<http://smartcity.group04.es/resource/MunicipalBuilding/> .
+@prefix ns2:	<http://smartcity.group04.es/ontology/EnergyConsumption#> .
+@prefix ns3:	<http://smartcity.group04.es/resource/District/> .
+@prefix ns4:	<http://smartcity.group04.es/resource/Neighborhood/> .
+@prefix ns5:	<http://smartcity.group04.es/resource/MeasureType/> .
+@prefix ns6:	<http://smartcity.group04.es/resource/Measure/> .
+@prefix ns7:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ns8:	<https://www.w3.org/TR/owl-time#> .
+
+ns1:2258	ns0:address	"Calle Isaac Albeniz, 1 28019 Madrid" ;
+ns0:latitude	40.3977521494866 .
+ns3:11	a	ns2:District .
+ns4:113	ns2:name	"San Isidro" .
+ns5:1	ns2:name	"Energía activa" .
+ns5:3	ns2:name	"Energía Reactiva" .
+ns1:2258	a	ns2:MunicipalBuilding ;
+ns0:name	"Biblioteca Ana María Matute" .
+ns6:1	a	ns2:EnergyValue .
+ns6:2	a	ns2:EnergyValue .
+ns3:11	ns2:name	"Carabanchel" .
+ns1:2258	ns2:hasDistrict	ns3:11 .
+ns5:1	a	ns2:UnitOfMeasure .
+ns5:3	a	ns2:UnitOfMeasure .
+ns1:2258	ns2:consumes	ns6:1 ,
+ns6:2 .
+ns4:113	ns2:inside	ns3:11 .
+ns6:2	ns2:hasQuantityValue	104 .
+ns6:1	ns2:hasQuantityValue	13099 .
+ns4:113	a	ns2:Neighborhood .
+ns6:1	ns8:year	"2020"^^ns7:gYear .
+ns6:2	ns8:year	"2020"^^ns7:gYear .
+ns1:2258	ns2:hasNeighborhood	ns4:113 .
+ns6:1	ns8:month	"3"^^ns7:gMonth .
+ns6:2	ns8:month	"3"^^ns7:gMonth .
+ns5:1	ns2:symbol	"kWh" .
+ns5:3	ns2:symbol	"kvarh" .
+ns1:2258	ns0:longitude	-3.7202936410904 .
+ns6:2	ns2:hasUnitType	ns5:3 .
+ns6:1	ns2:hasUnitType	ns5:1 .
