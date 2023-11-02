@@ -17,7 +17,7 @@
 
 <#TriplesMap1>
 	rml:logicalSource [
-      rml:source "data/clean.csv";
+      rml:source "data/data-updated.csv";
       rml:referenceFormulation ql:CSV
    ];
    rr:subjectMap [
@@ -55,19 +55,12 @@
 		rr:predicate base:hasDistrict;
 		rr:objectMap [
 			rr:parentTriplesMap <#TriplesMap2>;
-			rr:joinCondition [
-				rr:child "CÓDIGO BARRIO";
-				rr:parent "CÓDIGO BARRIO";
-			];
 		] ];
 	rr:predicateObjectMap [
 		rr:predicate base:hasNeighborhood;
 		rr:objectMap [
 			rr:parentTriplesMap <#TriplesMap3>;
-			rr:joinCondition [
-				rr:child "CÓDIGO DISTRITO";
-				rr:parent "CÓDIGO DISTRITO";
-			];
+	
 		] ];
 	rr:predicateObjectMap [
 		rr:predicate base:consumes;
@@ -78,7 +71,7 @@
 
 <#TriplesMap2>
 	rml:logicalSource [
-      rml:source "data/clean.csv";
+      rml:source "data/data-updated.csv";
       rml:referenceFormulation ql:CSV
    ];
    rr:subjectMap [
@@ -95,7 +88,7 @@
 
 <#TriplesMap3>
 	rml:logicalSource [
-      rml:source "data/clean.csv";
+      rml:source "data/data-updated.csv";
       rml:referenceFormulation ql:CSV
    ];
    rr:subjectMap [
@@ -122,7 +115,7 @@
 
 <#TriplesMap4>
 	rml:logicalSource [
-      rml:source "data/clean.csv";
+      rml:source "data/data-updated.csv";
       rml:referenceFormulation ql:CSV
    ];
    rr:subjectMap [
@@ -145,7 +138,7 @@
 
 <#TriplesMap5>
 	rml:logicalSource [
-      rml:source "data/clean.csv";
+      rml:source "data/data-updated.csv";
       rml:referenceFormulation ql:CSV
    ];
    rr:subjectMap [
