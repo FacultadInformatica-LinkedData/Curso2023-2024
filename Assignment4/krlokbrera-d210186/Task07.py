@@ -14,10 +14,10 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 """First let's read the RDF file"""
 
 from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, RDFS, FOAF
+from rdflib.namespace import RDF, RDFS, FOAF, XSD
 g = Graph()
 ns=Namespace("http://somewhere#")
-VCARD=Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+VCARD=Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/rdf/example6.rdf", format="xml")
@@ -26,17 +26,16 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 def printSubClassesOf(className):
   for s,p,o in g.triples((None, RDFS.subClassOf, className)):
-    print(s)
-    printSubClassesOf(s)
+    print(s) 
 
-printSubClassesOf(ns.Person)
+printSubClassesOf(ns.LivingThing)
 
 # SPARQL
 from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject rdfs:subClassOf+ ns:Person. 
+    ?Subject rdfs:subClassOf ns:LivingThing. 
   }
   ''',
   initNs = { "ns": ns} 
@@ -84,40 +83,51 @@ def printInstancesAndPropertiesOfTaxonomy(className):
     printInstancesAndPropertiesOfTaxonomy(s)
 
 printInstancesAndPropertiesOfTaxonomy(ns.Person)
+printInstancesAndPropertiesOfTaxonomy(ns.Animal)
 
 # SPARQL
 
 q3 = prepareQuery('''
-SELECT ?people ?properties WHERE { 
- ?subclasses rdfs:subClassOf* ns:Person.
-  ?people a ?subclasses.
-  ?people ?properties ?values
+SELECT ?individual ?properties WHERE { 
+  {
+  ?subclasses rdfs:subClassOf* ns:Person.
+  ?individual a ?subclasses.
+  ?individual ?properties ?values
 }
+UNION 
+{
+  ?subclasses rdfs:subClassOf* ns:Animal.
+  ?individual a ?subclasses.
+  ?individual ?properties ?values                      
+} 
+}               
   ''',
   initNs = { "ns": ns} 
 )
 
 for r in g.query(q3):
-  print(r.people, r.properties)
+  print(r.individual, r.properties)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 q4 = prepareQuery('''
-SELECT ?people WHERE {
-    ?people foaf:knows ns:RockySmith
+  SELECT DISTINCT ?Given WHERE {
+    ?people foaf:knows ns:RockySmith.
+    ?people vcard:FN ?Given
   }
   ''',
-  initNs = { "ns": Namespace("http://somewhere#"), "foaf": FOAF }
+  initNs={"foaf": FOAF, "vcard": VCARD, "ns": ns}
 )
 
 for r in g.query(q4):
-  print(r.people)
+    print(r.Given)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 q5 = prepareQuery('''
   SELECT DISTINCT ?entity WHERE {
-    ?entity foaf:knows ?E2;
-            foaf:knows ?E3
+    ?entity foaf:knows ?E2.
+    ?entity foaf:knows ?E3.
+    FILTER (?E2 != ?E3)
   }
   ''',
   initNs = { "foaf": FOAF }
