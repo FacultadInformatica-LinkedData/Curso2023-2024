@@ -61,7 +61,7 @@ map:om_003 rml:reference "EDIFICIO" ;
 
 map:om_004 rml:reference "ID" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_005 rml:reference "COORDENADA_X" ;
@@ -102,7 +102,7 @@ map:om_012 rdf:type rr:ObjectMap ;
 
 map:om_013 rml:reference "CODIGO_DISTRITO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_014 rml:reference "DISTRITO" ;
@@ -120,7 +120,7 @@ map:om_016 rdf:type rr:ObjectMap ;
 
 map:om_017 rml:reference "CODIGO_BARRIO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_018 rml:reference "BARRIO" ;
@@ -142,17 +142,17 @@ map:om_021 rdf:type rr:ObjectMap ;
 
 map:om_022 rml:reference "ID_MEDIDA" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_023 rml:reference "ANO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_024 rml:reference "MES" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_025 rml:reference "UNIDADES" ;
