@@ -55,34 +55,34 @@ ns:buildingName a owl:DatatypeProperty ;
 ns:id a owl:DatatypeProperty ;
     rdfs:label "id" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 ns:x_coordinate a owl:DatatypeProperty ;
     rdfs:label "x_coordinate" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:float .
 
 ns:y_coordinate a owl:DatatypeProperty ;
     rdfs:label "y_coordinate" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:float .
 
 ns:latitude a owl:DatatypeProperty ;
     rdfs:label "latitude" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:float .
 
 ns:longitude a owl:DatatypeProperty ;
     rdfs:label "longitude" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:float .
 
 # -------------------------- District ----------------------
 
 ns:districtCode a owl:DatatypeProperty ;
     rdfs:label "districtCode" ;
     rdfs:domain ns:District ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 ns:districtName a owl:DatatypeProperty ;
     rdfs:label "districtName" ;
@@ -99,24 +99,24 @@ ns:neighbourhoodName a owl:DatatypeProperty ;
 ns:neighbourhoodCode a owl:DatatypeProperty ;
     rdfs:label "neighbourhoodCode" ;
     rdfs:domain ns:Neighbourhood ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string  .
 
 # --------------------------- Measure ----------------------
 
 ns:measureId a owl:DatatypeProperty ;
     rdfs:label "measureId" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string  .
 
 ns:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string  .
 
 ns:month a owl:DatatypeProperty ;
     rdfs:label "month" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string  .
 
 ns:unit a owl:DatatypeProperty ;
     rdfs:label "unit" ;

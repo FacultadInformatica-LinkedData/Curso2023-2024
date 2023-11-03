@@ -16,7 +16,7 @@ mappings:
       - [ns:address, $(DIRECCION), xsd:string]
       - [ns:buildingType, $(TIPOEDIFICIO), xsd:string]
       - [ns:buildingName, $(EDIFICIO), xsd:string]
-      - [ns:id, $(ID), xsd:integer]
+      - [ns:id, $(ID), xsd:string]
       - [ns:x_coordinate, $(COORDENADA_X), xsd:float]
       - [ns:y_coordinate, $(COORDENADA_Y), xsd:float]
       - [ns:latitude, $(LATITUD), xsd:float]
@@ -31,7 +31,7 @@ mappings:
     s: base:district/$(CODIGO_DISTRITO)
     po:
       - [a, ns:District]
-      - [ns:districtCode, $(CODIGO_DISTRITO), xsd:integer]
+      - [ns:districtCode, $(CODIGO_DISTRITO), xsd:string]
       - [ns:districtName, $(DISTRITO), xsd:string]
       - [owl:sameAs, $(URI_Distrito_de_Wikidata)~iri]
 
@@ -41,7 +41,7 @@ mappings:
     s: base:neighbourhood/$(CODIGO_BARRIO)
     po:
       - [a, ns:Neighbourhood]
-      - [ns:neighbourhoodCode, $(CODIGO_BARRIO), xsd:integer]
+      - [ns:neighbourhoodCode, $(CODIGO_BARRIO), xsd:string]
       - [ns:neighbourhoodName, $(BARRIO), xsd:string]
       - [ns:locatedInDistrict, base:district/$(CODIGO_DISTRITO)~iri]
       - [owl:sameAs, $(URI_Barrio_de_Wikidata)~iri]
@@ -52,9 +52,9 @@ mappings:
     s: base:measure/$(ID_MEDIDA)
     po:
       - [a, ns:Measure]
-      - [ns:measureId, $(ID_MEDIDA), xsd:integer]
-      - [ns:year, $(ANO), xsd:integer]
-      - [ns:month, $(MES), xsd:integer]
+      - [ns:measureId, $(ID_MEDIDA), xsd:string]
+      - [ns:year, $(ANO), xsd:string]
+      - [ns:month, $(MES), xsd:string]
       - [ns:unit, $(UNIDADES), xsd:string]
       - [ns:consumption, $(CONSUMO), xsd:float]
 
