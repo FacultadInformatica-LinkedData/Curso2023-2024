@@ -1,0 +1,71 @@
+---
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  ns: http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  building:
+    sources:
+      - [../csv/consumo_energia_edificios_updated-with-links.csv~csv]
+    s: ns:building/$(ID)
+    po:
+      - [a, ns:Building]
+      - [ns:address, $(DIRECCION), xsd:string]
+      - [ns:buildingType, $(TIPOEDIFICIO), xsd:string]
+      - [ns:buildingName, $(EDIFICIO), xsd:string]
+      - [ns:id, $(ID), xsd:integer]
+      - [ns:x_coordinate, $(COORDENADA_X), xsd:float]
+      - [ns:y_coordinate, $(COORDENADA_Y), xsd:float]
+      - [ns:latitude, $(LATITUD), xsd:float]
+      - [ns:longitude, $(LONGITUD), xsd:float]
+      - [ns:locatedInNeighbourhood, ns:neighbourhood/$(CODIGO_BARRIO)~iri]
+      - [ns:hasMeasure, ns:measure/$(ID_MEDIDA)~iri]
+      - [ns:hasSensor, ns:sensor/$(SENSOR)~iri]
+
+  district:
+    sources:
+      - [../csv/consumo_energia_edificios_updated-with-links.csv~csv]
+    s: ns:district/$(CODIGO_DISTRITO)
+    po:
+      - [a, ns:District]
+      - [ns:districtCode, $(CODIGO_DISTRITO), xsd:integer]
+      - [ns:districtName, $(DISTRITO), xsd:string]
+      - [owl:sameAs, $(URI_Distrito_de_Wikidata)~iri]
+
+  neighbourhood:
+    sources:
+      - [../csv/consumo_energia_edificios_updated-with-links.csv~csv]
+    s: ns:neighbourhood/$(CODIGO_BARRIO)
+    po:
+      - [a, ns:Neighbourhood]
+      - [ns:neighbourhoodCode, $(CODIGO_BARRIO), xsd:integer]
+      - [ns:neighbourhoodName, $(BARRIO), xsd:string]
+      - [ns:locatedInDistrict, ns:district/$(CODIGO_DISTRITO)~iri]
+      - [owl:sameAs, $(URI_Barrio_de_Wikidata)~iri]
+
+  measure:
+    sources:
+      - [../csv/consumo_energia_edificios_updated-with-links.csv~csv]
+    s: ns:measure/$(ID_MEDIDA)
+    po:
+      - [a, ns:Measure]
+      - [ns:measureId, $(ID_MEDIDA), xsd:integer]
+      - [ns:year, $(ANO), xsd:integer]
+      - [ns:month, $(MES), xsd:integer]
+      - [ns:unit, $(UNIDADES), xsd:string]
+      - [ns:consumption, $(CONSUMO), xsd:float]
+
+  # SENSOR
+  sensor:
+    sources:
+      - [../csv/consumo_energia_edificios_updated-with-links.csv~csv]
+    s: ns:sensor/$(SENSOR)
+    po:
+      - [a, ns:Sensor]
+      - [ns:class, $(CLASE), xsd:string]
+      - [ns:group, $(GRUPO), xsd:string]
+      - [ns:sensorName, $(SENSOR), xsd:string]
+      - [ns:type, $(TIPO), xsd:string]
+      - [ns:detectsMeasure, ns:measure/$(ID_MEDIDA)~iri]

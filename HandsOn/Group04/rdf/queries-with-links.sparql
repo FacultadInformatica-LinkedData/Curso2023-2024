@@ -1,0 +1,22 @@
+
+# templete
+
+curl http://yordi111nas.synology.me:8080/energy/query -u profesor:profesor..test.. --data [query] -X POST
+
+# Query todos los elementos
+
+[query]  query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20distinct%20%3Fsub%20%3Fpred%20%3Fobj%20WHERE%20%7B%0A%20%20%3Fsub%20%3Fpred%20%3Fobj%20.%0A%7D
+
+
+# Query todas los tipos de relaciones
+
+[query]  query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20distinct%20%3Fpred%20WHERE%20%7B%0A%20%20%3Fsub%20%3Fpred%20%3Fobj%20.%0A%7D
+
+
+# Query todos las clases 
+
+[query]  query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20distinct%20%3Fobj%20WHERE%20%7B%0A%20%20%3Fsub%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E%20%3Fobj%20.%0A%7D
+
+# Query edificios con atributos
+
+[query]  query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20distinct%20%3Furi%20%3Fname%20%3Faddres%20%3Flongitude%20%3Flatitude%20WHERE%20%7B%0A%20%20%3Furi%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E%20%3Chttp%3A%2F%2Fsmartcity.group04.es%2Fontology%2FEnergyConsumption%23MunicipalBuilding%3E%20.%0A%20%20%3Furi%20%3Chttps%3A%2F%2Fschema.org%2FCivicStructure%23address%3E%20%3Faddres.%0A%20%20%3Furi%20%3Chttps%3A%2F%2Fschema.org%2FCivicStructure%23latitude%3E%20%3Flatitude.%0A%20%20%3Furi%20%3Chttps%3A%2F%2Fschema.org%2FCivicStructure%23longitude%3E%20%3Flongitude.%0A%20%20%3Furi%20%3Chttps%3A%2F%2Fschema.org%2FCivicStructure%23name%3E%20%3Fname.%0A%7D
