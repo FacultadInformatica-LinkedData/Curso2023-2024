@@ -11701,31 +11701,31 @@
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20Daumesnil> a ns1:Street ;
     ns1:isNamed "avenue Daumesnil" ;
-    owl:sameAs <https://wikidata.org/entity/Q2873598> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2873598> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20la%20Porte-d%27Orl%C3%A9ans> a ns1:Street ;
     ns1:isNamed "avenue de la Porte-d'Orléans" ;
-    owl:sameAs <https://wikidata.org/entity/Q2874017> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2874017> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Kellermann> a ns1:Street ;
     ns1:isNamed "boulevard Kellermann" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921854> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921854> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Saint-Germain> a ns1:Street ;
     ns1:isNamed "boulevard Saint-Germain" ;
-    owl:sameAs <https://wikidata.org/entity/Q533037> .
+    owl:sameAs <http://www.wikidata.org/entity/Q533037> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Saint-Michel> a ns1:Street ;
     ns1:isNamed "boulevard Saint-Michel" ;
-    owl:sameAs <https://wikidata.org/entity/Q895078> .
+    owl:sameAs <http://www.wikidata.org/entity/Q895078> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Victor> a ns1:Street ;
     ns1:isNamed "boulevard Victor" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921958> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921958> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20du%20G%C3%A9n%C3%A9ral-Jean-Simon> a ns1:Street ;
     ns1:isNamed "boulevard du Général-Jean-Simon" ;
-    owl:sameAs <https://wikidata.org/entity/Q2922070> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2922070> .
 
 <http://smart.city.linkeddata.es/lcc/resource/TimeBicycleCounter/100003096-353242251_2022-12-25T00%3A00%3A00%2B00%3A00> a ns1:TimeBicycleCounter ;
     ns1:date "2022-12-25T00:00:00+00:00"^^xsd:dateTime ;
@@ -12899,7 +12899,7 @@
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/Cours%20la%20Reine> a ns1:Street ;
     ns1:isNamed "Cours la Reine" ;
-    owl:sameAs <https://wikidata.org/entity/Q106421316> .
+    owl:sameAs <http://www.wikidata.org/entity/Q106421316> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/Pont%20National> a ns1:Street ;
     ns1:isNamed "Pont National" .
@@ -12918,203 +12918,203 @@
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20Charles-de-Gaulle> a ns1:Street ;
     ns1:isNamed "avenue Charles-de-Gaulle" ;
-    owl:sameAs <https://wikidata.org/entity/Q93105450> .
+    owl:sameAs <http://www.wikidata.org/entity/Q93105450> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20Denfert-Rochereau> a ns1:Street ;
     ns1:isNamed "avenue Denfert-Rochereau" ;
-    owl:sameAs <https://wikidata.org/entity/Q2873605> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2873605> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20d%27Italie> a ns1:Street ;
     ns1:isNamed "avenue d'Italie" ;
-    owl:sameAs <https://wikidata.org/entity/Q2873898> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2873898> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20Clichy> a ns1:Street ;
     ns1:isNamed "avenue de Clichy" ;
-    owl:sameAs <https://wikidata.org/entity/Q2873907> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2873907> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20Flandre> a ns1:Street ;
     ns1:isNamed "avenue de Flandre" ;
-    owl:sameAs <https://wikidata.org/entity/Q2873906> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2873906> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20la%20Grande-Arm%C3%A9e> a ns1:Street ;
     ns1:isNamed "avenue de la Grande-Armée" ;
-    owl:sameAs <https://wikidata.org/entity/Q1028274> .
+    owl:sameAs <http://www.wikidata.org/entity/Q1028274> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20la%20Porte-de-Charenton> a ns1:Street ;
     ns1:isNamed "avenue de la Porte-de-Charenton" ;
-    owl:sameAs <https://wikidata.org/entity/Q2874022> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2874022> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20la%20Porte-des-Ternes> a ns1:Street ;
     ns1:isNamed "avenue de la Porte-des-Ternes" ;
-    owl:sameAs <https://wikidata.org/entity/Q2874049> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2874049> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20des%20Champs-%C3%89lys%C3%A9es> a ns1:Street ;
     ns1:isNamed "avenue des Champs-Élysées" ;
-    owl:sameAs <https://wikidata.org/entity/Q550> .
+    owl:sameAs <http://www.wikidata.org/entity/Q550> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Auguste-Blanqui> a ns1:Street ;
     ns1:isNamed "boulevard Auguste-Blanqui" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921775> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921775> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Brune> a ns1:Street ;
     ns1:isNamed "boulevard Brune" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921792> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921792> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Davout> a ns1:Street ;
     ns1:isNamed "boulevard Davout" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921809> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921809> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Jourdan> a ns1:Street ;
     ns1:isNamed "boulevard Jourdan" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921850> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921850> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Macdonald> a ns1:Street ;
     ns1:isNamed "boulevard Macdonald" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921875> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921875> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Mortier> a ns1:Street ;
     ns1:isNamed "boulevard Mortier" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921890> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921890> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Ney> a ns1:Street ;
     ns1:isNamed "boulevard Ney" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921892> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921892> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Poniatowski> a ns1:Street ;
     ns1:isNamed "boulevard Poniatowski" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921907> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921907> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Richard-Lenoir> a ns1:Street ;
     ns1:isNamed "boulevard Richard-Lenoir" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921923> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921923> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Soult> a ns1:Street ;
     ns1:isNamed "boulevard Soult" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921939> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921939> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Voltaire> a ns1:Street ;
     ns1:isNamed "boulevard Voltaire" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921966> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921966> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20d%27Indochine> a ns1:Street ;
     ns1:isNamed "boulevard d'Indochine" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921968> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921968> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20de%20Magenta> a ns1:Street ;
     ns1:isNamed "boulevard de Magenta" ;
-    owl:sameAs <https://wikidata.org/entity/Q895077> .
+    owl:sameAs <http://www.wikidata.org/entity/Q895077> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20de%20S%C3%A9bastopol> a ns1:Street ;
     ns1:isNamed "boulevard de Sébastopol" ;
-    owl:sameAs <https://wikidata.org/entity/Q895080> .
+    owl:sameAs <http://www.wikidata.org/entity/Q895080> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20du%20G%C3%A9n%C3%A9ral-Martial-Valin> a ns1:Street ;
     ns1:isNamed "boulevard du Général-Martial-Valin" ;
-    owl:sameAs <https://wikidata.org/entity/Q2922071> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2922071> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20du%20Montparnasse> a ns1:Street ;
     ns1:isNamed "boulevard du Montparnasse" ;
-    owl:sameAs <https://wikidata.org/entity/Q2922078> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2922078> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20Fran%C3%A7ois-Mauriac> a ns1:Street ;
     ns1:isNamed "quai François-Mauriac" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412634> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412634> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20d%27Austerlitz> a ns1:Street ;
     ns1:isNamed "quai d'Austerlitz" ;
-    owl:sameAs <https://wikidata.org/entity/Q2413436> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2413436> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20d%27Issy-les-Moulineaux> a ns1:Street ;
     ns1:isNamed "quai d'Issy-les-Moulineaux" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412670> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412670> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20d%27Orsay> a ns1:Street ;
     ns1:isNamed "quai d'Orsay" ;
-    owl:sameAs <https://wikidata.org/entity/Q1146988> .
+    owl:sameAs <http://www.wikidata.org/entity/Q1146988> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20Grenelle> a ns1:Street ;
     ns1:isNamed "quai de Grenelle" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412683> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412683> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20l%27H%C3%B4tel-de-Ville> a ns1:Street ;
     ns1:isNamed "quai de l'Hôtel-de-Ville" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412693> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412693> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20l%27Oise> a ns1:Street ;
     ns1:isNamed "quai de l'Oise" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412696> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412696> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20la%20Marne> a ns1:Street ;
     ns1:isNamed "quai de la Marne" ;
-    owl:sameAs <https://wikidata.org/entity/Q3412708> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3412708> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20la%20Tournelle> a ns1:Street ;
     ns1:isNamed "quai de la Tournelle" ;
-    owl:sameAs <https://wikidata.org/entity/Q747271> .
+    owl:sameAs <http://www.wikidata.org/entity/Q747271> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20Julia-Bartet> a ns1:Street ;
     ns1:isNamed "rue Julia-Bartet" ;
-    owl:sameAs <https://wikidata.org/entity/Q3448649> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3448649> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20La%20Fayette> a ns1:Street ;
     ns1:isNamed "rue La Fayette" ;
-    owl:sameAs <https://wikidata.org/entity/Q3448685> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3448685> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20Lecourbe> a ns1:Street ;
     ns1:isNamed "rue Lecourbe" ;
-    owl:sameAs <https://wikidata.org/entity/Q3448815> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3448815> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20Saint-Jacques> a ns1:Street ;
     ns1:isNamed "rue Saint-Jacques" ;
-    owl:sameAs <https://wikidata.org/entity/Q1356926> .
+    owl:sameAs <http://www.wikidata.org/entity/Q1356926> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20d%27Aubervilliers> a ns1:Street ;
     ns1:isNamed "rue d'Aubervilliers" ;
-    owl:sameAs <https://wikidata.org/entity/Q3450502> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3450502> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20de%20Rivoli> a ns1:Street ;
     ns1:isNamed "rue de Rivoli" ;
-    owl:sameAs <https://wikidata.org/entity/Q141747> .
+    owl:sameAs <http://www.wikidata.org/entity/Q141747> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20de%20S%C3%A8vres> a ns1:Street ;
     ns1:isNamed "rue de Sèvres" ;
-    owl:sameAs <https://wikidata.org/entity/Q3451068> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3451068> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20de%20Turbigo> a ns1:Street ;
     ns1:isNamed "rue de Turbigo" ;
-    owl:sameAs <https://wikidata.org/entity/Q3451106> .
+    owl:sameAs <http://www.wikidata.org/entity/Q3451106> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/rue%20de%20Vaugirard> a ns1:Street ;
     ns1:isNamed "rue de Vaugirard" ;
-    owl:sameAs <https://wikidata.org/entity/Q2707132> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2707132> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/voie%20Georges%20Pompidou> a ns1:Street ;
     ns1:isNamed "voie Georges Pompidou" ;
-    owl:sameAs <https://wikidata.org/entity/Q111847961> .
+    owl:sameAs <http://www.wikidata.org/entity/Q111847961> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/Boulevard%20de%20M%C3%A9nilmontant> a ns1:Street ;
     ns1:isNamed "Boulevard de Ménilmontant" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921989> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921989> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Diderot> a ns1:Street ;
     ns1:isNamed "boulevard Diderot" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921805> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921805> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Mass%C3%A9na> a ns1:Street ;
     ns1:isNamed "boulevard Masséna" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921883> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921883> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/boulevard%20Ornano> a ns1:Street ;
     ns1:isNamed "boulevard Ornano" ;
-    owl:sameAs <https://wikidata.org/entity/Q2921889> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2921889> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/quai%20de%20Bercy> a ns1:Street ;
     ns1:isNamed "quai de Bercy" ;
-    owl:sameAs <https://wikidata.org/entity/Q27910346>,
-        <https://wikidata.org/entity/Q3412678> .
+    owl:sameAs <http://www.wikidata.org/entity/Q27910346>,
+        <http://www.wikidata.org/entity/Q3412678> .
 
 <http://smart.city.linkeddata.es/lcc/resource/Street/avenue%20de%20la%20Porte-de-Bagnolet> a ns1:Street ;
     ns1:isNamed "avenue de la Porte-de-Bagnolet" ;
-    owl:sameAs <https://wikidata.org/entity/Q2874019> .
+    owl:sameAs <http://www.wikidata.org/entity/Q2874019> .
 
 
