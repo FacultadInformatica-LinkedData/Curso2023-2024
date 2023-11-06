@@ -10,25 +10,25 @@
 map:map_arbol_000 rml:logicalSource map:source_003 ;
 	rdf:type rr:TriplesMap ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "arbol" ;
-	rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016 ;
+	rr:predicateObjectMap map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019 ;
 	rr:subjectMap map:s_003 .
 
 map:map_barrio_000 rml:logicalSource map:source_001 ;
 	rdf:type rr:TriplesMap ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "barrio" ;
-	rr:predicateObjectMap map:pom_003, map:pom_004, map:pom_005, map:pom_006 ;
+	rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008 ;
 	rr:subjectMap map:s_001 .
 
 map:map_distrito_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "distrito" ;
-	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002 ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003 ;
 	rr:subjectMap map:s_000 .
 
 map:map_parque_000 rml:logicalSource map:source_002 ;
 	rdf:type rr:TriplesMap ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "parque" ;
-	rr:predicateObjectMap map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011 ;
+	rr:predicateObjectMap map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014 ;
 	rr:subjectMap map:s_002 .
 
 map:om_000 rdf:type rr:ObjectMap ;
@@ -43,59 +43,71 @@ map:om_002 rml:reference "Wikidata_Distrito" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_003 rdf:type rr:ObjectMap ;
+map:om_003 rml:reference "N_Distrito" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_004 rdf:type rr:ObjectMap ;
 	rr:constant base:Barrio ;
 	rr:termType rr:IRI .
 
-map:om_004 rml:reference "Nombre_Barrio" ;
+map:om_005 rml:reference "Nombre_Barrio" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_005 rml:reference "N_Distrito" ;
+map:om_006 rml:reference "N_Distrito" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_006 rml:reference "Wikidata_Barrio" ;
+map:om_007 rml:reference "Wikidata_Barrio" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_007 rdf:type rr:ObjectMap ;
+map:om_008 rml:reference "N_Barrio" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_009 rdf:type rr:ObjectMap ;
 	rr:constant base:Parque_Canino ;
 	rr:termType rr:IRI .
 
-map:om_008 rml:reference "Direccion" ;
+map:om_010 rml:reference "Direccion" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_009 rml:reference "N_Barrio" ;
+map:om_011 rml:reference "N_Barrio" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_010 rml:reference "N_Distrito" ;
+map:om_012 rml:reference "N_Distrito" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_011 rml:reference "Wikidata_Direccion" ;
+map:om_013 rml:reference "Wikidata_Direccion" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_012 rdf:type rr:ObjectMap ;
+map:om_014 rml:reference "ID_Parque_Canino" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_015 rdf:type rr:ObjectMap ;
 	rr:constant base:Arbol ;
 	rr:termType rr:IRI .
 
-map:om_013 rml:reference "Nombre_Especie" ;
+map:om_016 rml:reference "Nombre_Especie" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_014 rml:reference "N_Unidades 2022" ;
+map:om_017 rml:reference "N_Unidades 2022" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_015 rml:reference "Wikidata_Especies" ;
+map:om_018 rml:reference "Wikidata_Especies" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_016 rml:reference "N_Distrito" ;
+map:om_019 rml:reference "N_Distrito" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
@@ -109,45 +121,54 @@ map:pm_002 rdf:type rr:PredicateMap ;
 	rr:constant base:wikidataDistrito .
 
 map:pm_003 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant base:numDistrito .
 
 map:pm_004 rdf:type rr:PredicateMap ;
-	rr:constant rdfs:label .
+	rr:constant rdf:type .
 
 map:pm_005 rdf:type rr:PredicateMap ;
-	rr:constant base:hasDistrito .
-
-map:pm_006 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataBarrio .
-
-map:pm_007 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
-
-map:pm_008 rdf:type rr:PredicateMap ;
-	rr:constant base:hasDireccion .
-
-map:pm_009 rdf:type rr:PredicateMap ;
-	rr:constant base:hasBarrio .
-
-map:pm_010 rdf:type rr:PredicateMap ;
-	rr:constant base:hasDistrito .
-
-map:pm_011 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataDireccion .
-
-map:pm_012 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
-
-map:pm_013 rdf:type rr:PredicateMap ;
 	rr:constant rdfs:label .
 
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant base:hasDistrito .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant base:wikidataBarrio .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant base:numBarrio .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant base:hasDireccion .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant base:hasBarrio .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant base:hasDistrito .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant base:wikidataDireccion .
+
 map:pm_014 rdf:type rr:PredicateMap ;
-	rr:constant base:hasUnidades .
+	rr:constant base:idParqueCanino .
 
 map:pm_015 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataEspecies .
+	rr:constant rdf:type .
 
 map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant base:hasUnidades .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant base:wikidataEspecies .
+
+map:pm_019 rdf:type rr:PredicateMap ;
 	rr:constant base:hasDistrito .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
@@ -217,6 +238,18 @@ map:pom_015 rdf:type rr:PredicateObjectMap ;
 map:pom_016 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_016 ;
 	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
 
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_arbol_000, map:map_barrio_000, map:map_distrito_000, map:map_parque_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
