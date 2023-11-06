@@ -1,0 +1,441 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#> .
+@prefix base: <http://smartcity.linkeddata.es/lcc/resource/> .
+
+map:map_building_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "building" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011 ;
+	rr:subjectMap map:s_000 .
+
+map:map_district_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "district" ;
+	rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014 ;
+	rr:subjectMap map:s_001 .
+
+map:map_measure_000 rml:logicalSource map:source_003 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measure" ;
+	rr:predicateObjectMap map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023, map:pom_024 ;
+	rr:subjectMap map:s_003 .
+
+map:map_neighbourhood_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "neighbourhood" ;
+	rr:predicateObjectMap map:pom_015, map:pom_016, map:pom_017, map:pom_018 ;
+	rr:subjectMap map:s_002 .
+
+map:map_sensor_000 rml:logicalSource map:source_004 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor" ;
+	rr:predicateObjectMap map:pom_025, map:pom_026, map:pom_027, map:pom_028, map:pom_029, map:pom_030 ;
+	rr:subjectMap map:s_004 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant ns:Building ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "DIRECCION" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_002 rml:reference "TIPOEDIFICIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_003 rml:reference "EDIFICIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_004 rml:reference "ID" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "COORDENADA_X" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "COORDENADA_Y" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "LATITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "LONGITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_009 rdf:type rr:ObjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/neighbourhood/{CODIGO_BARRIO}" ;
+	rr:termType rr:IRI .
+
+map:om_010 rdf:type rr:ObjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" ;
+	rr:termType rr:IRI .
+
+map:om_011 rdf:type rr:ObjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/sensor/{SENSOR}" ;
+	rr:termType rr:IRI .
+
+map:om_012 rdf:type rr:ObjectMap ;
+	rr:constant ns:District ;
+	rr:termType rr:IRI .
+
+map:om_013 rml:reference "CODIGO_DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_014 rml:reference "DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_015 rdf:type rr:ObjectMap ;
+	rr:constant ns:Neighbourhood ;
+	rr:termType rr:IRI .
+
+map:om_016 rml:reference "CODIGO_BARRIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_017 rml:reference "BARRIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_018 rdf:type rr:ObjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/district/{CODIGO_DISTRITO}" ;
+	rr:termType rr:IRI .
+
+map:om_019 rdf:type rr:ObjectMap ;
+	rr:constant ns:Measure ;
+	rr:termType rr:IRI .
+
+map:om_020 rml:reference "ID_MEDIDA" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_021 rml:reference "ANO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_022 rml:reference "MES" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_023 rml:reference "UNIDADES" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_024 rml:reference "CONSUMO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_025 rdf:type rr:ObjectMap ;
+	rr:constant ns:Sensor ;
+	rr:termType rr:IRI .
+
+map:om_026 rml:reference "CLASE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_027 rml:reference "GRUPO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_028 rml:reference "SENSOR" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_029 rml:reference "TIPO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_030 rdf:type rr:ObjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" ;
+	rr:termType rr:IRI .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant ns:address .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant ns:buildingType .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant ns:buildingName .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant ns:id .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant ns:x_coordinate .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant ns:y_coordinate .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant ns:latitude .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant ns:longitude .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant ns:locatedInNeighbourhood .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant ns:hasMeasure .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant ns:hasSensor .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant ns:districtCode .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant ns:districtName .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant ns:neighbourhoodCode .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant ns:neighbourhoodName .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant ns:locatedInDistrict .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant ns:measureId .
+
+map:pm_021 rdf:type rr:PredicateMap ;
+	rr:constant ns:year .
+
+map:pm_022 rdf:type rr:PredicateMap ;
+	rr:constant ns:month .
+
+map:pm_023 rdf:type rr:PredicateMap ;
+	rr:constant ns:unit .
+
+map:pm_024 rdf:type rr:PredicateMap ;
+	rr:constant ns:consumption .
+
+map:pm_025 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_026 rdf:type rr:PredicateMap ;
+	rr:constant ns:class .
+
+map:pm_027 rdf:type rr:PredicateMap ;
+	rr:constant ns:group .
+
+map:pm_028 rdf:type rr:PredicateMap ;
+	rr:constant ns:sensorName .
+
+map:pm_029 rdf:type rr:PredicateMap ;
+	rr:constant ns:type .
+
+map:pm_030 rdf:type rr:PredicateMap ;
+	rr:constant ns:detectsMeasure .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:pom_020 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_020 ;
+	rr:predicateMap map:pm_020 .
+
+map:pom_021 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_021 ;
+	rr:predicateMap map:pm_021 .
+
+map:pom_022 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_022 ;
+	rr:predicateMap map:pm_022 .
+
+map:pom_023 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_023 ;
+	rr:predicateMap map:pm_023 .
+
+map:pom_024 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_024 ;
+	rr:predicateMap map:pm_024 .
+
+map:pom_025 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_025 ;
+	rr:predicateMap map:pm_025 .
+
+map:pom_026 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_026 ;
+	rr:predicateMap map:pm_026 .
+
+map:pom_027 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_027 ;
+	rr:predicateMap map:pm_027 .
+
+map:pom_028 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_028 ;
+	rr:predicateMap map:pm_028 .
+
+map:pom_029 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_029 ;
+	rr:predicateMap map:pm_029 .
+
+map:pom_030 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_030 ;
+	rr:predicateMap map:pm_030 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_building_000, map:map_district_000, map:map_measure_000, map:map_neighbourhood_000, map:map_sensor_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/building/{ID}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/district/{CODIGO_DISTRITO}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/neighbourhood/{CODIGO_BARRIO}" .
+
+map:s_003 rdf:type rr:SubjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" .
+
+map:s_004 rdf:type rr:SubjectMap ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/sensor/{SENSOR}" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "csv/consumo_energia_edificios_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_001 rml:referenceFormulation ql:CSV ;
+	rml:source "csv/consumo_energia_edificios_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_002 rml:referenceFormulation ql:CSV ;
+	rml:source "csv/consumo_energia_edificios_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_003 rml:referenceFormulation ql:CSV ;
+	rml:source "csv/consumo_energia_edificios_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_004 rml:referenceFormulation ql:CSV ;
+	rml:source "csv/consumo_energia_edificios_updated.csv" ;
+	rdf:type rml:LogicalSource .
+

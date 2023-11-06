@@ -1,0 +1,87 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "fecha",
+    "description": "Remove column fecha"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "﻿num_expediente",
+    "description": "Remove column ﻿num_expediente"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora",
+    "description": "Remove column hora"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "localizacion",
+    "description": "Remove column localizacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "numero",
+    "description": "Remove column numero"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cod_distrito",
+    "description": "Remove column cod_distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "distrito",
+    "description": "Remove column distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipo_accidente",
+    "description": "Remove column tipo_accidente"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "estado_meteorológico",
+    "description": "Remove column estado_meteorológico"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipo_vehiculo",
+    "description": "Remove column tipo_vehiculo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipo_persona",
+    "description": "Remove column tipo_persona"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rango_edad",
+    "description": "Remove column rango_edad"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "sexo",
+    "description": "Remove column sexo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cod_lesividad",
+    "description": "Remove column cod_lesividad"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "lesividad",
+    "description": "Remove column lesividad"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "positiva_alcohol",
+    "description": "Remove column positiva_alcohol"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "positiva_droga",
+    "description": "Remove column positiva_droga"
+  }
+]
