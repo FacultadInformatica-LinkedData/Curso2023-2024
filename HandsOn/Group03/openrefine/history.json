@@ -1740,5 +1740,44 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column StreetCanonized using expression grel:value.replace(\"'\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression value.toString()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "grel:value.substring(0,2)  + \" \" + value.substring(2)",
+    "onError": "set-to-blank",
+    "newColumnName": "DistrictLabel",
+    "columnInsertIndex": 3,
+    "description": "Create column DistrictLabel at index 3 based on column District using expression grel:value.substring(0,2)  + \" \" + value.substring(2)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Hood",
+    "expression": "grel:value.substring(0,5) + \" \" + value.substring(5)",
+    "onError": "set-to-blank",
+    "newColumnName": "HoodLabel",
+    "columnInsertIndex": 5,
+    "description": "Create column HoodLabel at index 5 based on column Hood using expression grel:value.substring(0,5) + \" \" + value.substring(5)"
   }
 ]
