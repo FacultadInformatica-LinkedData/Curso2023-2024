@@ -4,6 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix base: <http://base.itree.com/> .
 @prefix ns: <http://www.owl-ontologies.com/ns> .
 
@@ -41,7 +42,7 @@ map:om_001 rml:reference "Nombre_Distrito" ;
 
 map:om_002 rml:reference "Wikidata_Distrito" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:om_003 rml:reference "N_Distrito" ;
 	rdf:type rr:ObjectMap ;
@@ -61,7 +62,7 @@ map:om_006 rml:reference "N_Distrito" ;
 
 map:om_007 rml:reference "Wikidata_Barrio" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:om_008 rml:reference "N_Barrio" ;
 	rdf:type rr:ObjectMap ;
@@ -85,7 +86,7 @@ map:om_012 rml:reference "N_Distrito" ;
 
 map:om_013 rml:reference "Wikidata_Direccion" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:om_014 rml:reference "ID_Parque_Canino" ;
 	rdf:type rr:ObjectMap ;
@@ -105,7 +106,7 @@ map:om_017 rml:reference "N_Unidades 2022" ;
 
 map:om_018 rml:reference "Wikidata_Especies" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:Literal .
+	rr:termType rr:IRI .
 
 map:om_019 rml:reference "N_Distrito" ;
 	rdf:type rr:ObjectMap ;
@@ -118,7 +119,7 @@ map:pm_001 rdf:type rr:PredicateMap ;
 	rr:constant rdfs:label .
 
 map:pm_002 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataDistrito .
+	rr:constant owl:sameAs .
 
 map:pm_003 rdf:type rr:PredicateMap ;
 	rr:constant base:numDistrito .
@@ -133,7 +134,7 @@ map:pm_006 rdf:type rr:PredicateMap ;
 	rr:constant base:hasDistrito .
 
 map:pm_007 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataBarrio .
+	rr:constant owl:sameAs .
 
 map:pm_008 rdf:type rr:PredicateMap ;
 	rr:constant base:numBarrio .
@@ -151,7 +152,7 @@ map:pm_012 rdf:type rr:PredicateMap ;
 	rr:constant base:hasDistrito .
 
 map:pm_013 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataDireccion .
+	rr:constant owl:sameAs .
 
 map:pm_014 rdf:type rr:PredicateMap ;
 	rr:constant base:idParqueCanino .
@@ -166,7 +167,7 @@ map:pm_017 rdf:type rr:PredicateMap ;
 	rr:constant base:hasUnidades .
 
 map:pm_018 rdf:type rr:PredicateMap ;
-	rr:constant base:wikidataEspecies .
+	rr:constant owl:sameAs .
 
 map:pm_019 rdf:type rr:PredicateMap ;
 	rr:constant base:hasDistrito .
