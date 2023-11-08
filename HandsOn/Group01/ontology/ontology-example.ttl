@@ -1,0 +1,31 @@
+@prefix ex: <http://example.org/ontology#> .
+
+# Parking Spot 1
+ex:ResidentParking1 rdf:type ex:ParkingSpot ;
+    ex:hasName "Aparcamiento mixto. Arquitecto Ribera" ;
+    ex:hasDescription "Plazas: 318 publicas y 298 para residentes Abierto 24 horas Admite Tarjeta BonoRed Titularidad: Ayuntamiento de Madrid"^^xsd:string ;
+    ex:hasAccessibility "Wheelchair accessible"^^xsd:string ;
+    ex:hasContentURL <http://example.org/parking1> ;
+    ex:hasTelephone "+34 123 456 789" ;
+    ex:isLocatedIn ex:Location1 ;
+    ex:hasContact ex:Contact1 ;
+    ex:hasType "Residential"^^xsd:string .
+
+# Location 1
+ex:Location1 rdf:type ex:Location ;
+    ex:hasAddress ex:Address1 ;
+    ex:hasTransportation ex:Transportation1 .
+
+# Address 1
+ex:Address1 rdf:type ex:Address ;
+    ex:hasStreetName "Calle de Ejemplo, 123" ;
+    ex:hasPostalCode "28001"^^xsd:string .
+
+# Transportation 1
+ex:Transportation1 rdf:type ex:Transportation ;
+    ex:hasPublicTransportation "Nearby bus stop and metro station"^^xsd:string .
+
+# Contact 1
+ex:Contact1 rdf:type ex:Contact ;
+    ex:hasEmail "contact@example.com" ;
+    ex:hasTelephone "+34 987 654 321" .

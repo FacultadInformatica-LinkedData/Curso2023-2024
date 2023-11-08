@@ -1,0 +1,479 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column street to type Q79007"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "avenue Denfert Rochereau",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2873605",
+      "name": "avenue Denfert-Rochereau",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue Denfert-Rochereau (Q2873605) for cells containing \"avenue Denfert Rochereau\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "rue La Fayette",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3448685",
+      "name": "rue La Fayette",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item rue La Fayette (Q3448685) for cells containing \"rue La Fayette\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "avenue Daumesnil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2873598",
+      "name": "avenue Daumesnil",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue Daumesnil (Q2873598) for cells containing \"avenue Daumesnil\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "quai de la marne",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3412708",
+      "name": "quai de la Marne",
+      "types": [
+        "Q3840711"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item quai de la Marne (Q3412708) for cells containing \"quai de la marne\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "quai de Bercy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3412678",
+      "name": "quai de Bercy",
+      "types": [
+        "Q3840711"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item quai de Bercy (Q3412678) for cells containing \"quai de Bercy\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Auguste Blanqui",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921775",
+      "name": "boulevard Auguste-Blanqui",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Auguste-Blanqui (Q2921775) for cells containing \"boulevard Auguste Blanqui\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Saint Germain",
+    "judgment": "matched",
+    "match": {
+      "id": "Q533037",
+      "name": "boulevard Saint-Germain",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Saint-Germain (Q533037) for cells containing \"boulevard Saint Germain\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "avenue de Flandre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2873906",
+      "name": "avenue de Flandre",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue de Flandre (Q2873906) for cells containing \"avenue de Flandre\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "avenue d'Italie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2873898",
+      "name": "avenue d'Italie",
+      "types": [
+        "Q7543083",
+        "Q1304276"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue d'Italie (Q2873898) for cells containing \"avenue d'Italie\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "Pont Charles De Gaulle",
+    "judgment": "matched",
+    "match": {
+      "id": "Q93105450",
+      "name": "avenue Charles-de-Gaulle",
+      "types": [
+        ""
+      ],
+      "score": 37
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue Charles-de-Gaulle (Q93105450) for cells containing \"Pont Charles De Gaulle\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "Pont de Bercy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27910346",
+      "name": "quai de Bercy",
+      "types": [
+        "Q3840711"
+      ],
+      "score": 69
+    },
+    "shareNewTopics": false,
+    "description": "Match item quai de Bercy (Q27910346) for cells containing \"Pont de Bercy\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard de Sébastopol",
+    "judgment": "matched",
+    "match": {
+      "id": "Q895080",
+      "name": "boulevard de Sébastopol",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard de Sébastopol (Q895080) for cells containing \"boulevard de Sébastopol\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Saint Michel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q895078",
+      "name": "boulevard Saint-Michel",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Saint-Michel (Q895078) for cells containing \"boulevard Saint Michel\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "rue Saint Jacques",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1356926",
+      "name": "rue Saint-Jacques",
+      "types": [
+        "Q79007",
+        "Q34442"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item rue Saint-Jacques (Q1356926) for cells containing \"rue Saint Jacques\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "Rue De Sèvres",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3451068",
+      "name": "rue de Sèvres",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item rue de Sèvres (Q3451068) for cells containing \"Rue De Sèvres\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "Boulevard Ornano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921889",
+      "name": "boulevard Ornano",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Ornano (Q2921889) for cells containing \"Boulevard Ornano\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "Avenue de Clichy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2873907",
+      "name": "avenue de Clichy",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenue de Clichy (Q2873907) for cells containing \"Avenue de Clichy\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "rue de Vaugirard",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2707132",
+      "name": "rue de Vaugirard",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item rue de Vaugirard (Q2707132) for cells containing \"rue de Vaugirard\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Jourdan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921850",
+      "name": "boulevard Jourdan",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Jourdan (Q2921850) for cells containing \"boulevard Jourdan\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Brune",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921792",
+      "name": "boulevard Brune",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Brune (Q2921792) for cells containing \"boulevard Brune\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Soult",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921939",
+      "name": "boulevard Soult",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Soult (Q2921939) for cells containing \"boulevard Soult\" in column street"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street",
+    "similarValue": "boulevard Victor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2921958",
+      "name": "boulevard Victor",
+      "types": [
+        "Q54114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boulevard Victor (Q2921958) for cells containing \"boulevard Victor\" in column street"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "street",
+    "expression": "grel:\"https://wikidata.org/entity/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_streets",
+    "columnInsertIndex": 3,
+    "description": "Create column same_as_wikidata_streets at index 3 based on column street using expression grel:\"https://wikidata.org/entity/\" + cell.recon.match.id"
+  }
+]

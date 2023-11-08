@@ -1,0 +1,129 @@
+id_compteur,nom_compteur,street,same_as_wikidata_streets,channel_id,installation_date,latitude,longitude
+100003096-353242251,97 avenue Denfert Rochereau SO-NE,avenue Denfert-Rochereau,https://wikidata.org/entity/Q2873605,353242251,2012-02-22,48.83504,2.33314
+100003097-101003097,105 rue La Fayette E-O,rue La Fayette,https://wikidata.org/entity/Q3448685,101003097,2012-02-13,48.87773,2.3506
+100003098-101003098,106 avenue Denfert Rochereau NE-SO,avenue Denfert-Rochereau,https://wikidata.org/entity/Q2873605,101003098,2012-02-22,48.83505,2.33333
+100003099-353242239,100 rue La Fayette O-E,rue La Fayette,https://wikidata.org/entity/Q3448685,353242239,2012-02-22,48.87813,2.3497
+100006300-101006300,135 avenue Daumesnil SE-NO,avenue Daumesnil,https://wikidata.org/entity/Q2873598,101006300,2013-01-19,48.843435,2.383378
+100007049-101007049,28 boulevard Diderot O-E,boulevard Diderot,https://wikidata.org/entity/Q2921805,101007049,2013-01-18,48.84613,2.37559
+100007049-102007049,28 boulevard Diderot E-O,boulevard Diderot,https://wikidata.org/entity/Q2921805,102007049,2013-01-18,48.84613,2.37559
+100036718-103036718,39 quai François Mauriac SE-NO,quai François-Mauriac,https://wikidata.org/entity/Q3412634,103036718,2017-07-12,48.83436,2.377
+100036718-104036718,39 quai François Mauriac NO-SE,quai François-Mauriac,https://wikidata.org/entity/Q3412634,104036718,2017-07-12,48.83436,2.377
+100036719-103036719,18 quai de l'Hôtel de Ville SE-NO,quai de l'Hôtel-de-Ville,https://wikidata.org/entity/Q3412693,103036719,2017-07-12,48.85372,2.35702
+100036719-104036719,18 quai de l'Hôtel de Ville NO-SE,quai de l'Hôtel-de-Ville,https://wikidata.org/entity/Q3412693,104036719,2017-07-12,48.85372,2.35702
+100041488-101041488,27 boulevard Diderot E-O,boulevard Diderot,https://wikidata.org/entity/Q2921805,101041488,2013-01-17,48.846099,2.375456
+100042374-109042374,Voie Georges Pompidou SO-NE,voie Georges Pompidou,https://wikidata.org/entity/Q111847961,109042374,2017-12-15,48.84837,2.27596
+100042374-110042374,Voie Georges Pompidou NE-SO,voie Georges Pompidou,https://wikidata.org/entity/Q111847961,110042374,2017-12-15,48.84837,2.27596
+100044493-101044493,67 boulevard Voltaire SE-NO,boulevard Voltaire,https://wikidata.org/entity/Q2921966,101044493,2018-06-27,48.86149,2.37376
+100044494-101044494,10 avenue de la Grande Armée SE-NO,avenue de la Grande-Armée,https://wikidata.org/entity/Q1028274,101044494,2018-07-27,48.8748,2.2924
+100044495-101044495,7 avenue de la Grande Armée NO-SE,avenue de la Grande-Armée,https://wikidata.org/entity/Q1028274,101044495,2018-07-27,48.87474,2.29219
+100044506-101044506,72 boulevard Voltaire NO-SE,boulevard Voltaire,https://wikidata.org/entity/Q2921966,101044506,2018-06-27,48.86155,2.37407
+100047533-101047533,89 boulevard de Magenta NO-SE,boulevard de Magenta,https://wikidata.org/entity/Q895077,101047533,2018-11-28,48.87756,2.35535
+100047534-101047534,16 avenue de la Porte des Ternes E-O,avenue de la Porte-des-Ternes,https://wikidata.org/entity/Q2874049,101047534,2018-11-29,48.88156,2.28122
+100047535-101047535,Pont du Garigliano NO-SE,Pont du Garigliano,,101047535,2018-11-28,48.83994,2.26692
+100047536-101047536,102 boulevard de Magenta SE-NO,boulevard de Magenta,https://wikidata.org/entity/Q895077,101047536,2018-11-29,48.87769,2.35475
+100047537-101047537,26 boulevard de Ménilmontant SE-NO,Boulevard de Ménilmontant,https://wikidata.org/entity/Q2921989,101047537,2018-11-30,48.86057,2.38886
+100047538-101047538,Face au 16 avenue de la  Porte des Ternes O-E,avenue de la Porte-des-Ternes,https://wikidata.org/entity/Q2874049,101047538,2018-11-28,48.88168,2.28113
+100047539-101047539,21 boulevard Auguste Blanqui SO-NE,boulevard Auguste-Blanqui,https://wikidata.org/entity/Q2921775,101047539,2018-12-05,48.83074,2.35373
+100047540-101047540,72 boulevard Richard Lenoir S-N,boulevard Richard-Lenoir,https://wikidata.org/entity/Q2921923,101047540,2018-12-05,48.86077,2.37305
+100047541-353326452,Pont National SO-NE,Pont National,,353326452,2018-12-05,48.82639,2.38448
+100047542-103047542,Face au 48 quai de la marne NE-SO,quai de la Marne,https://wikidata.org/entity/Q3412708,103047542,2018-11-29,48.89172,2.38531
+100047542-104047542,Face au 48 quai de la marne SO-NE,quai de la Marne,https://wikidata.org/entity/Q3412708,104047542,2018-11-29,48.89172,2.38531
+100047544-101047544,77 boulevard Richard Lenoir N-S,boulevard Richard-Lenoir,https://wikidata.org/entity/Q2921923,101047544,2018-12-05,48.860852,2.372279
+100047545-103047545,Face 104 rue d'Aubervilliers N-S,rue d'Aubervilliers,https://wikidata.org/entity/Q3450502,103047545,2018-11-29,48.890457,2.368852
+100047545-104047545,Face 104 rue d'Aubervilliers S-N,rue d'Aubervilliers,https://wikidata.org/entity/Q3450502,104047545,2018-11-29,48.890457,2.368852
+100047546-103047546,Face au 70 quai de Bercy S-N,quai de Bercy,https://wikidata.org/entity/Q3412678,103047546,2018-11-30,48.829523,2.38699
+100047546-104047546,Face au 70 quai de Bercy N-S,quai de Bercy,https://wikidata.org/entity/Q3412678,104047546,2018-11-30,48.829523,2.38699
+100047547-103047547,6 rue Julia Bartet SO-NE,rue Julia-Bartet,https://wikidata.org/entity/Q3448649,103047547,2018-11-28,48.82624,2.30281
+100047547-104047547,6 rue Julia Bartet NE-SO,rue Julia-Bartet,https://wikidata.org/entity/Q3448649,104047547,2018-11-28,48.82624,2.30281
+100047548-103047548,Face au 25 quai de l'Oise NE-SO,quai de l'Oise,https://wikidata.org/entity/Q3412696,103047548,2018-11-28,48.89141,2.38482
+100047548-104047548,Face au 25 quai de l'Oise SO-NE,quai de l'Oise,https://wikidata.org/entity/Q3412696,104047548,2018-11-28,48.89141,2.38482
+100047549-101047549,Pont National NE-SO,Pont National,,101047549,2018-12-05,48.82682,2.38491
+100047551-102047551,Pont du Garigliano SE-NO,Pont du Garigliano,,102047551,2018-12-01,48.83992,2.26708
+100049407-353255859,152 boulevard du Montparnasse O-E,boulevard du Montparnasse,https://wikidata.org/entity/Q2922078,353255859,2018-12-07,48.84017,2.33438
+100049407-353255860,152 boulevard du Montparnasse E-O,boulevard du Montparnasse,https://wikidata.org/entity/Q2922078,353255860,2018-12-07,48.84017,2.33438
+100049408-101049408,10 boulevard Auguste Blanqui NE-SO,boulevard Auguste-Blanqui,https://wikidata.org/entity/Q2921775,101049408,2018-12-06,48.83082,2.35317
+100050132-101050132,243 boulevard Saint Germain NO-SE,boulevard Saint-Germain,https://wikidata.org/entity/Q533037,101050132,2018-12-13,48.86179,2.32014
+100050876-103050876,Totem 64 Rue de Rivoli E-O,rue de Rivoli,https://wikidata.org/entity/Q141747,103050876,2019-09-04,48.85735,2.35211
+100050876-104050876,Totem 64 Rue de Rivoli O-E,rue de Rivoli,https://wikidata.org/entity/Q141747,104050876,2019-09-04,48.85735,2.35211
+100056032-101056032,87 avenue de Flandre NE-SO,avenue de Flandre,https://wikidata.org/entity/Q2873906,101056032,2019-11-05,48.88926,2.37472
+100056034-101056034,72 avenue de Flandre SO-NE,avenue de Flandre,https://wikidata.org/entity/Q2873906,101056034,2019-11-13,48.889046,2.374872
+100056035-353266460,Quai des Tuileries SE-NO,Quai des Tuileries,,353266460,2021-05-18,48.8635,2.32239
+100056035-353266462,Quai des Tuileries NO-SE,Quai des Tuileries,,353266462,2021-05-18,48.8635,2.32239
+100056036-101056036,2 avenue de la Porte de Bagnolet O-E,avenue de la Porte-de-Bagnolet,https://wikidata.org/entity/Q2874019,101056036,2019-11-14,48.86451,2.40932
+100056038-101056038,44 avenue des Champs Elysées SE-NO,avenue des Champs-Élysées,https://wikidata.org/entity/Q550,101056038,2019-10-30,48.86999,2.30743
+100056039-101056039,180 avenue d'Italie N-S,avenue d'Italie,https://wikidata.org/entity/Q2873898,101056039,2019-12-11,48.82048,2.35873
+100056040-101056040,129 rue Lecourbe SO-NE,rue Lecourbe,https://wikidata.org/entity/Q3448815,101056040,2019-10-30,48.84222,2.30102
+100056041-101056041,147 avenue d'Italie S-N,avenue d'Italie,https://wikidata.org/entity/Q2873898,101056041,2019-12-10,48.82009,2.3588
+100056042-101056042,33 avenue des Champs Elysées NO-SE,avenue des Champs-Élysées,https://wikidata.org/entity/Q550,101056042,2019-10-30,48.86999,2.30722
+100056044-101056044,132 rue Lecourbe NE-SO,rue Lecourbe,https://wikidata.org/entity/Q3448815,101056044,2019-10-30,48.84209,2.30115
+100056045-101056045,Pont de la Concorde N-S,Pont de la Concorde,,101056045,2019-11-08,48.86373,2.31973
+100056046-101056046,Pont des Invalides S-N,Pont des Invalides,,101056046,2019-11-06,48.86279,2.31055
+100056047-101056047,Pont de la Concorde S-N,Pont de la Concorde,,101056047,2019-11-08,48.86382,2.32006
+100056223-101056223,Pont des Invalides N-S,Pont des Invalides,,101056223,2019-11-07,48.86281,2.31037
+100056225-101056225,3 avenue de la Porte D'Orléans (gare routière) S-N,avenue de la Porte-d'Orléans,https://wikidata.org/entity/Q2874017,101056225,2019-11-06,48.82108,2.32537
+100056226-103056226,Face au 8 avenue de la porte de Charenton SE-NO,avenue de la Porte-de-Charenton,https://wikidata.org/entity/Q2874022,103056226,2019-11-01,48.830331,2.400551
+100056226-104056226,Face au 8 avenue de la porte de Charenton NO-SE,avenue de la Porte-de-Charenton,https://wikidata.org/entity/Q2874022,104056226,2019-11-01,48.830331,2.400551
+100056327-103056327,Face au 4 avenue de la porte de Bagnolet E-O,avenue de la Porte-de-Bagnolet,https://wikidata.org/entity/Q2874019,103056327,2019-11-06,48.86485,2.40966
+100056327-104056327,Face au 4 avenue de la porte de Bagnolet O-E,avenue de la Porte-de-Bagnolet,https://wikidata.org/entity/Q2874019,104056327,2019-11-06,48.86485,2.40966
+100056329-103056329,Pont Charles De Gaulle SO-NE,avenue Charles-de-Gaulle,https://wikidata.org/entity/Q93105450,103056329,2019-12-12,48.84223,2.36811
+100056329-104056329,Pont Charles De Gaulle NE-SO,avenue Charles-de-Gaulle,https://wikidata.org/entity/Q93105450,104056329,2019-12-12,48.84223,2.36811
+100056330-103056330,36 quai de Grenelle SO-NE,quai de Grenelle,https://wikidata.org/entity/Q3412683,103056330,2019-11-14,48.85174,2.28593
+100056330-104056330,36 quai de Grenelle NE-SO,quai de Grenelle,https://wikidata.org/entity/Q3412683,104056330,2019-11-14,48.85174,2.28593
+100056331-103056331,Face au 40 quai D'Issy SO-NE,quai d'Issy-les-Moulineaux,https://wikidata.org/entity/Q3412670,103056331,2019-11-05,48.83428,2.26526
+100056331-104056331,Face au 40 quai D'Issy NE-SO,quai d'Issy-les-Moulineaux,https://wikidata.org/entity/Q3412670,104056331,2019-11-05,48.83428,2.26526
+100056332-103056332,Pont de Bercy NE-SO,quai de Bercy,https://wikidata.org/entity/Q27910346,103056332,2019-12-11,48.83848,2.37587
+100056332-104056332,Pont de Bercy SO-NE,quai de Bercy,https://wikidata.org/entity/Q27910346,104056332,2019-12-11,48.83848,2.37587
+100056334-103056334,38 rue Turbigo NE-SO,rue de Turbigo,https://wikidata.org/entity/Q3451106,103056334,2019-12-10,48.86502,2.35387
+100056334-104056334,38 rue Turbigo SO-NE,rue de Turbigo,https://wikidata.org/entity/Q3451106,104056334,2019-12-10,48.86502,2.35387
+100056335-103056335,Quai d'Orsay O-E,quai d'Orsay,https://wikidata.org/entity/Q1146988,103056335,2019-11-07,48.8629,2.3118
+100056335-104056335,Quai d'Orsay E-O,quai d'Orsay,https://wikidata.org/entity/Q1146988,104056335,2019-11-07,48.8629,2.3118
+100056336-105056336,27 quai de la Tournelle SE-NO,quai de la Tournelle,https://wikidata.org/entity/Q747271,105056336,2019-11-14,48.85013,2.35423
+100056336-106056336,27 quai de la Tournelle NO-SE,quai de la Tournelle,https://wikidata.org/entity/Q747271,106056336,2019-11-14,48.85013,2.35423
+100057329-103057329,Totem 85 quai d'Austerlitz SE-NO,quai d'Austerlitz,https://wikidata.org/entity/Q2413436,103057329,2020-02-18,48.84201,2.36729
+100057329-104057329,Totem 85 quai d'Austerlitz NO-SE,quai d'Austerlitz,https://wikidata.org/entity/Q2413436,104057329,2020-02-18,48.84201,2.36729
+100057380-103057380,Totem Cours la Reine O-E,Cours la Reine,https://wikidata.org/entity/Q106421316,103057380,2020-02-11,48.86462,2.31444
+100057380-104057380,Totem Cours la Reine E-O,Cours la Reine,https://wikidata.org/entity/Q106421316,104057380,2020-02-11,48.86462,2.31444
+100057445-103057445,Totem 73 boulevard de Sébastopol N-S,boulevard de Sébastopol,https://wikidata.org/entity/Q895080,103057445,2020-02-11,48.86377,2.35096
+100057445-104057445,Totem 73 boulevard de Sébastopol S-N,boulevard de Sébastopol,https://wikidata.org/entity/Q895080,104057445,2020-02-11,48.86377,2.35096
+100060174-101060174,21 boulevard Saint Michel S-N,boulevard Saint-Michel,https://wikidata.org/entity/Q895078,101060174,2020-05-20,48.851525,2.343298
+100060175-101060175,30 rue Saint Jacques (temporaire) N-S,rue Saint-Jacques,https://wikidata.org/entity/Q1356926,101060175,2020-05-20,48.851131,2.345678
+100060178-101060178,90 Rue De Sèvres SO-NE,rue de Sèvres,https://wikidata.org/entity/Q3451068,101060178,2020-07-22,48.84641,2.31524
+100060178-102060178,90 Rue De Sèvres NE-SO,rue de Sèvres,https://wikidata.org/entity/Q3451068,102060178,2020-07-22,48.84641,2.31524
+100063173-101063173,74 Boulevard Ornano S-N,boulevard Ornano,https://wikidata.org/entity/Q2921889,101063173,2020-07-22,48.896825,2.345648
+100063174-101063174,69 Boulevard Ornano (temporaire) N-S,boulevard Ornano,https://wikidata.org/entity/Q2921889,101063174,2020-07-22,48.89696,2.34538
+100063175-353277233,20 Avenue de Clichy NO-SE,avenue de Clichy,https://wikidata.org/entity/Q2873907,353277233,2020-07-22,48.88529,2.32666
+100063175-353277235,20 Avenue de Clichy SE-NO,avenue de Clichy,https://wikidata.org/entity/Q2873907,353277235,2020-07-22,48.88529,2.32666
+100065336-104065336,35 boulevard de Ménilmontant NO-SE,Boulevard de Ménilmontant,https://wikidata.org/entity/Q2921989,104065336,2020-11-18,48.860528,2.388364
+300014702-353245971,254 rue de Vaugirard SO-NE,rue de Vaugirard,https://wikidata.org/entity/Q2707132,353245971,2020-11-29,48.83985,2.30202
+300014702-353245972,254 rue de Vaugirard NE-SO,rue de Vaugirard,https://wikidata.org/entity/Q2707132,353245972,2020-11-29,48.83985,2.30202
+300021312-353293580,30 rue Saint Jacques N-S,rue Saint-Jacques,https://wikidata.org/entity/Q1356926,353293580,2021-11-30,48.851131,2.345678
+300021320-353293614,69 Boulevard Ornano N-S,boulevard Ornano,https://wikidata.org/entity/Q2921889,353293614,2021-11-30,48.89683,2.34521
+300030116-353354957,24 boulevard Jourdan E-O,boulevard Jourdan,https://wikidata.org/entity/Q2921850,353354957,2023-01-24,48.82029,2.33936
+300030120-353354985,9 boulevard Jourdan O-E,boulevard Jourdan,https://wikidata.org/entity/Q2921850,353354985,2023-01-24,48.81964,2.34173
+300030121-353354988,72 boulevard Brune NO-SE,boulevard Brune,https://wikidata.org/entity/Q2921792,353354988,2023-01-24,48.82561,2.314274
+300030139-353355137,56 boulevard Kellermann E-O,boulevard Kellermann,https://wikidata.org/entity/Q2921854,353355137,2023-01-25,48.820988,2.350291
+300030160-353355230,163 boulevard Brune SE-NO,boulevard Brune,https://wikidata.org/entity/Q2921792,353355230,2023-01-25,48.824237,2.321219
+300030163-353355237,27 boulevard Davout N-S,boulevard Davout,https://wikidata.org/entity/Q2921809,353355237,2023-01-25,48.84935,2.41143
+300030172-353355277,42 boulevard Soult S-N,boulevard Soult,https://wikidata.org/entity/Q2921939,353355277,2023-01-26,48.840211,2.409219
+300030172-353355278,42 boulevard Soult N-S,boulevard Soult,https://wikidata.org/entity/Q2921939,353355278,2023-01-26,48.840211,2.409219
+300030173-353355291,77 boulevard Masséna SO-NE,boulevard Masséna,https://wikidata.org/entity/Q2921883,353355291,2023-01-26,48.821204,2.368576
+300030173-353355292,77 boulevard Masséna NE-SO,boulevard Masséna,https://wikidata.org/entity/Q2921883,353355292,2023-01-26,48.821204,2.368576
+300030219-353355786,81 boulevard Mortier N-S,boulevard Mortier,https://wikidata.org/entity/Q2921890,353355786,2023-01-31,48.86922,2.408714
+300030219-353355787,81 boulevard Mortier S-N,boulevard Mortier,https://wikidata.org/entity/Q2921890,353355787,2023-01-31,48.86922,2.408714
+300030250-353355931,98 boulevard Poniatowski SO-NE,boulevard Poniatowski,https://wikidata.org/entity/Q2921907,353355931,2023-02-01,48.834624,2.405283
+300030250-353355932,98 boulevard Poniatowski NE-SO,boulevard Poniatowski,https://wikidata.org/entity/Q2921907,353355932,2023-02-01,48.834624,2.405283
+300030271-353356061,Face au 49 boulevard du Général Martial Valin NO-SE,boulevard du Général-Martial-Valin,https://wikidata.org/entity/Q2922071,353356061,2023-02-02,48.837055,2.274019
+300030279-353356112,51 boulevard du Général Martial Valin SE-NO,boulevard du Général-Martial-Valin,https://wikidata.org/entity/Q2922071,353356112,2023-02-02,48.837006,2.274824
+300030826-353360275,62 boulevard Ney E-O,boulevard Ney,https://wikidata.org/entity/Q2921892,353360275,2023-03-07,48.898707,2.357417
+300030838-353360366,16 avenue de la Porte de Bagnolet E-O,avenue de la Porte-de-Bagnolet,https://wikidata.org/entity/Q2874019,353360366,2023-03-07,48.86495,2.4112
+300030838-353360367,16 avenue de la Porte de Bagnolet O-E,avenue de la Porte-de-Bagnolet,https://wikidata.org/entity/Q2874019,353360367,2023-03-07,48.86495,2.4112
+300030871-353360668,46 boulevard Davout S-N,boulevard Davout,https://wikidata.org/entity/Q2921809,353360668,2023-03-08,48.851032,2.411119
+300030908-353360976,124 boulevard MacDonald E-O,boulevard Macdonald,https://wikidata.org/entity/Q2921875,353360976,2023-03-09,48.898946,2.380721
+300030921-353361113,51 boulevard Masséna SO-NE,boulevard Masséna,https://wikidata.org/entity/Q2921883,353361113,2023-03-08,48.82282,2.37258
+300030922-353361114,5 boulevard Victor SE-NO,boulevard Victor,https://wikidata.org/entity/Q2921958,353361114,2023-03-08,48.83537,2.28148
+300030926-353361125,86 boulevard du Général Jean Simon NE-SO,boulevard du Général-Jean-Simon,https://wikidata.org/entity/Q2922070,353361125,2023-03-09,48.8244,2.37728
+300030960-353361420,Face au 84 boulevard Ney O-E,boulevard Ney,https://wikidata.org/entity/Q2921892,353361420,2023-03-15,48.898728,2.349385
+300030967-353361487,173 boulevard MacDonald O-E,boulevard Macdonald,https://wikidata.org/entity/Q2921875,353361487,2023-03-15,48.898612,2.37602
+300030996-353361762,Face au 21 boulevard de Ménilmontant SE-NO,Boulevard de Ménilmontant,https://wikidata.org/entity/Q2921989,353361762,2023-03-14,48.85976,2.38884
+300030997-353361763,8 boulevard d'Indochine S-N,boulevard d'Indochine,https://wikidata.org/entity/Q2921968,353361763,2023-03-14,48.88462,2.39683
+300030997-353361764,8 boulevard d'Indochine N-S,boulevard d'Indochine,https://wikidata.org/entity/Q2921968,353361764,2023-03-14,48.88462,2.39683

@@ -1,0 +1,108 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://smart.city.linkeddata.es/lcc/ontology/G5O#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+ns: a owl:Ontology ;
+    dc:creator "Andrii Lata",
+        "Patricia Cifrian Perez",
+        "Pedro Espinosa Angulo",
+        "Victor Gonzalez Bacelar" ;
+    dc:title "Group5 Ontology" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:bicyclesPassed a owl:ObjectProperty ;
+    rdfs:label "bicycles passed" ;
+    rdfs:domain ns:Counter ;
+    rdfs:range ns:TimeBicycleCounter .
+
+ns:channelId a owl:DatatypeProperty ;
+    rdfs:label "channel id" ;
+    rdfs:domain ns:Counter ;
+    rdfs:range xsd:integer .
+
+ns:date a owl:DatatypeProperty ;
+    rdfs:label "date" ;
+    rdfs:domain ns:TimeBicycleCounter ;
+    rdfs:range xsd:dateTime .
+
+ns:hasCapacity a owl:DatatypeProperty ;
+    rdfs:label "has capacity" ;
+    rdfs:domain ns:Station ;
+    rdfs:range xsd:integer .
+
+ns:hasCode a owl:DatatypeProperty ;
+    rdfs:label "has code" ;
+    rdfs:domain ns:Station ;
+    rdfs:range xsd:integer .
+
+ns:hasId a owl:DatatypeProperty ;
+    rdfs:label "has id" ;
+    rdfs:domain ns:Counter ;
+    rdfs:range xsd:string .
+
+ns:hasLatitude a owl:DatatypeProperty ;
+    rdfs:label "has latitude" ;
+    rdfs:domain ns:PyhsicalObject ;
+    rdfs:range xsd:float .
+
+ns:hasLongitude a owl:DatatypeProperty ;
+    rdfs:label "has longitude" ;
+    rdfs:domain ns:PyhsicalObject ;
+    rdfs:range xsd:float .
+
+ns:hasName a owl:DatatypeProperty ;
+    rdfs:label "has name" ;
+    rdfs:domain ns:PyhsicalObject ;
+    rdfs:range xsd:string .
+
+ns:identifyBy a owl:DatatypeProperty ;
+    rdfs:label "identify by" ;
+    rdfs:domain ns:TimeBicycleCounter ;
+    rdfs:range xsd:string .
+
+ns:installationDate a owl:DatatypeProperty ;
+    rdfs:label "installation date" ;
+    rdfs:domain ns:Counter ;
+    rdfs:range xsd:date .
+
+ns:isNamed a owl:DatatypeProperty ;
+    rdfs:label "is named" ;
+    rdfs:domain ns:Street ;
+    rdfs:range xsd:string .
+
+ns:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" ;
+    rdfs:domain ns:PyhsicalObject ;
+    rdfs:range ns:Street .
+
+ns:passed a owl:DatatypeProperty ;
+    rdfs:label "passed" ;
+    rdfs:domain ns:TimeBicycleCounter ;
+    rdfs:range xsd:integer .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+ns:Station a owl:Class ;
+    rdfs:label "Station" ;
+    rdfs:subClassOf ns:PyhsicalObject .
+
+ns:Street a owl:Class ;
+    rdfs:label "Street" .
+
+ns:Counter a owl:Class ;
+    rdfs:label "Counter" ;
+    rdfs:subClassOf ns:PyhsicalObject .
+
+ns:TimeBicycleCounter a owl:Class ;
+    rdfs:label "Time Bicycle Counter" .
+
+ns:PyhsicalObject a owl:Class ;
+    rdfs:label "Pyhsical Object" .

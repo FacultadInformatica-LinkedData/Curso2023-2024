@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Group 2 Analysis</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Analysis</h1>
+    <h2>License to be generated</h2>
+    <div>
+      <p><b>Data origin: Ayuntamiento de Madrid</b></p>
+      <p>
+        The license of the dataset doesn't specify the nature of the license to
+        use when reusing the data. For convenience purposes the linked dataset
+        will use the same license which can be found
+        <a
+          href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default"
+          >here</a
+        >.
+      </p>
+    </div>
+    <h2>Naming strategy</h2>
+    <div>
+      <ul>
+        <li><b>Domain: </b>http://smartcity.linkeddata.es/</li>
+        <li><b>Path: </b>http://smartcity.linkeddata.es/lcc/</li>
+        <li><b>Ontology: </b>http://smartcity.linkeddata.es/lcc/ontology/</li>
+        <li><b>Data: </b>http://smartcity.linkeddata.es/lcc/resource/</li>
+        <li><b>Class: </b>http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#[className]</li>
+        <li><b>Property: </b>http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#[propertyName]</li>
+        <li><b>Individual: </b>http://smartcity.linkeddata.es/lcc/resource/[className]/[identifier]</li>
+      </ul>
+    </div>
+    <h2>Data table</h2>
+    <div>
+      <table>
+        <thead>
+          <td><b>Column</b></td>
+          <td><b>Type</b></td>
+          <td><b>Comments / Range</b></td>
+          <td><b>Problems</b></td>
+        </thead>
+        <tr>
+          <td>Year</td>
+          <td>Integer</td>
+          <td>Not unique</td>
+          <td>Decimals when representing years?</td>
+        </tr>
+        <tr>
+          <td>Month</td>
+          <td>Integer</td>
+          <td>Not unique</td>
+          <td>Month 13?</td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td>String</td>
+          <td>Not unique?</td>
+          <td>Blank and non numeric IDs?</td>
+        </tr>
+        <tr>
+          <td>Building type</td>
+          <td>String</td>
+          <td>Not unique, building type</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Building</td>
+          <td>String</td>
+          <td>Not unique, name of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>String</td>
+          <td>Not unique, adress of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>District</td>
+          <td>String</td>
+          <td>Not unique, name of the district</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>District Code</td>
+          <td>Integer</td>
+          <td>Not unique, code of the district</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Neighborhood</td>
+          <td>String</td>
+          <td>Not unique, name of the neighborhood</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Neighborhood Code</td>
+          <td>Integer</td>
+          <td>Not unique, code of the neighborhood</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>X-Coordinate</td>
+          <td>Float</td>
+          <td>Not unique, x-coordinate of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Y-Coordinate</td>
+          <td>Float</td>
+          <td>Not unique, y-coordinate of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Longitude</td>
+          <td>Float</td>
+          <td>Not unique, longitude of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Latitude</td>
+          <td>Float</td>
+          <td>Not unique, latitude of the building</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Sensor</td>
+          <td>String</td>
+          <td>Not unique, name of the sensor</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>String</td>
+          <td>Not unique, type of the sensor</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Class</td>
+          <td>String</td>
+          <td>Not unique, class of the sensor</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Group</td>
+          <td>String</td>
+          <td>Not unique, group of the sensor</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Units</td>
+          <td>String</td>
+          <td>Not unique, the unities in which the sensor measures</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Consumption</td>
+          <td>Float</td>
+          <td>
+            Not unique, the consumption measured by the sensor in a specific
+            unit
+          </td>
+          <td>N/A</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
