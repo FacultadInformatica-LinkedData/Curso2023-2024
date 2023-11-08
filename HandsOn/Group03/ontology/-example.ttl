@@ -1,0 +1,49 @@
+@base <http://smartcity.linkeddata.es/lcc/resource/> .
+@prefix ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix company: <:Company/> .
+@prefix bs: <:BicycleStation/> .
+@prefix district: <:District/> .
+@prefix hood: <:Neighbourhood/> .
+@prefix direction: <:Direction/> .
+@prefix street: <:Street/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+bs:Station01 a ns:BicycleStation;
+            rdfs:label "001 a"^^xsd:string;
+            ns:id "001 a"^^xsd:string;
+            ns:registrationDate "2021-09-21"^^xsd:date;
+            ns:places "30"^^xsd:integer;
+            ns:latitude "40.4171107"^^xsd:decimal;
+            ns:longitude "-3.701998"^^xsd:decimal;
+            ns:isManageBy company:BiciMAD;
+            ns:hasDirection direction:CalleDeAlcala_2;
+            ns:belongsDistrict district:01Centro;
+            ns:belongsNeigbourhood hood:01-06Sol.
+
+
+direction:CalleDeAlcala_2 a ns:Direction;
+                        rdfs:label "Calle de Alcala 2"^^xsd:date;
+                        ns:hasStreet street:CalleDeAlcala;
+                        ns:number "2"^^xsd:integer;
+                        ns:directionBelongsNeigbourhood hood:01-06Sol.
+
+
+hood:01-06Sol a ns:Hood; 
+            rdfs:label "01-06 Sol"^^xsd:date;
+            ns:neigbourhoodBelongsDistrict district:01Centro.
+
+district:01Centro a ns:District;
+            rdfs:label "01 Centro"^^xsd:date.
+
+company:BiciMAD a ns:Company;
+            rdfs:label "BiciMAD"^^xsd:date.
+
+street:CalleDeAlcala a ns:Street;
+            rdfs:label "Calle de Alcala"^^xsd:date.
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 9ec5c2ea7ee605cd4fe0f1a3d0c07c479de274f1

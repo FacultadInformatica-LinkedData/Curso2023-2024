@@ -1,0 +1,1 @@
+Tras pasar nuestro fichero rdf de N-Triples por SHACL Playground nos salieros 0 errores.
