@@ -1,0 +1,28 @@
+{%extends "layout.html" %}
+
+{% block content%}
+<form action="/NeighbourhoodLinked/Request" method="GET">
+    <label for="hood" >Escriba aquí el nombre del barrio: </label>
+    <input type="text"  name="hood" id="hood" placeholder="Escriba aquí el nombre del barrio" />
+    <button type="submit">Enviar</button>
+</form>
+<h1>LA SOLUCION: </h1>
+<ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Predicado</th>
+                <th>Objeto</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for clave, valor in data.items() %}
+            <tr>
+                <td>{{ clave }}</td>
+                <td>{{ valor }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</ul>
+{% endblock %}
