@@ -1,30 +1,44 @@
-@prefix base: <http://base.itree.com/#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix baseDistrito: <http://base.itree.com/distrito/#> .
-@prefix baseBarrio: <http://base.itree.com/barrio/#> .
-@prefix baseParqueCanino: <http://base.itree.com/parques/#> .
-@prefix baseArbol: <http://base.itree.com/arbol/#> .
+@prefix base: <http://base.itree.com#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
 
-baseDistrito:04 a base:Distrito;
-    base:numDistrito 4;
-    rdfs:label "Salamanca".
+# Declaración de la ontología
+base: a owl:Ontology ;
+    ns:nombreOntologia "Ejemplo Ontología Parques" ;
+    ns:versionOntologia "1.0" ;
+    ns:descripcion "Ejemplo de una ontología de parques" ;
+    ns:creador "Andrés Ollero Morales",
+        "Mercedes Jiménez Díaz-Varela",
+        "Miguel Hernando Padilla",
+        "Nicolás Bravo Ruiz de la Prada" .
 
+# Declaración de una instancia de Distrito
+base:Distrito a ns:Distrito ;
+    ns:nombreDistrito "Salamanca" ;
+    ns:numeroDistrito 4 .
 
+# Declaración de una instancia de Barrio
+base:BarrioGuindalera a ns:Barrio ;
+    ns:nombreBarrio "Guindalera" ;
+    ns:numeroBarrio 44 ;
+    ns:hasDireccion base:Direccion1 .
 
-baseBarrio:44 a base:Barrio;
-    base:numBarrio 44;
-    base:hasDistrito 4;
-    rdfs:label "Guindalera".
+# Declaración de una instancia de Direccion
+base:DireccionAvenidaAmerica a ns:Direccion ;
+    ns:nombreDireccion "Avenida de América 32" .
 
-baseParqueCanino:4997171 a base:Parque_Canino;
-    base:idParqueCanino 4997171;
-    base:hasDistrito 4;
-    base:hasBarrio 44;
-    base:hasDireccion "Avenida de América 32".
+# Declaración de una instancia de ParqueCanino
+base:ParqueCanino1 a ns:ParqueCanino ;
+    ns:IDParqueCanino 4997171 ;
+    ns:extensionParque 5000 .
 
-baseArbol:Ulmus%20pumila a base:Arbol;
-    rdfs:label "Ulmus pumila";
-    base:hasUnidades 855;
-    base:hasDistrito 4.
+# Declaración de una instancia de Tree
+base:Tree1 a ns:Tree ;
+    ns:nombreEspecie "Ulmus pumila" ;
+    ns:unidades 855 ;
+    ns:hasBarrio base:Barrio1 .
 
+# Relación entre el Distrito y el Barrio
+base:Distrito1 ns:hasBarrio base:BarrioGuindalera .
 
+# Relación entre la Direccion y el ParqueCanino
+base:DireccionAvenidaAmerica ns:hasParqueCanino base:ParqueCanino1 .
