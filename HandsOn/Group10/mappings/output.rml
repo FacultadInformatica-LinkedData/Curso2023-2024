@@ -176,7 +176,7 @@ map:s_002 rdf:type rr:SubjectMap ;
 	rr:template "http://base.itree.com/parques/{ID_Parque_Canino}" .
 
 map:s_003 rdf:type rr:SubjectMap ;
-	rr:template "http://base.itree.com/distrito/{N_Distrito}/{Nombre_Especie}" .
+	rr:template "http://base.itree.com/arbol/{Nombre_Especie}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
 	rml:source "data-updated.csv" ;
