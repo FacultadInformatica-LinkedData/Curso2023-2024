@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import * as neighbourhoodService from "./services/neighbourhoods";
-import * as districtsService from "./services/districts";
-import List from "./components/List";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Picker from "./components/Picker";
+import * as neighbourhoodService from "./services/neighbourhoods.js";
+import * as districtsService from "./services/districts.js";
+import Filter from "./components/Filter.jsx";
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import List from "./components/List.jsx";
+import Picker from "./components/Picker.jsx";
 import "./App.css";
-import Filter from "./components/Filter";
 
 const locationOpts = ["districts", "neighbourhoods"];
 const measureTypesOpts = ["kWh", "kVArh", "m3"];
