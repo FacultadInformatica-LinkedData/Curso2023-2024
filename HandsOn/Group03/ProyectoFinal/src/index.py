@@ -153,7 +153,8 @@ def companys_request():
                 ?Street rdfs:label "''' + calle + '''". 
                 ?Direction ns:hasStreet ?Street.                
                 ?BicycleStation ns:hasDirection ?Direction.
-                ?BicycleStation ns:isManageBy ?Company.
+                ?BicycleStation ns:isManageBy ?c.
+                ?c rdfs:label ?Company.
             } LIMIT 10'''
         )
 
