@@ -1,12 +1,28 @@
-@prefix base: <http://smartcity.group04.es/ontology/EnergyConsumption#> .
-@prefix cv: <https://schema.org/CivicStructure#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+ @prefix base: <http://smartcity.group04.es/ontology/EnergyConsumption#> .
+@prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix time: <https://www.w3.org/TR/owl-time#> .
 
+schema:address a owl:DatatypeProperty ;
+    rdfs:label "address" ;
+    rdfs:domain schema:CivicStructure .
+
+schema:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain schema:CivicStructure .
+
+schema:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain schema:CivicStructure .
+
+schema:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain schema:CivicStructure .
+
 base: a owl:Ontology ;
-    dc:description "Ontology code created by Chowlk" .
+    mod:createdWith <https://chowlk.linkeddata.es/> .
 
 base:consumes a owl:ObjectProperty ;
     rdfs:label "consumes" ;
@@ -24,7 +40,8 @@ base:hasNeighborhood a owl:ObjectProperty ;
     rdfs:range base:Neighborhood .
 
 base:hasQuantityValue a owl:DatatypeProperty ;
-    rdfs:label "has quantity value" .
+    rdfs:label "has quantity value" ;
+    rdfs:domain base:EnergyValue .
 
 base:hasUnitType a owl:ObjectProperty ;
     rdfs:label "has unit type" ;
@@ -36,46 +53,43 @@ base:inside a owl:ObjectProperty ;
     rdfs:domain base:Neighborhood ;
     rdfs:range base:District .
 
-base:name a owl:DatatypeProperty ;
-    rdfs:label "name" .
+base:measureName a owl:DatatypeProperty ;
+    rdfs:label "measure name" ;
+    rdfs:domain base:UnitOfMeasure .
 
 base:symbol a owl:DatatypeProperty ;
-    rdfs:label "symbol" .
+    rdfs:label "symbol" ;
+    rdfs:domain base:UnitOfMeasure .
 
-cv:latitude a owl:DatatypeProperty ;
-    rdfs:label "latitude" .
-
-cv:longitude a owl:DatatypeProperty ;
-    rdfs:label "longitude" .
-
-cv:name a owl:DatatypeProperty ;
-    rdfs:label "name" .
-
-cv:address a owl:DatatypeProperty ;
-    rdfs:label "address" .
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:domain base:District,
+        base:Neighborhood .
 
 time:month a owl:DatatypeProperty ;
-    rdfs:label "month" .
+    rdfs:label "month" ;
+    rdfs:domain base:EnergyValue .
 
 time:year a owl:DatatypeProperty ;
-    rdfs:label "year" .
-
-base:UnitOfMeasure a owl:Class ;
-    rdfs:label "Unit Of Measure" .
-
-cv:CivicStructure a owl:Class ;
-    rdfs:label "Civic Structure" .
+    rdfs:label "year" ;
+    rdfs:domain base:EnergyValue .
 
 base:District a owl:Class ;
     rdfs:label "District" .
 
-base:EnergyValue a owl:Class ;
-    rdfs:label "Energy Value" .
+base:MunicipalBuilding a owl:Class ;
+    rdfs:label "Municipal Building" ;
+    rdfs:subClassOf schema:CivicStructure .
 
 base:Neighborhood a owl:Class ;
     rdfs:label "Neighborhood" .
 
-base:MunicipalBuilding a owl:Class ;
-    rdfs:label "Municipal Building" ;
-    rdfs:subClassOf cv:CivicStructure .
+base:UnitOfMeasure a owl:Class ;
+    rdfs:label "Unit Of Measure" .
+
+schema:CivicStructure a owl:Class ;
+    rdfs:label "Civic Structure" .
+
+base:EnergyValue a owl:Class ;
+    rdfs:label "Energy Value" .
 
