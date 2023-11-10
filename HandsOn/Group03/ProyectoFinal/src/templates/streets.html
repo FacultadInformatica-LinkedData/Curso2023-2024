@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>DISTRICTS LINKED</h1>
+<h2>Descripcion: Queremos saber los numeros de las bases de bicletas que estan en esta calle.</h2> <br>
 <form action="/Streets/Request" method="GET">
     <label for="street" >Escriba aquí el nombre de la calle: </label>
     <input type="text"  name="street" id="street" placeholder="Escriba aquí el nombre de la calle" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h1>LA SOLUCIÓN: </h1>
 <ul>
     {% for dato in data.resultados %}
         <li>{{ dato }}</li>

@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request
 from rdflib import Graph
 from rdflib.plugins.sparql import prepareQuery

@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>DISTRICTS LINKED</h1>
+<h2>Descripcion: Queremos sacar datos de wikidata sobre los distritos que albergamos en nuestro grafo .</h2> <br>
 <form action="/DistrictLinked/Request" method="GET">
     <label for="district" >Escriba aquí el nombre del distrito: </label>
     <input type="text"  name="district" id="district" placeholder="Escriba aquí el nombre del distrito" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h2>LA SOLUCIÓN: </h2>
 <ul>
     <table>
         <thead>

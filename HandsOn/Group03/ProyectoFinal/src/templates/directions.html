@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>DIRECTIONS</h1>
+<h2>Descripcion: Quermos saber las distintas ubicaciones de bases de bicicletas que tienen N plazas.</h2> <br>
 <form action="/Directions/Request" method="GET">
     <label for="plazas" >Escriba aquí el número de plazas: </label>
     <input type="text"  name="plazas" id="plazas" placeholder="Escriba aquí el número de plazas" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h2>LA SOLUCIÓN: </h2>
 <ul>
     {% for dato in data.resultados %}
         <li>{{ dato }}</li>

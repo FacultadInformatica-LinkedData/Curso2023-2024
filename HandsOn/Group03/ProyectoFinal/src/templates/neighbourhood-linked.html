@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>NEIGHBOURHOOD LINKED</h1>
+<h2>Descripcion: Queremos sacar datos de wikidata sobre los barrios que albergamos en nuestro grafo .</h2> <br>
 <form action="/NeighbourhoodLinked/Request" method="GET">
     <label for="hood" >Escriba aquí el nombre del barrio: </label>
     <input type="text"  name="hood" id="hood" placeholder="Escriba aquí el nombre del barrio" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h2>LA SOLUCIÓN: </h2>
 <ul>
     <table>
         <thead>

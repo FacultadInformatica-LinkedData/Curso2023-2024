@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>DISTRICTS</h1>
+<h2>Descripcion: Quermos saber las calles que albergan una base de bicicletas en un distrito determinado.</h2> <br>
 <form action="/Districts/Request" method="GET">
     <label for="distrct" >Escriba aquí el nombre del distrito: </label>
     <input type="text"  name="district" id="district" placeholder="Escriba aquí el nombre del distrito" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h2>LA SOLUCIÓN: </h2>
 <ul>
     {% for dato in data.resultados %}
         <li>{{ dato }}</li>
