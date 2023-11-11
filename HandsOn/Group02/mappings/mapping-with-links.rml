@@ -8,6 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 @prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#> .
+@prefix base: <http://smartcity.linkeddata.es/lcc/resource/> .
 
 map:map_building_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
@@ -60,7 +61,7 @@ map:om_003 rml:reference "EDIFICIO" ;
 
 map:om_004 rml:reference "ID" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_005 rml:reference "COORDENADA_X" ;
@@ -84,15 +85,15 @@ map:om_008 rml:reference "LONGITUD" ;
 	rr:termType rr:Literal .
 
 map:om_009 rdf:type rr:ObjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#neighbourhood/{CODIGO_BARRIO}" ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/neighbourhood/{CODIGO_BARRIO}" ;
 	rr:termType rr:IRI .
 
 map:om_010 rdf:type rr:ObjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#measure/{ID_MEDIDA}" ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" ;
 	rr:termType rr:IRI .
 
 map:om_011 rdf:type rr:ObjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#sensor/{SENSOR}" ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/sensor/{SENSOR}" ;
 	rr:termType rr:IRI .
 
 map:om_012 rdf:type rr:ObjectMap ;
@@ -101,7 +102,7 @@ map:om_012 rdf:type rr:ObjectMap ;
 
 map:om_013 rml:reference "CODIGO_DISTRITO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_014 rml:reference "DISTRITO" ;
@@ -119,7 +120,7 @@ map:om_016 rdf:type rr:ObjectMap ;
 
 map:om_017 rml:reference "CODIGO_BARRIO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_018 rml:reference "BARRIO" ;
@@ -128,7 +129,7 @@ map:om_018 rml:reference "BARRIO" ;
 	rr:termType rr:Literal .
 
 map:om_019 rdf:type rr:ObjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#district/{CODIGO_DISTRITO}" ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/district/{CODIGO_DISTRITO}" ;
 	rr:termType rr:IRI .
 
 map:om_020 rml:reference "URI_Barrio_de_Wikidata" ;
@@ -141,17 +142,17 @@ map:om_021 rdf:type rr:ObjectMap ;
 
 map:om_022 rml:reference "ID_MEDIDA" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_023 rml:reference "ANO" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_024 rml:reference "MES" ;
 	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:integer ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_025 rml:reference "UNIDADES" ;
@@ -189,7 +190,7 @@ map:om_031 rml:reference "TIPO" ;
 	rr:termType rr:Literal .
 
 map:om_032 rdf:type rr:ObjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#measure/{ID_MEDIDA}" ;
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" ;
 	rr:termType rr:IRI .
 
 map:pm_000 rdf:type rr:PredicateMap ;
@@ -427,37 +428,37 @@ map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_building_000, ma
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
 
 map:s_000 rdf:type rr:SubjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#building/{ID}" .
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/building/{ID}" .
 
 map:s_001 rdf:type rr:SubjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#district/{CODIGO_DISTRITO}" .
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/district/{CODIGO_DISTRITO}" .
 
 map:s_002 rdf:type rr:SubjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#neighbourhood/{CODIGO_BARRIO}" .
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/neighbourhood/{CODIGO_BARRIO}" .
 
 map:s_003 rdf:type rr:SubjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#measure/{ID_MEDIDA}" .
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/measure/{ID_MEDIDA}" .
 
 map:s_004 rdf:type rr:SubjectMap ;
-	rr:template "http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#sensor/{SENSOR}" .
+	rr:template "http://smartcity.linkeddata.es/lcc/resource/sensor/{SENSOR}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
-	rml:source "../csv/consumo_energia_edificios_updated-with-links.csv" ;
+	rml:source "csv/consumo_energia_edificios_updated-with-links.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_001 rml:referenceFormulation ql:CSV ;
-	rml:source "../csv/consumo_energia_edificios_updated-with-links.csv" ;
+	rml:source "csv/consumo_energia_edificios_updated-with-links.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_002 rml:referenceFormulation ql:CSV ;
-	rml:source "../csv/consumo_energia_edificios_updated-with-links.csv" ;
+	rml:source "csv/consumo_energia_edificios_updated-with-links.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_003 rml:referenceFormulation ql:CSV ;
-	rml:source "../csv/consumo_energia_edificios_updated-with-links.csv" ;
+	rml:source "csv/consumo_energia_edificios_updated-with-links.csv" ;
 	rdf:type rml:LogicalSource .
 
 map:source_004 rml:referenceFormulation ql:CSV ;
-	rml:source "../csv/consumo_energia_edificios_updated-with-links.csv" ;
+	rml:source "csv/consumo_energia_edificios_updated-with-links.csv" ;
 	rdf:type rml:LogicalSource .
 

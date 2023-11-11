@@ -1,0 +1,15 @@
+{%extends "layout.html" %}
+
+{% block content%}
+<form action="/Directions/Request" method="GET">
+    <label for="plazas" >Escriba aquí el número de plazas: </label>
+    <input type="text"  name="plazas" id="plazas" placeholder="Escriba aquí el número de plazas" />
+    <button type="submit">Enviar</button>
+</form>
+<h1>LA SOLUCION: </h1>
+<ul>
+    {% for dato in data.resultados %}
+        <li>{{ dato }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

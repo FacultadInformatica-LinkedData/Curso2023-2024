@@ -1,0 +1,15 @@
+{%extends "layout.html" %}
+
+{% block content%}
+<form action="/Streets/Request" method="GET">
+    <label for="street" >Escriba aquí el nombre de la calle: </label>
+    <input type="text"  name="street" id="street" placeholder="Escriba aquí el nombre de la calle" />
+    <button type="submit">Enviar</button>
+</form>
+<h1>LA SOLUCION: </h1>
+<ul>
+    {% for dato in data.resultados %}
+        <li>{{ dato }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
