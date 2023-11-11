@@ -1,10 +1,10 @@
 import ListItem from "./ListItem";
 
-export default function List({ locations }) {
+export default function List({ locations, locationKind }) {
   return (
-    <div>
+    <div className="list-container">
       {locations.map((name) => (
-        <ListItem key={name} name={name} />
+        <ListItem key={name} name={name} locationKind={locationKind} />
       ))}
     </div>
   );
