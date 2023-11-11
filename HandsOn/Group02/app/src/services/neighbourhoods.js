@@ -22,6 +22,30 @@ const getAllNames = async () => {
   }
 };
 
+const getMeasurements = async (name, unit) => {
+  const query = `
+  PREFIX ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#>
+
+  SELECT ?res
+  WHERE {
+    ?neighbourhood ns:neighbourhoodName "${name}" .
+      ?building ns:locatedInNeighbourhood ?neighbourhood .
+      ?building ns:hasMeasure ?measure .
+      ?measure ns:unit "${unit}" .
+      ?measure ns:consumption ?res .
+  }`;
+
+  try {
+    const {
+      results: { bindings },
+    } = await runSparqlQuery(endpoint, query);
+
+    return bindings.map((b) => Number(b.res.value));
+  } catch (err) {
+    console.error(err);
+  }
+};
+
 const getWikiDataEntityFromName = async (name) => {
   const query = `
   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -73,4 +97,4 @@ const getWikiDataProperties = async (name) => {
   }
 };
 
-export { getAllNames, getWikiDataProperties };
+export { getAllNames, getWikiDataProperties, getMeasurements };

@@ -6,17 +6,30 @@
 
 .list-container {
   display: grid;
-  /* auto-fit o auto-fill ajusta automáticamente el número de columnas */
-  /* minmax define un tamaño mínimo y máximo para cada columna */
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 10px; /* Controla el espacio entre los botones */
+  gap: 10px;
 }
 
 .list-container > * {
-  /* Asegúrate de que los elementos del grid (botones) llenen su celda */
   width: 100%;
 }
 
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+
+.statistics-and-map {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.image {
+  grid-row: 1;
+  grid-column: 2;
+}
 
 .footer-container {
   background-color: white;
@@ -25,10 +38,15 @@
   border-radius: 8px;
   max-width: 1500px;
   margin: 20px auto 0;
+  transition: 0.3s;
 }
 
 .footer-container h3 {
   margin: 0;
   font-size: 1.2em;
   color: #333;
+}
+
+.footer-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

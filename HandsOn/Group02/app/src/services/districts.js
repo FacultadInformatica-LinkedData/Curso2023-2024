@@ -15,8 +15,36 @@ const getAllNames = async () => {
   } ORDER BY ASC(?name)`;
 
   try {
-    const response = await runSparqlQuery(endpoint, query);
-    return response.results.bindings.map((b) => b.name.value);
+    const {
+      results: { bindings },
+    } = await runSparqlQuery(endpoint, query);
+
+    return bindings.map((b) => b.name.value);
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+const getMeasurements = async (name, unit) => {
+  const query = `
+  PREFIX ns: <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#>
+
+  SELECT ?res
+  WHERE {
+      ?district ns:districtName "${name}" .
+      ?neighbourhood ns:locatedInDistrict ?district .
+      ?building ns:locatedInNeighbourhood ?neighbourhood .
+      ?building ns:hasMeasure ?measure .
+      ?measure ns:unit "${unit}" .
+      ?measure ns:consumption ?res .
+  }`;
+
+  try {
+    const {
+      results: { bindings },
+    } = await runSparqlQuery(endpoint, query);
+
+    return bindings.map((b) => Number(b.res.value));
   } catch (err) {
     console.error(err);
   }
@@ -34,8 +62,11 @@ const getWikiDataEntityFromName = async (name) => {
   }`;
 
   try {
-    const response = await runSparqlQuery(endpoint, query);
-    return response.results.bindings[0].wikidataUri.value.split("/").pop();
+    const {
+      results: { bindings },
+    } = await runSparqlQuery(endpoint, query);
+
+    return bindings[0].wikidataUri.value.split("/").pop();
   } catch (err) {
     console.error(err);
   }
@@ -58,19 +89,20 @@ const getWikiDataProperties = async (name) => {
       }`;
 
     try {
-      const { results } = await runSparqlQuery(wikidataEndpoint, query);
+      const {
+        results: { bindings },
+      } = await runSparqlQuery(wikidataEndpoint, query);
       return {
-        location: parsePoint(results.bindings[0].location.value),
-        map: results.bindings[0].map.value,
-        population: results.bindings[0].population.value,
+        location: parsePoint(bindings[0].location.value),
+        map: bindings[0].map.value,
+        population: bindings[0].population.value,
       };
     } catch (err) {
       console.error(err);
-      return;
     }
   } catch (err) {
     console.error(err);
   }
 };
 
-export { getAllNames, getWikiDataProperties };
+export { getAllNames, getWikiDataProperties, getMeasurements };
