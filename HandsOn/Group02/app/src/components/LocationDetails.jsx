@@ -30,7 +30,7 @@ export default function LocationDetails({ locationKind, setLocationKind }) {
   return map && population && location ? (
     <div>
       <h1>{name}</h1>
-      <h3>{population ? population : "None"}</h3>
+      <h3>{population ? "Population Total : "+ population : "None"}</h3>
       <img src={map} />
       <Map point={location} name={name} />
     </div>

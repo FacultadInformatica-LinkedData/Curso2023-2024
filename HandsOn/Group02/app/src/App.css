@@ -19,3 +19,18 @@
     flex-basis: 33%; /* 3 elementos por fila en pantallas pequeñas */
   }
 }
+
+.footer-container {
+  background-color: #f0f0f0; /* Set a background color */
+  padding: 20px 10px; /* Add more padding on top (20px) and some padding on the sides (10px) */
+  text-align: center; /* Center the text */
+  border-radius: 8px; /* Add rounded corners for a box effect */
+  max-width: 600px; /* Set a maximum width to prevent it from being too wide */
+  margin: 20px auto 0; /* Add margin on top (20px), center the container horizontally, and remove margin at the bottom */
+}
+
+.footer-container h3 {
+  margin: 0; /* Remove default margin from the heading */
+  font-size: 1.2em; /* Adjust the font size */
+  color: #333; /* Set the text color */
+}
