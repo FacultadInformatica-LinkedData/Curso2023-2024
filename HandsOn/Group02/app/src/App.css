@@ -5,32 +5,30 @@
 }
 
 .list-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  /* auto-fit o auto-fill ajusta automáticamente el número de columnas */
+  /* minmax define un tamaño mínimo y máximo para cada columna */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px; /* Controla el espacio entre los botones */
 }
 
 .list-container > * {
-  flex: 0 0 calc(16.66% - 10px); /* Ancho fijo para cada elemento */
-  margin: 5px; /* Ajusta el margen según sea necesario */
+  /* Asegúrate de que los elementos del grid (botones) llenen su celda */
+  width: 100%;
 }
 
-@media (max-width: 600px) {
-  .list-container > * {
-    flex-basis: 33%; /* 3 elementos por fila en pantallas pequeñas */
-  }
-}
 
 .footer-container {
-  background-color: #f0f0f0; /* Set a background color */
-  padding: 20px 10px; /* Add more padding on top (20px) and some padding on the sides (10px) */
-  text-align: center; /* Center the text */
-  border-radius: 8px; /* Add rounded corners for a box effect */
-  max-width: 600px; /* Set a maximum width to prevent it from being too wide */
-  margin: 20px auto 0; /* Add margin on top (20px), center the container horizontally, and remove margin at the bottom */
+  background-color: white;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 1500px;
+  margin: 20px auto 0;
 }
 
 .footer-container h3 {
-  margin: 0; /* Remove default margin from the heading */
-  font-size: 1.2em; /* Adjust the font size */
-  color: #333; /* Set the text color */
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
 }

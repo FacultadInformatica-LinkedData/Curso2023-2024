@@ -1,3 +1,4 @@
+import { parsePoint } from "../utils/pointParser.js";
 import { runSparqlQuery } from "./sparql.js";
 
 const endpoint = "http://localhost:9000/api/sparql";
@@ -21,7 +22,7 @@ const getAllNames = async () => {
   }
 };
 
-const getWikiDataURIFromName = async (name) => {
+const getWikiDataEntityFromName = async (name) => {
   const query = `
   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -42,7 +43,7 @@ const getWikiDataURIFromName = async (name) => {
 
 const getWikiDataProperties = async (name) => {
   try {
-    const entity = await getWikiDataURIFromName(name);
+    const entity = await getWikiDataEntityFromName(name);
 
     const query = `
     PREFIX wd: <http://www.wikidata.org/entity/>
@@ -58,14 +59,8 @@ const getWikiDataProperties = async (name) => {
 
     try {
       const { results } = await runSparqlQuery(wikidataEndpoint, query);
-      const regexp = /^Point\(([^ ]*) ([^ ]*)\)$/;
-      let matches = null;
-      let location = [];
-      if ((matches = regexp.exec(results.bindings[0].location.value))) {
-        location = [matches[2], matches[1]];
-      }
       return {
-        location,
+        location: parsePoint(results.bindings[0].location.value),
         map: results.bindings[0].map.value,
         population: results.bindings[0].population.value,
       };

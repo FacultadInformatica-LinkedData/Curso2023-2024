@@ -28,13 +28,17 @@ export default function LocationDetails({ locationKind, setLocationKind }) {
   }, []);
 
   return map && population && location ? (
-    <div>
+    <>
       <h1>{name}</h1>
-      <h3>{population ? "Population Total : "+ population : "None"}</h3>
-      <img src={map} />
-      <Map point={location} name={name} />
-    </div>
+      <h3>{population ? "Population Total : " + population : "None"}</h3>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)" }}>
+        <img src={map} />
+        <div style={{ paddingTop: "70px" }}>
+          <Map point={location} name={name} />
+        </div>
+      </div>
+    </>
   ) : (
-    <p>Loading...</p>
+    <h3 style={{ textAlign: "center" }}>Loading...</h3>
   );
 }
