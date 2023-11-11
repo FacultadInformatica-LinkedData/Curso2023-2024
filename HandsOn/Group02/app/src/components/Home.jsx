@@ -7,12 +7,10 @@ import List from "./List.jsx";
 import Header from "./Header.jsx";
 
 const locationOpts = ["districts", "neighbourhoods"];
-const measureTypesOpts = ["kWh", "kVArh", "m3"];
 
 export default function Home({ locationKind, setLocationKind }) {
   const [districts, setDistricts] = useState(null);
   const [neighbourhoods, setNeighbourhoods] = useState(null);
-  const [measureType, setMeasureType] = useState("kWh");
   const [filter, setFilter] = useState("");
 
   const handleInput = (e) => {
@@ -49,11 +47,6 @@ export default function Home({ locationKind, setLocationKind }) {
         value={locationKind}
         options={locationOpts}
         setValue={setLocationKind}
-      />
-      <Picker
-        value={measureType}
-        options={measureTypesOpts}
-        setValue={setMeasureType}
       />
       <div>
         {!districts ? (
