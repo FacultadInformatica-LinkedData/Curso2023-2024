@@ -1,51 +1,57 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
+PREFIX base: <http://base.itree.com/>
 
-----------------------------------------
-// Los arboles y los barrios de los distritos 
-SELECT DISTINCT ?arbol ?barrio ?distrito
-WHERE
-{
-?arbol a <>.
-?arbol <> ?barrio.
-?barrio <> ?distrito.
-?distrito a <>
-} GROUP BY ?distrito
-LIMIT 100
------------------------------------------
-//cuantos arboles en un barrio
-PREFIX
-SELECT COUNT (DISTINCT ?arbol) AS ?numBarrio
-WHERE 
-{
-?arbol rdf:Barrio ?barrio.
-FILTER (?arbol = <>)
+SELECT DISTINCT ?nombreDistrito ?nombreArbol ?maxUnidades WHERE {
+  {
+    SELECT ?nombreDistrito (MAX(?unidades) as ?maxUnidades) WHERE {
+      ?distrito a base:Distrito.
+      ?arbol a base:Arbol.
+      ?arbol base:hasDistrito ?numDistrito.
+      ?distrito base:numDistrito ?numDistrito.
+      ?distrito rdfs:label ?nombreDistrito.
+      ?arbol base:hasUnidades ?unidades.
+    }
+    GROUP BY ?nombreDistrito
+  }
+  ?arbol a base:Arbol.
+  ?arbol base:hasDistrito ?numDistrito.
+  ?arbol rdfs:label ?nombreArbol.
+  ?distrito rdfs:label ?nombreDistrito.
+  ?distrito rdfs:label "Retiro".
+  ?arbol base:hasUnidades ?maxUnidades.
 }
-LIMIT 100
------------------------------------------
-//cuantos barrios en un distrito
-PREFIX rdf:
-SELECT COUNT (DISTINCT ?barrio) AS ?numBarrio
-WHERE 
-{
-?distrito rdf:Barrio ?barrio.
-FILTER (?distrito = <>)
+ORDER BY ?numDistrito
+
+SELECT ?direccion ?arbol ?nombre WHERE {
+  ?arbol a base:Arbol.
+  ?parques a base:Parque_Canino.
+  ?parques base:hasDireccion ?direccion.
+  ?parques base:hasDistrito ?numDistrito.
+  ?arbol base:hasDistrito ?numDistrito.
+  ?arbol rdfs:label "Ligustrum japonicum 'Variegatum'".
 }
-LIMIT 100
-------------------------------------------
-//los parques caninos de un barrio 
-SELECT DISTINCT ?parque ?barrio 
-WHERE
-{
-?parque a <>.
-?parque <> ?barrio.
-FILTER (?barrio=<>)
-}GROUP BY ?barrio ORDER BY DESC(?barrio)
-LIMIT 100
-----------------------------------------
-// Los parques de los distritos 
-SELECT DISTINCT ?parque ?distrito
-WHERE
-{
-?parque a <>.
-?parque <> ?distrito.
-} GROUP BY ?distrito ORDER BY ASC(?distrito)
-LIMIT 100
+
+SELECT ?nombreDistrito ?direccion WHERE {
+  ?parque a base:Parque_Canino.
+  ?distrito a base:Distrito.
+  ?parque base:hasDistrito ?numDistrito.
+  ?distrito base:numDistrito ?numDistrito.
+  ?parque base:hasDireccion ?direccion.
+  ?distrito rdfs:label ?nombreDistrito.
+}
+order by ?numDistrito
+
+SELECT DISTINCT ?numDistrito ?direccion WHERE {
+
+  ?parques a base:Parque_Canino.
+  ?parques base:hasDireccion ?direccion.
+  ?parques base:hasDistrito ?numDistrito.
+  
+  FILTER NOT EXISTS {
+    ?arbol2 a base:Arbol.
+    ?arbol2 rdfs:label "Ligustrum japonicum".
+    ?arbol2 base:hasDistrito ?numDistrito.
+  }
+}
+ORDER BY ?numDistrito
