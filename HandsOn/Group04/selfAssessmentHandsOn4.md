@@ -13,7 +13,7 @@
 
 - [X] Is "readable" and has some meaning (e.g., it is not an auto-increased integer) 
 - [X] Is not encoded as a string
-- [ ] Does not contain a double slash (i.e., “//”)
+- [X] Does not contain a double slash (i.e., “//”)
 
 **Every individual in the RDF files:**
 
