@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GREEN PARIS</title>
+    <style>
+        /* Ocultar el texto por defecto */
+        #useful_prefixes,
+        #ontology {
+            display: none;
+            margin-top: 10px; /* Agregado para espacio entre el botón y el texto */
+        }
+
+        /* Estilo para el botón */
+        .toggle-btn {
+            cursor: pointer;
+            background-color: #fff; /* Fondo blanco */
+            color: #000; /* Texto negro */
+            padding: 5px 10px;
+            border: 1px solid #000; /* Borde negro */
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Cambiar colores cuando el botón está activo */
+        #toggle-checkbox-prefix:checked + .toggle-btn,
+        #toggle-checkbox-ontology:checked + .toggle-btn {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Mostrar el texto cuando el checkbox está marcado */
+        #toggle-checkbox-prefix:checked + .toggle-btn +  #useful_prefixes,
+        #toggle-checkbox-ontology:checked + .toggle-btn + #ontology {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <h1>GREEN PARIS</h1>
+    <h2>Resources</h2>
+        <input type="checkbox" id="toggle-checkbox-prefix" style="display: none">
+        <label for="toggle-checkbox-prefix" class="toggle-btn">Show/Hide Useful prefixes</label>
+        <div id="useful_prefixes">
+            <h3>Useful Prefixes</h3>
+            <p>PREFIX purl: &lt;http://purl.org/dc/elements/1.1/&gt;</p>
+            <p>PREFIX w3id: &lt;https://w3id.org/mod#&gt;</p>
+            <p>PREFIX onto: &lt;http://smart.city.linkeddata.es/lcc/ontology/G5O#&gt;</p>
+            <p>PREFIX reso: &lt;http://smart.city.linkeddata.es/lcc/resource/&gt;</p>
+            <p>PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;</p>
+            <p>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;</p>
+            <p>PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</p>
+            <p>PREFIX wd: &lt;http://www.wikidata.org/entity/&gt;</p>
+            <p>PREFIX wdp: &lt;http://www.wikidata.org/prop/&gt;</p>
+            <p>PREFIX wdd: &lt;http://www.wikidata.org/prop/direct/&gt;</p>
+        </div>
+        <br><br>
+        <form action="/ontology" method="get">
+            <button type="submit" name="ontology_button">Show Ontology</button>
+        </form>
     <h2>SPARQL Queries</h2>
     <p>Introduce the query in the box bellow</p>
     <form action="/query" method="get">

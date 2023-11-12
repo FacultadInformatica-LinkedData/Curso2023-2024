@@ -30,5 +30,9 @@ def quers():
     
     return render_template('result.html', results_lists= results_lists, field_names= field_names)
 
+@app.route('/ontology')
+def onto():
+    return render_template('ontology.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
