@@ -1,8 +1,15 @@
-# React + Vite
+# React.js and SPARQL app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Starting the app
 
-Currently, two official plugins are available:
+```bash
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Note: The application expects a SPARQL endpoint at `http:localhost:9000/api/sparql` and a KG with the same structure as our. Also, due to the data and the app being running at the same host at the same time, CORS policy will make the app to crash. We cannot deactivate or configure Allowed-Origins in Helio Publisher so we run the app in a Chrome instance with CORS policiy deactivated (not recommended)._
+
+Authors:
+- Ramiro Lopez Cento
+- Guillermo Izquierdo Cabo
+- Marco Ciccalè Baztán
