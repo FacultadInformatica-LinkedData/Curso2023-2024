@@ -11,6 +11,7 @@ mappings:
     po:
       - [a, base:Distrito]
       - [rdfs:label, $(Nombre_Distrito)]
+      - [base:numDistrito, $(N_Distrito)]
   barrio:
     sources:
       - [data-updated.csv~csv]
@@ -19,6 +20,7 @@ mappings:
       - [a, base:Barrio]
       - [rdfs:label, $(Nombre_Barrio)]
       - [base:hasDistrito, $(N_Distrito)]
+      - [base:numBarrio, $(N_Barrio)]
   parque:
     sources:
       - [data-updated.csv~csv]
@@ -28,11 +30,13 @@ mappings:
       - [base:hasDireccion, $(Dirección)]
       - [base:hasBarrio, $(N_Barrio)]
       - [base:hasDistrito, $(N_Distrito)]
+      - [base:idParqueCanino, $(ID_Parque_Canino)]
   arbol:
     sources:
       - [data-updated.csv~csv]
-    s: base:distrito/$(N_Distrito)/$(Nombre_Especie)
+    s: base:arbol/$(Nombre_Especie)
     po:
       - [a, base:Arbol]
       - [rdfs:label, $(Nombre_Especie)]
       - [base:hasUnidades, $(N_Unidades 2022)]
+      - [base:hasDistrito, $(N_Distrito)]
