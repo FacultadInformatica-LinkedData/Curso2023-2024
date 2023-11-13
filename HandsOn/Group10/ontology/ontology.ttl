@@ -1,6 +1,6 @@
- @prefix base: <http://base.itree.com#> .
+ @prefix base: <http://base.itree.com/#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,86 +10,66 @@ base: a owl:Ontology ;
         "Mercedes Jiménez Díaz-Varela",
         "Miguel Hernando Padilla",
         "Nicolás Bravo Ruiz de la Prada" ;
-    dc:description "Ontology code created by Chowlk" ;
-    owl:versionInfo "0.0.1" .
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
 
-ns:IDParqueCanino a owl:DatatypeProperty ;
-    rdfs:label "i d parque canino" ;
-    rdfs:domain ns:ParqueCanino ;
-    rdfs:range xsd:Integer .
-
-ns:extensionParque a owl:DatatypeProperty ;
-    rdfs:label "extension parque" ;
-    rdfs:domain ns:ParqueCanino ;
-    rdfs:range xsd:Integer .
-
-ns:hasBarrio a owl:ObjectProperty ;
+base:hasBarrio a owl:DatatypeProperty ;
     rdfs:label "has barrio" ;
-    rdfs:domain ns:Distrito ;
-    rdfs:range ns:Barrio .
+    rdfs:domain base:Parque_Canino ;
+    rdfs:range xsd:Integer .
 
-ns:hasDireccion a owl:ObjectProperty ;
+base:hasDireccion a owl:DatatypeProperty ;
     rdfs:label "has direccion" ;
-    rdfs:domain ns:Barrio ;
-    rdfs:range ns:Direccion .
-
-ns:hasParqueCanino a owl:ObjectProperty ;
-    rdfs:label "has parque canino" ;
-    rdfs:domain ns:Direccion ;
-    rdfs:range ns:ParqueCanino .
-
-ns:hasTree a owl:ObjectProperty ;
-    rdfs:label "has tree" ;
-    rdfs:domain ns:Distrito ;
-    rdfs:range ns:Tree .
-
-ns:nombreBarrio a owl:DatatypeProperty ;
-    rdfs:label "nombre barrio" ;
-    rdfs:domain ns:Barrio ;
+    rdfs:domain base:Parque_Canino ;
     rdfs:range xsd:String .
 
-ns:nombreDireccion a owl:DatatypeProperty ;
-    rdfs:label "nombre direccion" ;
-    rdfs:domain ns:Direccion ;
-    rdfs:range xsd:String .
-
-ns:nombreDistrito a owl:DatatypeProperty ;
-    rdfs:label "nombre distrito" ;
-    rdfs:domain ns:Distrito ;
-    rdfs:range xsd:String .
-
-ns:nombreEspecie a owl:DatatypeProperty ;
-    rdfs:label "nombre especie" ;
-    rdfs:domain ns:Tree ;
-    rdfs:range xsd:String .
-
-ns:numeroBarrio a owl:DatatypeProperty ;
-    rdfs:label "numero barrio" ;
-    rdfs:domain ns:Barrio ;
+base:hasDistrito a owl:DatatypeProperty ;
+    rdfs:label "has distrito" ;
+    rdfs:domain base:Arbol,
+        base:Barrio,
+        base:Parque_Canino ;
     rdfs:range xsd:Integer .
 
-ns:numeroDistrito a owl:DatatypeProperty ;
-    rdfs:label "numero distrito" ;
-    rdfs:domain ns:Distrito ;
+base:hasUnidades a owl:DatatypeProperty ;
+    rdfs:label "has unidades" ;
+    rdfs:domain base:Arbol ;
     rdfs:range xsd:Integer .
 
-ns:unidades a owl:DatatypeProperty ;
-    rdfs:label "unidades" ;
-    rdfs:domain ns:Tree ;
+base:idParqueCanino a owl:DatatypeProperty ;
+    rdfs:label "id parque canino" ;
+    rdfs:domain base:Parque_Canino ;
     rdfs:range xsd:Integer .
 
-ns:Direccion a owl:Class ;
-    rdfs:label "Direccion" .
+base:numBarrio a owl:DatatypeProperty ;
+    rdfs:label "num barrio" ;
+    rdfs:domain base:Barrio ;
+    rdfs:range xsd:Integer .
 
-ns:ParqueCanino a owl:Class ;
-    rdfs:label "Parque Canino" .
+base:numDistrito a owl:DatatypeProperty ;
+    rdfs:label "num distrito" ;
+    rdfs:domain base:Distrito ;
+    rdfs:range xsd:Integer .
 
-ns:Tree a owl:Class ;
-    rdfs:label "Tree" .
+dc:creator a owl:AnnotationProperty .
 
-ns:Barrio a owl:Class ;
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:domain base:Arbol,
+        base:Barrio,
+        base:Distrito ;
+    rdfs:range xsd:String .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+base:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+base:Arbol a owl:Class ;
+    rdfs:label "Arbol" .
+
+base:Barrio a owl:Class ;
     rdfs:label "Barrio" .
 
-ns:Distrito a owl:Class ;
-    rdfs:label "Distrito" .
+base:Parque_Canino a owl:Class ;
+    rdfs:label "Parque_ Canino" .
 
