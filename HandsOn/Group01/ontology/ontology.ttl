@@ -106,3 +106,15 @@ ex:hasEmail rdf:type owl:DatatypeProperty ;
     rdfs:comment "The email address for contacting the parking spot." ;
     rdfs:domain ex:Contact ;
     rdfs:range xsd:string .
+
+ex:hasLatitude rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Latitude" ;
+    rdfs:comment "The latitude of the parking spot." ;
+    rdfs:domain ex:Location ;
+    rdfs:range xsd:decimal .
+
+ex:hasLongitude rdf:type owl:DatatypeProperty ;
+    rdfs:label "has Longitude" ;
+    rdfs:comment "The longitude of the parking spot." ;
+    rdfs:domain ex:Location ;
+    rdfs:range xsd:decimal .
