@@ -1,12 +1,14 @@
 {%extends "layout.html" %}
 
 {% block content%}
+<h1>STREETS LINKED</h1>
+<h2>Descripcion: Queremos sacar datos de wikidata sobre las calles que albergamos en nuestro grafo .</h2> <br>
 <form action="/StreetsLinked/Request" method="GET">
     <label for="street" >Escriba aquí el nombre de la calle: </label>
     <input type="text"  name="street" id="street" placeholder="Escriba aquí el nombre de la calle" />
     <button type="submit">Enviar</button>
 </form>
-<h1>LA SOLUCION: </h1>
+<h2>LA SOLUCIÓN: </h2>
 <ul>
     <table>
         <thead>
