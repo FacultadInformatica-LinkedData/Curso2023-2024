@@ -12,27 +12,24 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns: <http://smart.city.linkeddata.es/lcc/ontology/G5O#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix st: <http://smart.city.linkeddata.es/lcc/resource/station/> .
-@prefix cn: <http://smart.city.linkeddata.es/lcc/resource/counter/> .
-@prefix tm: <http://smart.city.linkeddata.es/lcc/resource/timeBicycleCounter/> .
+@prefix rs: <http://smart.city.linkeddata.es/lcc/resource/>.
 
-<#TriplesMap1>
+<#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "velib-emplacement-des-stations-csv-updated.csv";
+    rml:source "velib-emplacement-des-stations-updated.csv";
     rml:referenceFormulation ql:CSV
   ];
 
   rr:subjectMap [
-    rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/station/{stationcode}" ;
-    rr:termType rr:IRI; rr:class tm:station
+    rr:template "http://smart.city.linkeddata.es/lcc/resource/Station/{stationcode}" ;
+    rr:termType rr:IRI; rr:class ns:Station
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:hasName;
     rr:objectMap [
       rml:reference "name";
-      rr:termType rr:Literal;
-      rr:dataType xsd:String
+      rr:datatype xsd:string
     ]
   ];
 
@@ -40,26 +37,23 @@
     rr:predicate ns:hasCapacity;
     rr:objectMap [
       rml:reference "capacity";
-      rr:termType rr:Literal;
-      rr:dataType xsd:Integer
+      rr:datatype xsd:integer
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:hasLatitude;
     rr:objectMap [
-      rml:reference "latitud";
-      rr:termType rr:Literal;
-      rr:dataType xsd:Float
+      rml:reference "latitude";
+      rr:datatype xsd:float
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:hasLongitude;
     rr:objectMap [
-      rml:reference "longitud";
-      rr:termType rr:Literal;
-      rr:dataType xsd:Float
+      rml:reference "longitude";
+      rr:datatype xsd:float
     ]
   ];
   
@@ -67,28 +61,26 @@
     rr:predicate ns:hasCode;
     rr:objectMap [
       rml:reference "stationcode";
-      rr:termType rr:Literal;
-      rr:dataType xsd:Float
+      rr:datatype xsd:integer
     ]
   ].
 
-<#TriplesMap2>
+<#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "count-updated.csv";
     rml:referenceFormulation ql:CSV
   ];
 
   rr:subjectMap [
-    rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/timeBicicleCounter/{ID}" ;
-    rr:termType rr:IRI; rr:class tm:timeBicicleCounter
+    rr:template "http://smart.city.linkeddata.es/lcc/resource/TimeBicycleCounter/{identif}" ;
+    rr:termType rr:IRI; rr:class ns:TimeBicycleCounter
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:date;
     rr:objectMap [
         rml:reference "date";
-        rr:termType rr:Literal;
-        rr:dataType xsd:String
+        rr:datatype xsd:dateTime
     ]
   ];
   
@@ -96,35 +88,51 @@
     rr:predicate ns:passed;
     rr:objectMap [
         rml:reference "sum_counts";
-        rr:termType rr:Literal;
-        rr:dataType xsd:Integer
+        rr:datatype xsd:integer
     ]
   ];
   
   rr:predicateObjectMap [
-    rr:predicate ns:hasIdent;
+    rr:predicate ns:identifyBy;
     rr:objectMap [
-        rml:reference "ID";
-        rr:termType rr:Literal;
-        rr:dataType xsd:String
+        rml:reference "identif";
+        rr:datatype xsd:string
     ]
   ].
 
+<#TriplesMap12> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "count-updated.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://smart.city.linkeddata.es/lcc/resource/Counter/{id_computeur}" ;
+    rr:termType rr:IRI; rr:class ns:Counter
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate ns:bicyclesPassed;
+    rr:objectMap [
+      rr:template "http://smart.city.linkeddata.es/lcc/resource/TimeBicycleCounter/{identif}";
+      rr:termType rr:IRI
+    ]
+  ].
 
 <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "comptage-velo-compteurs-csv-update.csv" ;
+    rml:source "comptage-velo-compteurs-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://smart.city.linkeddata.es/lcc/ontology/G5O/resource/Counter/{id}" ;
-    rr:termType rr:IRI; rr:class tm:Counter
+    rr:template "http://smart.city.linkeddata.es/lcc/resource/Counter/{id_compteur}" ;
+    rr:termType rr:IRI; rr:class ns:Counter
   ];
   rr:predicateObjectMap [
     rr:predicate ns:hasId;
     rr:objectMap [
-      rml:reference "id";
-      rr:datatype xsd:integer
+      rml:reference "id_compteur";
+      rr:datatype xsd:string
     ]
 ];
   rr:predicateObjectMap [
@@ -138,24 +146,24 @@
   rr:predicateObjectMap [
     rr:predicate ns:locatedIn;
     rr:objectMap [
-      rml:reference "nom_compteur";
-      rr:datatype xsd:string
+      rr:template "http://smart.city.linkeddata.es/lcc/resource/Street/{street}";
+      rr:termType rr:IRI
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:hasLatitude;
     rr:objectMap [
-      rml:reference "latitud";
-      rr:datatype xsd:Float
+      rml:reference "latitude";
+      rr:datatype xsd:float
     ]
   ];
 
   rr:predicateObjectMap [
     rr:predicate ns:hasLongitude;
     rr:objectMap [
-      rml:reference "longitud";
-      rr:datatype xsd:Float
+      rml:reference "longitude";
+      rr:datatype xsd:float
     ]
   ];
 
@@ -170,8 +178,29 @@
     rr:predicateObjectMap [
     rr:predicate ns:hasName;
     rr:objectMap [
-      rml:reference "name";
+      rml:reference "nom_compteur";
       rr:datatype xsd:string
     ]
   ].
+  
+<#TriplesMap4> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "comptage-velo-compteurs-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://smart.city.linkeddata.es/lcc/resource/Street/{street}" ;
+    rr:termType rr:IRI; rr:class ns:Street
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate ns:isNamed;
+    rr:objectMap [
+    	rml:reference "street";
+    	rr:datatype xsd:string
+    ]
+  ].  
+  
+  
+
 

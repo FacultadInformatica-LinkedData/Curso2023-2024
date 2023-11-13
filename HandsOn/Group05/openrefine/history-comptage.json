@@ -1,6 +1,11 @@
 [
   {
     "op": "core/column-removal",
+    "columnName": "channel_name",
+    "description": "Remove column channel_name"
+  },
+  {
+    "op": "core/column-removal",
     "columnName": "url_photos_n1",
     "description": "Remove column url_photos_n1"
   },
@@ -16,28 +21,18 @@
   },
   {
     "op": "core/column-removal",
-    "columnName": "id_photo_1",
-    "description": "Remove column id_photo_1"
-  },
-  {
-    "op": "core/column-removal",
     "columnName": "url_sites",
     "description": "Remove column url_sites"
   },
   {
     "op": "core/column-removal",
+    "columnName": "id_photo_1",
+    "description": "Remove column id_photo_1"
+  },
+  {
+    "op": "core/column-removal",
     "columnName": "type_dimage",
     "description": "Remove column type_dimage"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "counter",
-    "description": "Remove column counter"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "channel_name",
-    "description": "Remove column channel_name"
   },
   {
     "op": "core/column-split",
@@ -57,19 +52,24 @@
   {
     "op": "core/column-rename",
     "oldColumnName": "coordinates 1",
-    "newColumnName": "latitud",
-    "description": "Rename column coordinates 1 to latitud"
+    "newColumnName": "latitude",
+    "description": "Rename column coordinates 1 to latitude"
   },
   {
     "op": "core/column-rename",
     "oldColumnName": "coordinates 2",
-    "newColumnName": "longitud",
-    "description": "Rename column coordinates 2 to longitud"
+    "newColumnName": "longitude",
+    "description": "Rename column coordinates 2 to longitude"
   },
   {
     "op": "core/column-removal",
-    "columnName": "id_compteur",
-    "description": "Remove column id_compteur"
+    "columnName": "id",
+    "description": "Remove column id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "counter",
+    "description": "Remove column counter"
   },
   {
     "op": "core/text-transform",
@@ -83,5 +83,11 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column name using expression grel:value.replace(/\\d+|Face au|Totem|Face|\\(.*\\)/, '').trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "name",
+    "newColumnName": "street",
+    "description": "Rename column name to street"
   }
 ]

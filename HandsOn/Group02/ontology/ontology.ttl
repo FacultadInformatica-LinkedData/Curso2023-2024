@@ -40,115 +40,115 @@ ns:Sensor a owl:Class ;
 ns:address a owl:DatatypeProperty ;
     rdfs:label "address" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:buildingType a owl:DatatypeProperty ;
     rdfs:label "buildingType" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:buildingName a owl:DatatypeProperty ;
     rdfs:label "buildingName" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:id a owl:DatatypeProperty ;
     rdfs:label "id" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string .
 
 ns:x_coordinate a owl:DatatypeProperty ;
     rdfs:label "x_coordinate" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:float .
 
 ns:y_coordinate a owl:DatatypeProperty ;
     rdfs:label "y_coordinate" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:float .
 
 ns:latitude a owl:DatatypeProperty ;
     rdfs:label "latitude" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:float .
 
 ns:longitude a owl:DatatypeProperty ;
     rdfs:label "longitude" ;
     rdfs:domain ns:Building ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:float .
 
 # -------------------------- District ----------------------
 
 ns:districtCode a owl:DatatypeProperty ;
     rdfs:label "districtCode" ;
     rdfs:domain ns:District ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string .
 
 ns:districtName a owl:DatatypeProperty ;
     rdfs:label "districtName" ;
     rdfs:domain ns:District ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 # ---------------------- Neighbourhood ---------------------
 
 ns:neighbourhoodName a owl:DatatypeProperty ;
     rdfs:label "neighbourhoodName" ;
     rdfs:domain ns:Neighbourhood ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:neighbourhoodCode a owl:DatatypeProperty ;
     rdfs:label "neighbourhoodCode" ;
     rdfs:domain ns:Neighbourhood ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string  .
 
 # --------------------------- Measure ----------------------
 
 ns:measureId a owl:DatatypeProperty ;
     rdfs:label "measureId" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string  .
 
 ns:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string  .
 
 ns:month a owl:DatatypeProperty ;
     rdfs:label "month" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:string  .
 
-ns:unit owl:DatatypeProperty ;
+ns:unit a owl:DatatypeProperty ;
     rdfs:label "unit" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:consumption a owl:DatatypeProperty ;
     rdfs:label "consumption" ;
     rdfs:domain ns:Measure ;
-    rdfs:range xsd:Float .
+    rdfs:range xsd:float .
 
 # --------------------------- Sensor -----------------------
 
 ns:class a owl:DatatypeProperty ;
     rdfs:label "class" ;
     rdfs:domain ns:Sensor ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:group a owl:DatatypeProperty ;
     rdfs:label "group" ;
     rdfs:domain ns:Sensor ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:sensorName a owl:DatatypeProperty ;
     rdfs:label "sensorName" ;
     rdfs:domain ns:Sensor ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 ns:type a owl:DatatypeProperty ;
     rdfs:label "type" ;
     rdfs:domain ns:Sensor ;
-    rdfs:range xsd:String .
+    rdfs:range xsd:string .
 
 # ---------------------- ObjectProperty --------------------
 

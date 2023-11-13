@@ -1,0 +1,6041 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q13226383",
+        "name": "instalación"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "LONGITUD",
+          "propertyName": "coordenadas",
+          "propertyID": "P625"
+        },
+        {
+          "column": "LATITUD",
+          "propertyName": "coordenadas",
+          "propertyID": "P625"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column EDIFICIO to type Q13226383"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Ana María Matute",
+    "judgment": "matched",
+    "match": {
+      "id": "Q70135254",
+      "name": "Biblioteca Pública Municipal - Ana María Matute",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 41.666666666666664
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Ana María Matute (Q70135254) for cells containing \"Biblioteca Ana María Matute\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Ángel González",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697883",
+      "name": "Biblioteca Pública Municipal - Ángel González",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Ángel González (Q85697883) for cells containing \"Biblioteca Ángel González\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Eugenio Trías",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697904",
+      "name": "Biblioteca Pública Municipal - Eugenio Trías. Casa de Fieras de El Retiro",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 40.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Eugenio Trías. Casa de Fieras de El Retiro (Q85697904) for cells containing \"Biblioteca Eugenio Trías\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Gerardo Diego",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697914",
+      "name": "Biblioteca Pública Municipal - Gerardo Diego",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 40.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Gerardo Diego (Q85697914) for cells containing \"Biblioteca Gerardo Diego\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca José Hierro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26834202",
+      "name": "Biblioteca Pública Usera - José Hierro",
+      "types": [
+        "Q7075",
+        "Q11396180"
+      ],
+      "score": 47.22222222222222
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Usera - José Hierro (Q26834202) for cells containing \"Biblioteca José Hierro\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Mario Vargas Llosa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85696212",
+      "name": "Biblioteca Municipal - Mario Vargas Llosa",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 47.22222222222222
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Municipal - Mario Vargas Llosa (Q85696212) for cells containing \"Biblioteca Mario Vargas Llosa\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Miguel Delibes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85696085",
+      "name": "Biblioteca Municipal - Miguel Delibes",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 46.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Municipal - Miguel Delibes (Q85696085) for cells containing \"Biblioteca Miguel Delibes\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Pablo Neruda",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697951",
+      "name": "Biblioteca Pública Municipal - Pablo Neruda",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 40
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Pablo Neruda (Q85697951) for cells containing \"Biblioteca Pablo Neruda\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Pío Baroja",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697953",
+      "name": "Biblioteca Pública Municipal - Pío Baroja",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 38.888888888888886
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Pío Baroja (Q85697953) for cells containing \"Biblioteca Pío Baroja\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Gallur",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191274",
+      "name": "Centro Deportivo Municipal Gallur",
+      "types": [
+        "Q1076486"
+      ],
+      "score": 55.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Gallur (Q63191274) for cells containing \"Cdm Gallur\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Aluche",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191263",
+      "name": "Centro Deportivo Municipal Aluche",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Aluche (Q63191263) for cells containing \"Cdm Aluche\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5191859",
+      "name": "cuartel del Conde-Duque",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cuartel del Conde-Duque (Q5191859) for cells containing \"Cc Conde Duque\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc La Vaguada",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6465598",
+      "name": "La Vaguada",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item La Vaguada (Q6465598) for cells containing \"Cc La Vaguada\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc/bpm Gloria Fuertes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697917",
+      "name": "Biblioteca Pública Municipal - Gloria Fuertes",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Gloria Fuertes (Q85697917) for cells containing \"Cc/bpm Gloria Fuertes\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdi Arganzuela",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16545668",
+      "name": "Centro Dotacional Integrado Arganzuela",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Dotacional Integrado Arganzuela (Q16545668) for cells containing \"Cdi Arganzuela\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Cerro Almodóvar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191254",
+      "name": "Centro Deportivo Municipal Cerro Almodóvar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Cerro Almodóvar (Q63191254) for cells containing \"Cdm Cerro Almodóvar\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Concepción",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191273",
+      "name": "Centro Deportivo Municipal Concepción",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Concepción (Q63191273) for cells containing \"Cdm Concepción\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Pueblo Nuevo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191253",
+      "name": "Centro Deportivo Municipal Pueblo Nuevo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Pueblo Nuevo (Q63191253) for cells containing \"Cdm Pueblo Nuevo\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Samaranch",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191216",
+      "name": "Centro Deportivo Municipal Marqués de Samaranch",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Marqués de Samaranch (Q63191216) for cells containing \"Cdm Samaranch\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm San Blas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191258",
+      "name": "Centro Deportivo Municipal San Blas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal San Blas (Q63191258) for cells containing \"Cdm San Blas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Vicente Del Bosque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191252",
+      "name": "Centro Deportivo Municipal Vicente del Bosque",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Vicente del Bosque (Q63191252) for cells containing \"Cdm Vicente Del Bosque\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Palacio Cibeles",
+                "l": "Palacio Cibeles"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Palacio Cibeles",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1849031",
+      "name": "Palacio de Cibeles",
+      "types": [
+        "Q112793351",
+        "Q16560",
+        "Q4989906"
+      ],
+      "score": 50.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Palacio de Cibeles (Q1849031) for cells containing \"Palacio Cibeles\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vivero De Estufas Del Retiro",
+                "l": "Vivero De Estufas Del Retiro"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Vivero De Estufas Del Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q108394105",
+      "name": "Vivero de Estufas de El Retiro",
+      "types": [
+        "Q165044"
+      ],
+      "score": 53.888888888888886
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vivero de Estufas de El Retiro (Q108394105) for cells containing \"Vivero De Estufas Del Retiro\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Planetario De Madrid",
+                "l": "Planetario De Madrid"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Planetario De Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9060456",
+      "name": "Planetario de Madrid",
+      "types": [
+        "Q148319",
+        "Q588140"
+      ],
+      "score": 55.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Planetario de Madrid (Q9060456) for cells containing \"Planetario De Madrid\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Dámaso Alonso",
+                "l": "Biblioteca Dámaso Alonso"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Dámaso Alonso",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85685025",
+      "name": "Biblioteca pública municipal Dámaso Alonso",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 40.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca pública municipal Dámaso Alonso (Q85685025) for cells containing \"Biblioteca Dámaso Alonso\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Francisco Ayala",
+                "l": "Biblioteca Francisco Ayala"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Francisco Ayala",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697910",
+      "name": "Biblioteca Pública Municipal - Francisco Ayala",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Francisco Ayala (Q85697910) for cells containing \"Biblioteca Francisco Ayala\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Gabriel García Márquez",
+                "l": "Biblioteca Gabriel García Márquez"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Gabriel García Márquez",
+    "judgment": "matched",
+    "match": {
+      "id": "Q42268564",
+      "name": "Biblioteca Pública Municipal - Gabriel García Márquez",
+      "types": [
+        "Q7075",
+        "Q11396180"
+      ],
+      "score": 43.888888888888886
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Gabriel García Márquez (Q42268564) for cells containing \"Biblioteca Gabriel García Márquez\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Gloria Fuertes",
+                "l": "Biblioteca Gloria Fuertes"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Gloria Fuertes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697917",
+      "name": "Biblioteca Pública Municipal - Gloria Fuertes",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Gloria Fuertes (Q85697917) for cells containing \"Biblioteca Gloria Fuertes\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Huerta De La Salud",
+                "l": "Biblioteca Huerta De La Salud"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Huerta De La Salud",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697920",
+      "name": "Biblioteca Pública Municipal - Huerta de La Salud",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 42.22222222222222
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Huerta de La Salud (Q85697920) for cells containing \"Biblioteca Huerta De La Salud\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Iván De Vargas",
+                "l": "Biblioteca Iván De Vargas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Iván De Vargas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2886368",
+      "name": "Biblioteca Pública Municipal - Iván de Vargas",
+      "types": [
+        "Q11396180"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Iván de Vargas (Q2886368) for cells containing \"Biblioteca Iván De Vargas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca José Saramago",
+                "l": "Biblioteca José Saramago"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca José Saramago",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85809344",
+      "name": "Biblioteca Escritor José Saramago",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 46.666666666666664
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Escritor José Saramago (Q85809344) for cells containing \"Biblioteca José Saramago\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca La Chata",
+                "l": "Biblioteca La Chata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca La Chata",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697929",
+      "name": "Biblioteca Pública Municipal - La Chata",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 37.77777777777778
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - La Chata (Q85697929) for cells containing \"Biblioteca La Chata\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Manuel Vázquez Montalbán",
+                "l": "Biblioteca Manuel Vázquez Montalbán"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca Manuel Vázquez Montalbán",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697940",
+      "name": "Biblioteca Pública Municipal - Manuel Vázquez Montalbán",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 44.44444444444444
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Manuel Vázquez Montalbán (Q85697940) for cells containing \"Biblioteca Manuel Vázquez Montalbán\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca María Lejárraga",
+                "l": "Biblioteca María Lejárraga"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca María Lejárraga",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697942",
+      "name": "Biblioteca Pública Municipal - María Lejárraga",
+      "types": [
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - María Lejárraga (Q85697942) for cells containing \"Biblioteca María Lejárraga\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Alberto Sánchez+biblioteca Portazgo",
+                "l": "Cc Alberto Sánchez+biblioteca Portazgo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Alberto Sánchez+biblioteca Portazgo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697955",
+      "name": "Biblioteca Pública Municipal - Portazgo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Portazgo (Q85697955) for cells containing \"Cc Alberto Sánchez+biblioteca Portazgo\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Casa De Vacas",
+                "l": "Cc Casa De Vacas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Casa De Vacas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21155850",
+      "name": "Casa de Vacas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Casa de Vacas (Q21155850) for cells containing \"Cc Casa De Vacas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Casa Del Reloj",
+                "l": "Cc Casa Del Reloj"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Casa Del Reloj",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426877",
+      "name": "Centro Cultural Casa del Reloj",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural Casa del Reloj (Q56426877) for cells containing \"Cc Casa Del Reloj\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Eduardo Chillida Y Biblioteca Miguel Delibes",
+                "l": "Cc Eduardo Chillida Y Biblioteca Miguel Delibes"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Eduardo Chillida Y Biblioteca Miguel Delibes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28934765",
+      "name": "Biblioteca Jurídica Municipal Eduardo Chillida",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Jurídica Municipal Eduardo Chillida (Q28934765) for cells containing \"Cc Eduardo Chillida Y Biblioteca Miguel Delibes\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm La Elipa",
+                "l": "Cdm La Elipa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "elipa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm La Elipa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191248",
+      "name": "Centro Deportivo Municipal La Elipa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal La Elipa (Q63191248) for cells containing \"Cdm La Elipa\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca La Elipa - Islas Filipinas",
+                "l": "Biblioteca La Elipa - Islas Filipinas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "elipa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Biblioteca La Elipa - Islas Filipinas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697932",
+      "name": "Biblioteca Pública Municipal - La Elipa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - La Elipa (Q85697932) for cells containing \"Biblioteca La Elipa - Islas Filipinas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Complejo La Elipa - Islas Filipinas",
+                "l": "Complejo La Elipa - Islas Filipinas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "elipa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Complejo La Elipa - Islas Filipinas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697932",
+      "name": "Biblioteca Pública Municipal - La Elipa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - La Elipa (Q85697932) for cells containing \"Complejo La Elipa - Islas Filipinas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Pradillo",
+                "l": "Cdm Pradillo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Pradillo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191256",
+      "name": "Centro Deportivo Municipal Pradillo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Pradillo (Q63191256) for cells containing \"Cdm Pradillo\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Raúl González",
+                "l": "Cdm Raúl González"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "raú",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Raúl González",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191257",
+      "name": "Centro Deportivo Municipal Raúl González",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Raúl González (Q63191257) for cells containing \"Cdm Raúl González\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Antonio Díaz Miguel",
+                "l": "Cdm Antonio Díaz Miguel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Antonio Díaz Miguel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191265",
+      "name": "Centro Deportivo Municipal Antonio Díaz Miguel",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Antonio Díaz Miguel (Q63191265) for cells containing \"Cdm Antonio Díaz Miguel\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Daoíz Y Velarde",
+                "l": "Cdm Daoíz Y Velarde"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Daoíz Y Velarde",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6081742",
+      "name": "Polideportivo Daoiz y Velarde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Polideportivo Daoiz y Velarde (Q6081742) for cells containing \"Cdm Daoíz Y Velarde\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Entrevías",
+                "l": "Cdm Entrevías"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Entrevías",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191249",
+      "name": "Centro Deportivo Municipal Entrevías",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Entrevías (Q63191249) for cells containing \"Cdm Entrevías\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Félix Rubio",
+                "l": "Cdm Félix Rubio"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Félix Rubio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191223",
+      "name": "Centro Deportivo Municipal Félix Rubio",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Félix Rubio (Q63191223) for cells containing \"Cdm Félix Rubio\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Fernando Martín",
+                "l": "Cdm Fernando Martín"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Fernando Martín",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56086641",
+      "name": "Centro Deportivo Municipal Fernando Martín",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Fernando Martín (Q56086641) for cells containing \"Cdm Fernando Martín\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Francisco Fernández Ochoa",
+                "l": "Cdm Francisco Fernández Ochoa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Francisco Fernández Ochoa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191262",
+      "name": "Centro Deportivo Municipal Francisco Fernández Ochoa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Francisco Fernández Ochoa (Q63191262) for cells containing \"Cdm Francisco Fernández Ochoa\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm La Almudena",
+                "l": "Cdm La Almudena"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm La Almudena",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191226",
+      "name": "Centro Deportivo Municipal La Almudena",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal La Almudena (Q63191226) for cells containing \"Cdm La Almudena\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm La Mina",
+                "l": "Cdm La Mina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm La Mina",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5761224",
+      "name": "Centro Deportivo Municipal La Mina",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal La Mina (Q5761224) for cells containing \"Cdm La Mina\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Moratalaz",
+                "l": "Cdm Moratalaz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Moratalaz",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85751287",
+      "name": "Centro Deportivo Municipal Moratalaz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Moratalaz (Q85751287) for cells containing \"Cdm Moratalaz\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros deportivos",
+                "l": "Centros deportivos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cdm Palomeras",
+                "l": "Cdm Palomeras"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cdm Palomeras",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63191260",
+      "name": "Centro Deportivo Municipal Palomeras",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Deportivo Municipal Palomeras (Q63191260) for cells containing \"Cdm Palomeras\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Silo Biblioteca Huerta De La Salud",
+                "l": "Silo Biblioteca Huerta De La Salud"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros culturales y bibliotecas",
+                "l": "Centros culturales y bibliotecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Silo Biblioteca Huerta De La Salud",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697920",
+      "name": "Biblioteca Pública Municipal - Huerta de La Salud",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Huerta de La Salud (Q85697920) for cells containing \"Silo Biblioteca Huerta De La Salud\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Museo Imprenta Municipal",
+                "l": "Museo Imprenta Municipal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros culturales y bibliotecas",
+                "l": "Centros culturales y bibliotecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Museo Imprenta Municipal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19453318",
+      "name": "Imprenta Municipal-Artes del Libro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Imprenta Municipal-Artes del Libro (Q19453318) for cells containing \"Museo Imprenta Municipal\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Museo De Historia",
+                "l": "Museo De Historia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros culturales y bibliotecas",
+                "l": "Centros culturales y bibliotecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Museo De Historia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q876383",
+      "name": "Museo de Historia de Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Museo de Historia de Madrid (Q876383) for cells containing \"Museo De Historia\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Complejo Antonio Machado (cc, Cm, Bib Y Em)",
+                "l": "Complejo Antonio Machado (cc, Cm, Bib Y Em)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "anton",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Complejo Antonio Machado (cc, Cm, Bib Y Em)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110746553",
+      "name": "Centro Cultural San Juan Bautista",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural San Juan Bautista (Q110746553) for cells containing \"Complejo Antonio Machado (cc, Cm, Bib Y Em)\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Complejo La Vaguada",
+                "l": "Complejo La Vaguada"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "vag",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Complejo La Vaguada",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24707669",
+      "name": "Centro Cultural La Vaguada",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural La Vaguada (Q24707669) for cells containing \"Complejo La Vaguada\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "rab",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Carabanchel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56192449",
+      "name": "Junta Municipal del Distrito de Carabanchel",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Carabanchel (Q56192449) for cells containing \"Jmd Carabanchel\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Fernando De Los Ríos Y Biblioteca Aluche",
+                "l": "Cc Fernando De Los Ríos Y Biblioteca Aluche"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "fern",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Fernando De Los Ríos Y Biblioteca Aluche",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26805201",
+      "name": "Centro Cultural Fernando de los Ríos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural Fernando de los Ríos (Q26805201) for cells containing \"Cc Fernando De Los Ríos Y Biblioteca Aluche\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cmm Y Css Luis Vives",
+                "l": "Cmm Y Css Luis Vives"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "lui",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cmm Y Css Luis Vives",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110746555",
+      "name": "Centro de Servicios Sociales Luis Vives",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro de Servicios Sociales Luis Vives (Q110746555) for cells containing \"Cmm Y Css Luis Vives\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sede Madrid Salud",
+                "l": "Sede Madrid Salud"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Salud",
+                "l": "Salud"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Sede Madrid Salud",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5989438",
+      "name": "Madrid Salud",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Salud (Q5989438) for cells containing \"Sede Madrid Salud\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ceip Isaac Albéniz",
+                "l": "Ceip Isaac Albéniz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "isa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Ceip Isaac Albéniz",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63111502",
+      "name": "Colegio Isaac Albeniz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colegio Isaac Albeniz (Q63111502) for cells containing \"Ceip Isaac Albéniz\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ceip José Calvo Sotelo",
+                "l": "Ceip José Calvo Sotelo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "so",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Ceip José Calvo Sotelo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q63197576",
+      "name": "Colegio Público José Calvo Sotelo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colegio Público José Calvo Sotelo (Q63197576) for cells containing \"Ceip José Calvo Sotelo\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "palo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Ceip Ntra Sra De La Paloma",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29510602",
+      "name": "Colegio Público Nuestra Señora de la Paloma",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colegio Público Nuestra Señora de la Paloma (Q29510602) for cells containing \"Ceip Ntra Sra De La Paloma\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ceip Concepción Arenal",
+                "l": "Ceip Concepción Arenal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "conc",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Ceip Concepción Arenal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5776876",
+      "name": "Colegio Concepción Arenal",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colegio Concepción Arenal (Q5776876) for cells containing \"Ceip Concepción Arenal\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Usera",
+                "l": "Jmd Usera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Usera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110747558",
+      "name": "Junta Municipal Usera",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal Usera (Q110747558) for cells containing \"Jmd Usera\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Usera",
+                "l": "Jmd Usera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Usera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110749226",
+      "name": "Junta Municipal del Distrito de Usera",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Usera (Q110749226) for cells containing \"Jmd Usera\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Hortaleza",
+                "l": "Jmd Hortaleza"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Hortaleza",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56190091",
+      "name": "Junta Municipal del Distrito de Hortaleza",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Hortaleza (Q56190091) for cells containing \"Jmd Hortaleza\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Fuencarral",
+                "l": "Jmd Fuencarral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Fuencarral",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56190433",
+      "name": "Junta Municipal del Distrito de Fuencarral-El Pardo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Fuencarral-El Pardo (Q56190433) for cells containing \"Jmd Fuencarral\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Ciudad Lineal",
+                "l": "Jmd Ciudad Lineal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Ciudad Lineal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56190334",
+      "name": "Junta Municipal del Distrito de Ciudad Lineal",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Ciudad Lineal (Q56190334) for cells containing \"Jmd Ciudad Lineal\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Chamberí",
+                "l": "Jmd Chamberí"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Chamberí",
+    "judgment": "matched",
+    "match": {
+      "id": "Q26839025",
+      "name": "sede de la Junta Municipal de Chamberí",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sede de la Junta Municipal de Chamberí (Q26839025) for cells containing \"Jmd Chamberí\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Chamartín",
+                "l": "Jmd Chamartín"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Chamartín",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56192459",
+      "name": "Junta Municipal del Distrito de Chamartín",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Chamartín (Q56192459) for cells containing \"Jmd Chamartín\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Centro",
+                "l": "Jmd Centro"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56164302",
+      "name": "Junta Municipal del Distrito Centro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito Centro (Q56164302) for cells containing \"Jmd Centro\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Barajas",
+                "l": "Jmd Barajas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Barajas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56705807",
+      "name": "sede de la Junta Municipal del Distrito de Barajas",
+      "types": [
+        "Q41176"
+      ],
+      "score": 33.888888888888886
+    },
+    "shareNewTopics": false,
+    "description": "Match item sede de la Junta Municipal del Distrito de Barajas (Q56705807) for cells containing \"Jmd Barajas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Arganzuela",
+                "l": "Jmd Arganzuela"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Arganzuela",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56191719",
+      "name": "Junta Municipal del Distrito de Arganzuela",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Arganzuela (Q56191719) for cells containing \"Jmd Arganzuela\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Usera",
+                "l": "Jmd Usera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Usera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110749226",
+      "name": "Junta Municipal del Distrito de Usera",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Usera (Q110749226) for cells containing \"Jmd Usera\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Villaverde Anexo",
+                "l": "Jmd Villaverde Anexo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Villaverde Anexo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56190652",
+      "name": "Junta Municipal del Distrito de Villaverde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Villaverde (Q56190652) for cells containing \"Jmd Villaverde Anexo\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Villaverde",
+                "l": "Jmd Villaverde"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56190652",
+      "name": "Junta Municipal del Distrito de Villaverde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Villaverde (Q56190652) for cells containing \"Jmd Villaverde\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Villa De Vallecas",
+                "l": "Jmd Villa De Vallecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Villa De Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56191978",
+      "name": "Junta Municipal del Distrito de Villa de Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Villa de Vallecas (Q56191978) for cells containing \"Jmd Villa De Vallecas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Vicálvaro",
+                "l": "Jmd Vicálvaro"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Vicálvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52629540",
+      "name": "Junta Municipal del Distrito de Vicálvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Vicálvaro (Q52629540) for cells containing \"Jmd Vicálvaro\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Tetuán",
+                "l": "Jmd Tetuán"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Tetuán",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56163839",
+      "name": "Junta Municipal del Distrito de Tetuán",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Tetuán (Q56163839) for cells containing \"Jmd Tetuán\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Retiro",
+                "l": "Jmd Retiro"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56191993",
+      "name": "Junta Municipal del Distrito de Retiro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Retiro (Q56191993) for cells containing \"Jmd Retiro\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Puente De Vallecas",
+                "l": "Jmd Puente De Vallecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Puente De Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56191848",
+      "name": "Junta Municipal del Distrito de Puente de Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Puente de Vallecas (Q56191848) for cells containing \"Jmd Puente De Vallecas\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Moratalaz",
+                "l": "Jmd Moratalaz"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Moratalaz",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56191300",
+      "name": "Junta Municipal del Distrito de Moratalaz",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Moratalaz (Q56191300) for cells containing \"Jmd Moratalaz\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jmd Latina",
+                "l": "Jmd Latina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros administrativos",
+                "l": "Centros administrativos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Jmd Latina",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56164656",
+      "name": "Junta Municipal del Distrito de Latina",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Junta Municipal del Distrito de Latina (Q56164656) for cells containing \"Jmd Latina\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cc Bib Buena Vista",
+                "l": "Cc Bib Buena Vista"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "DIRECCION",
+          "columnName": "DIRECCION",
+          "query": "tor",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cc Bib Buena Vista",
+    "judgment": "matched",
+    "match": {
+      "id": "Q47012449",
+      "name": "Biblioteca Pública Municipal - Buenavista",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Buenavista (Q47012449) for cells containing \"Cc Bib Buena Vista\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EDIFICIO",
+          "expression": "value",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cs Teresa De Calcuta",
+                "l": "Cs Teresa De Calcuta"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "EDIFICIO",
+          "columnName": "EDIFICIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOEDIFICIO",
+          "expression": "value",
+          "columnName": "TIPOEDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centros sociales",
+                "l": "Centros sociales"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "EDIFICIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "EDIFICIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "DIRECCION",
+          "columnName": "DIRECCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "similarValue": "Cs Teresa De Calcuta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110746556",
+      "name": "Centro Integrado Teresa de Calcuta",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Integrado Teresa de Calcuta (Q110746556) for cells containing \"Cs Teresa De Calcuta\" in column EDIFICIO"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column BARRIO to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "Pilar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3773964",
+      "name": "El Pilar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Pilar (Q3773964) for cells containing \"Pilar\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "La Concepcion",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11915156",
+      "name": "Concepción",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Concepción (Q11915156) for cells containing \"La Concepcion\" in column BARRIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "BARRIO: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "BARRIO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "similarValue": "Angeles",
+    "judgment": "matched",
+    "match": {
+      "id": "Q390462",
+      "name": "Los Ángeles",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Los Ángeles (Q390462) for cells containing \"Angeles\" in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UNIDADES",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "kvarh"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "kVArh"
+      }
+    ],
+    "description": "Mass edit cells in column UNIDADES"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UNIDADES: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "UNIDADES",
+          "expression": "value",
+          "columnName": "UNIDADES",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kVArh",
+                "l": "kVArh"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURE_TYPE_ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column MEASURE_TYPE_ID"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EDIFICIO",
+    "expression": "jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "EDIFICIO_ALSO",
+    "columnInsertIndex": 7,
+    "description": "Create column EDIFICIO_ALSO at index 7 based on column EDIFICIO using expression jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "DISTRITO_ALSO",
+    "columnInsertIndex": 10,
+    "description": "Create column DISTRITO_ALSO at index 10 based on column DISTRITO using expression jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "BARRIO",
+    "expression": "jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "BARRIO_ALSO",
+    "columnInsertIndex": 13,
+    "description": "Create column BARRIO_ALSO at index 13 based on column BARRIO using expression jython:return \"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+  }
+]
