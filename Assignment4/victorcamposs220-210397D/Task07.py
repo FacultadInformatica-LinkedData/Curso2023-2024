@@ -24,8 +24,15 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
 from rdflib.plugins.sparql import prepareQuery
-#print(g.serialize(format="ttl"))   #para saber un poco como se definen
+g.serialize(format="ttl")
 # TO DO
+
+#RDFLIB
+ns=Namespace("http://somewhere#")
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
+  print(s)
+
+#SPARQL
 q1 = prepareQuery('''
   PREFIX rdf:<http://www.w3.org/2000/01/rdf-schema#>
   PREFIX ns:<http://somewhere#>
@@ -43,6 +50,15 @@ for r in g.query(q1):
 """
 
 # TO DO
+
+#RDFLIB
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for s1,p1,o1 in g.triples((None, RDF.type, s)):
+    print(s1)
+
+#SPARQL
 q1 = prepareQuery('''
   PREFIX rdf:<http://www.w3.org/2000/01/rdf-schema#>
   PREFIX ns:<http://somewhere#>
@@ -60,6 +76,18 @@ for r in g.query(q1):
 """
 
 # TO DO
+
+#RDFLIB
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+for s1,p1,o1 in g.triples((s, None, None)):
+    print(p1, o1)
+for s, p, o in g.triples((None, RDF.type, ns.Animal)):
+    print(s)
+for s1, p1, o1 in g.triples((s, None, None)):
+        print(p1, o1)
+
+#SPARQL
 q1 = prepareQuery('''
   PREFIX ns:<http://somewhere#>
   SELECT DISTINCT ?Subject ?Predicade WHERE {
@@ -74,7 +102,6 @@ q1 = prepareQuery('''
 # Visualize the results
 for r in g.query(q1):
   print(r.Subject, r.Predicade)
-  #print(r.Subject +"  "+ r.Predicade)      #Asi me sale de una forma extranna
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
@@ -95,7 +122,6 @@ for r in g.query(q1):
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
-#revisar!!!!
 # TO DO
 q1 = prepareQuery('''
   PREFIX vcard-rdf:<http://www.w3.org/2001/vcard-rdf/3.0/>
@@ -103,6 +129,7 @@ q1 = prepareQuery('''
   PREFIX ns:<http://somewhere#>
   SELECT DISTINCT ?Subject WHERE {
     ?Subject foaf:knows ?Person1, ?Person2.
+    FILTER (?Person1 != ?Person2).
   }
   '''
 )
