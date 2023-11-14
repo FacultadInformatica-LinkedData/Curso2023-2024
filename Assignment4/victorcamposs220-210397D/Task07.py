@@ -24,7 +24,6 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
 from rdflib.plugins.sparql import prepareQuery
-g.serialize(format="ttl")
 # TO DO
 
 #RDFLIB
