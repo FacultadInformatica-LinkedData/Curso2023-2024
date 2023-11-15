@@ -39,7 +39,7 @@ from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery('''
   SELECT ?subclass WHERE{
-    ?subclass rdfs:subClassOf ns:LivingThing.
+    ?subclass rdfs:subClassOf/rdfs:subClassOf* ns:LivingThing.
   }
   ''',initNs = {"ns": Namespace("http://somewhere#"), "rdfs":RDFS}
 )
@@ -57,20 +57,26 @@ for r in g.query(q1):
 #for s,p,o in g.triples((None, RDFS.subClassOf,ns.Person)):
 #   print(s)
 
-def lista(sujeto):
-  results=[]
-  for s,p,o in g.triples((None,RDF.type,ns.Person)):
-    results.append((s,p,o))
-  for s,p,o in g.triples((None,RDF.type,ns.Researcher)):
-    results.append((s,p,o))
-  for s,p,o in g.triples((None,RDF.type,ns.Professor)):
-    results.append((s,p,o))
-  for s,p,o in g.triples((None,RDF.type,ns.PhDStudent)):
-    results.append((s,p,o))
-  return results
+#def lista(sujeto):
+#  results=[]
+#  for s,p,o in g.triples((None,RDF.type,ns.Person)):
+#    results.append((s,p,o))
+#  for s,p,o in g.triples((None,RDF.type,ns.Researcher)):
+#    results.append((s,p,o))
+#  for s,p,o in g.triples((None,RDF.type,ns.Professor)):
+#    results.append((s,p,o))
+#  for s,p,o in g.triples((None,RDF.type,ns.PhDStudent)):
+#    results.append((s,p,o))
+#  return results
 
-for sujeto in lista(ns.Person):
-  print(sujeto[0])
+#for sujeto in lista(ns.Person):
+#  print(sujeto[0])
+
+
+for sujeto, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
+     for sujeto1, p, o in g.triples((None, RDF.type, sujeto)):
+         print(sujeto1)
+
 
 q1 = prepareQuery('''
 SELECT ?sujeto WHERE{
