@@ -28,15 +28,23 @@ from rdflib.plugins.sparql import prepareQuery
 
 #RDFLIB
 ns=Namespace("http://somewhere#")
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(s)
 
+print(ns.LivingThing)
+
+def imprimetripletas(predicado ,clase):
+  for s,p,o in g.triples((None, predicado, clase)):
+    print(s)
+    imprimetripletas(predicado,s)
+
+imprimetripletas(RDFS.subClassOf,ns.LivingThing)
+
+print("--------------------------------------------------------------")
 #SPARQL
 q1 = prepareQuery('''
   PREFIX rdf:<http://www.w3.org/2000/01/rdf-schema#>
   PREFIX ns:<http://somewhere#>
   SELECT ?Subject WHERE {
-    ?Subject rdf:subClassOf ns:LivingThing.
+    ?Subject rdf:subClassOf* ns:LivingThing.
   }
   '''
 )
@@ -57,12 +65,14 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
   for s1,p1,o1 in g.triples((None, RDF.type, s)):
     print(s1)
 
+print("--------------------------------------------------------------")
+
 #SPARQL
 q1 = prepareQuery('''
   PREFIX rdf:<http://www.w3.org/2000/01/rdf-schema#>
   PREFIX ns:<http://somewhere#>
   SELECT DISTINCT ?Subject WHERE {
-    {?Subject a ns:Person.} UNION {?SubClass rdf:subClassOf ns:Person. ?Subject a ?SubClass}
+    {?Subject a ns:Person.} UNION {?SubClass rdf:subClassOf* ns:Person. ?Subject a ?SubClass}
   }
   '''
 )
@@ -78,13 +88,13 @@ for r in g.query(q1):
 
 #RDFLIB
 for s,p,o in g.triples((None, RDF.type, ns.Person)):
-    print(s)
-for s1,p1,o1 in g.triples((s, None, None)):
-    print(p1, o1)
+  print(s)
+  for s1,p1,o1 in g.triples((s, None, None)):
+    print(p1)
 for s, p, o in g.triples((None, RDF.type, ns.Animal)):
-    print(s)
-for s1, p1, o1 in g.triples((s, None, None)):
-        print(p1, o1)
+  print(s)
+  for s1, p1, o1 in g.triples((s, None, None)):
+      print(p1)
 
 #SPARQL
 q1 = prepareQuery('''
