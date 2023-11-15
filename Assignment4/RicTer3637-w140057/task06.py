@@ -74,7 +74,7 @@ for s, p, o in g:
 # Visualize the results
 
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, VCARD.EmployedAt, ns.UPM))
+g.add((ns.JohnSmith, ns.worksIn, ns.UPM))
 for s, p, o in g:
   print(s,p,o)
 
