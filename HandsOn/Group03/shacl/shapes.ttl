@@ -1,0 +1,177 @@
+@prefix mod:   <https://w3id.org/mod#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns:    <http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://astrea.linkeddata.es/shapes#f80a606ac523229b76752b77852135a7>
+        a            sh:PropertyShape ;
+        rdfs:label   "latitude" ;
+        sh:datatype  xsd:decimal ;
+        sh:name      "latitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:latitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)" .
+
+<https://astrea.linkeddata.es/shapes#e7676f70ffe3f083fa0c655696d9af32>
+        a            sh:PropertyShape ;
+        rdfs:label   "places" ;
+        sh:datatype  xsd:integer ;
+        sh:name      "places" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:places ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#52212012917ba0d377952e545824d150>
+        a            sh:PropertyShape ;
+        rdfs:label   "belongs district" ;
+        sh:class     ns:District ;
+        sh:name      "belongs district" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:belongsDistrict .
+
+<https://astrea.linkeddata.es/shapes#855d809195abbbfb70948a2bd67731fc>
+        a            sh:PropertyShape ;
+        rdfs:label   "number" ;
+        sh:datatype  xsd:integer ;
+        sh:name      "number" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:number ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#bd9603ba6c7d85dcdb7bab9d85a71a2c>
+        a            sh:PropertyShape ;
+        rdfs:label   "direction belongs neighbourhood" ;
+        sh:class     ns:Neighbourhood ;
+        sh:name      "direction belongs neighbourhood" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:directionBelongsNeighbourhood .
+
+<https://astrea.linkeddata.es/shapes#261247f4cf9b578984ea5dee03d65afa>
+        a            sh:PropertyShape ;
+        rdfs:label   "id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:id ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#397ae3a4749410e0dfef978ae70a01bd>
+        a               sh:NodeShape ;
+        rdfs:label      "District" ;
+        sh:name         "District" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ns:District .
+
+<https://astrea.linkeddata.es/shapes#2bb639cbe69aef715e4df37f27090e4d>
+        a               sh:NodeShape ;
+        rdfs:label      "Neighbourhood" ;
+        sh:name         "Neighbourhood" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#e002e0d7c4de5773601d5ddf029b3784> ;
+        sh:targetClass  ns:Neighbourhood .
+
+<https://astrea.linkeddata.es/shapes#e002e0d7c4de5773601d5ddf029b3784>
+        a            sh:PropertyShape ;
+        rdfs:label   "neighbourhood belongs district" ;
+        sh:class     ns:District ;
+        sh:name      "neighbourhood belongs district" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:neighbourhoodBelongsDistrict .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#e7676f70ffe3f083fa0c655696d9af32> , <https://astrea.linkeddata.es/shapes#d202edd9e2dfc23b478514d116de15c1> , <https://astrea.linkeddata.es/shapes#855d809195abbbfb70948a2bd67731fc> , <https://astrea.linkeddata.es/shapes#2f143fe24c10c48f235b21f66ad5401e> , <https://astrea.linkeddata.es/shapes#e002e0d7c4de5773601d5ddf029b3784> , <https://astrea.linkeddata.es/shapes#8af629015659c29fb004514a53ae7081> , <https://astrea.linkeddata.es/shapes#f80a606ac523229b76752b77852135a7> , <https://astrea.linkeddata.es/shapes#786effa7445f06603a6fd906a0841cd8> , <https://astrea.linkeddata.es/shapes#261247f4cf9b578984ea5dee03d65afa> , <https://astrea.linkeddata.es/shapes#f81e2ca7ec58cb202fac005dad7719f5> , <https://astrea.linkeddata.es/shapes#21f71ff1cc489d91532487ab470d1d7d> , <https://astrea.linkeddata.es/shapes#0c78d5c53010fa64186323b9fe0c907d> , <https://astrea.linkeddata.es/shapes#60435bb1b7b888b57aff3786e35b9839> , <https://astrea.linkeddata.es/shapes#3ecef76efa08dacc2c232778dd1e2605> , <https://astrea.linkeddata.es/shapes#2bb639cbe69aef715e4df37f27090e4d> , <https://astrea.linkeddata.es/shapes#bd9603ba6c7d85dcdb7bab9d85a71a2c> , <https://astrea.linkeddata.es/shapes#cb15da955178e75045c041cc2d1377ff> , <https://astrea.linkeddata.es/shapes#52212012917ba0d377952e545824d150> , <https://astrea.linkeddata.es/shapes#397ae3a4749410e0dfef978ae70a01bd> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#21f71ff1cc489d91532487ab470d1d7d>
+        a               sh:NodeShape ;
+        rdfs:label      "Company" ;
+        sh:name         "Company" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ns:Company .
+
+<https://astrea.linkeddata.es/shapes#60435bb1b7b888b57aff3786e35b9839>
+        a            sh:PropertyShape ;
+        rdfs:label   "is manage by" ;
+        sh:class     ns:Company ;
+        sh:name      "is manage by" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:isManageBy .
+
+<https://astrea.linkeddata.es/shapes#0c78d5c53010fa64186323b9fe0c907d>
+        a               sh:NodeShape ;
+        rdfs:label      "Street" ;
+        sh:name         "Street" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ns:Street .
+
+<https://astrea.linkeddata.es/shapes#8af629015659c29fb004514a53ae7081>
+        a               sh:NodeShape ;
+        rdfs:label      "Bicycle Station" ;
+        sh:name         "Bicycle Station" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#2f143fe24c10c48f235b21f66ad5401e> , <https://astrea.linkeddata.es/shapes#f81e2ca7ec58cb202fac005dad7719f5> , <https://astrea.linkeddata.es/shapes#52212012917ba0d377952e545824d150> , <https://astrea.linkeddata.es/shapes#e7676f70ffe3f083fa0c655696d9af32> , <https://astrea.linkeddata.es/shapes#261247f4cf9b578984ea5dee03d65afa> , <https://astrea.linkeddata.es/shapes#3ecef76efa08dacc2c232778dd1e2605> , <https://astrea.linkeddata.es/shapes#f80a606ac523229b76752b77852135a7> , <https://astrea.linkeddata.es/shapes#60435bb1b7b888b57aff3786e35b9839> , <https://astrea.linkeddata.es/shapes#786effa7445f06603a6fd906a0841cd8> ;
+        sh:targetClass  ns:BicycleStation .
+
+<https://astrea.linkeddata.es/shapes#2f143fe24c10c48f235b21f66ad5401e>
+        a            sh:PropertyShape ;
+        rdfs:label   "registration date" ;
+        sh:datatype  xsd:date ;
+        sh:name      "registration date" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:registrationDate ;
+        sh:pattern   "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#d202edd9e2dfc23b478514d116de15c1>
+        a               sh:NodeShape ;
+        rdfs:label      "Direction" ;
+        sh:name         "Direction" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#cb15da955178e75045c041cc2d1377ff> , <https://astrea.linkeddata.es/shapes#bd9603ba6c7d85dcdb7bab9d85a71a2c> , <https://astrea.linkeddata.es/shapes#855d809195abbbfb70948a2bd67731fc> ;
+        sh:targetClass  ns:Direction .
+
+<https://astrea.linkeddata.es/shapes#f81e2ca7ec58cb202fac005dad7719f5>
+        a            sh:PropertyShape ;
+        rdfs:label   "belongs neigbourhood" ;
+        sh:class     ns:Neighbourhood ;
+        sh:name      "belongs neigbourhood" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:belongsNeigbourhood .
+
+<https://astrea.linkeddata.es/shapes#cb15da955178e75045c041cc2d1377ff>
+        a            sh:PropertyShape ;
+        rdfs:label   "has street" ;
+        sh:class     ns:Street ;
+        sh:name      "has street" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:hasStreet .
+
+<https://astrea.linkeddata.es/shapes#786effa7445f06603a6fd906a0841cd8>
+        a            sh:PropertyShape ;
+        rdfs:label   "has direction" ;
+        sh:class     ns:Direction ;
+        sh:name      "has direction" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:hasDirection .
+
+<https://astrea.linkeddata.es/shapes#3ecef76efa08dacc2c232778dd1e2605>
+        a            sh:PropertyShape ;
+        rdfs:label   "longitude" ;
+        sh:datatype  xsd:decimal ;
+        sh:name      "longitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:longitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)" .
