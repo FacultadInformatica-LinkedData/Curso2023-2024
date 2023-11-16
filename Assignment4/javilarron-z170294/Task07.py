@@ -32,11 +32,18 @@ ns = Namespace("http://somewhere#")
 q1 = """
     SELECT ?subClass
     WHERE {
-        ?subClass rdfs:subClassOf ns:LivingThing .
+        ?subClass rdfs:subClassOf* ns:LivingThing .
     }
 """
 
+living_thing_subclasses = list(g.transitive_subjects(RDFS.subClassOf, ns.LivingThing))
+
 # Visualize the results
+print("\nTASK 7.1 Results with RDFLib:")
+for subclass in living_thing_subclasses:
+    print(subclass)
+
+print("\nTASK 7.1 Results with SPARQL:")
 for row in g.query(q1):
     print(row.subClass)
 
@@ -54,7 +61,17 @@ q2 = """
     }
 """
 
+person_individuals = list(g.subjects(RDF.type, ns.Person))
+person_subclasses = list(g.subjects(RDFS.subClassOf, ns.Person))
+for subclass in person_subclasses:
+    person_individuals.extend(list(g.subjects(RDF.type, subclass)))
+
 # Visualize the results
+print("\nTASK 7.2 Results with RDFLib:")
+for individual in person_individuals:
+    print(individual)
+
+print("\nTASK 7.2 Results with SPARQL:")
 for row in g.query(q2):
     print(row.individual)
 
@@ -79,7 +96,22 @@ q3 = """
     }
 """
 
+person_animal_individuals = set()
+for person in g.subjects(RDF.type, ns.Person):
+    person_animal_individuals.add(person)
+
+for animal in g.subjects(RDF.type, ns.Animal):
+    person_animal_individuals.add(animal)
+
 # Visualize the results
+print("\nTASK 7.3 Results with RDFLib:")
+for individual in person_animal_individuals:
+    properties = g.predicate_objects(individual)
+    for prop, value in properties:
+        print(individual, prop, value)
+        
+print("\nTASK 7.3 Results with SPARQL:")
+
 for row in g.query(q3):
     print(row.individual, row.property, row.value)
 
@@ -90,13 +122,12 @@ for row in g.query(q3):
 
 
 q4 = """
-    SELECT ?name
+    SELECT ?personName
     WHERE {
       ?person rdf:type ns:Person.
-      ?person ns:knows ?known.
-      ?person ns:fullName ?name.
-      ?known ns:fullName "Rocky".
-    }
+      ?person <http://xmlns.com/foaf/0.1/knows> <http://somewhere#RockySmith>.
+      ?person <http://www.w3.org/2001/vcard-rdf/3.0/FN> ?personName.
+}
 """
 
 # Visualize the results
@@ -115,7 +146,7 @@ q5 = """
     {
         SELECT ?entity (COUNT(?known) AS ?count)
         WHERE {
-            ?entity ns:knows ?known.
+            ?entity <http://xmlns.com/foaf/0.1/knows> ?known.
         }   GROUP BY ?entity
     }
     FILTER (?count >= 2)

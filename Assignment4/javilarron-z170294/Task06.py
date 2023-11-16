@@ -75,10 +75,10 @@ for s, p, o in g:
 # In[7]:
 
 
-g.add((jane_smith_uri, ns.email, Literal("jane.smith@example.com")))
-g.add((jane_smith_uri, ns.fullName, Literal("Jane Smith")))
-g.add((jane_smith_uri, ns.givenName, Literal("Jane")))
-g.add((jane_smith_uri, ns.familyName, Literal("Smith")))
+g.add((jane_smith_uri, ns.Email, Literal("jane.smith@example.com")))
+g.add((jane_smith_uri, ns.FN, Literal("Jane Smith")))
+g.add((jane_smith_uri, ns.Given, Literal("Jane")))
+g.add((jane_smith_uri, ns.Family, Literal("Smith")))
 
 # Visualize the results
 for s, p, o in g:
@@ -91,6 +91,7 @@ for s, p, o in g:
 
 
 john_smith_uri = ns.JohnSmith
+g.add((ns.UPM,RDF.type,ns.University))
 g.add((john_smith_uri, ns.worksAt, ns.UPM))
 
 # Visualize the results
