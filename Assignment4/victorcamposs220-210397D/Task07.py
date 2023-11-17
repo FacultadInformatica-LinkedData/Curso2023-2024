@@ -15,7 +15,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 """First let's read the RDF file"""
 
 from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS, FOAF
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
@@ -96,6 +96,7 @@ for s, p, o in g.triples((None, RDF.type, ns.Animal)):
   for s1, p1, o1 in g.triples((s, None, None)):
       print(p1)
 
+print("------------------------------------------------------------")
 #SPARQL
 q1 = prepareQuery('''
   PREFIX ns:<http://somewhere#>
@@ -115,6 +116,17 @@ for r in g.query(q1):
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 # TO DO
+
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
+
+#RDFLIB
+for s,p,o in g.triples((None,FOAF.knows, ns.RockySmith)):
+  givenName = g.value(subject=s, predicate=vcard.FN, object=None)
+  print(givenName)
+
+print("-------------------------------------------------------------------")
+
+#SPARQL
 q1 = prepareQuery('''
   PREFIX vcard-rdf:<http://www.w3.org/2001/vcard-rdf/3.0/>
   PREFIX foaf:<http://xmlns.com/foaf/0.1/>
@@ -132,16 +144,36 @@ for r in g.query(q1):
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
+
+#RDFLIB
+lista = {}
+for s,p,o in g.triples((None,FOAF.knows, None)):
+  conocedor = g.value(subject=s, predicate=vcard.FN, object=None)
+  conocido =  g.value(subject=o, predicate=vcard.FN, object=None)
+  if str(conocedor) not in lista:
+        lista[str(conocedor)] = []
+
+  # Agrega el conocido a la lista del conocedor
+  lista[str(conocedor)].append(str(conocido))
+
+for valor in lista:
+  if len(valor) >= 2 and valor[0] != valor[1]:
+    print(valor)
+
+print("----------------------------------------------------------------")
+
+#SPARQL
 q1 = prepareQuery('''
   PREFIX vcard-rdf:<http://www.w3.org/2001/vcard-rdf/3.0/>
   PREFIX foaf:<http://xmlns.com/foaf/0.1/>
   PREFIX ns:<http://somewhere#>
-  SELECT DISTINCT ?Subject WHERE {
+  SELECT DISTINCT ?Name WHERE {
     ?Subject foaf:knows ?Person1, ?Person2.
+    ?Subject vcard-rdf:FN ?Name
     FILTER (?Person1 != ?Person2).
   }
   '''
 )
 # Visualize the results
 for r in g.query(q1):
-  print(r.Subject)
+  print(r.Name)
