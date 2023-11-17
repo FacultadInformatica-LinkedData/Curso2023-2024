@@ -1,0 +1,37 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "nombre",
+    "description": "Remove column nombre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "distrito",
+    "description": "Remove column distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_cruce",
+    "description": "Remove column id_cruce"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "activo",
+    "description": "Remove column activo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "fecha_denuncia",
+    "description": "Remove column fecha_denuncia"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "utm_x",
+    "description": "Remove column utm_x"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "utm_y",
+    "description": "Remove column utm_y"
+  }
+]
