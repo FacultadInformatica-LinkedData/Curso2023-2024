@@ -1,0 +1,72 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://exampleGroup01.com/
+
+mappings:
+  parking:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:parking/$(PK)
+    po:
+      - [a, vocab:Parking]
+      - [vocab:id, $(PK), xsd:integer]
+      - [vocab:name, $(NOMBRE), xsd:string]
+      - [vocab:description, $(DESCRIPCION), xsd:string]
+      - [vocab:URL, $(CONTENT-URL), xsd:string]
+      - [vocab:inProvince, vocab:province/$(PROVINCIA)~iri]
+      - [vocab:inLocation, vocab:location/$(LOCALIDAD)~iri]
+      - [vocab:inNeighborhood, vocab:neighborhood/$(BARRIO)~iri]
+      - [vocab:inDistrict, vocab:district/$(DISTRITO)~iri]
+      - [vocab:hasAddress, vocab:address/$(DIRECCION)~iri]
+  province:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:province/$(PROVINCIA)
+    po:
+      - [a, vocab:Province]
+      - [vocab:provinceName, $(PROVINCIA), xsd:string]
+  location:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:location/$(LOCALIDAD)
+    po:
+      - [a, vocab:Location]
+      - [vocab:locationName, $(LOCALIDAD), xsd:string]
+  neighborhood:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:neighborhood/$(BARRIO)
+    po:
+      - [a, vocab:Neighborhood]
+      - [vocab:neighborhoodName, $(BARRIO), xsd:string]
+      - [vocab:neighborhoodCode, $(COD-BARRIO), xsd:integer]
+      - [vocab:postalCode, $(CODIGO-POSTAL), xsd:integer]
+  district:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:district/$(DISTRITO)
+    po:
+      - [a, vocab:District]
+      - [vocab:districtCode, $(COD-DISTRITO), xsd:integer]
+      - [vocab:districtName, $(DISTRITO), xsd:string]
+      
+  address:
+    sources:
+      - [../csv/202584-0-aparcamientos-residentes-updated.csv]
+    s: vocab:address/$(DIRECCION)
+    po:
+      - [a, vocab:Address]
+      - [vocab:num, $(NUM), xsd:integer]
+      - [vocab:floor, $(PLANTA), xsd:string]
+      - [vocab:orientation, $(ORIENTACION), xsd:string]
+      - [vocab:latitude, $(LATITUD), xsd:float]
+      - [vocab:longitude, $(LONGITUD), xsd:float]

@@ -2,19 +2,24 @@
 
 ## Checklist
 
-El “README.md” file:
+**The “README.md” file:**
 
-- [x] Incluye los nombre y usuarios de GitHub de los miembreos del grupo.
+- [x] Includes the names and GitHub users of all the members of the group
 
-El directorio CSV:
+**The "csv" directory:**
 
-- [x] Contiene un documento CSV que trata sobre los datos de un dominio.
+- [x] Contains at least one CSV file 
+- [x] The CSV files belong to one of the selected domains
 
-El fichero "datasetRequirements.html":
+**The "datasetRequirements.html" file:**
 
-- [x] Especifica los requisitos cumplidos a la hora de seleccionar el fichero CSV con los datos
+- [x] Identifies the licenses of all the selected datasets
+- [x] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [x] Identifies those entities in other datasets that can be linked with entities in the selected datasets 
 
-El fichero "applicationRequirements.html”:
+**The "applicationRequirements.html” file:**
 
-- [x] Incluye una descripcion del la interface de la aplicacion.
-- [x] Comments on the self-assessment
+- [x] Includes a description of the application user interface
+
+## Comments on the self-assessment
+_(If required)_

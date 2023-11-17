@@ -1,0 +1,57 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
+PREFIX base: <http://base.itree.com/>
+
+SELECT DISTINCT ?nombreDistrito ?nombreArbol ?maxUnidades WHERE {
+  {
+    SELECT ?nombreDistrito (MAX(?unidades) as ?maxUnidades) WHERE {
+      ?distrito a base:Distrito.
+      ?arbol a base:Arbol.
+      ?arbol base:hasDistrito ?numDistrito.
+      ?distrito base:numDistrito ?numDistrito.
+      ?distrito rdfs:label ?nombreDistrito.
+      ?arbol base:hasUnidades ?unidades.
+    }
+    GROUP BY ?nombreDistrito
+  }
+  ?arbol a base:Arbol.
+  ?arbol base:hasDistrito ?numDistrito.
+  ?arbol rdfs:label ?nombreArbol.
+  ?distrito rdfs:label ?nombreDistrito.
+  ?distrito rdfs:label "Retiro".
+  ?arbol base:hasUnidades ?maxUnidades.
+}
+ORDER BY ?numDistrito
+
+SELECT ?direccion ?arbol ?nombre WHERE {
+  ?arbol a base:Arbol.
+  ?parques a base:Parque_Canino.
+  ?parques base:hasDireccion ?direccion.
+  ?parques base:hasDistrito ?numDistrito.
+  ?arbol base:hasDistrito ?numDistrito.
+  ?arbol rdfs:label "Ligustrum japonicum 'Variegatum'".
+}
+
+SELECT ?nombreDistrito ?direccion WHERE {
+  ?parque a base:Parque_Canino.
+  ?distrito a base:Distrito.
+  ?parque base:hasDistrito ?numDistrito.
+  ?distrito base:numDistrito ?numDistrito.
+  ?parque base:hasDireccion ?direccion.
+  ?distrito rdfs:label ?nombreDistrito.
+}
+order by ?numDistrito
+
+SELECT DISTINCT ?numDistrito ?direccion WHERE {
+
+  ?parques a base:Parque_Canino.
+  ?parques base:hasDireccion ?direccion.
+  ?parques base:hasDistrito ?numDistrito.
+  
+  FILTER NOT EXISTS {
+    ?arbol2 a base:Arbol.
+    ?arbol2 rdfs:label "Ligustrum japonicum".
+    ?arbol2 base:hasDistrito ?numDistrito.
+  }
+}
+ORDER BY ?numDistrito

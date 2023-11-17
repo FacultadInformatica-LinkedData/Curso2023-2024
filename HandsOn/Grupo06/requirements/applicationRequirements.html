@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisitos de la aplicacion</title>
+</head>
+<body>
+    <h1>Requisitos de la aplicacions</h1>
+
+    <h2>1. Resumen del funcionamiento</h2>
+    <p>
+        Nuestra aplicación pretende ofrecer a los usuarios información sobre zonas de mas sanciones de trafico , accidentes de tráfico y radares del municipio de Madrid.
+    </p>
+
+    <h2>2. Requisitos de los usuarios</h2>
+    <ul>
+        <li>Los usuarios deben poder acceder a las zonas con mayores accidentes de tráfico</li>
+        <li>Los usuarios deben poder acceder a la información sobre la posición de los radares</li>
+        <li>Los usuarios deben poder acceder al tipo de sanción de trafico mas comun filtrando por zona.</li>
+        <li>Los usuarios deben poder acceder a informacion sobre como evitar la infraccion elegida por ellos
+          por ejemplo, si llegan a un zona con muchas infracciones por aparcamiento deben poder acceder a informacion 
+          sobre los parkings mas cercanos.</li>
+    </ul>
+
+    <h2>3. >Requisitos Funcionales</h2>
+    <ul>
+        <li>Integracion de los datos sanciones por exceso de velocidad con la posicion de los radares.</li>
+        <li>Integracion de los datos sanciones por saltarse semaforo en rojo con la posicion de los semfaros con capacidad de hacer fotos</li>
+        <li>Uso de datos geoespaciales para mostrar radares, semaforos con camara, zonas de mayor accidentalidad y parquimetros.</li>
+        <li>Uso de la API proporcionada por datos.madrid.es para acceder a la informacion real de los parkings en Madrid</li>
+    </ul>
+
+    <h2>4. Requisitos de datos</h2>
+    <p>La aplicación dependerá de los siguientes conjuntos de datos:</p>
+    <ul>
+        <li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=fb736ca2dd8f4410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Semaforos con foto-rojo</a></li>
+        <li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=7c2843010d9c3610VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Accidentes de trafico ciudad de Madrid</a></li>
+        <li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4678f7de62435510VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Radares ciudad Madrid</a></li>
+        <li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=fb9a498a6bdb9410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Multas de trafico</a></li>
+        <li><a href="https://datos.madrid.es/portal/site/egob/menuitem.214413fe61bdd68a53318ba0a8a409a0/?vgnextoid=b07e0f7c5ff9e510VgnVCM1000008a4a900aRCRD&dsName=Aparcamientos32p250blicos3240Rotacionales414632Datos32de32ocupaci243n32en32tiempo32real">API parkings Madrid</a></li>
+    </ul>
+
+</body>
+</html>

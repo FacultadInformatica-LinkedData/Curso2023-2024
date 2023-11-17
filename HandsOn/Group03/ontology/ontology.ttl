@@ -1,0 +1,92 @@
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:belongsDistrict a owl:ObjectProperty ;
+    rdfs:label "belongs district" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:District .
+
+ns:belongsNeigbourhood a owl:ObjectProperty ;
+    rdfs:label "belongs neigbourhood" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:Neighbourhood .
+
+ns:directionBelongsNeighbourhood a owl:ObjectProperty ;
+    rdfs:label "direction belongs neighbourhood" ;
+    rdfs:domain ns:Direction ;
+    rdfs:range ns:Neighbourhood .
+
+ns:hasDirection a owl:ObjectProperty ;
+    rdfs:label "has direction" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:Direction .
+
+ns:hasStreet a owl:ObjectProperty ;
+    rdfs:label "has street" ;
+    rdfs:domain ns:Direction ;
+    rdfs:range ns:Street .
+
+ns:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range xsd:string .
+
+ns:isManageBy a owl:ObjectProperty ;
+    rdfs:label "is manage by" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range ns:Company .
+
+ns:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range xsd:decimal .
+
+ns:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range xsd:decimal .
+
+ns:neighbourhoodBelongsDistrict a owl:ObjectProperty ;
+    rdfs:label "neighbourhood belongs district" ;
+    rdfs:domain ns:Neighbourhood ;
+    rdfs:range ns:District .
+
+ns:number a owl:DatatypeProperty ;
+    rdfs:label "number" ;
+    rdfs:domain ns:Direction ;
+    rdfs:range xsd:integer .
+
+ns:places a owl:DatatypeProperty ;
+    rdfs:label "places" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range xsd:integer .
+
+ns:registrationDate a owl:DatatypeProperty ;
+    rdfs:label "registration date" ;
+    rdfs:domain ns:BicycleStation ;
+    rdfs:range xsd:date .
+
+ns:Company a owl:Class ;
+    rdfs:label "Company" .
+
+ns:Street a owl:Class ;
+    rdfs:label "Street" .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:Neighbourhood a owl:Class ;
+    rdfs:label "Neighbourhood" .
+
+ns:Direction a owl:Class ;
+    rdfs:label "Direction" .
+
+ns:BicycleStation a owl:Class ;
+    rdfs:label "Bicycle Station" .
+

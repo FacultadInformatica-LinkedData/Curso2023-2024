@@ -1,0 +1,31 @@
+@prefix schema: <http://schema.org/> .
+@prefix mod:   <https://w3id.org/mod#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0:   <http://smartcity.group04.es/ontology/EnergyConsumption#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns2:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1:   <http://smartcity.group04.es/resource/District/> .
+@prefix ns4:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns3:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns6:   <http://smartcity.group04.es/resource/EnergyValue/> .
+@prefix ns5:   <https://www.w3.org/TR/owl-time#> .
+@prefix ns8:   <http://smartcity.group04.es/resource/MunicipalBuilding/> .
+@prefix ns7:   <http://schema.org/> .
+@prefix ns9:   <http://smartcity.group04.es/resource/UnitOfMeasure/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix ns10:  <http://smartcity.group04.es/resource/Neighborhood/> .
+@prefix time:  <https://www.w3.org/TR/owl-time#> .
+@prefix base:  <http://smartcity.group04.es/ontology/EnergyConsumption#> .
+
+[ a            sh:ValidationReport ;
+  <http://shacl-play.sparna.fr/ontology#hasMatched>
+          true ;
+  sh:conforms  true
+] .
+
+<https://astrea.linkeddata.es/shapes#9b6036e28de0c3ad358243976fbdc150>
+        <http://shacl-play.sparna.fr/ontology#targetMatched>
+                false .

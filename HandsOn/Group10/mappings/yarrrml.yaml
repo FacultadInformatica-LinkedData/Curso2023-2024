@@ -1,0 +1,42 @@
+prefixes:
+    base: http://base.itree.com/
+    ns: http://www.owl-ontologies.com/ns
+    rdfs: http://www.w3.org/2000/01/rdf-schema
+
+mappings:
+  distrito:
+    sources:
+      - [data-updated.csv~csv]
+    s: base:distrito/$(N_Distrito)
+    po:
+      - [a, base:Distrito]
+      - [rdfs:label, $(Nombre_Distrito)]
+      - [base:numDistrito, $(N_Distrito)]
+  barrio:
+    sources:
+      - [data-updated.csv~csv]
+    s: base:barrio/$(N_Barrio)
+    po:
+      - [a, base:Barrio]
+      - [rdfs:label, $(Nombre_Barrio)]
+      - [base:hasDistrito, $(N_Distrito)]
+      - [base:numBarrio, $(N_Barrio)]
+  parque:
+    sources:
+      - [data-updated.csv~csv]
+    s: base:parques/$(ID_Parque_Canino)
+    po:
+      - [a, base:Parque_Canino]
+      - [base:hasDireccion, $(Dirección)]
+      - [base:hasBarrio, $(N_Barrio)]
+      - [base:hasDistrito, $(N_Distrito)]
+      - [base:idParqueCanino, $(ID_Parque_Canino)]
+  arbol:
+    sources:
+      - [data-updated.csv~csv]
+    s: base:arbol/$(Nombre_Especie)
+    po:
+      - [a, base:Arbol]
+      - [rdfs:label, $(Nombre_Especie)]
+      - [base:hasUnidades, $(N_Unidades 2022)]
+      - [base:hasDistrito, $(N_Distrito)]
