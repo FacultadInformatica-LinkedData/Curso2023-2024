@@ -1,0 +1,93 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "channel_name",
+    "description": "Remove column channel_name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "url_photos_n1",
+    "description": "Remove column url_photos_n1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "photos",
+    "description": "Remove column photos"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "test_lien_vers_photos_du_site_de_comptage_",
+    "description": "Remove column test_lien_vers_photos_du_site_de_comptage_"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "url_sites",
+    "description": "Remove column url_sites"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_photo_1",
+    "description": "Remove column id_photo_1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "type_dimage",
+    "description": "Remove column type_dimage"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordinates",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column coordinates by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordinates 1",
+    "newColumnName": "latitude",
+    "description": "Rename column coordinates 1 to latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordinates 2",
+    "newColumnName": "longitude",
+    "description": "Rename column coordinates 2 to longitude"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id",
+    "description": "Remove column id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "counter",
+    "description": "Remove column counter"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/\\d+|Face au|Totem|Face|\\(.*\\)/, '').trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/\\d+|Face au|Totem|Face|\\(.*\\)/, '').trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "name",
+    "newColumnName": "street",
+    "description": "Rename column name to street"
+  }
+]

@@ -1,0 +1,117 @@
+    PREFIX ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#>
+    PREFIX company: <http://smartcity.linkeddata.es/lcc/resource/Company/>
+    PREFIX bs: <http://smartcity.linkeddata.es/lcc/resource/BicycleStation/>
+    PREFIX district: <http://smartcity.linkeddata.es/lcc/resource/District/>
+    PREFIX hood: <http://smartcity.linkeddata.es/lcc/resource/Hood/> 
+    PREFIX direction: <http://smartcity.linkeddata.es/lcc/resource/Direction/> 
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+    #Devuelve distintas estaciones de bicis.
+    SELECT distinct ?Subject WHERE {
+        ?Subject a ns:BicycleStation.
+ 
+    } LIMIT 10 
+    
+    #RESULTADO:
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/149
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/145
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/39
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/106b
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/222
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/44
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/238
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/211
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/40
+    #http://smartcity.linkeddata.es/lcc/resource/BicycleStation/71
+    ;
+
+    PREFIX ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#>
+    PREFIX company: <http://smartcity.linkeddata.es/lcc/resource/Company/>
+    PREFIX bs: <http://smartcity.linkeddata.es/lcc/resource/BicycleStation/>
+    PREFIX district: <http://smartcity.linkeddata.es/lcc/resource/District/>
+    PREFIX hood: <http://smartcity.linkeddata.es/lcc/resource/Hood/> 
+    PREFIX direction: <http://smartcity.linkeddata.es/lcc/resource/Direction/> 
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+    #Devuelve distintas Compannias en este caso solo seria una BiciMAD.
+    SELECT distinct ?Subject ?Comapny WHERE {
+        ?Subject a ns:Company.
+        ?Subject owl:sameAs ?Company.
+ 
+    } LIMIT 10 
+    
+    #RESULTADO:
+    #http://smartcity.linkeddata.es/lcc/resource/Company/BiciMAD
+    ;
+
+    PREFIX ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#>
+    PREFIX company: <http://smartcity.linkeddata.es/lcc/resource/Company/>
+    PREFIX bs: <http://smartcity.linkeddata.es/lcc/resource/BicycleStation/>
+    PREFIX district: <http://smartcity.linkeddata.es/lcc/resource/District/>
+    PREFIX hood: <http://smartcity.linkeddata.es/lcc/resource/Hood/> 
+    PREFIX direction: <http://smartcity.linkeddata.es/lcc/resource/Direction/> 
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+    #Devuelve el distrito donde se halla la estacion de bicis con ID 136
+    SELECT distinct ?Subject ?District WHERE {
+        ?Subject a ns:District.
+        bs:136 ns:belongsDistrict ?Subject.
+        ?Subject owl:sameAs ?District.
+ 
+    } LIMIT 10 
+    
+    #RESULTADO:
+    #http://smartcity.linkeddata.es/lcc/resource/District/05Chamartin
+    ;
+
+    PREFIX ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#>
+    PREFIX company: <http://smartcity.linkeddata.es/lcc/resource/Company/>
+    PREFIX bs: <http://smartcity.linkeddata.es/lcc/resource/BicycleStation/>
+    PREFIX district: <http://smartcity.linkeddata.es/lcc/resource/District/>
+    PREFIX hood: <http://smartcity.linkeddata.es/lcc/resource/Hood/> 
+    PREFIX direction: <http://smartcity.linkeddata.es/lcc/resource/Direction/> 
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+    #Devuelve el barrio en el que se halla la estacion de bicicletas con ID 136
+    SELECT distinct ?Subject WHERE {
+        ?Subject a ns:Hood.
+        bs:136 ns:belongsHood ?Subject.
+        ?Subject owl:sameAs ?Hood.
+ 
+    } LIMIT 10 
+    
+    #RESULTADO:
+    #http://smartcity.linkeddata.es/lcc/resource/Hood/05-01ElViso
+    ;
+
+    PREFIX ns:<http://smartcity.linkeddata.es/lcc/ontology/BicicletasElectricas#>
+    PREFIX company: <http://smartcity.linkeddata.es/lcc/resource/Company/>
+    PREFIX bs: <http://smartcity.linkeddata.es/lcc/resource/BicycleStation/>
+    PREFIX district: <http://smartcity.linkeddata.es/lcc/resource/District/>
+    PREFIX hood: <http://smartcity.linkeddata.es/lcc/resource/Hood/> 
+    PREFIX direction: <http://smartcity.linkeddata.es/lcc/resource/Direction/> 
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+    #Devuelve distintas Calles reflejadas en el grafo
+    SELECT distinct ?Subject ?Street WHERE {
+        ?Subject a ns:Street.
+        ?Subject owl:sameAs ?Street.
+    } LIMIT 10 
+
+    #RESULTADO:
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeFranciscoSilvela
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeAlcala
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeMariaDeGuzman
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeLaHaciendaDePavones
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeDulcinea
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDelMarquesDeViana
+    #http://smartcity.linkeddata.es/lcc/resource/Street/PaseoDeSantaMariaDeLaCabeza
+    #http://smartcity.linkeddata.es/lcc/resource/Street/CalleDeAlcantara
+    #http://smartcity.linkeddata.es/lcc/resource/Street/PaseoDeMoret
+    #http://smartcity.linkeddata.es/lcc/resource/Street/PlazaDeLaRepublicaArgentina

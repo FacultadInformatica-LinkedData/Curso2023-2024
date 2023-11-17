@@ -1,0 +1,30 @@
+@prefix base: <http://base.itree.com/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix baseDistrito: <http://base.itree.com/distrito/#> .
+@prefix baseBarrio: <http://base.itree.com/barrio/#> .
+@prefix baseParqueCanino: <http://base.itree.com/parques/#> .
+@prefix baseArbol: <http://base.itree.com/arbol/#> .
+
+baseDistrito:04 a base:Distrito;
+    base:numDistrito 4;
+    rdfs:label "Salamanca".
+
+
+
+baseBarrio:44 a base:Barrio;
+    base:numBarrio 44;
+    base:hasDistrito 4;
+    rdfs:label "Guindalera".
+
+baseParqueCanino:4997171 a base:Parque_Canino;
+    base:idParqueCanino 4997171;
+    base:hasDistrito 4;
+    base:hasBarrio 44;
+    base:hasDireccion "Avenida de América 32".
+
+baseArbol:Ulmus%20pumila a base:Arbol;
+    rdfs:label "Ulmus pumila";
+    base:hasUnidades 855;
+    base:hasDistrito 4.
+
+

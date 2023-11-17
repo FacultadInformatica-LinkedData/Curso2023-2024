@@ -1,0 +1,297 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns:    <http://smartcity.linkeddata.es/lcc/ontology/energyConsumption#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix base:  <http://smartcity.linkeddata.es/> .
+
+<https://astrea.linkeddata.es/shapes#070fcdb4f99775ef662ffd49d11c35b8>
+        a            sh:PropertyShape ;
+        rdfs:label   "latitude" ;
+        sh:datatype  xsd:float ;
+        sh:name      "latitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:latitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#7a8e4094440194069eaa620355c010fb>
+        a            sh:PropertyShape ;
+        rdfs:label   "year" ;
+        sh:datatype  xsd:string ;
+        sh:name      "year" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:year ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#e4cf9a5416ca34bf411d7ad5ba725361>
+        a            sh:PropertyShape ;
+        rdfs:label   "measureId" ;
+        sh:datatype  xsd:string ;
+        sh:name      "measureId" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:measureId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#7fb8dfff814cbcc82d9934cd5a79b955>
+        a            sh:PropertyShape ;
+        rdfs:label   "id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:id ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#ec0db2cbfc4c09df920f116fef7f6ee0>
+        a            sh:PropertyShape ;
+        rdfs:label   "buildingType" ;
+        sh:datatype  xsd:string ;
+        sh:name      "buildingType" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:buildingType ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#f76b79cf4ec3dcf6d5ec73ac3e17a390>
+        a            sh:PropertyShape ;
+        rdfs:label   "class" ;
+        sh:datatype  xsd:string ;
+        sh:name      "class" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:class ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#36cb6743ae6c0c490bef11a8d2af6285>
+        a               sh:NodeShape ;
+        rdfs:label      "Measure" ;
+        sh:description  "This class represents a measure" ;
+        sh:name         "Measure" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#2ccb499938175bd86b2ba4caee21347e> , <https://astrea.linkeddata.es/shapes#854bc59516b19153f62d4da651111675> , <https://astrea.linkeddata.es/shapes#b5d5b498ea6d158e611dfbb95a02ab04> , <https://astrea.linkeddata.es/shapes#7a8e4094440194069eaa620355c010fb> , <https://astrea.linkeddata.es/shapes#e4cf9a5416ca34bf411d7ad5ba725361> ;
+        sh:targetClass  ns:Measure .
+
+<https://astrea.linkeddata.es/shapes#d43824a3d57a4a0b7f01e3bc6ff12092>
+        a            sh:PropertyShape ;
+        rdfs:label   "buildingName" ;
+        sh:datatype  xsd:string ;
+        sh:name      "buildingName" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:buildingName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#2ccb499938175bd86b2ba4caee21347e>
+        a            sh:PropertyShape ;
+        rdfs:label   "consumption" ;
+        sh:datatype  xsd:float ;
+        sh:name      "consumption" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:consumption ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#acb9ea00eb23c583f57148d241ad7cab> , <https://astrea.linkeddata.es/shapes#ef6d816bb758792e7ced9d3e11a89c8c> , <https://astrea.linkeddata.es/shapes#4890ba98178a4c0f932d96313e8cdbbe> , <https://astrea.linkeddata.es/shapes#b5d5b498ea6d158e611dfbb95a02ab04> , <https://astrea.linkeddata.es/shapes#fe68362a0283de415d3283faaa7bd583> , <https://astrea.linkeddata.es/shapes#7fb8dfff814cbcc82d9934cd5a79b955> , <https://astrea.linkeddata.es/shapes#2ccb499938175bd86b2ba4caee21347e> , <https://astrea.linkeddata.es/shapes#e4cf9a5416ca34bf411d7ad5ba725361> , <https://astrea.linkeddata.es/shapes#7a8e4094440194069eaa620355c010fb> , <https://astrea.linkeddata.es/shapes#c12e847039f942e2844a0b5b81505f5e> , <https://astrea.linkeddata.es/shapes#f6514e4fb4e6e5d3cc1439b8e9de8bb6> , <https://astrea.linkeddata.es/shapes#36cb6743ae6c0c490bef11a8d2af6285> , <https://astrea.linkeddata.es/shapes#c4c5b791a89b0d563491d5359ee1095f> , <https://astrea.linkeddata.es/shapes#fdffa58e7343f0813fdd22982c45152c> , <https://astrea.linkeddata.es/shapes#bbb2e5a9e76c5600ee35f51bc0106ecc> , <https://astrea.linkeddata.es/shapes#d7cb28cb088a6688455112fb98dd051c> , <https://astrea.linkeddata.es/shapes#f76b79cf4ec3dcf6d5ec73ac3e17a390> , <https://astrea.linkeddata.es/shapes#ae84c09edaed82d8669da63f339270d2> , <https://astrea.linkeddata.es/shapes#485f455f51887641806ab00914ddf2c8> , <https://astrea.linkeddata.es/shapes#d43824a3d57a4a0b7f01e3bc6ff12092> , <https://astrea.linkeddata.es/shapes#ede3fe182dfd1b920960be58b714ce63> , <https://astrea.linkeddata.es/shapes#159e1e31188229382c048e511a3c2308> , <https://astrea.linkeddata.es/shapes#4cfd4e4b4b01b0cff14859e3eab87927> , <https://astrea.linkeddata.es/shapes#f41c819dd3340316462dd53d9e03ef51> , <https://astrea.linkeddata.es/shapes#ec0db2cbfc4c09df920f116fef7f6ee0> , <https://astrea.linkeddata.es/shapes#4770557c5131d9d1e16fa4ea4c98b89c> , <https://astrea.linkeddata.es/shapes#854bc59516b19153f62d4da651111675> , <https://astrea.linkeddata.es/shapes#f3115fab7e9133c737a84f37fc9b0d93> , <https://astrea.linkeddata.es/shapes#4ee927ab7b85035530ec52b943d914d7> , <https://astrea.linkeddata.es/shapes#070fcdb4f99775ef662ffd49d11c35b8> , <https://astrea.linkeddata.es/shapes#d06a5c7f7d6967e639f68dc0d32af098> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#ae84c09edaed82d8669da63f339270d2>
+        a            sh:PropertyShape ;
+        rdfs:label   "locatedInNeighbourhood" ;
+        sh:class     ns:Neighbourhood ;
+        sh:name      "locatedInNeighbourhood" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:locatedInNeighbourhood .
+
+<https://astrea.linkeddata.es/shapes#4cfd4e4b4b01b0cff14859e3eab87927>
+        a            sh:PropertyShape ;
+        rdfs:label   "y_coordinate" ;
+        sh:datatype  xsd:float ;
+        sh:name      "y_coordinate" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:y_coordinate ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#b5d5b498ea6d158e611dfbb95a02ab04>
+        a            sh:PropertyShape ;
+        rdfs:label   "month" ;
+        sh:datatype  xsd:string ;
+        sh:name      "month" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:month ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#acb9ea00eb23c583f57148d241ad7cab>
+        a            sh:PropertyShape ;
+        rdfs:label   "hasMeasure" ;
+        sh:class     ns:Measure ;
+        sh:name      "hasMeasure" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:hasMeasure .
+
+<https://astrea.linkeddata.es/shapes#fdffa58e7343f0813fdd22982c45152c>
+        a            sh:PropertyShape ;
+        rdfs:label   "neighbourhoodCode" ;
+        sh:datatype  xsd:string ;
+        sh:name      "neighbourhoodCode" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:neighbourhoodCode ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#ef6d816bb758792e7ced9d3e11a89c8c>
+        a            sh:PropertyShape ;
+        rdfs:label   "group" ;
+        sh:datatype  xsd:string ;
+        sh:name      "group" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:group ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#f3115fab7e9133c737a84f37fc9b0d93>
+        a            sh:PropertyShape ;
+        rdfs:label   "detectsMeasure" ;
+        sh:class     ns:Measure ;
+        sh:name      "detectsMeasure" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:detectsMeasure .
+
+<https://astrea.linkeddata.es/shapes#c12e847039f942e2844a0b5b81505f5e>
+        a            sh:PropertyShape ;
+        rdfs:label   "type" ;
+        sh:datatype  xsd:string ;
+        sh:name      "type" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:type ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#bbb2e5a9e76c5600ee35f51bc0106ecc>
+        a            sh:PropertyShape ;
+        rdfs:label   "longitude" ;
+        sh:datatype  xsd:float ;
+        sh:name      "longitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:longitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#4ee927ab7b85035530ec52b943d914d7>
+        a            sh:PropertyShape ;
+        rdfs:label   "x_coordinate" ;
+        sh:datatype  xsd:float ;
+        sh:name      "x_coordinate" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:x_coordinate ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#854bc59516b19153f62d4da651111675>
+        a            sh:PropertyShape ;
+        rdfs:label   "unit" ;
+        sh:datatype  xsd:string ;
+        sh:name      "unit" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:unit ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#4890ba98178a4c0f932d96313e8cdbbe>
+        a            sh:PropertyShape ;
+        rdfs:label   "districtCode" ;
+        sh:datatype  xsd:string ;
+        sh:name      "districtCode" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:districtCode ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#d7cb28cb088a6688455112fb98dd051c>
+        a               sh:NodeShape ;
+        rdfs:label      "Neighbourhood" ;
+        sh:description  "This class represents a neighbourhood" ;
+        sh:name         "Neighbourhood" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#ede3fe182dfd1b920960be58b714ce63> , <https://astrea.linkeddata.es/shapes#fdffa58e7343f0813fdd22982c45152c> , <https://astrea.linkeddata.es/shapes#485f455f51887641806ab00914ddf2c8> ;
+        sh:targetClass  ns:Neighbourhood .
+
+<https://astrea.linkeddata.es/shapes#485f455f51887641806ab00914ddf2c8>
+        a            sh:PropertyShape ;
+        rdfs:label   "neighbourhoodName" ;
+        sh:datatype  xsd:string ;
+        sh:name      "neighbourhoodName" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:neighbourhoodName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#c4c5b791a89b0d563491d5359ee1095f>
+        a            sh:PropertyShape ;
+        rdfs:label   "sensorName" ;
+        sh:datatype  xsd:string ;
+        sh:name      "sensorName" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:sensorName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#4770557c5131d9d1e16fa4ea4c98b89c>
+        a            sh:PropertyShape ;
+        rdfs:label   "hasSensor" ;
+        sh:class     ns:Sensor ;
+        sh:name      "hasSensor" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:hasSensor .
+
+<https://astrea.linkeddata.es/shapes#f6514e4fb4e6e5d3cc1439b8e9de8bb6>
+        a            sh:PropertyShape ;
+        rdfs:label   "address" ;
+        sh:datatype  xsd:string ;
+        sh:name      "address" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:address ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#fe68362a0283de415d3283faaa7bd583>
+        a               sh:NodeShape ;
+        rdfs:label      "Sensor" ;
+        sh:description  "This class represents a sensor" ;
+        sh:name         "Sensor" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#c4c5b791a89b0d563491d5359ee1095f> , <https://astrea.linkeddata.es/shapes#c12e847039f942e2844a0b5b81505f5e> , <https://astrea.linkeddata.es/shapes#ef6d816bb758792e7ced9d3e11a89c8c> , <https://astrea.linkeddata.es/shapes#f76b79cf4ec3dcf6d5ec73ac3e17a390> , <https://astrea.linkeddata.es/shapes#f3115fab7e9133c737a84f37fc9b0d93> ;
+        sh:targetClass  ns:Sensor .
+
+<https://astrea.linkeddata.es/shapes#ede3fe182dfd1b920960be58b714ce63>
+        a            sh:PropertyShape ;
+        rdfs:label   "locatedInDistrict" ;
+        sh:class     ns:District ;
+        sh:name      "locatedInDistrict" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ns:locatedInDistrict .
+
+<https://astrea.linkeddata.es/shapes#d06a5c7f7d6967e639f68dc0d32af098>
+        a               sh:NodeShape ;
+        rdfs:label      "Building" ;
+        sh:description  "This class represents a building" ;
+        sh:name         "Building" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#4cfd4e4b4b01b0cff14859e3eab87927> , <https://astrea.linkeddata.es/shapes#acb9ea00eb23c583f57148d241ad7cab> , <https://astrea.linkeddata.es/shapes#bbb2e5a9e76c5600ee35f51bc0106ecc> , <https://astrea.linkeddata.es/shapes#ae84c09edaed82d8669da63f339270d2> , <https://astrea.linkeddata.es/shapes#f6514e4fb4e6e5d3cc1439b8e9de8bb6> , <https://astrea.linkeddata.es/shapes#ec0db2cbfc4c09df920f116fef7f6ee0> , <https://astrea.linkeddata.es/shapes#4ee927ab7b85035530ec52b943d914d7> , <https://astrea.linkeddata.es/shapes#4770557c5131d9d1e16fa4ea4c98b89c> , <https://astrea.linkeddata.es/shapes#7fb8dfff814cbcc82d9934cd5a79b955> , <https://astrea.linkeddata.es/shapes#d43824a3d57a4a0b7f01e3bc6ff12092> , <https://astrea.linkeddata.es/shapes#070fcdb4f99775ef662ffd49d11c35b8> ;
+        sh:targetClass  ns:Building .
+
+<https://astrea.linkeddata.es/shapes#159e1e31188229382c048e511a3c2308>
+        a               sh:NodeShape ;
+        rdfs:label      "District" ;
+        sh:description  "This class represents a district" ;
+        sh:name         "District" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#4890ba98178a4c0f932d96313e8cdbbe> , <https://astrea.linkeddata.es/shapes#f41c819dd3340316462dd53d9e03ef51> ;
+        sh:targetClass  ns:District .
+
+<https://astrea.linkeddata.es/shapes#f41c819dd3340316462dd53d9e03ef51>
+        a            sh:PropertyShape ;
+        rdfs:label   "districtName" ;
+        sh:datatype  xsd:string ;
+        sh:name      "districtName" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ns:districtName ;
+        sh:pattern   ".*" .

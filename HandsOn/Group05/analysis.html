@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Analysis</title>
+    </head>
+    <body>
+	<h2>Used Datasets</h2>
+
+    <h3>count.csv</h3>
+    <p>Editor: City Hall of Paris, Link: <a href="https://www.paris.fr/">https://www.paris.fr/</a></p>
+    <p>Owner: City Hall of Paris</p>
+    <p>License: <a href="http://opendatacommons.org/licenses/odbl/summary/">Open Data Commons Open Database License (ODbL)</a></p>
+    <p>Description: This dataset contains the following columns:</p>
+    <ul>
+        <li>id_compteur: Unique identifier for the counter</li>
+        <li>nom_compteur: Name of the counter (Address where it is with the direction)</li>
+        <li>name: Name of the counter (Address without direction)</li>
+        <li>sum_counts: Sum of counts</li>
+        <li>date: Date of when it was counted</li>
+        <li>installation_date: Installation date of the counter</li>
+        <li>latitude: Latitude coordinates</li>
+        <li>longitude: Longitude coordinates</li>
+        <li>counter: Counter code</li>
+        <li>street: The overall name of the street</li>
+    </ul>
+
+    <h3>velib-emplacement-des-stations.csv</h3>
+    <p>Editor: City Hall of Paris, Link: <a href="https://www.paris.fr/">https://www.paris.fr/</a></p>
+    <p>Owner: City Hall of Paris</p>
+    <p>License: <a href="http://opendatacommons.org/licenses/odbl/summary/">Open Data Commons Open Database License (ODbL)</a></p>
+    <p>Description: This dataset contains the following columns:</p>
+    <ul>
+        <li>stationcode: Unique station code</li>
+        <li>name: Name of the station</li>
+        <li>capacity: Capacity of the station, how many bicycles can be max there</li>
+        <li>coordonnees_geo: Geographic coordinates, Long - Latitude</li>
+    </ul>
+
+    <h3>comptage-velo-compteurs.csv</h3>
+    <p>Editor: City Hall of Paris, Link: <a href="https://www.paris.fr/">https://www.paris.fr/</a></p>
+    <p>Owner: City Hall of Paris</p>
+    <p>License: <a href="http://opendatacommons.org/licenses/odbl/summary/">Open Data Commons Open Database License (ODbL)</a></p>
+    <p>Description: This dataset contains the following columns:</p>
+    <ul>
+        <li>id_compteur: Unique identifier for the counter. Id combined with channel_id </li>
+        <li>nom_compteur: Name of the counter (Address where it is with the direction)</li>
+        <li>id: Identifier which is used for id_compteur - not unique</li>
+        <li>name: Name of the counter (Address without direction)</li>
+        <li>channel_id: Channel ID</li>
+        <li>channel_name: Direction (North, West, etc.)</li>
+        <li>installation_date: Installation date. Year, month and day</li>
+        <li>url_photos_n1: URL for photos of the counter -> JPG files</li>
+        <li>counter: Counter specific name</li>
+        <li>coordinates: Coordinates of the counter</li>
+        <li>test_lien_vers_photos_du_site_de_comptage_: Test link to counting site photos</li>
+        <li>id_photo_1: https or http protocol</li>
+        <li>url_sites: URL for sites</li>
+        <li>type_dimage: Image type: jpg or png etc</li>
+    </ul>
+        <h2>Project License</h2>
+        <p>Editor: City Hall of Paris <a href="https://www.paris.fr/">https://www.paris.fr/</a></p>
+        <p>Owner: City Hall of Paris </p>
+        <p>License: <a href="http://opendatacommons.org/licenses/odbl/summary/">http://opendatacommons.org/licenses/odbl/summary/</a></p>
+	  
+        <h3>General Conditions for Reuse</h3>
+        <ul>
+            <li>You can copy, distribute and use the work .</li>
+            <li>You can produce works from the information.</li>
+            <li>You can modify, transform and build from the work.</li>
+            <li>You must attribute any public use of the database, or works produced from the database, in the manner specified in the ODbL.</li>
+            <li>If you publicly use any adapted version of this database, or works produced from an adapted database, you must also offer that adapted database under the ODbL.</li>
+            <li>If you redistribute the database, or an adapted version of it, then you may use technological measures that restrict the work (such as DRM) as long as you also redistribute a version without such measures.</li>
+        </ul>
+        <h2>Resource Naming Strategy</h2>
+        <p>For the resource name strategy we used as reference the 37th page of 07.MGLD.pdf</p>
+		<ul>
+			<li>
+			<h3>Domain</h3>
+			<p>For the domain we used the https://smartcity.likeddata.es name</p>
+			</li>
+			<li>
+			<h3>Path</h3>
+			<p>For the path we used the /lcc name</p>
+			</li>
+			<li>
+			<h3>Ontology</h3>
+			<p>For the ontology we used the /ontology name</p>
+			</li>
+			<li>
+			<h3>Ontology Name</h3>
+			<p>For the ontology name we used the /G5O name</p>
+			</li>
+			<li>
+				<h3>Classes</h3>
+				<p>For the Class we used <ul><li>PhysicalObject</li><li>Counter</li><li>Stations</li><li>TimeBicycleCounter</li><li>Street</li></ul> names</p>
+			</li>
+			<li>
+				<h3>Property</h3>
+				<p>For the properties we included values such as <ul><li>hasName</li><li>locatedIn</li><li>hasLongitude</li><li>hasLatitude</li><li>installationDate</li><li>isNamed</li><li>hasCode</li></ul></p>
+			</li>
+			<li>
+			<h3>Data</h3>
+			<p>For the data we used the /resource name</p>
+			</li>
+			<li>
+			<h3>Individuals</h3>
+			<p>For the individuals we used the /[ClassName]/identifier to refer individuals</p>
+			</li></li>
+		</ul>
+    </body>
+</html>
