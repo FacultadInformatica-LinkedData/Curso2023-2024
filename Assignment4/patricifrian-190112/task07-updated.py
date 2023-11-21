@@ -33,26 +33,31 @@ vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 print("Print results using RDFLib")
 for s, p, o in g.triples((None, rdfs.subClassOf, ns.LivingThing)):
     print(s)
+    for q, p, o in g.triples((None, rdfs.subClassOf, s)):
+      print("Subclass:"+q)
 
 # Using SPARQL
 q1 = prepareQuery('''
-  SELECT ?Subject WHERE {
-    ?Subject rdfs:subClassOf ns:LivingThing
+  SELECT ?Subject ?Subclass WHERE {
+    ?Subject rdfs:subClassOf ns:LivingThing .
+    OPTIONAL {?Subclass rdfs:subClassOf ?Subject .}
   }
   ''',
   initNs={"vcard": vcard, "rdfs": rdfs, "ns": ns}
 )
-
 print("\nPrint results using SPARQL:")
-for r in g.query(q1):
-    print(r.Subject)
+for row in g.query(q1):
+    print(row.Subject)
+    if row.Subclass:
+        print("Subclass:" + row.Subclass)
+    else:
+        print()
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
 
 # TO DO
-
 # Using RDFLib
 print("Print results using RDFLib")
 for s, p, o in g.triples((None, RDF.type, ns.Person)):
@@ -116,28 +121,49 @@ for r in g.query(q1):
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 # TO DO
-foaf = Namespace("http://xmlns.com/foaf/0.1/")
-from rdflib import XSD
+# Using RDFLib
+print("Print results using RDFLib:")
+print("Persons who know Rocky:")
+for s,p,o in g.triples((None, FOAF.knows, ns.RockySmith)):
+    for s, p, o in g.triples((s, vcard.FN, None)):
+        print(o)
+
+# Using SPARQL
+from rdflib import FOAF
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 q1 = prepareQuery('''
-  SELECT ?Subject ?Given WHERE {
-    ?Subject rdf:type ns:Person .
-    ?Subject foaf:knows ?Rocky.
-    ?Rocky vcard:Given ?RockyGiven.
-    ?Subject vcard:Given ?Given.
+  SELECT ?Subject WHERE {
+    ?Person foaf:knows ns:RockySmith .
+    ?Person vcard:FN ?Subject.
   }
   ''',
-  initNs={"foaf": foaf, "vcard": vcard, "xsd": XSD, "rdf": RDF, "ns": ns}
+  initNs={"foaf": FOAF, "vcard": vcard, "ns": ns}
 )
-
 # Visualize the results
-print("Entities who know at least two others:")
-for r in g.query(q1, initBindings={'?RockyGiven': Literal('Rocky', datatype=XSD.string)}):
-    print(r.Subject, r.Given)
+print("\nPrint results using SPARQL:")
+print("Persons who know Rocky:")
+for r in g.query(q1):
+    print(r.Subject)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
+# Using RDFLib
+print("Print results using RDFLib")
+print("Entities who know at least two others:")
+known = {}
+for subject, predicate, object in g.triples((None, foaf.knows, None)):
+    if subject not in known:
+        known[subject] = 1
+    else:
+        known[subject] += 1
+# Filter and print entities who know at least two others
+for entity, count in known.items():
+    if count >= 2:
+        print(entity)
+
+# Using SPARQL
 q1 = prepareQuery('''
   SELECT ?entity WHERE {
     {
@@ -151,6 +177,8 @@ q1 = prepareQuery('''
   initNs={"foaf": foaf, "ns": ns}
 )
 # Visualize the results
+
+print("\nPrint results using SPARQL:")
 print("Entities who know at least two others:")
 for r in g.query(q1):
     print(r.entity)
