@@ -144,6 +144,21 @@ rocky = ns.RockySmith
 for person,p,o in g.triples((None,FOAF.knows,rocky)):
   print(g.value(subject=person, predicate=VCARD.Given, object=None))
 
+q4 = """
+  PREFIX ns: <http://somewhere#>
+  PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+  PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0/>
+  PREFIX ns: <http://somewhere#>
+ SELECT ?sujeto ?name
+ WHERE {
+   ?sujeto foaf:knows ns:RockySmith.
+    ?sujeto vcard:Given ?name .
+ }
+  """
+for r in g.query(q4):
+  print(r[1])
+
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
@@ -165,3 +180,16 @@ for person,p,o in g.triples((None,FOAF.knows,person)):
   if len(set1)>=2 :
     for elem in set1:
       print(person)
+
+
+q5 = """
+ PREFIX ns: <http://somewhere#>
+ SELECT  distinct ?sujeto
+ WHERE {
+   ?sujeto foaf:knows ?object .
+   ?object foaf:knows ?object1 .
+   FILTER(?object != ?object1)
+ }
+ """
+for r in g.query(q5):
+  print(r[0])
