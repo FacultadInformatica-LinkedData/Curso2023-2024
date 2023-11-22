@@ -39,7 +39,7 @@ from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery('''
   SELECT ?subclass WHERE{
-    ?subclass rdfs:subClassOf/rdfs:subClassOf* ns:LivingThing.
+    ?subclass rdfs:subClassOf* ns:LivingThing.
   }
   ''',initNs = {"ns": Namespace("http://somewhere#"), "rdfs":RDFS}
 )
@@ -82,8 +82,7 @@ q1 = prepareQuery('''
 SELECT ?sujeto WHERE{
   {
     ?sujeto rdf:type ?subclass.
-    optional{?subclass rdfs:subClassOf ?subclass.}
-    ?subclass rdfs:subClassOf ns:Person
+    ?subclass rdfs:subClassOf* ns:Person
 
   }
   UNION
